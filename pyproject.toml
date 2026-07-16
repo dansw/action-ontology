@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "action-ontologies"
+version = "0.1.0"
+description = "Frame-by-frame ontology extraction and tuning for videos."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "Action Ontologies Contributors"}]
+dependencies = [
+  "numpy>=1.24",
+  "opencv-python>=4.8",
+  "Pillow>=10",
+  "tqdm>=4.66"
+]
+
+[project.optional-dependencies]
+ml = [
+  "accelerate>=0.31",
+  "bitsandbytes>=0.43; platform_system == 'Linux'",
+  "datasets>=2.20",
+  "peft>=0.11",
+  "transformers>=4.49"
+]
+dev = [
+  "pytest>=8.0"
+]
+
+[project.scripts]
+action-ontologies = "action_ontologies.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+

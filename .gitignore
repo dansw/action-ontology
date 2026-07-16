@@ -52,8 +52,18 @@ Thumbs.db
 node_modules/
 __pycache__/
 *.pyc
+.pytest_cache/
 .venv/
 venv/
+*.egg-info/
 target/
 dist/
 build/
+
+# Local datasets, generated outputs, and tuned model artifacts
+data/
+models/
+outputs/
+runs/
+wandb/
+*.jsonl
