@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 from textwrap import dedent
+from typing import Any
 
 
 SYSTEM_PROMPT = dedent(
@@ -24,8 +25,35 @@ SYSTEM_PROMPT = dedent(
 ).strip()
 
 
-def frame_prompt(frame_id: str, timestamp_seconds: float) -> str:
-    return dedent(
+def _format_history(history: list[dict[str, Any]] | None) -> str:
+    if not history:
+        return ""
+    lines = [
+        "Recent frame history, oldest to newest (the last entry is the moment "
+        "immediately before the current frame; weight it most heavily):"
+    ]
+    for entry in history:
+        timestamp_seconds = entry.get("timestamp_seconds", 0.0)
+        description = entry.get("description", "")
+        actions = entry.get("actions") or []
+        actions_suffix = f" (actions: {', '.join(actions)})" if actions else ""
+        lines.append(f'- t={timestamp_seconds:.3f}s: "{description}"{actions_suffix}')
+    lines.append("")
+    lines.append(
+        "Use this history only to judge PROGRESS STATE -- for example, do not "
+        'describe an action as "about to start" or "preparing to" if the history '
+        "already shows it in progress or finished, and do not describe a finished "
+        "action as still in progress. Do not simply repeat or reword the history's "
+        "wording: look at the current image and describe what is actually visible "
+        "in it now, including any new specific detail (objects, hand or body "
+        "position, tools in use) even if the overall action's progress state is "
+        "unchanged from the last entry."
+    )
+    return "\n".join(lines) + "\n\n"
+
+
+def frame_prompt(frame_id: str, timestamp_seconds: float, history: list[dict[str, Any]] | None = None) -> str:
+    body = dedent(
         f"""
         Analyze this video frame.
 
@@ -52,4 +80,5 @@ def frame_prompt(frame_id: str, timestamp_seconds: float) -> str:
         }}
         """
     ).strip()
+    return _format_history(history) + body
 

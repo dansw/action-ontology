@@ -6,13 +6,13 @@ from pathlib import Path
 
 from PIL import Image
 
-from action_ontologies.device import select_device, torch_dtype_for_device
+from action_ontologies.device import needs_eager_attention, select_device, torch_dtype_for_device
 
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="LoRA fine-tuning for frame ontology extraction")
     parser.add_argument("--train-jsonl", required=True)
-    parser.add_argument("--base-model", default="Qwen/Qwen2.5-VL-3B-Instruct")
+    parser.add_argument("--base-model", default="Qwen/Qwen3-VL-4B-Instruct")
     parser.add_argument("--output-dir", required=True)
     parser.add_argument("--epochs", type=float, default=3)
     parser.add_argument("--batch-size", type=int, default=1)
@@ -33,13 +33,23 @@ def main() -> int:
     from transformers import AutoProcessor, Trainer, TrainingArguments
 
     model_class = _resolve_model_class()
-    processor = AutoProcessor.from_pretrained(args.base_model, trust_remote_code=True)
-    model = model_class.from_pretrained(
+    processor = AutoProcessor.from_pretrained(
         args.base_model,
+        trust_remote_code=True,
+        min_pixels=256 * 28 * 28,
+        max_pixels=768 * 28 * 28,
+    )
+    multi_gpu = device == "cuda" and torch.cuda.device_count() > 1
+    load_kwargs = dict(
         torch_dtype=torch_dtype_for_device(device),
         low_cpu_mem_usage=True,
         trust_remote_code=True,
     )
+    if needs_eager_attention(device):
+        load_kwargs["attn_implementation"] = "eager"
+    if multi_gpu:
+        load_kwargs["device_map"] = "auto"
+    model = model_class.from_pretrained(args.base_model, **load_kwargs)
     model = get_peft_model(
         model,
         LoraConfig(
@@ -51,7 +61,10 @@ def main() -> int:
             target_modules=["q_proj", "k_proj", "v_proj", "o_proj"],
         ),
     )
-    model.to(device)
+    if not multi_gpu:
+        model.to(device)
+    model.config.use_cache = False
+    model.enable_input_require_grads()
 
     records = _load_records(Path(args.train_jsonl))
     dataset = Dataset.from_list(records)
@@ -98,6 +111,8 @@ def main() -> int:
         save_strategy="epoch",
         remove_unused_columns=False,
         fp16=device == "cuda",
+        gradient_checkpointing=True,
+        gradient_checkpointing_kwargs={"use_reentrant": False},
         report_to=[],
     )
     trainer = Trainer(model=model, args=training_args, train_dataset=dataset, data_collator=collate)

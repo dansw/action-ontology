@@ -23,3 +23,18 @@ def torch_dtype_for_device(device: str):
     if device == "cpu":
         return torch.float32
     return torch.float16
+
+
+def needs_eager_attention(device: str) -> bool:
+    import torch
+
+    if device != "cuda" or not torch.cuda.is_available():
+        return False
+    # Pre-Volta GPUs (compute capability < 7, e.g. Pascal) fall back to the
+    # "math" SDPA backend, which runs softmax in fp16 without upcasting and
+    # overflows to NaN/garbage tokens. Eager attention upcasts softmax to
+    # fp32 internally, which is numerically stable at a modest speed cost.
+    return min(
+        (torch.cuda.get_device_capability(i) for i in range(torch.cuda.device_count())),
+        default=(7, 0),
+    )[0] < 7

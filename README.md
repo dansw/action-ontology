@@ -74,11 +74,26 @@ data/
       egg_catch_001.json
     frames/
     prepared/
+  diverse_actions/
+    videos/
+    annotations/
+    frames/
+    prepared/
+  combined/
+    prepared/
+      train.jsonl        # concatenation of every project's prepared/train.jsonl
 models/
-  ontology-lora/
+  ontology-lora-diverse/   # current default adapter, trained on the combined set
 outputs/
   egg_catch_001.ontology.json
 ```
+
+Each activity gets its own project directory (own `videos/`, `annotations/`,
+`frames/`, `prepared/`), so `action-ontologies prepare` can be run per project
+independently. To fine-tune across all of them, concatenate their
+`prepared/train.jsonl` files (they use paths relative to the repo root, so a
+plain `cat` works) into one combined training file before running
+`train_lora.py`.
 
 Annotation files use one JSON file per video:
 
@@ -135,25 +150,82 @@ a stronger vision-language base model that fits your hardware.
 action-ontologies infer \
   --video data/egg_catch/videos/egg_catch_001.mp4 \
   --output outputs/egg_catch_001.ontology.json \
-  --model Qwen/Qwen2.5-VL-3B-Instruct \
+  --model Qwen/Qwen3-VL-4B-Instruct \
   --sample-fps 2
 ```
 
-With a tuned LoRA adapter:
+With the tuned LoRA adapter (`models/ontology-lora-diverse`, the current
+default -- trained on egg-catch plus five other activity videos; see
+"Train A Tuned Model" below):
 
 ```bash
 action-ontologies infer \
   --video data/egg_catch/videos/egg_catch_001.mp4 \
   --output outputs/egg_catch_001.ontology.json \
-  --model Qwen/Qwen2.5-VL-3B-Instruct \
-  --adapter models/ontology-lora \
+  --model Qwen/Qwen3-VL-4B-Instruct \
+  --adapter models/ontology-lora-diverse \
   --sample-fps 2
 ```
 
+### Sampling strategies
+
+`--sample-fps` (the default) samples uniformly, which wastes time on static
+stretches and can step over motion that happens faster than the rate allows.
+Two alternatives sample at a variable rate instead:
+
+```bash
+# adaptive: capped between --min-fps and --max-fps, driven by motion
+action-ontologies infer --video ... --output ... \
+  --sampling adaptive --min-fps 1 --max-fps 15
+
+# information-gain: no rate cap -- fires as soon as enough frame-to-frame
+# change has accumulated since the last sample, so a single fast-moving raw
+# frame can still be caught even if a fixed or capped rate would skip past it
+action-ontologies infer --video ... --output ... \
+  --sampling information-gain --change-threshold 10 --max-gap-seconds 2
+```
+
+`information-gain` is implemented in the standalone `frame_sampling` package
+(`src/frame_sampling/`), independent of the ontology-specific code, so it can
+be reused for other video-analysis tasks. See
+`frame_sampling.sample_by_information_gain` for the algorithm and its
+`device="cuda"` option for GPU-accelerated batch diffing on longer videos.
+
+### Frame history
+
+Each frame is otherwise inferred independently, with no memory of what came
+before it -- on longer videos this shows up as an in-progress or finished
+action getting re-described as "about to start", or a state that was already
+established (e.g. a completed task) flickering back to an earlier one.
+`--context-frames N` (default 4, use 0 to disable) includes the last N
+frames' descriptions and actions as history in the prompt, oldest to newest,
+so the model can judge progress state consistently:
+
+```bash
+action-ontologies infer --video ... --output ... --context-frames 4
+```
+
+The history instructs the model to use it only for progress-state
+consistency, not to copy its wording -- without that explicit
+anti-copying instruction, models tend to lean on the provided text and
+collapse into repeating the same sentence for long static-looking stretches
+instead of describing each frame's actual visible detail. `prepare` accepts
+the same flag so training prompts are built the same way inference will see
+them, using the ground-truth annotation sequence as history (teacher
+forcing).
+
 ## Train A Tuned Model
 
-Start with focused annotations for a narrow activity domain, then expand. Good
-training examples should include:
+Start with focused annotations for a narrow activity domain, then expand to
+more videos before fine-tuning. A single narrow video is only enough data to
+memorize that video, not to teach a generalizable concept: a model trained on
+just one clip reproduces its training frames closely but blends or
+hallucinates on new frames from the *same* clip that weren't annotated, let
+alone a different video. Generalization needs diversity across videos
+(different subjects, objects, backgrounds, camera angles) covering the same
+action categories, plus a held-out validation clip to actually measure it.
+
+Good training examples should include:
 
 - important object parts, not only whole objects;
 - resource transitions, such as an egg becoming a held resource;
@@ -161,17 +233,33 @@ training examples should include:
 - concise frame descriptions;
 - ontological phrases that match visible interactions.
 
+Prepare each project directory separately, then combine before training:
+
+```bash
+action-ontologies prepare --project-dir data/egg_catch --output-jsonl data/egg_catch/prepared/train.jsonl
+action-ontologies prepare --project-dir data/diverse_actions --output-jsonl data/diverse_actions/prepared/train.jsonl \
+  --sampling information-gain --change-threshold 120 --max-gap-seconds 5
+
+mkdir -p data/combined/prepared
+cat data/egg_catch/prepared/train.jsonl data/diverse_actions/prepared/train.jsonl > data/combined/prepared/train.jsonl
+```
+
 Run LoRA fine-tuning:
 
 ```bash
 python scripts/train_lora.py \
-  --train-jsonl data/egg_catch/prepared/train.jsonl \
-  --base-model Qwen/Qwen2.5-VL-3B-Instruct \
-  --output-dir models/ontology-lora \
-  --epochs 3 \
+  --train-jsonl data/combined/prepared/train.jsonl \
+  --base-model Qwen/Qwen3-VL-4B-Instruct \
+  --output-dir models/ontology-lora-diverse \
+  --epochs 20 \
   --batch-size 1 \
-  --gradient-accumulation-steps 8
+  --gradient-accumulation-steps 8 \
+  --learning-rate 3e-4
 ```
+
+A handful of epochs is rarely enough to shift output conventions on a small
+dataset -- loss plateauing (watch `grad_norm` flatten toward zero) is the
+signal that it has actually converged, not just run out of epochs.
 
 Training on CPU is supported for correctness checks, but expect it to be slow.
 Use CUDA or ROCm for real tuning.
@@ -198,6 +286,21 @@ Inference writes:
   ]
 }
 ```
+
+## Summarize
+
+Fold a video's per-frame output into a deduplicated master list of the
+resources, entities, and actions seen anywhere in the video:
+
+```bash
+action-ontologies summarize \
+  --input outputs/egg_catch_001.ontology.json \
+  --output outputs/egg_catch_001.summary.json
+```
+
+Omit `--output` to print the summary to stdout instead. Deduplication is
+case-insensitive and, for resources/entities, also keys on `identifier` when
+present; the first description seen for each unique item is kept.
 
 ## Development
 
