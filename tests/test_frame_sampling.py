@@ -93,6 +93,40 @@ def test_samples_densely_during_sustained_motion(tmp_path: Path):
     assert len(motion_frames) >= 6
 
 
+def _frame_with_patch(background: int, patch_value: int, size: int = 20, patch_rows: int = 6) -> np.ndarray:
+    frame = np.full((size, size, 3), background, dtype=np.uint8)
+    frame[:patch_rows, :, :] = patch_value
+    return frame
+
+
+def test_captures_localized_gradual_change_confined_to_part_of_the_frame(tmp_path: Path):
+    # A change confined to ~30% of the frame (e.g. hands and a wrapper in one
+    # corner while the rest of the body and background hold still) that ramps
+    # up steadily, exactly like a wrapper being gradually torn open. A
+    # mean-based signal dilutes this by however much of the frame is static
+    # and can under-react; the percentile-based signal reports the changed
+    # region's own magnitude undiluted, so it should still sample densely
+    # while the ramp is happening, the same way full-frame motion does in
+    # test_samples_densely_during_sustained_motion.
+    frames_data = [_frame_with_patch(0, 0) for _ in range(10)]
+    frames_data += [_frame_with_patch(0, min(255, index * 25)) for index in range(10)]
+    video_path = tmp_path / "localized_ramp.mp4"
+    _write_video(video_path, frames_data, fps=10.0)
+
+    frames = sample_by_information_gain(
+        video_path,
+        tmp_path / "frames",
+        change_threshold=20.0,
+        max_gap_seconds=2.0,
+        downscale=(20, 20),
+    )
+
+    static_frames = [f for f in frames if f.timestamp_seconds < 1.0]
+    motion_frames = [f for f in frames if f.timestamp_seconds >= 1.0]
+    assert len(static_frames) <= 2
+    assert len(motion_frames) >= 6
+
+
 def test_cpu_and_cuda_paths_agree_when_cuda_available(tmp_path: Path):
     torch = pytest.importorskip("torch")
     if not torch.cuda.is_available():

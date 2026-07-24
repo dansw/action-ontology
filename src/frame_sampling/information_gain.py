@@ -34,22 +34,27 @@ def _resolve_device(device: str) -> str:
     return "cuda"
 
 
-def _pairwise_mean_abs_diff_cpu(gray_stack: np.ndarray) -> np.ndarray:
-    """gray_stack: (N, H, W) uint8. Returns (N-1,) float32 mean abs diff between consecutive frames."""
+def _pairwise_percentile_abs_diff_cpu(gray_stack: np.ndarray, percentile: float) -> np.ndarray:
+    """gray_stack: (N, H, W) uint8. Returns (N-1,) float32: the given percentile of the
+    pixelwise abs diff between consecutive frames, taken over each frame pair's pixels."""
     diff = np.abs(gray_stack[1:].astype(np.int16) - gray_stack[:-1].astype(np.int16))
-    return diff.mean(axis=(1, 2)).astype(np.float32)
+    flattened = diff.reshape(diff.shape[0], -1)
+    return np.percentile(flattened, percentile, axis=1).astype(np.float32)
 
 
-def _pairwise_mean_abs_diff_gpu(gray_stack: np.ndarray) -> np.ndarray:
+def _pairwise_percentile_abs_diff_gpu(gray_stack: np.ndarray, percentile: float) -> np.ndarray:
     import torch
 
     tensor = torch.from_numpy(gray_stack).to("cuda", dtype=torch.float32)
-    diff = (tensor[1:] - tensor[:-1]).abs().mean(dim=(1, 2))
-    return diff.cpu().numpy()
+    diff = (tensor[1:] - tensor[:-1]).abs()
+    flattened = diff.reshape(diff.shape[0], -1)
+    quantile = torch.quantile(flattened, percentile / 100.0, dim=1)
+    return quantile.cpu().numpy()
 
 
-def _single_pair_diff(a: np.ndarray, b: np.ndarray) -> float:
-    return float(np.abs(a.astype(np.int16) - b.astype(np.int16)).mean())
+def _single_pair_diff(a: np.ndarray, b: np.ndarray, percentile: float) -> float:
+    diff = np.abs(a.astype(np.int16) - b.astype(np.int16))
+    return float(np.percentile(diff, percentile))
 
 
 def _iter_gray_chunks(cap: cv2.VideoCapture, downscale: tuple[int, int], chunk_size: int):
@@ -72,7 +77,8 @@ def sample_by_information_gain(
     video_path: str | Path,
     output_dir: str | Path,
     *,
-    change_threshold: float = 30.0,
+    change_threshold: float = 45.0,
+    percentile: float = 90.0,
     max_gap_seconds: float | None = 2.0,
     downscale: tuple[int, int] = (160, 90),
     device: str = "auto",
@@ -85,10 +91,27 @@ def sample_by_information_gain(
     frame-to-frame jump large enough on its own crosses ``change_threshold``
     immediately, so brief fast motion between two consecutive raw frames is
     still kept -- a fixed max-fps sampler can silently step over exactly that
-    frame. During static stretches, frames are skipped until
-    ``max_gap_seconds`` (a safety floor so long static runs still get
-    occasional coverage; pass ``None`` to disable it and allow arbitrarily
-    long gaps) forces a checkpoint frame.
+    frame. In principle this can select every consecutive raw frame back to
+    back (matching the source video's native frame rate) if the content
+    keeps changing that fast; there is no artificial cap independent of that.
+    During static stretches, frames are skipped until ``max_gap_seconds`` (a
+    safety floor so long static runs still get occasional coverage; pass
+    ``None`` to disable it and allow arbitrarily long gaps) forces a
+    checkpoint frame.
+
+    The per-frame-pair change signal is the ``percentile``-th percentile of
+    the pixelwise absolute difference (default: the 90th), not the mean.
+    A mean is dominated by however much of the frame is static -- a change
+    confined to a small region (hands unwrapping something, in a frame that
+    is mostly still torso and background) can sit well under a mean-based
+    threshold for many consecutive frames even though that region is
+    genuinely, continuously changing, so a real multi-second transition can
+    accumulate too slowly to ever fire and gets silently collapsed into a
+    single stale sample. A high percentile reports the magnitude of the
+    frame's most-changed pixels instead of averaging them away against the
+    static majority, so it stays sensitive to localized-but-real change while
+    still ignoring sensor noise (which affects most pixels a little, not a
+    concentrated region a lot).
 
     The pairwise pixel-difference computation -- the only part of this
     amenable to vectorization -- runs in chunks, on the GPU when available
@@ -99,6 +122,8 @@ def sample_by_information_gain(
     """
     if change_threshold <= 0:
         raise ValueError("change_threshold must be greater than zero")
+    if not (0.0 < percentile <= 100.0):
+        raise ValueError("percentile must be between 0 and 100")
     if max_gap_seconds is not None and max_gap_seconds <= 0:
         raise ValueError("max_gap_seconds must be greater than zero or None")
     if chunk_size < 2:
@@ -115,8 +140,8 @@ def sample_by_information_gain(
         raise ValueError(f"could not open video: {video_path}")
 
     resolved_device = _resolve_device(device)
-    compute_deltas: Callable[[np.ndarray], np.ndarray] = (
-        _pairwise_mean_abs_diff_gpu if resolved_device == "cuda" else _pairwise_mean_abs_diff_cpu
+    compute_deltas: Callable[[np.ndarray, float], np.ndarray] = (
+        _pairwise_percentile_abs_diff_gpu if resolved_device == "cuda" else _pairwise_percentile_abs_diff_cpu
     )
 
     # A small tolerance absorbs floating-point noise in elapsed-time
@@ -150,11 +175,11 @@ def sample_by_information_gain(
         for bgr_chunk, gray_chunk in _iter_gray_chunks(cap, downscale, chunk_size):
             deltas: list[float | None] = []
             if prev_gray is not None:
-                deltas.append(_single_pair_diff(prev_gray, gray_chunk[0]))
+                deltas.append(_single_pair_diff(prev_gray, gray_chunk[0], percentile))
             else:
                 deltas.append(None)  # very first frame of the whole video: always selected
             if len(gray_chunk) > 1:
-                deltas.extend(compute_deltas(gray_chunk).tolist())
+                deltas.extend(compute_deltas(gray_chunk, percentile).tolist())
 
             for offset, delta in enumerate(deltas):
                 timestamp_seconds = frame_index / source_fps

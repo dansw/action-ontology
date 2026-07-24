@@ -28,7 +28,8 @@ def run_inference(
     min_fps: float = 1.0,
     max_fps: float = 15.0,
     motion_threshold: float = 6.0,
-    change_threshold: float = 10.0,
+    change_threshold: float = 45.0,
+    percentile: float = 90.0,
     max_gap_seconds: float | None = 2.0,
     context_frames: int = 4,
     device: str = "auto",
@@ -49,7 +50,11 @@ def run_inference(
             )
         elif sampling == "information-gain":
             frames = sample_by_information_gain(
-                video, tmpdir, change_threshold=change_threshold, max_gap_seconds=max_gap_seconds
+                video,
+                tmpdir,
+                change_threshold=change_threshold,
+                percentile=percentile,
+                max_gap_seconds=max_gap_seconds,
             )
         else:
             frames = sample_video_frames(video, tmpdir, sample_fps)
@@ -69,6 +74,8 @@ def run_inference(
                 ontology = FrameOntology(
                     **{
                         **ontology.__dict__,
+                        "frame_id": frame.frame_id,
+                        "timestamp_seconds": frame.timestamp_seconds,
                         "frame_index": frame.frame_index,
                     }
                 )
@@ -106,6 +113,7 @@ def run_inference(
             "max_fps": max_fps if sampling == "adaptive" else None,
             "motion_threshold": motion_threshold if sampling == "adaptive" else None,
             "change_threshold": change_threshold if sampling == "information-gain" else None,
+            "percentile": percentile if sampling == "information-gain" else None,
             "max_gap_seconds": max_gap_seconds if sampling == "information-gain" else None,
             "context_frames": context_frames,
             "model": model_name,

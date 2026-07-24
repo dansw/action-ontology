@@ -21,7 +21,8 @@ def prepare_project(
     min_fps: float = 1.0,
     max_fps: float = 15.0,
     motion_threshold: float = 6.0,
-    change_threshold: float = 10.0,
+    change_threshold: float = 45.0,
+    percentile: float = 90.0,
     max_gap_seconds: float | None = 2.0,
     context_frames: int = 4,
 ) -> int:
@@ -50,7 +51,11 @@ def prepare_project(
                 )
             elif sampling == "information-gain":
                 sampled = sample_by_information_gain(
-                    video_path, frame_output_dir, change_threshold=change_threshold, max_gap_seconds=max_gap_seconds
+                    video_path,
+                    frame_output_dir,
+                    change_threshold=change_threshold,
+                    percentile=percentile,
+                    max_gap_seconds=max_gap_seconds,
                 )
             else:
                 sampled = sample_video_frames(video_path, frame_output_dir, sample_fps)

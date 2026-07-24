@@ -37,8 +37,22 @@ def _add_sampling_arguments(subparser: argparse.ArgumentParser, *, context_help:
     subparser.add_argument(
         "--change-threshold",
         type=float,
-        default=10.0,
-        help="information-gain sampling: cumulative mean grayscale pixel difference needed to trigger a new sample",
+        default=45.0,
+        help=(
+            "information-gain sampling: cumulative --percentile-th percentile pixel difference (0-255) "
+            "needed to trigger a new sample"
+        ),
+    )
+    subparser.add_argument(
+        "--percentile",
+        type=float,
+        default=90.0,
+        help=(
+            "information-gain sampling: which percentile of the frame's pixelwise change to measure per step "
+            "(0-100). A high percentile stays sensitive to a change confined to part of the frame -- e.g. hands "
+            "unwrapping something while the rest of the body and background hold still -- that a plain mean would "
+            "dilute against the static majority of pixels and under-react to."
+        ),
     )
     subparser.add_argument(
         "--max-gap-seconds",
@@ -96,6 +110,7 @@ def main(argv: list[str] | None = None) -> int:
             max_fps=args.max_fps,
             motion_threshold=args.motion_threshold,
             change_threshold=args.change_threshold,
+            percentile=args.percentile,
             max_gap_seconds=args.max_gap_seconds if args.max_gap_seconds > 0 else None,
             context_frames=args.context_frames,
         )
@@ -113,6 +128,7 @@ def main(argv: list[str] | None = None) -> int:
             max_fps=args.max_fps,
             motion_threshold=args.motion_threshold,
             change_threshold=args.change_threshold,
+            percentile=args.percentile,
             max_gap_seconds=args.max_gap_seconds if args.max_gap_seconds > 0 else None,
             context_frames=args.context_frames,
             device=args.device,

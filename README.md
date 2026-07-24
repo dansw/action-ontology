@@ -79,11 +79,23 @@ data/
     annotations/
     frames/
     prepared/
-  combined/
+  survey_actions/
+    videos/
+    annotations/
+    frames/
+    prepared/
+  survey_actions_trash/     # take_out_trash needs a much higher --change-threshold
+    videos/                 # than the rest (continuous walking motion), so it's
+    annotations/             # prepared as its own project with its own sampling args
+    frames/
+    prepared/
+  combined_v3/
     prepared/
       train.jsonl        # concatenation of every project's prepared/train.jsonl
 models/
-  ontology-lora-diverse/   # current default adapter, trained on the combined set
+  ontology-lora-diverse/      # first combined-set adapter (egg_catch + diverse_actions)
+  ontology-lora-diverse-v2/   # granular-resource retrain of the above; superseded by v3
+  ontology-lora-v3/           # current default adapter, trained on the full combined set
 outputs/
   egg_catch_001.ontology.json
 ```
@@ -154,16 +166,16 @@ action-ontologies infer \
   --sample-fps 2
 ```
 
-With the tuned LoRA adapter (`models/ontology-lora-diverse`, the current
-default -- trained on egg-catch plus five other activity videos; see
-"Train A Tuned Model" below):
+With the tuned LoRA adapter (`models/ontology-lora-v3`, the current default --
+trained on 195 examples across egg-catch, six other activity videos, and nine
+further survey videos; see "Train A Tuned Model" below):
 
 ```bash
 action-ontologies infer \
   --video data/egg_catch/videos/egg_catch_001.mp4 \
   --output outputs/egg_catch_001.ontology.json \
   --model Qwen/Qwen3-VL-4B-Instruct \
-  --adapter models/ontology-lora-diverse \
+  --adapter models/ontology-lora-v3 \
   --sample-fps 2
 ```
 
@@ -182,8 +194,24 @@ action-ontologies infer --video ... --output ... \
 # change has accumulated since the last sample, so a single fast-moving raw
 # frame can still be caught even if a fixed or capped rate would skip past it
 action-ontologies infer --video ... --output ... \
-  --sampling information-gain --change-threshold 10 --max-gap-seconds 2
+  --sampling information-gain --change-threshold 45 --percentile 90 --max-gap-seconds 2
 ```
+
+`information-gain` measures change per step as the `--percentile`-th
+percentile (default 90th) of the pixelwise absolute difference between
+consecutive frames, not the mean. A mean is diluted by however much of the
+frame stays static, so a change confined to part of the frame -- hands
+unwrapping something while the rest of the body and background hold still,
+say -- can sit well under a mean-based threshold for many consecutive frames
+even while genuinely, continuously happening, and the whole multi-second
+transition collapses into a single stale sample. A high percentile reports
+the magnitude of the frame's most-changed pixels instead of averaging them
+away against the static majority, so it stays sensitive to that kind of
+localized, gradual change while still ignoring sensor noise (which nudges
+most pixels a little rather than a concentrated region a lot). The fast-motion
+case needs no special handling either way: a single consecutive-frame delta
+large enough on its own crosses `--change-threshold` immediately, so brief
+motion between two raw frames is never stepped over regardless of the metric.
 
 `information-gain` is implemented in the standalone `frame_sampling` package
 (`src/frame_sampling/`), independent of the ontology-specific code, so it can
@@ -233,33 +261,61 @@ Good training examples should include:
 - concise frame descriptions;
 - ontological phrases that match visible interactions.
 
-Prepare each project directory separately, then combine before training:
+When annotating a resource whose engagement changes moment to moment (a hand
+that releases something and goes idle, or switches roles with the other
+hand), include a training example that straddles that exact transition --
+one frame just before the change and one just after, both with the released
+limb correctly omitted from `resources` per the granularity rule. Without at
+least one such example, a history-conditioned model tends to keep repeating
+whatever symmetric description it used for several consecutive frames even
+after one limb's real, visible state has changed underneath it.
+
+Prepare each project directory separately, then combine before training.
+Pick `--change-threshold` per project to fit its motion character -- a video
+with continuous motion throughout (e.g. someone walking with a swaying
+object) needs a much higher threshold than a mostly-static one, or the
+sampler will select far more frames than are practical to hand-annotate:
 
 ```bash
 action-ontologies prepare --project-dir data/egg_catch --output-jsonl data/egg_catch/prepared/train.jsonl
 action-ontologies prepare --project-dir data/diverse_actions --output-jsonl data/diverse_actions/prepared/train.jsonl \
-  --sampling information-gain --change-threshold 120 --max-gap-seconds 5
+  --sampling information-gain --change-threshold 45 --percentile 90 --max-gap-seconds 5
+action-ontologies prepare --project-dir data/survey_actions --output-jsonl data/survey_actions/prepared/train.jsonl \
+  --sampling information-gain --change-threshold 45 --percentile 90 --max-gap-seconds 3
+action-ontologies prepare --project-dir data/survey_actions_trash --output-jsonl data/survey_actions_trash/prepared/train.jsonl \
+  --sampling information-gain --change-threshold 1000 --percentile 90 --max-gap-seconds 4
 
-mkdir -p data/combined/prepared
-cat data/egg_catch/prepared/train.jsonl data/diverse_actions/prepared/train.jsonl > data/combined/prepared/train.jsonl
+mkdir -p data/combined_v3/prepared
+cat data/egg_catch/prepared/train.jsonl data/diverse_actions/prepared/train.jsonl \
+    data/survey_actions/prepared/train.jsonl data/survey_actions_trash/prepared/train.jsonl \
+    > data/combined_v3/prepared/train.jsonl
 ```
 
 Run LoRA fine-tuning:
 
 ```bash
-python scripts/train_lora.py \
-  --train-jsonl data/combined/prepared/train.jsonl \
+PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True python scripts/train_lora.py \
+  --train-jsonl data/combined_v3/prepared/train.jsonl \
   --base-model Qwen/Qwen3-VL-4B-Instruct \
-  --output-dir models/ontology-lora-diverse \
+  --output-dir models/ontology-lora-v3 \
   --epochs 20 \
   --batch-size 1 \
   --gradient-accumulation-steps 8 \
   --learning-rate 3e-4
 ```
 
+`PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True` avoids a CUDA
+out-of-memory crash from allocator fragmentation -- training batches one
+differently-sized image at a time, and the varying tensor shapes can
+fragment the allocator's cache badly enough to fail an allocation well
+before the GPU is actually full (the OOM error's own message names this
+fragmentation and suggests this exact fix).
+
 A handful of epochs is rarely enough to shift output conventions on a small
 dataset -- loss plateauing (watch `grad_norm` flatten toward zero) is the
-signal that it has actually converged, not just run out of epochs.
+signal that it has actually converged, not just run out of epochs. The v3
+adapter's loss went from ~7.1 to ~2.3-2.5 over 500 steps (195 examples, 20
+epochs), taking about 11.5 hours on 2x GTX 1080 Ti.
 
 Training on CPU is supported for correctness checks, but expect it to be slow.
 Use CUDA or ROCm for real tuning.

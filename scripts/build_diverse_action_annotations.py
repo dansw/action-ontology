@@ -5,14 +5,12 @@ from pathlib import Path
 
 PROJECT_DIR = Path(__file__).resolve().parent.parent / "data" / "diverse_actions"
 
-LEFT_HAND = {"name": "left hand", "description": "the person's left gloved hand"}
-RIGHT_HAND = {"name": "right hand", "description": "the person's right gloved hand"}
-LEFT_ARM = {"name": "left arm", "description": "the person's left arm"}
-RIGHT_ARM = {"name": "right arm", "description": "the person's right arm"}
-
-
-def limbs() -> list[dict]:
-    return [dict(LEFT_HAND), dict(RIGHT_HAND), dict(LEFT_ARM), dict(RIGHT_ARM)]
+# Resource granularity: name the smallest sub-part actually bearing load or
+# making contact right now (arm > hand > palm/fingers), and omit a limb
+# entirely when it is not engaged in the task -- do not default to
+# "hand"/"arm" for an idle limb just because it exists. When two actors share
+# one action, give each actor's own engaged sub-part explicitly rather than
+# collapsing to a single actor.
 
 
 def frame(frame_index: int, source_fps: float, description: str, *, resources=None, entities=None, actions=None) -> dict:
@@ -45,7 +43,6 @@ VIDEOS = {
                 600,
                 60.0,
                 "A person in a silver suit walks through an open doorway into the room, backlit by daylight outside.",
-                resources=limbs(),
                 entities=[
                     {"name": "doorway", "description": "open glass doorway the person walks through"},
                     {"name": "dog", "description": "golden retriever watching from the sofa"},
@@ -55,65 +52,80 @@ VIDEOS = {
                         "name": "walk",
                         "actor": "person",
                         "target": "doorway",
-                        "description": "the person walks through the doorway into the room",
+                        "description": "the person walks through the doorway into the room; this is locomotion, no limb is gripping or bearing an object",
                     }
                 ],
             ),
             frame(
                 813,
                 60.0,
-                "A person in a silver suit and a woman stand at a round marble table near the entryway, the person's hands resting near its edge.",
-                resources=limbs(),
+                "A person in a silver suit and a woman stand at a round marble table near the entryway, fingertips of both people resting lightly on its edge.",
+                resources=[
+                    {"name": "right fingers", "description": "the person's right fingertips resting lightly on the table's edge, not yet gripping to lift", "identifier": "person_right_fingers"},
+                    {"name": "right fingers", "description": "the woman's right fingertips resting lightly on the table's surface", "identifier": "woman_right_fingers"},
+                ],
                 entities=[
                     {"name": "table", "description": "round white marble coffee table", "identifier": "coffee_table"},
                     {"name": "woman", "description": "a second person assisting with the task"},
                     {"name": "dog", "description": "golden retriever watching from the sofa"},
                 ],
                 actions=[
-                    {"name": "stand at table", "actor": "person", "target": "table", "description": "the person stands at the table"},
-                    {"name": "stand at table", "actor": "woman", "target": "table", "description": "the woman stands at the table"},
+                    {"name": "rest fingertips on table", "actor": "person's right fingers", "target": "table", "description": "the person's fingertips rest lightly on the table's edge"},
+                    {"name": "rest fingertips on table", "actor": "woman's right fingers", "target": "table", "description": "the woman's fingertips rest lightly on the table's surface"},
                 ],
             ),
             frame(
                 1236,
                 60.0,
-                "A person in a silver suit carries a round marble table across the room toward a woman standing near the door, with a dog watching from the couch.",
-                resources=limbs(),
+                "A person in a silver suit carries a round marble table across the room, their right fingers hooked under its edge bearing its weight, toward a woman standing near the door as a dog watches from the couch.",
+                resources=[
+                    {"name": "right fingers", "description": "hooked under the table's underside edge, bearing the table's weight while carrying it", "identifier": "person_right_fingers"},
+                ],
                 entities=[
                     {"name": "table", "identifier": "coffee_table"},
                     {"name": "woman", "description": "a second person assisting with the task"},
                     {"name": "dog", "description": "golden retriever watching from the couch"},
                 ],
                 actions=[
-                    {"name": "carry table", "actor": "person", "target": "table", "description": "the person carries the table across the room"}
+                    {"name": "carry table", "actor": "person's right fingers", "target": "table", "description": "the person's fingers, hooked under the table's edge, bear its weight while carrying it across the room"}
                 ],
             ),
             frame(
                 1368,
                 60.0,
-                "A person in a silver suit and a woman stand on either side of a round marble table, both with hands near its surface, positioning it together.",
-                resources=limbs(),
+                "A person in a silver suit and a woman jointly carry a round marble table: the person's right fingers hook under its underside edge bearing its weight, while the woman's right hand rests flat on its top surface guiding it.",
+                resources=[
+                    {"name": "right fingers", "description": "hooked under the table's underside edge, bearing its weight", "identifier": "person_right_fingers"},
+                    {"name": "right hand", "description": "resting flat, palm and fingers spread, on the table's top surface -- guiding it rather than bearing its weight", "identifier": "woman_right_hand"},
+                ],
                 entities=[
                     {"name": "table", "identifier": "coffee_table"},
                     {"name": "woman", "description": "a second person assisting with the task"},
                     {"name": "dog", "description": "golden retriever visible nearby"},
                 ],
                 actions=[
-                    {"name": "position table", "actor": "person", "target": "table", "description": "the person helps position the table"},
-                    {"name": "position table", "actor": "woman", "target": "table", "description": "the woman helps position the table"},
+                    {
+                        "name": "carry table",
+                        "actor": "person's right fingers and woman's right hand",
+                        "target": "table",
+                        "description": "the person and woman carry the table together: the person's fingers grip its underside edge and bear its weight, while the woman's hand rests on top guiding its position -- this is one shared action, not two independent ones",
+                    }
                 ],
             ),
             frame(
                 1552,
                 60.0,
-                "A woman bends over a round marble table, reaching toward it, while a dog rests on the couch in the background.",
+                "A woman bends over a round marble table, her right fingers reaching toward its edge but not yet gripping it, while a dog rests on the couch in the background.",
+                resources=[
+                    {"name": "right fingers", "description": "reaching toward the table's edge, not yet in contact with it", "identifier": "woman_right_fingers"},
+                ],
                 entities=[
                     {"name": "table", "identifier": "coffee_table"},
                     {"name": "woman", "description": "a second person assisting with the task"},
                     {"name": "dog", "description": "golden retriever resting on the couch"},
                 ],
                 actions=[
-                    {"name": "reach for table", "actor": "woman", "target": "table", "description": "the woman reaches toward the table"}
+                    {"name": "reach for table", "actor": "woman's right fingers", "target": "table", "description": "the woman's fingers reach toward the table's edge"}
                 ],
             ),
         ],
@@ -130,33 +142,37 @@ VIDEOS = {
             frame(
                 2218,
                 60.0,
-                "A person in a silver suit kneels at the edge of the bed, pulling a large tan sheet over the mattress with one arm extended.",
-                resources=limbs(),
+                "A person in a silver suit kneels at the edge of the bed, their right fingers clutching a bunched handful of a large tan sheet and pulling it over the mattress.",
+                resources=[
+                    {"name": "right fingers", "description": "curled into a clutching grip around a bunched handful of the sheet fabric", "identifier": "right_fingers"},
+                ],
                 entities=[{"name": "bed"}, {"name": "sheet", "description": "large tan sheet being pulled over the mattress"}],
                 actions=[
-                    {"name": "pull sheet", "actor": "person", "target": "sheet", "description": "the person pulls the sheet across the mattress"}
+                    {"name": "pull sheet", "actor": "right fingers", "target": "sheet", "description": "the fingers clutch a handful of the sheet and pull it across the mattress"}
                 ],
             ),
             frame(
                 6977,
                 60.0,
-                "A person in a silver suit stands still beside the bed, facing away from the camera.",
-                resources=limbs(),
+                "A person in a silver suit stands still beside the bed, facing away from the camera, both hands relaxed at their sides and not engaged with anything.",
+                resources=[],
                 entities=[{"name": "bed"}],
-                actions=[{"name": "stand", "actor": "person", "target": "bed", "description": "the person stands beside the bed"}],
+                actions=[{"name": "stand", "actor": "person", "target": "bed", "description": "the person stands beside the bed; no limb is currently engaged with an object"}],
             ),
             frame(
                 8962,
                 60.0,
-                "A person in a silver suit is largely obscured by a white sheet hanging in the foreground, standing near the bed.",
-                resources=limbs(),
+                "A person in a silver suit is largely obscured by a white sheet hanging in the foreground; their right fingers grip its edge, holding it up near the bed.",
+                resources=[
+                    {"name": "right fingers", "description": "gripping the edge of the white sheet, holding it up", "identifier": "right_fingers"},
+                ],
                 entities=[{"name": "bed"}, {"name": "sheet", "description": "white sheet hanging in the foreground"}],
                 actions=[
                     {
-                        "name": "handle sheet",
-                        "actor": "person",
+                        "name": "hold sheet",
+                        "actor": "right fingers",
                         "target": "sheet",
-                        "description": "the person handles a sheet near the bed, partially hidden from view",
+                        "description": "the fingers grip the sheet's edge, holding it up near the bed while the person is partially hidden behind it",
                     }
                 ],
             ),
@@ -168,23 +184,26 @@ VIDEOS = {
             frame(
                 0,
                 60.0,
-                "A person in a silver suit stands beside an unmade bed with rumpled bedding, at the start of a bed-making task.",
-                resources=limbs(),
+                "A person in a silver suit stands beside an unmade bed with rumpled bedding, at the start of a bed-making task, both hands relaxed and not yet engaged.",
+                resources=[],
                 entities=[{"name": "bed", "description": "unmade bed with rumpled bedding"}],
-                actions=[{"name": "stand", "actor": "person", "target": "bed", "description": "the person stands beside the unmade bed"}],
+                actions=[{"name": "stand", "actor": "person", "target": "bed", "description": "the person stands beside the unmade bed; no limb is engaged with the bedding yet"}],
             ),
             frame(
                 3535,
                 60.0,
-                "A person in a silver suit bends over near the headboard, adjusting the smoothed white duvet and pillows on the bed.",
-                resources=limbs(),
+                "A person in a silver suit bends over near the headboard, both hands' fingers gripping and tucking the smoothed white duvet into place among the pillows.",
+                resources=[
+                    {"name": "left fingers", "description": "gripping and tucking the duvet near the headboard", "identifier": "left_fingers"},
+                    {"name": "right fingers", "description": "gripping and tucking the duvet near the headboard", "identifier": "right_fingers"},
+                ],
                 entities=[{"name": "bed", "description": "bed with a smoothed white duvet and two pillows"}],
                 actions=[
                     {
-                        "name": "adjust bedding",
-                        "actor": "person",
+                        "name": "tuck bedding",
+                        "actor": "left fingers and right fingers",
                         "target": "bedding",
-                        "description": "the person adjusts the duvet and pillows near the headboard",
+                        "description": "both hands' fingers grip and tuck the duvet into place near the headboard",
                     }
                 ],
             ),
@@ -197,10 +216,15 @@ VIDEOS = {
             frame(
                 6121,
                 60.0,
-                "A person in a silver suit walks near the window in the bedroom; the bed is neatly made with a different set of yellow and blue pillows than before.",
-                resources=limbs(),
+                "A person in a silver suit walks near the window in the bedroom, both hands' fingers wrapped around a yellow pillow held against their body; the bed is neatly made with a different set of yellow and blue pillows than before.",
+                resources=[
+                    {"name": "left fingers", "description": "wrapped around the yellow pillow, gripping it against the body", "identifier": "left_fingers"},
+                    {"name": "right fingers", "description": "wrapped around the yellow pillow, gripping it against the body", "identifier": "right_fingers"},
+                ],
                 entities=[{"name": "bed", "description": "neatly made bed, now with yellow and blue pillows"}],
-                actions=[{"name": "walk", "actor": "person", "target": "bedroom", "description": "the person walks near the window"}],
+                actions=[
+                    {"name": "carry pillow", "actor": "left fingers and right fingers", "target": "pillow", "description": "both hands' fingers grip the pillow while walking near the window"}
+                ],
             ),
         ],
     },
@@ -210,66 +234,84 @@ VIDEOS = {
             frame(
                 0,
                 60.0,
-                "A person in a silver suit stands holding a yo-yo string in their right hand, with the yo-yo hanging near their foot.",
-                resources=limbs() + [{"name": "yo-yo", "description": "red and white yo-yo hanging on its string near the floor"}],
+                "A person in a silver suit stands with their right fingers pinching the yo-yo's string, letting the yo-yo hang near their foot; the left hand is relaxed and not engaged.",
+                resources=[
+                    {"name": "right fingers", "description": "pinching the yo-yo's string, suspending it", "identifier": "right_fingers"},
+                    {"name": "yo-yo", "description": "red and white yo-yo hanging on its string near the floor"},
+                ],
                 actions=[
                     {
                         "name": "hold yo-yo string",
-                        "actor": "person",
+                        "actor": "right fingers",
                         "target": "yo-yo",
-                        "description": "the person holds the yo-yo by its string, letting it hang near the floor",
+                        "description": "the fingers pinch the yo-yo's string, letting it hang near the floor",
                     }
                 ],
             ),
             frame(
                 180,
                 60.0,
-                "A person in a silver suit holds the yo-yo close to their chest with both hands, winding its string.",
-                resources=limbs() + [{"name": "yo-yo", "description": "red and white yo-yo held close to the chest"}],
+                "A person in a silver suit holds the yo-yo close to their chest, both hands' fingers winding its string around the axle.",
+                resources=[
+                    {"name": "left fingers", "description": "winding the yo-yo's string around its axle", "identifier": "left_fingers"},
+                    {"name": "right fingers", "description": "winding the yo-yo's string around its axle", "identifier": "right_fingers"},
+                    {"name": "yo-yo", "description": "red and white yo-yo held close to the chest"},
+                ],
                 actions=[
                     {
                         "name": "wind yo-yo string",
-                        "actor": "person",
+                        "actor": "left fingers and right fingers",
                         "target": "yo-yo",
-                        "description": "the person winds the yo-yo's string using both hands",
+                        "description": "both hands' fingers wind the yo-yo's string around its axle",
                     }
                 ],
             ),
             frame(
                 368,
                 60.0,
-                "A person in a silver suit continues winding the yo-yo's string with both hands held close to their chest.",
-                resources=limbs() + [{"name": "yo-yo", "description": "red and white yo-yo held close to the chest"}],
+                "A person in a silver suit continues winding the yo-yo's string with both hands' fingers held close to their chest.",
+                resources=[
+                    {"name": "left fingers", "description": "winding the yo-yo's string around its axle", "identifier": "left_fingers"},
+                    {"name": "right fingers", "description": "winding the yo-yo's string around its axle", "identifier": "right_fingers"},
+                    {"name": "yo-yo", "description": "red and white yo-yo held close to the chest"},
+                ],
                 actions=[
                     {
                         "name": "wind yo-yo string",
-                        "actor": "person",
+                        "actor": "left fingers and right fingers",
                         "target": "yo-yo",
-                        "description": "the person winds the yo-yo's string with both hands",
+                        "description": "both hands' fingers continue winding the yo-yo's string",
                     }
                 ],
             ),
             frame(
                 550,
                 60.0,
-                "A person in a silver suit holds the yo-yo with both hands, still winding its string.",
-                resources=limbs() + [{"name": "yo-yo", "description": "red and white yo-yo held close to the chest"}],
+                "A person in a silver suit holds the yo-yo with both hands' fingers, still winding its string.",
+                resources=[
+                    {"name": "left fingers", "description": "winding the yo-yo's string around its axle", "identifier": "left_fingers"},
+                    {"name": "right fingers", "description": "winding the yo-yo's string around its axle", "identifier": "right_fingers"},
+                    {"name": "yo-yo", "description": "red and white yo-yo held close to the chest"},
+                ],
                 actions=[
                     {
                         "name": "wind yo-yo string",
-                        "actor": "person",
+                        "actor": "left fingers and right fingers",
                         "target": "yo-yo",
-                        "description": "the person winds the yo-yo's string with both hands",
+                        "description": "both hands' fingers wind the yo-yo's string",
                     }
                 ],
             ),
             frame(
                 674,
                 60.0,
-                "A person in a silver suit holds the yo-yo up near their chest in one hand, with the other hand relaxed at their side.",
-                resources=limbs() + [{"name": "yo-yo", "description": "red and white yo-yo held in one hand"}],
+                "A person in a silver suit holds the yo-yo up near their chest, right fingers wrapped around its body, with the left hand relaxed and not engaged.",
+                resources=[
+                    {"name": "right fingers", "description": "wrapped around the yo-yo's body, holding it up near the chest", "identifier": "right_fingers"},
+                    {"name": "yo-yo", "description": "red and white yo-yo held in one hand"},
+                ],
                 actions=[
-                    {"name": "hold yo-yo", "actor": "person", "target": "yo-yo", "description": "the person holds the yo-yo in one hand"}
+                    {"name": "hold yo-yo", "actor": "right fingers", "target": "yo-yo", "description": "the fingers wrap around the yo-yo's body, holding it near the chest"}
                 ],
             ),
         ],
@@ -280,15 +322,15 @@ VIDEOS = {
             frame(
                 0,
                 60.0,
-                "A person in a silver suit stands beside a silver minivan in a driveway, facing the vehicle.",
-                resources=limbs(),
+                "A person in a silver suit stands beside a silver minivan in a driveway, facing the vehicle, both hands relaxed and not yet touching it.",
+                resources=[],
                 entities=[{"name": "minivan", "description": "silver minivan parked in the driveway", "identifier": "minivan"}],
                 actions=[
                     {
                         "name": "approach minivan",
                         "actor": "person",
                         "target": "minivan",
-                        "description": "the person stands facing the minivan, about to enter it",
+                        "description": "the person stands facing the minivan, about to enter it; no limb is in contact with it yet",
                     }
                 ],
             ),
@@ -296,7 +338,7 @@ VIDEOS = {
                 238,
                 60.0,
                 "A person in a silver suit steps into the open driver-side door of the silver minivan.",
-                resources=limbs(),
+                resources=[],
                 entities=[{"name": "minivan", "identifier": "minivan"}],
                 actions=[
                     {
@@ -320,18 +362,22 @@ VIDEOS = {
             frame(
                 594,
                 60.0,
-                "A person in a silver suit sits in the driver's seat of the silver minivan, adjusting their seatbelt with both hands, while a dog sits beside them.",
-                resources=limbs() + [{"name": "seatbelt", "description": "seatbelt the person is adjusting"}],
+                "A person in a silver suit sits in the driver's seat of the silver minivan, both hands' fingers gripping the seatbelt strap and pulling it across their chest, while a dog sits beside them.",
+                resources=[
+                    {"name": "left fingers", "description": "gripping the seatbelt strap higher up, near the shoulder", "identifier": "left_fingers"},
+                    {"name": "right fingers", "description": "gripping the seatbelt strap near the buckle, guiding it into place", "identifier": "right_fingers"},
+                    {"name": "seatbelt", "description": "seatbelt strap being pulled across the chest and buckled"},
+                ],
                 entities=[
                     {"name": "minivan", "identifier": "minivan"},
                     {"name": "dog", "description": "golden retriever sitting in the passenger seat"},
                 ],
                 actions=[
                     {
-                        "name": "adjust seatbelt",
-                        "actor": "person",
+                        "name": "buckle seatbelt",
+                        "actor": "left fingers and right fingers",
                         "target": "seatbelt",
-                        "description": "the person adjusts their seatbelt with both hands",
+                        "description": "both hands' fingers grip the seatbelt strap, pulling it across the chest and guiding it toward the buckle",
                     }
                 ],
             ),
