@@ -255,13 +255,14 @@ fine-tuning still operate close enough to the Pascal limits to require:
 - allocator settings that reduce fragmentation from differently sized image
   tensors.
 
-A representative 4B LoRA run over 197 examples for 20 epochs took roughly
-12.5 hours on the two GTX 1080 Ti GPUs. This is sufficient to demonstrate that
-ontology conventions can be learned, but it makes broad hyperparameter
-searches, multiple random seeds, ablation studies, and repeated held-out
-evaluations expensive. It also encourages small datasets and low-resolution
-frames, which can hide fine contact details that the ontology is intended to
-capture.
+The current V8 4B LoRA run used 854 examples for 20 epochs (2,140 steps) and
+took roughly 57 hours on the two GTX 1080 Ti GPUs. For historical comparison,
+V6 used 197 examples and took roughly 12.5 hours under the same 20-epoch
+schedule. These runs demonstrate that ontology conventions can be learned,
+but their cost makes broad hyperparameter searches, multiple random seeds,
+ablation studies, and repeated held-out evaluations expensive. The hardware
+also encourages lower-resolution frames, which can hide fine contact details
+that the ontology is intended to capture.
 
 Consequently, results from the 4B experiments should not be interpreted as
 the ceiling of the ontology approach. They are evidence that the pipeline

@@ -23,7 +23,7 @@ ml = [
   "bitsandbytes>=0.43; platform_system == 'Linux'",
   "datasets>=2.20",
   "peft>=0.11",
-  "transformers>=4.49"
+  "transformers>=4.57"
 ]
 dev = [
   "pytest>=8.0"
@@ -34,4 +34,3 @@ action-ontologies = "action_ontologies.cli:main"
 
 [tool.setuptools.packages.find]
 where = ["src"]
-

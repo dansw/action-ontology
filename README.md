@@ -69,7 +69,7 @@ Keep raw and generated data out of git.
 data/
   egg_catch/
     videos/
-      egg_catch_001.mp4
+      egg_catch_001.mov
     annotations/
       egg_catch_001.json
     frames/
@@ -89,7 +89,7 @@ data/
     annotations/             # prepared as its own project with its own sampling args
     frames/
     prepared/
-  combined_v6/
+  combined_v8/
     prepared/
       train.jsonl        # concatenation of every project's prepared/train.jsonl
 models/
@@ -102,13 +102,23 @@ models/
                                # negation language project-wide; regressed output
                                # coherence on unrelated frames (meta-language leaking
                                # into descriptions) -- do not use as a base yet
-  ontology-lora-v6/           # current default adapter -- v4's data plus two corrective
-                               # annotations that fix a "grain" hallucination; trained
-                               # alongside the known_identifiers registry code fix (see
-                               # "Identifier drift" below), which applies to every
-                               # adapter's inference regardless of training data
+  ontology-lora-v6/           # v4's data plus two corrective annotations that fix a
+                               # "grain" hallucination; trained alongside the
+                               # known_identifiers registry code fix (see "Identifier
+                               # drift" below); superseded by v7
+  ontology-lora-v7/           # survey_actions annotations expanded from a partial
+                               # slice to the full nine-video set (782 total examples,
+                               # up from v6's 197); superseded by v8
+  ontology-lora-v8/           # current recommended adapter -- v7's data plus 72 more
+                               # survey_actions examples (854 total); see "Validating
+                               # a new adapter" below for how it compares to v7
 outputs/
-  egg_catch_001.ontology.json
+  <video_id>.ontology.json         # one inference run
+  diverse_validation_v8/           # one inference run per validation video, all with
+    <video_id>.ontology.json       # the same adapter -- for comparing adapters
+  videos/                          # captioned review videos rendered from an
+    <video_id>.mp4                 # inference output (see "Generate captioned
+    <video_id>.webm                # review videos" below)
 ```
 
 Each activity gets its own project directory (own `videos/`, `annotations/`,
@@ -123,7 +133,7 @@ Annotation files use one JSON file per video:
 ```json
 {
   "video_id": "egg_catch_001",
-  "video_path": "videos/egg_catch_001.mp4",
+  "video_path": "videos/egg_catch_001.mov",
   "frames": [
     {
       "frame_id": "egg_catch_001_000000",
@@ -176,22 +186,24 @@ a stronger vision-language base model that fits your hardware.
 
 ```bash
 action-ontologies infer \
-  --video data/egg_catch/videos/egg_catch_001.mp4 \
+  --video data/egg_catch/videos/egg_catch_001.mov \
   --output outputs/egg_catch_001.ontology.json \
   --model Qwen/Qwen3-VL-4B-Instruct \
   --sample-fps 2
 ```
 
-With the tuned LoRA adapter (`models/ontology-lora-v6`, the current default --
-trained on 197 examples across egg-catch, six other activity videos, and nine
-further survey videos; see "Train A Tuned Model" below):
+With the tuned LoRA adapter (`models/ontology-lora-v8`, the current
+recommended adapter --
+trained on 854 examples across egg-catch, five other activity videos, nine
+survey videos, and a separate take-out-trash project; see "Train A Tuned
+Model" below):
 
 ```bash
 action-ontologies infer \
-  --video data/egg_catch/videos/egg_catch_001.mp4 \
+  --video data/egg_catch/videos/egg_catch_001.mov \
   --output outputs/egg_catch_001.ontology.json \
   --model Qwen/Qwen3-VL-4B-Instruct \
-  --adapter models/ontology-lora-v6 \
+  --adapter models/ontology-lora-v8 \
   --sample-fps 2
 ```
 
@@ -342,10 +354,10 @@ action-ontologies prepare --project-dir data/survey_actions --output-jsonl data/
 action-ontologies prepare --project-dir data/survey_actions_trash --output-jsonl data/survey_actions_trash/prepared/train.jsonl \
   --sampling information-gain --change-threshold 1000 --percentile 90 --max-gap-seconds 4
 
-mkdir -p data/combined_v6/prepared
+mkdir -p data/combined_v8/prepared
 cat data/egg_catch/prepared/train.jsonl data/diverse_actions/prepared/train.jsonl \
     data/survey_actions/prepared/train.jsonl data/survey_actions_trash/prepared/train.jsonl \
-    > data/combined_v6/prepared/train.jsonl
+    > data/combined_v8/prepared/train.jsonl
 ```
 
 `--change-threshold`/`--sampling`/etc. must exactly match whatever was used when the
@@ -359,9 +371,9 @@ Run LoRA fine-tuning:
 
 ```bash
 PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True python scripts/train_lora.py \
-  --train-jsonl data/combined_v6/prepared/train.jsonl \
+  --train-jsonl data/combined_v8/prepared/train.jsonl \
   --base-model Qwen/Qwen3-VL-4B-Instruct \
-  --output-dir models/ontology-lora-v6 \
+  --output-dir models/ontology-lora-v8 \
   --epochs 20 \
   --batch-size 1 \
   --gradient-accumulation-steps 8 \
@@ -377,9 +389,20 @@ fragmentation and suggests this exact fix).
 
 A handful of epochs is rarely enough to shift output conventions on a small
 dataset -- loss plateauing (watch `grad_norm` flatten toward zero) is the
-signal that it has actually converged, not just run out of epochs. The v6
-adapter's loss went from ~7.0 to ~2.1-2.2 over 500 steps (197 examples, 20
-epochs), taking about 12.5 hours on 2x GTX 1080 Ti.
+signal that it has actually converged, not just run out of epochs. All runs
+use 2x GTX 1080 Ti:
+
+| adapter | examples | steps (20 epochs) | loss | wall time |
+| --- | --- | --- | --- | --- |
+| v6 | 197 | 500 | ~7.0 -> ~2.1-2.2 | ~12.5 hours |
+| v7 | 782 | 1960 | ~7.3 -> ~2.05 | ~52 hours |
+| v8 | 854 | 2140 | ~6.8 -> ~2.08 | ~57 hours |
+
+None of the runs logged an eval/validation loss during training (no eval
+split was configured) -- loss here is purely on the training set, so
+"converged" means the training loss plateaued, not that generalization was
+measured; that's what the validation runs in "Validating a new adapter"
+below are for.
 
 Training on CPU is supported for correctness checks, but expect it to be slow.
 Use CUDA or ROCm for real tuning.
@@ -390,9 +413,13 @@ If validation surfaces a specific hallucination (e.g. the model inventing an
 action that isn't visible, like assuming a held food item is about to be
 eaten), the most reliable fix found in practice was adding a small number of
 training examples that straddle the exact failure -- not patching the system
-prompt at inference time. Prompt-only patches proved fragile here: each one
-fixed the reported frame but introduced a *different* hallucination elsewhere,
-since the model's own weights, not the prompt, are where the bad prior lives.
+prompt alone. Prompt-only patches proved fragile here: each one fixed the
+reported frame but introduced a *different* hallucination elsewhere, since
+the model's own weights, not the prompt, are where the bad prior lives. The
+inference pipeline does retain one narrow safeguard: when the first pass
+claims that a person is eating, `_verify_eating` requests a targeted second
+pass before accepting that claim. Treat this as runtime verification, not a
+substitute for corrective training data.
 
 Also resist the urge to over-generalize a narrow fix. `ontology-lora-v5` was
 an experiment that went further -- stripping ALL speculative "about to X"
@@ -409,18 +436,104 @@ this reason. Prefer minimal, targeted data changes over broad rewrites of
 the system prompt or the whole training set, even when the broader change
 seems more principled.
 
-`ontology-lora-v6` is the current default: v4's data plus two corrective
+`ontology-lora-v6` was the default before v8: v4's data plus two corrective
 annotations (in `opening_granola_bar`) that fix a hallucinated "grain"
 detail, following the same narrow-fix approach. Separately, v6 was also the
 first adapter trained and validated after the identifier-drift registry fix
 described above (that fix is inference-time code, not training data, so it
 applies retroactively to older adapters' inference too, but v6 is the one
-it's been most thoroughly validated against). One known minor issue remains
+it's been most thoroughly validated against). One known minor issue remained
 in v6: a single spot-checked frame in a `hammer_and_nail` validation run
 leaked prompt template text ("frame id hammer_and_nail_000256 (timestamp
 4.267s)") into the generated description -- isolated to that one frame out
-of everything spot-checked, much milder than v5's pervasive leakage, but
-real and not yet root-caused.
+of everything spot-checked, much milder than v5's pervasive leakage. It did
+not reproduce in v7 or v8's validation runs (the same frame, t=4.267s,
+describes the hammer strike cleanly in both), though it was never
+root-caused, so treat that as unconfirmed rather than fixed.
+
+`ontology-lora-v7` and `ontology-lora-v8` are pure data-scale increases on
+top of v6, with no prompt or system-prompt changes: v7 folded in a much
+larger `survey_actions` annotation pass (438 examples across all nine survey
+videos, versus a partial slice for v6), taking the combined set from 197 to
+782 examples; v8 added 72 further `survey_actions` examples on top of that
+(854 total). `ontology-lora-v8` is the current recommended adapter. The CLI
+does not load an adapter implicitly; pass `--adapter models/ontology-lora-v8`
+when tuned inference is intended.
+
+### Validating a new adapter against the previous one
+
+Every `infer` run records its own sampling parameters in the output file's
+top-level fields (`sampling`, `change_threshold`, `percentile`,
+`max_gap_seconds`, `context_frames`, `adapter`, ...), so a later run can be
+made directly comparable to an earlier one by reading those fields back out
+of the old output and reusing them verbatim with the new adapter -- the
+frame timestamps then line up 1:1 between runs, since `information-gain`
+sampling is deterministic for a given set of parameters.
+
+`outputs/diverse_validation_v8/` was built this way against
+`outputs/diverse_validation_v7/`, across all 15 validation videos (783
+frames total). Comparing the two:
+
+- 74% of frame descriptions are byte-for-byte identical between v7 and v8 --
+  expected, since v8's training data is a strict superset of v7's.
+- Aggregate resource/entity/action counts per frame are essentially flat
+  (e.g. 1.41 -> 1.42 resources/frame), so the two adapters agree on *how
+  much* to tag; where they disagree is *how*.
+- Where frames differ, it's concentrated in two `diverse_actions` videos
+  (`carry_coffee_table`, `get_into_car` -- only 13-25% identical), and the
+  difference is systematic: v8 consistently uses the fine-grained resource
+  naming the system prompt asks for (`"right fingers"`, `"left
+  fingertips"`) where v7 fell back to coarser naming (`"hands"`, `"right
+  hand"`), and v7 mislabeled a dog's `"front paws"` as a resource in one
+  `carry_coffee_table` frame where it wasn't touching anything -- v8 doesn't
+  make that error.
+- v7 had one frame with a completely empty description
+  (`get_into_car`, t=4.67s); v8 has none.
+- Frames with zero resources tagged dropped from 122 to 109 (of 783).
+
+Net: a small, consistent improvement, not a dramatic jump -- consistent
+with v8 being v7's exact dataset plus 72 more examples rather than a
+substantively different training run. One metric moved the "wrong" way
+(frames with a duplicate-named action rose from 86 to 94), but spot-checking
+shows this is mostly two actors legitimately performing the same named
+action in one frame, not a new hallucination.
+
+## Generate Captioned Review Videos
+
+`scripts/build_description_videos.py` burns each frame's `description` into
+the source video as a caption bar, for watching an inference run instead of
+reading its JSON. Its `build_video(slug, video_path, ontology_path)`
+function takes any video and any matching `*.ontology.json` output, so it
+can be pointed at any adapter's validation run, not just the handful hardcoded
+in the script's own `VIDEOS` dict:
+
+```python
+import sys
+sys.path.insert(0, "scripts")
+from pathlib import Path
+import build_description_videos as m
+
+m.OUTPUT_DIR = Path("outputs/videos")
+m.build_video(
+    "hammer_and_nail",
+    Path("data/survey_actions/videos/hammer_and_nail.mov"),
+    Path("outputs/diverse_validation_v8/hammer_and_nail.ontology.json"),
+)
+```
+
+This writes `outputs/videos/<slug>.mp4` (H.264, already run through
+`ffmpeg` internally). For a `.webm` sibling -- smaller, and needed for
+browsers that won't play the H.264 profile inline -- transcode separately:
+
+```bash
+ffmpeg -y -i outputs/videos/hammer_and_nail.mp4 \
+  -c:v libvpx-vp9 -crf 32 -b:v 0 -row-mt 1 \
+  outputs/videos/hammer_and_nail.webm
+```
+
+Rendering is CPU-bound frame overlay plus an `ffmpeg` encode, not model
+inference -- expect low single-digit minutes per video even for longer
+clips, far faster than the inference run that produced the captions.
 
 ## Output Format
 
@@ -428,8 +541,18 @@ Inference writes:
 
 ```json
 {
-  "video_path": "data/egg_catch/videos/egg_catch_001.mp4",
+  "video_path": "data/egg_catch/videos/egg_catch_001.mov",
+  "sampling": "fixed",
   "sample_fps": 2.0,
+  "min_fps": null,
+  "max_fps": null,
+  "motion_threshold": null,
+  "change_threshold": null,
+  "percentile": null,
+  "max_gap_seconds": null,
+  "context_frames": 4,
+  "model": "Qwen/Qwen3-VL-4B-Instruct",
+  "adapter": "models/ontology-lora-v8",
   "frames": [
     {
       "frame_id": "egg_catch_001_000000",
@@ -444,6 +567,12 @@ Inference writes:
   ]
 }
 ```
+
+The top-level sampling/model/adapter fields record exactly how the run was
+produced (only the fields relevant to the chosen `--sampling` mode are
+non-null), which is what makes it possible to reproduce a directly
+comparable run later -- see "Validating a new adapter against the previous
+one" above.
 
 ## Summarize
 
