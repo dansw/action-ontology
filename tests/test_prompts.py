@@ -38,3 +38,26 @@ def test_frame_prompt_history_empty_list_omits_section():
     prompt = frame_prompt("egg_000001", 0.5, history=[])
     assert "Recent frame history" not in prompt
 
+
+def test_frame_prompt_without_known_identifiers_omits_section():
+    prompt = frame_prompt("egg_000001", 0.5)
+    assert "identifiers already used" not in prompt
+
+
+def test_frame_prompt_with_known_identifiers_lists_them_before_history():
+    prompt = frame_prompt(
+        "hammer_000010",
+        1.0,
+        history=[{"timestamp_seconds": 0.0, "description": "person grips hammer", "actions": ["grip hammer"]}],
+        known_identifiers={"wood_block": "wooden block", "hammer": "hammer"},
+    )
+    assert "identifiers already used" in prompt
+    assert "wood_block: wooden block" in prompt
+    assert "hammer: hammer" in prompt
+    assert prompt.index("identifiers already used") < prompt.index("Recent frame history")
+
+
+def test_frame_prompt_with_empty_known_identifiers_omits_section():
+    prompt = frame_prompt("egg_000001", 0.5, known_identifiers={})
+    assert "identifiers already used" not in prompt
+

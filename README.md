@@ -89,13 +89,24 @@ data/
     annotations/             # prepared as its own project with its own sampling args
     frames/
     prepared/
-  combined_v3/
+  combined_v6/
     prepared/
       train.jsonl        # concatenation of every project's prepared/train.jsonl
 models/
   ontology-lora-diverse/      # first combined-set adapter (egg_catch + diverse_actions)
   ontology-lora-diverse-v2/   # granular-resource retrain of the above; superseded by v3
-  ontology-lora-v3/           # current default adapter, trained on the full combined set
+  ontology-lora-v3/           # first full-combined-set adapter; superseded by v4
+  ontology-lora-v4/           # same data as v3 plus six descriptions rewritten to fix
+                               # an eating-hallucination bug; superseded by v6
+  ontology-lora-v5/           # experimental: removed ALL speculative "about to X" /
+                               # negation language project-wide; regressed output
+                               # coherence on unrelated frames (meta-language leaking
+                               # into descriptions) -- do not use as a base yet
+  ontology-lora-v6/           # current default adapter -- v4's data plus two corrective
+                               # annotations that fix a "grain" hallucination; trained
+                               # alongside the known_identifiers registry code fix (see
+                               # "Identifier drift" below), which applies to every
+                               # adapter's inference regardless of training data
 outputs/
   egg_catch_001.ontology.json
 ```
@@ -146,9 +157,14 @@ Extract sampled frames and build a JSONL training file:
 ```bash
 action-ontologies prepare \
   --project-dir data/egg_catch \
-  --sample-fps 2 \
+  --sample-fps 8 \
   --output-jsonl data/egg_catch/prepared/train.jsonl
 ```
+
+(`egg_catch`'s annotations were built at 8 fps -- `--sample-fps` must match the rate the
+annotation frame indices assume, or most sampled frames won't match any annotation and
+`prepare` will silently produce far fewer training records than expected. Always sanity-check
+the printed record count against how many frames you actually annotated.)
 
 Each JSONL record contains an image path plus the expected ontology JSON for
 that frame. Review the prepared file before training.
@@ -166,8 +182,8 @@ action-ontologies infer \
   --sample-fps 2
 ```
 
-With the tuned LoRA adapter (`models/ontology-lora-v3`, the current default --
-trained on 195 examples across egg-catch, six other activity videos, and nine
+With the tuned LoRA adapter (`models/ontology-lora-v6`, the current default --
+trained on 197 examples across egg-catch, six other activity videos, and nine
 further survey videos; see "Train A Tuned Model" below):
 
 ```bash
@@ -175,7 +191,7 @@ action-ontologies infer \
   --video data/egg_catch/videos/egg_catch_001.mp4 \
   --output outputs/egg_catch_001.ontology.json \
   --model Qwen/Qwen3-VL-4B-Instruct \
-  --adapter models/ontology-lora-v3 \
+  --adapter models/ontology-lora-v6 \
   --sample-fps 2
 ```
 
@@ -242,6 +258,47 @@ the same flag so training prompts are built the same way inference will see
 them, using the ground-truth annotation sequence as history (teacher
 forcing).
 
+### Identifier drift
+
+`--context-frames` alone doesn't stop a video-local `identifier` (the string
+used to track one real-world object across frames, e.g. `wood_block`) from
+splitting into two: the sliding history window forgets an object once it
+falls out of the last N frames, and the model then has nothing telling it
+"this name was already assigned an identifier" and picks a fresh one.
+
+Both `infer` and `prepare` maintain a second, unbounded-for-the-whole-video
+registry (`known_identifiers`, capped at 30 entries as a safety net) that is
+listed in every frame's prompt regardless of the history window, so the
+model can reuse an identifier it hasn't seen in a while. On its own this
+still isn't enough: once the model *does* invent a duplicate identifier for
+an object it already named, both identifiers looked equally valid from then
+on, and the model would keep alternating between them for the rest of the
+video (observed on a 4.5-minute video: a duvet/blanket entity split across
+`bedding` and `fabric`, and a mattress entity split across `mattress` and
+`mattress_fabric`, both oscillating for the remainder of the clip).
+
+The fix tracks every (tokenized) name ever used under each identifier, not
+just the latest one, and rewrites an element onto the existing identifier
+whenever its name matches -- exactly, or by whole-word containment (e.g.
+`"duvet"` vs. `"duvet fabric"`) -- a name already registered under a
+*different* identifier. This runs identically whether the earlier
+registration happened in a previous frame (cross-frame drift) or earlier in
+the very same frame's own `resources`/`entities` list (a same-frame
+duplicate, e.g. both `"duvet"` and `"bedding"` listed as separate entities
+in one frame); elements that end up sharing an identifier after
+canonicalizing are then collapsed to a single entry. The containment check
+is whole-word only, not substring or single-shared-word, specifically so it
+does not undo a deliberate state-change re-identification (e.g. `wrapper` ->
+`wrapper fragment` once a piece tears off, or `nail` -> `driven_nail`-style
+namings the model may legitimately want) -- `"bed"` vs. `"bedding"` and
+`"granola bar"` vs. `"wrapper fragment"` correctly do not match.
+
+This is inference-time/prepare-time logic, not something baked into any
+adapter's weights -- it benefits every adapter's inference immediately, and
+regenerating training data with `prepare` also cleans up any drift already
+present in existing hand-authored annotations before training on them. See
+`_canonicalize_known_identifiers` in `infer.py` and `prepare.py`.
+
 ## Train A Tuned Model
 
 Start with focused annotations for a narrow activity domain, then expand to
@@ -277,7 +334,7 @@ object) needs a much higher threshold than a mostly-static one, or the
 sampler will select far more frames than are practical to hand-annotate:
 
 ```bash
-action-ontologies prepare --project-dir data/egg_catch --output-jsonl data/egg_catch/prepared/train.jsonl
+action-ontologies prepare --project-dir data/egg_catch --output-jsonl data/egg_catch/prepared/train.jsonl --sample-fps 8
 action-ontologies prepare --project-dir data/diverse_actions --output-jsonl data/diverse_actions/prepared/train.jsonl \
   --sampling information-gain --change-threshold 45 --percentile 90 --max-gap-seconds 5
 action-ontologies prepare --project-dir data/survey_actions --output-jsonl data/survey_actions/prepared/train.jsonl \
@@ -285,19 +342,26 @@ action-ontologies prepare --project-dir data/survey_actions --output-jsonl data/
 action-ontologies prepare --project-dir data/survey_actions_trash --output-jsonl data/survey_actions_trash/prepared/train.jsonl \
   --sampling information-gain --change-threshold 1000 --percentile 90 --max-gap-seconds 4
 
-mkdir -p data/combined_v3/prepared
+mkdir -p data/combined_v6/prepared
 cat data/egg_catch/prepared/train.jsonl data/diverse_actions/prepared/train.jsonl \
     data/survey_actions/prepared/train.jsonl data/survey_actions_trash/prepared/train.jsonl \
-    > data/combined_v3/prepared/train.jsonl
+    > data/combined_v6/prepared/train.jsonl
 ```
+
+`--change-threshold`/`--sampling`/etc. must exactly match whatever was used when the
+project's annotation frame indices were originally picked, or `prepare` will silently
+match only a handful of frames instead of your full annotated set (this has bitten this
+project twice: once for `egg_catch`'s fixed-fps mismatch, once for `diverse_actions`
+after `frame_sampling`'s change-detection metric was rewritten -- always check the
+printed record count against your actual annotation count before training on it).
 
 Run LoRA fine-tuning:
 
 ```bash
 PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True python scripts/train_lora.py \
-  --train-jsonl data/combined_v3/prepared/train.jsonl \
+  --train-jsonl data/combined_v6/prepared/train.jsonl \
   --base-model Qwen/Qwen3-VL-4B-Instruct \
-  --output-dir models/ontology-lora-v3 \
+  --output-dir models/ontology-lora-v6 \
   --epochs 20 \
   --batch-size 1 \
   --gradient-accumulation-steps 8 \
@@ -313,12 +377,50 @@ fragmentation and suggests this exact fix).
 
 A handful of epochs is rarely enough to shift output conventions on a small
 dataset -- loss plateauing (watch `grad_norm` flatten toward zero) is the
-signal that it has actually converged, not just run out of epochs. The v3
-adapter's loss went from ~7.1 to ~2.3-2.5 over 500 steps (195 examples, 20
-epochs), taking about 11.5 hours on 2x GTX 1080 Ti.
+signal that it has actually converged, not just run out of epochs. The v6
+adapter's loss went from ~7.0 to ~2.1-2.2 over 500 steps (197 examples, 20
+epochs), taking about 12.5 hours on 2x GTX 1080 Ti.
 
 Training on CPU is supported for correctness checks, but expect it to be slow.
 Use CUDA or ROCm for real tuning.
+
+### A note on fixing model-side hallucinations via data, not prompts
+
+If validation surfaces a specific hallucination (e.g. the model inventing an
+action that isn't visible, like assuming a held food item is about to be
+eaten), the most reliable fix found in practice was adding a small number of
+training examples that straddle the exact failure -- not patching the system
+prompt at inference time. Prompt-only patches proved fragile here: each one
+fixed the reported frame but introduced a *different* hallucination elsewhere,
+since the model's own weights, not the prompt, are where the bad prior lives.
+
+Also resist the urge to over-generalize a narrow fix. `ontology-lora-v5` was
+an experiment that went further -- stripping ALL speculative "about to X"
+phrasing and all negation language ("not eating it") project-wide, plus
+adding a matching general instruction to `SYSTEM_PROMPT` -- and while it did
+eliminate the target hallucination cleanly, it introduced a broader
+regression: the model started leaking instruction-like meta-phrasing into
+descriptions (e.g. echoing "each limb's own current position and contact"
+almost verbatim from the system prompt) and fabricating unrelated scene
+details on a second, unrelated video. `ontology-lora-v4` -- which fixed only
+the specific reported frames with a handful of added training examples,
+leaving everything else untouched -- was kept as the default over v5 for
+this reason. Prefer minimal, targeted data changes over broad rewrites of
+the system prompt or the whole training set, even when the broader change
+seems more principled.
+
+`ontology-lora-v6` is the current default: v4's data plus two corrective
+annotations (in `opening_granola_bar`) that fix a hallucinated "grain"
+detail, following the same narrow-fix approach. Separately, v6 was also the
+first adapter trained and validated after the identifier-drift registry fix
+described above (that fix is inference-time code, not training data, so it
+applies retroactively to older adapters' inference too, but v6 is the one
+it's been most thoroughly validated against). One known minor issue remains
+in v6: a single spot-checked frame in a `hammer_and_nail` validation run
+leaked prompt template text ("frame id hammer_and_nail_000256 (timestamp
+4.267s)") into the generated description -- isolated to that one frame out
+of everything spot-checked, much milder than v5's pervasive leakage, but
+real and not yet root-caused.
 
 ## Output Format
 

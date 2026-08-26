@@ -51,6 +51,23 @@ SYSTEM_PROMPT = dedent(
 ).strip()
 
 
+def _format_known_identifiers(known_identifiers: dict[str, str] | None) -> str:
+    if not known_identifiers:
+        return ""
+    lines = [
+        "Object/resource identifiers already used earlier in this same video -- "
+        "reuse the EXACT identifier string below whenever you refer to the same "
+        "real-world object or body part again. Do not invent a new identifier or "
+        'a reworded variant (e.g. "wooden_block" vs "wood_block" vs "block" are '
+        "three different strings for what must be ONE identifier) for something "
+        "already listed here; only create a new identifier for something that "
+        "has not appeared in this video before:"
+    ]
+    for identifier, name in known_identifiers.items():
+        lines.append(f"- {identifier}: {name}")
+    return "\n".join(lines) + "\n\n"
+
+
 def _format_history(history: list[dict[str, Any]] | None) -> str:
     if not history:
         return ""
@@ -87,7 +104,12 @@ def _format_history(history: list[dict[str, Any]] | None) -> str:
     return "\n".join(lines) + "\n\n"
 
 
-def frame_prompt(frame_id: str, timestamp_seconds: float, history: list[dict[str, Any]] | None = None) -> str:
+def frame_prompt(
+    frame_id: str,
+    timestamp_seconds: float,
+    history: list[dict[str, Any]] | None = None,
+    known_identifiers: dict[str, str] | None = None,
+) -> str:
     body = dedent(
         f"""
         Analyze this video frame.
@@ -115,5 +137,5 @@ def frame_prompt(frame_id: str, timestamp_seconds: float, history: list[dict[str
         }}
         """
     ).strip()
-    return _format_history(history) + body
+    return _format_known_identifiers(known_identifiers) + _format_history(history) + body
 

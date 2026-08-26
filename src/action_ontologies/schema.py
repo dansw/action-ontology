@@ -137,13 +137,23 @@ def _clean_optional_string(value: Any) -> str:
     return str(value).strip()
 
 
+def normalize_key(value: str | None) -> str:
+    """Fold away purely presentational differences (case, underscores vs
+    spaces, extra whitespace) so e.g. "right_fingers" and "right fingers"
+    compare equal -- these are never a meaningful semantic difference, only
+    inconsistent formatting between frames."""
+    if not value:
+        return ""
+    return " ".join(value.replace("_", " ").casefold().split())
+
+
 def _dedupe_strings(values: Any) -> list[str]:
     seen: set[str] = set()
     result: list[str] = []
     for value in values:
         if not value:
             continue
-        key = value.casefold()
+        key = normalize_key(value)
         if key in seen:
             continue
         seen.add(key)
@@ -152,10 +162,10 @@ def _dedupe_strings(values: Any) -> list[str]:
 
 
 def _dedupe_elements(values: Any) -> list[OntologyElement]:
-    seen: set[tuple[str, str | None]] = set()
+    seen: set[tuple[str, str]] = set()
     result: list[OntologyElement] = []
     for value in values:
-        key = (value.name.casefold(), value.identifier.casefold() if value.identifier else None)
+        key = (normalize_key(value.name), normalize_key(value.identifier))
         if key in seen:
             continue
         seen.add(key)
@@ -167,7 +177,7 @@ def _dedupe_actions(values: Any) -> list[ActionElement]:
     seen: set[tuple[str, str, str]] = set()
     result: list[ActionElement] = []
     for value in values:
-        key = (value.name.casefold(), value.actor.casefold(), value.target.casefold())
+        key = (normalize_key(value.name), normalize_key(value.actor), normalize_key(value.target))
         if key in seen:
             continue
         seen.add(key)

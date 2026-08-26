@@ -87,6 +87,113 @@ def test_prepare_project_context_frames_zero_disables_history(tmp_path: Path):
         assert "Recent frame history" not in record["messages"][1]["content"]
 
 
+def _write_annotation_with_drifted_identifiers(path: Path) -> None:
+    annotation = {
+        "video_id": "clip",
+        "video_path": "videos/clip.mp4",
+        "frames": [
+            {
+                "frame_id": "clip_000000",
+                "timestamp_seconds": 0.0,
+                "description": "person holds bedding",
+                "entities": [{"name": "duvet fabric", "identifier": "bedding"}],
+            },
+            {
+                "frame_id": "clip_000001",
+                "timestamp_seconds": 0.5,
+                "description": "person still holds bedding",
+                "entities": [{"name": "duvet fabric", "identifier": "fabric"}],
+            },
+            {
+                "frame_id": "clip_000002",
+                "timestamp_seconds": 1.0,
+                "description": "person sets bedding down",
+                "entities": [{"name": "duvet fabric", "identifier": "bedding"}],
+            },
+        ],
+    }
+    path.write_text(json.dumps(annotation), encoding="utf-8")
+
+
+def test_prepare_project_prunes_drifted_identifier_duplicates(tmp_path: Path):
+    project_dir = tmp_path / "project"
+    (project_dir / "videos").mkdir(parents=True)
+    (project_dir / "annotations").mkdir(parents=True)
+    _write_video(project_dir / "videos" / "clip.mp4")
+    _write_annotation_with_drifted_identifiers(project_dir / "annotations" / "clip.json")
+    output_jsonl = tmp_path / "train.jsonl"
+
+    prepare_project(project_dir, sample_fps=2.0, output_jsonl=output_jsonl)
+
+    records = _load_records(output_jsonl)
+    assistant_payloads = [json.loads(record["messages"][2]["content"]) for record in records]
+    identifiers = [entity["identifier"] for payload in assistant_payloads for entity in payload["entities"]]
+    # frame 1's raw annotation used "fabric" for the same-named entity already
+    # registered as "bedding" -- the training target must be rewritten to the
+    # existing identifier, not kept as a second one.
+    assert identifiers == ["bedding", "bedding", "bedding"]
+
+    last_prompt = records[2]["messages"][1]["content"]
+    assert "bedding: duvet fabric" in last_prompt
+    assert "fabric: duvet fabric" not in last_prompt
+
+
+def _write_annotation_with_fuzzy_drift_and_same_frame_duplicate(path: Path) -> None:
+    annotation = {
+        "video_id": "clip",
+        "video_path": "videos/clip.mp4",
+        "frames": [
+            {
+                "frame_id": "clip_000000",
+                "timestamp_seconds": 0.0,
+                "description": "person holds bedding",
+                "entities": [{"name": "duvet fabric", "identifier": "bedding"}],
+            },
+            {
+                "frame_id": "clip_000001",
+                "timestamp_seconds": 0.5,
+                # a brand-new identifier "duvet" for the same real object,
+                # matched via whole-word containment ("duvet" subset of the
+                # already-registered "duvet fabric"), not an exact match
+                "description": "person still holds it",
+                "entities": [{"name": "duvet", "identifier": "duvet"}],
+            },
+            {
+                "frame_id": "clip_000002",
+                "timestamp_seconds": 1.0,
+                # both names listed as separate entities in the SAME frame
+                "description": "person sets bedding down",
+                "entities": [
+                    {"name": "duvet fabric", "identifier": "bedding"},
+                    {"name": "duvet", "identifier": "duvet"},
+                ],
+            },
+        ],
+    }
+    path.write_text(json.dumps(annotation), encoding="utf-8")
+
+
+def test_prepare_project_prunes_fuzzy_and_same_frame_identifier_duplicates(tmp_path: Path):
+    project_dir = tmp_path / "project"
+    (project_dir / "videos").mkdir(parents=True)
+    (project_dir / "annotations").mkdir(parents=True)
+    _write_video(project_dir / "videos" / "clip.mp4")
+    _write_annotation_with_fuzzy_drift_and_same_frame_duplicate(project_dir / "annotations" / "clip.json")
+    output_jsonl = tmp_path / "train.jsonl"
+
+    prepare_project(project_dir, sample_fps=2.0, output_jsonl=output_jsonl)
+
+    records = _load_records(output_jsonl)
+    assistant_payloads = [json.loads(record["messages"][2]["content"]) for record in records]
+
+    # frame 1's "duvet" must be rewritten onto "bedding" (fuzzy, cross-frame)
+    assert assistant_payloads[1]["entities"] == [{"name": "duvet", "identifier": "bedding"}]
+
+    # frame 2's two entities collapse into one (same-frame duplicate)
+    assert len(assistant_payloads[2]["entities"]) == 1
+    assert assistant_payloads[2]["entities"][0]["identifier"] == "bedding"
+
+
 def test_prepare_project_context_frames_caps_window(tmp_path: Path):
     project_dir = _make_project(tmp_path)
     output_jsonl = tmp_path / "train.jsonl"
