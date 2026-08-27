@@ -54,12 +54,23 @@ python -m pip install torch torchvision --index-url https://download.pytorch.org
 python -m pip install -e ".[ml,dev]"
 ```
 
-AMD ROCm 6.1:
+AMD ROCm (use the wheel index matching the ROCm release installed on the host;
+the validated RX 6800 environment used PyTorch 2.10 with ROCm 7.1):
 
 ```bash
-python -m pip install torch torchvision --index-url https://download.pytorch.org/whl/rocm6.1
+python -m pip install torch torchvision --index-url https://download.pytorch.org/whl/rocm7.1
 python -m pip install -e ".[ml,dev]"
 ```
+
+Verify that PyTorch sees the AMD device before downloading or training a model:
+
+```bash
+python -c "import torch; print(torch.cuda.is_available(), torch.version.hip, torch.cuda.get_device_name(0))"
+```
+
+PyTorch deliberately exposes ROCm through the `torch.cuda` API, so CUDA-named
+allocator settings and internal device strings in logs are expected on AMD. Use
+`--device rocm` at the CLI; the project resolves it to that PyTorch backend.
 
 ## Reproduce V8 from the Original Videos
 
@@ -294,21 +305,22 @@ before it -- on longer videos this shows up as an in-progress or finished
 action getting re-described as "about to start", or a state that was already
 established (e.g. a completed task) flickering back to an earlier one.
 `--context-frames N` (default 4, use 0 to disable) includes the last N
-frames' descriptions and actions as history in the prompt, oldest to newest,
-so the model can judge progress state consistently:
+frames' action labels as compact history, oldest to newest, so the model can
+judge progress state consistently:
 
 ```bash
 action-ontologies infer --video ... --output ... --context-frames 4
 ```
 
-The history instructs the model to use it only for progress-state
-consistency, not to copy its wording -- without that explicit
-anti-copying instruction, models tend to lean on the provided text and
-collapse into repeating the same sentence for long static-looking stretches
-instead of describing each frame's actual visible detail. `prepare` accepts
-the same flag so training prompts are built the same way inference will see
-them, using the ground-truth annotation sequence as history (teacher
-forcing).
+Each history entry carries its original timestamp and its true age relative to
+the current sample. The prompt explicitly says that information-gain samples
+may be separated by substantial real time and are not adjacent video frames.
+Prior generated descriptions are deliberately excluded: feeding them back
+caused the 4B model to copy one stale sentence across changing frames. Stable
+object/resource identifiers remain available through the separate video-wide
+identifier registry. `prepare` accepts the same option and emits the same
+action-only history format from ground-truth annotations, keeping training and
+inference prompts aligned.
 
 ### Identifier drift
 
@@ -401,7 +413,8 @@ PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True python scripts/train_lora.py \
   --epochs 20 \
   --batch-size 1 \
   --gradient-accumulation-steps 8 \
-  --learning-rate 3e-4
+  --learning-rate 3e-4 \
+  --max-length 2560
 ```
 
 `PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True` avoids a CUDA
@@ -411,10 +424,45 @@ fragment the allocator's cache badly enough to fail an allocation well
 before the GPU is actually full (the OOM error's own message names this
 fragmentation and suggests this exact fix).
 
+The trainer masks padding and the entire system/user prompt from `labels`, so
+LoRA loss is computed only on the assistant ontology. This avoids spending
+most gradient capacity teaching the adapter to reproduce instructions. Before
+choosing `--max-length`, audit the fully rendered multimodal records rather
+than raw JSON character counts. In the 791-example held-out-egg dataset, full
+sequences ranged from 1,414 to 2,396 tokens; 2,560 preserved every assistant
+ontology, whereas 2,048 truncated 55 of 63 records in an earlier narrow run.
+The collator now fails loudly if truncation removes the complete assistant
+target.
+
+### ROCm notes (validated on one 16 GiB RX 6800)
+
+The 4B model and LoRA adapter fit on one 16 GiB AMD GPU when loaded directly
+onto the device with batch size 1, gradient accumulation, gradient
+checkpointing, capped vision tokens, and a 2,560-token sequence limit. An 8B
+model in FP16 does not leave safe activation headroom on this card. Quantized
+8B operation was not treated as the default because support and kernel
+stability depend strongly on the particular ROCm/PyTorch/quantization stack.
+
+ROCm training uses eager attention in this project. SDPA inference was stable
+and faster, but SDPA backward intermittently produced illegal-memory-access
+failures on `gfx1030`; eager backward completed reliably. Single-device model
+loading also uses `device_map={"": "cuda"}` (PyTorch's ROCm device name) and
+synchronizes before injecting the PEFT adapter. This avoids a multi-minute
+whole-model CPU-to-GPU migration and an adapter-initialization race observed
+on this system.
+
+A validated diversified run excluded every egg-catch frame, used 791 examples,
+one epoch, 99 optimizer steps, batch size 1 with 8-step accumulation, a 2e-4
+learning rate, and `--max-length 2560`. It completed in 1 hour 9 minutes 52
+seconds with assistant-only training loss 0.4082. Treat that number only as a
+run-integrity measurement: it is not directly comparable with older losses
+that supervised the entire prompt, and one epoch is not evidence of
+convergence.
+
 A handful of epochs is rarely enough to shift output conventions on a small
 dataset -- loss plateauing (watch `grad_norm` flatten toward zero) is the
-signal that it has actually converged, not just run out of epochs. All runs
-use 2x GTX 1080 Ti:
+signal that it has actually converged, not just run out of epochs. All
+historical runs in the table below used 2x GTX 1080 Ti:
 
 | adapter | examples | steps (20 epochs) | loss | wall time |
 | --- | --- | --- | --- | --- |

@@ -214,13 +214,17 @@ otherwise equivalent system trained only with general descriptions. The
 remaining performance ceiling will be determined primarily by perception,
 geometry, dynamics, planning, and closed-loop control.
 
-## Hardware limitations of the current experiments
+## Hardware comparison for the current experiments
 
-The results in this project are constrained by the available hardware: two
-NVIDIA GTX 1080 Ti GPUs based on the Pascal architecture, with approximately
-11 GiB of VRAM each. Pascal remains useful for correctness testing and older
-FP16 workloads, but it predates the hardware and software paths used by
-current vision-language models.
+The project has now been exercised on two materially different consumer-GPU
+setups: two NVIDIA GTX 1080 Ti GPUs based on Pascal (11 GiB each), and one AMD
+Radeon RX 6800 with 16 GiB using ROCm. Neither is modern datacenter hardware,
+but the comparison separates some hardware bottlenecks from data, objective,
+and temporal-conditioning problems.
+
+Pascal remains useful for correctness testing and older FP16 workloads, but
+it predates the hardware and software paths used by current vision-language
+models.
 
 Important limitations include:
 
@@ -269,6 +273,63 @@ the ceiling of the ontology approach. They are evidence that the pipeline
 works under constrained conditions, not a definitive test of how accurately
 a well-resourced model can learn contact-oriented representations.
 
+
+### Single 16 GiB AMD ROCm result versus dual 1080 Ti Pascal
+
+The following measurements are useful operationally but are **not a controlled
+speed or quality benchmark**. The Pascal V8 run trained 854 examples for 20
+epochs and supervised the complete rendered prompt. The AMD run deliberately
+held out all egg-catch frames, trained 791 examples for one epoch, and used the
+corrected assistant-only loss. Their loss scales and convergence states are
+therefore different.
+
+| setup | model and precision | training run | measured wall time | reported training loss |
+| --- | --- | --- | --- | --- |
+| 2x GTX 1080 Ti, 11 GiB each, CUDA/Pascal | Qwen3-VL-4B, FP16 LoRA | 854 examples, 20 epochs, 2,140 steps | about 57 hours | about 6.8 to 2.08, whole-sequence labels |
+| 1x RX 6800, 16 GiB, ROCm 7.1 | Qwen3-VL-4B, FP16 LoRA | 791 non-egg examples, 1 epoch, 99 steps | 1 hour 9 minutes 52 seconds | 0.4082, assistant-only labels |
+
+A rough per-epoch comparison is about 2.85 hours on dual Pascal versus about
+1.17 hours on the single AMD card, despite the AMD run having only 7% fewer
+examples. That suggests roughly 2.4x higher iteration throughput for this
+particular 4B workflow. It should not be extrapolated to a 20-epoch AMD run
+without measuring one: sequence lengths, label masking, software versions,
+attention implementations, and inter-GPU overhead all differ. The defensible
+conclusion is simply that one 16 GiB RX 6800 made diversified 4B experiments
+substantially more practical than the dual-Pascal setup.
+
+The AMD run also exposed several findings that a training-loss comparison
+alone would have missed:
+
+- ROCm SDPA inference was stable, but SDPA backward intermittently failed on
+  `gfx1030`; eager attention was required for reliable LoRA training.
+- Direct single-GPU loading plus a device synchronization before PEFT adapter
+  injection avoided both a very slow post-load migration and initialization
+  instability.
+- Sequence-length auditing mattered more than simply adding epochs: a 2,048
+  token limit truncated most examples in the narrow egg run, while 2,560
+  preserved all examples in the diversified run.
+- Assistant-only loss is a methodological correction. Older whole-sequence
+  loss values spend most labels on reproducing the prompt and must not be used
+  to rank adapter quality against the AMD run.
+- An egg-only adapter memorized future task semantics and hallucinated an egg
+  before it appeared. Training on diversified videos while holding out the egg
+  clip prevented that immediate future leakage, showing that data diversity
+  and held-out evaluation matter more than hardware alone.
+- Full prior descriptions in temporal context caused answer-copying: the first
+  coffee-table test produced only 2 unique descriptions over 32 changing
+  samples, with no actions or resources. Replacing prior prose with timestamped
+  action-only history produced 32 unique descriptions, 39 action instances,
+  and 44 resource instances, with the terminal frame correctly returning to no
+  visible table and no action. This was an inference-conditioning failure, not
+  a need for more epochs or a larger GPU.
+
+These findings refine but do not reverse the earlier conclusion. Better
+hardware increases iteration speed and makes held-out experiments feasible;
+it does not by itself solve future-label memorization, target truncation,
+temporal answer-copying, or ontology correctness. The evidence for
+contact-oriented supervision remains promising, while the central controlled
+comparison against a caption-only baseline is still unperformed.
+
 ### Qwen3.8-27B trial
 
 Qwen3.8-27B-FP8 could not run natively in FP8 because Pascal has compute
@@ -311,9 +372,9 @@ The central experimental question is therefore still open at scale: how much
 does explicit entity-resource-contact-event supervision improve perception,
 world modeling, embodiment transfer, and downstream robot execution when both
 the ontology-enhanced system and its baseline are trained properly on modern
-hardware? The current Pascal experiments support the feasibility of the
-representation, but better hardware is required for a fair test of its full
-performance.
+hardware? The current Pascal and ROCm experiments support the feasibility of the
+representation, but better hardware and, more importantly, a controlled
+caption-only baseline are required for a fair test of its full performance.
 
 ## Practical lessons from the video experiments
 
