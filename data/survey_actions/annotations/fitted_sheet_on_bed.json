@@ -1,0 +1,1603 @@
+{
+  "video_id": "fitted_sheet_on_bed",
+  "video_path": "videos/fitted_sheet_on_bed.mov",
+  "frames": [
+    {
+      "frame_id": "fitted_sheet_on_bed_000000",
+      "frame_index": 0,
+      "timestamp_seconds": 0.0,
+      "description": "A person in a silver suit stands upright at the head of a bed, arms hanging loosely at their sides; a gray pinstriped fitted sheet sits in a loose, bunched pile on top of the bare quilted mattress protector, untouched.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "fitted sheet",
+          "description": "bunched in a loose pile near the headboard, not yet unfolded",
+          "identifier": "sheet"
+        },
+        {
+          "name": "mattress protector",
+          "description": "quilted white protector covering the mattress, fully exposed",
+          "identifier": "mattress_protector"
+        }
+      ],
+      "actions": [],
+      "ontological_phrases": [
+        "person stands idle beside bed"
+      ]
+    },
+    {
+      "frame_id": "fitted_sheet_on_bed_000111",
+      "frame_index": 111,
+      "timestamp_seconds": 1.85066,
+      "description": "The person remains near the head of the bed, now bent forward at the waist; their right hand reaches down and closes around a section of the bunched gray pinstriped sheet, disturbing it from its resting pile, while the left arm stays close to the body, not engaged.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "closing around a section of the bunched sheet, the first contact after standing idle",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "fitted sheet",
+          "description": "still bunched in a pile near the headboard, just beginning to be disturbed by the reaching hand",
+          "identifier": "sheet"
+        },
+        {
+          "name": "mattress protector",
+          "description": "quilted white protector, still largely exposed around the pile",
+          "identifier": "mattress_protector"
+        }
+      ],
+      "actions": [
+        {
+          "name": "grasp sheet",
+          "actor": "right_fingers",
+          "target": "sheet",
+          "description": "right fingers close around a section of the bunched pile"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers grasp bunched sheet",
+        "left arm idle near body"
+      ]
+    },
+    {
+      "frame_id": "fitted_sheet_on_bed_000191",
+      "frame_index": 191,
+      "timestamp_seconds": 3.184469021286717,
+      "description": "The person is now bent forward at the head of the bed, both hands gripping the bunched gray pinstriped sheet and lifting it up off the mattress to begin unfolding it.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping a section of the bunched sheet and lifting it",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "gripping another section of the bunched sheet and lifting it",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "fitted sheet",
+          "description": "still bunched, being lifted and shaken out",
+          "identifier": "sheet"
+        },
+        {
+          "name": "mattress protector",
+          "description": "mostly still exposed beneath the lifted sheet",
+          "identifier": "mattress_protector"
+        }
+      ],
+      "actions": [
+        {
+          "name": "lift sheet",
+          "actor": "left_fingers",
+          "target": "sheet",
+          "description": "left fingers grip and lift a section of the bunched sheet"
+        },
+        {
+          "name": "lift sheet",
+          "actor": "right_fingers",
+          "target": "sheet",
+          "description": "right fingers grip and lift another section of the bunched sheet"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers grip sheet",
+        "right fingers grip sheet"
+      ]
+    },
+    {
+      "frame_id": "fitted_sheet_on_bed_000275",
+      "frame_index": 275,
+      "timestamp_seconds": 4.584968,
+      "description": "The person is bent forward at the head of the bed, both hands now gripping the gray pinstriped sheet; a striped section of fabric hangs loosely down over the front edge of the mattress as they work the bunched sheet open.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping a section of the sheet fabric",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "gripping another section of the sheet fabric",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "fitted sheet",
+          "description": "still largely bunched, with one section now hanging loosely over the mattress front edge as it is worked open",
+          "identifier": "sheet"
+        },
+        {
+          "name": "mattress protector",
+          "description": "partly exposed around the edges of the bunched sheet",
+          "identifier": "mattress_protector"
+        }
+      ],
+      "actions": [
+        {
+          "name": "work sheet open",
+          "actor": "left_fingers",
+          "target": "sheet",
+          "description": "left fingers grip and work open a section of the bunched fabric"
+        },
+        {
+          "name": "work sheet open",
+          "actor": "right_fingers",
+          "target": "sheet",
+          "description": "right fingers grip and work open another section of the bunched fabric"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers grip sheet",
+        "right fingers grip sheet",
+        "sheet fabric hangs over mattress edge"
+      ]
+    },
+    {
+      "frame_id": "fitted_sheet_on_bed_000355",
+      "frame_index": 355,
+      "timestamp_seconds": 5.918778,
+      "description": "The person leans further down over the bunched sheet at the head of the bed, both hands still gripping the fabric low near the mattress surface, continuing to work the pile open.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping the sheet fabric low near the mattress",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "gripping the sheet fabric low near the mattress",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "fitted sheet",
+          "description": "still bunched, being worked open close to the mattress surface",
+          "identifier": "sheet"
+        },
+        {
+          "name": "mattress protector",
+          "description": "partly exposed around the bunched sheet",
+          "identifier": "mattress_protector"
+        }
+      ],
+      "actions": [
+        {
+          "name": "work sheet open",
+          "actor": "left_fingers",
+          "target": "sheet",
+          "description": "left fingers continue working the bunched fabric"
+        },
+        {
+          "name": "work sheet open",
+          "actor": "right_fingers",
+          "target": "sheet",
+          "description": "right fingers continue working the bunched fabric"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers grip sheet",
+        "right fingers grip sheet"
+      ]
+    },
+    {
+      "frame_id": "fitted_sheet_on_bed_000439",
+      "frame_index": 439,
+      "timestamp_seconds": 7.319277,
+      "description": "The person's arm shows motion blur as they vigorously shake the gray pinstriped sheet over the mattress; both hands remain gripping the fabric, which stays gathered in a loose pile.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping the sheet fabric while shaking it",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "gripping the sheet fabric while shaking it",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "fitted sheet",
+          "description": "still gathered in a loose pile, being shaken vigorously",
+          "identifier": "sheet"
+        },
+        {
+          "name": "mattress protector",
+          "description": "partly exposed around the pile",
+          "identifier": "mattress_protector"
+        }
+      ],
+      "actions": [
+        {
+          "name": "shake sheet",
+          "actor": "left_fingers",
+          "target": "sheet",
+          "description": "left fingers grip and shake the fabric"
+        },
+        {
+          "name": "shake sheet",
+          "actor": "right_fingers",
+          "target": "sheet",
+          "description": "right fingers grip and shake the fabric"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers shake sheet",
+        "right fingers shake sheet"
+      ]
+    },
+    {
+      "frame_id": "fitted_sheet_on_bed_000525",
+      "frame_index": 525,
+      "timestamp_seconds": 8.753122,
+      "description": "Motion blur on the arms shows the shaking motion continuing; the person keeps both hands on the gray pinstriped sheet, which remains gathered in a pile on the mattress.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping the sheet fabric mid-shake",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "gripping the sheet fabric mid-shake",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "fitted sheet",
+          "description": "still gathered in a pile, continuing to be shaken",
+          "identifier": "sheet"
+        },
+        {
+          "name": "mattress protector",
+          "description": "partly exposed around the pile",
+          "identifier": "mattress_protector"
+        }
+      ],
+      "actions": [
+        {
+          "name": "shake sheet",
+          "actor": "left_fingers",
+          "target": "sheet",
+          "description": "left fingers continue shaking the fabric"
+        },
+        {
+          "name": "shake sheet",
+          "actor": "right_fingers",
+          "target": "sheet",
+          "description": "right fingers continue shaking the fabric"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers shake sheet",
+        "right fingers shake sheet"
+      ]
+    },
+    {
+      "frame_id": "fitted_sheet_on_bed_000609",
+      "frame_index": 609,
+      "timestamp_seconds": 10.153621,
+      "description": "Largely unchanged from the moment before: the person continues shaking the gray pinstriped sheet with both hands gripping the fabric, which remains gathered in a pile on the mattress.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping the sheet fabric mid-shake",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "gripping the sheet fabric mid-shake",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "fitted sheet",
+          "description": "still gathered in a pile, continuing to be shaken",
+          "identifier": "sheet"
+        },
+        {
+          "name": "mattress protector",
+          "description": "partly exposed around the pile",
+          "identifier": "mattress_protector"
+        }
+      ],
+      "actions": [
+        {
+          "name": "shake sheet",
+          "actor": "left_fingers",
+          "target": "sheet",
+          "description": "left fingers continue shaking the fabric"
+        },
+        {
+          "name": "shake sheet",
+          "actor": "right_fingers",
+          "target": "sheet",
+          "description": "right fingers continue shaking the fabric"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers shake sheet",
+        "right fingers shake sheet"
+      ]
+    },
+    {
+      "frame_id": "fitted_sheet_on_bed_000691",
+      "frame_index": 691,
+      "timestamp_seconds": 11.520775,
+      "description": "The shaking motion continues, largely unchanged from the moments before; both hands still grip the gray pinstriped sheet, which remains gathered in a pile.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping the sheet fabric mid-shake",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "gripping the sheet fabric mid-shake",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "fitted sheet",
+          "description": "still gathered in a pile, continuing to be shaken",
+          "identifier": "sheet"
+        },
+        {
+          "name": "mattress protector",
+          "description": "partly exposed around the pile",
+          "identifier": "mattress_protector"
+        }
+      ],
+      "actions": [
+        {
+          "name": "shake sheet",
+          "actor": "left_fingers",
+          "target": "sheet",
+          "description": "left fingers continue shaking the fabric"
+        },
+        {
+          "name": "shake sheet",
+          "actor": "right_fingers",
+          "target": "sheet",
+          "description": "right fingers continue shaking the fabric"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers shake sheet",
+        "right fingers shake sheet"
+      ]
+    },
+    {
+      "frame_id": "fitted_sheet_on_bed_000779",
+      "frame_index": 779,
+      "timestamp_seconds": 12.987965,
+      "description": "The motion blur has settled; the person's hands rest gripping the gathered sheet over the mattress, pausing briefly from the shaking before continuing to work the fabric.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "holding the gathered fabric",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "holding the gathered fabric",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "fitted sheet",
+          "description": "gathered in a pile, held after the shaking pauses",
+          "identifier": "sheet"
+        },
+        {
+          "name": "mattress protector",
+          "description": "partly exposed around the pile",
+          "identifier": "mattress_protector"
+        }
+      ],
+      "actions": [
+        {
+          "name": "grip sheet",
+          "actor": "left_fingers",
+          "target": "sheet",
+          "description": "left fingers hold the gathered fabric"
+        },
+        {
+          "name": "grip sheet",
+          "actor": "right_fingers",
+          "target": "sheet",
+          "description": "right fingers hold the gathered fabric"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers grip sheet",
+        "right fingers grip sheet"
+      ]
+    },
+    {
+      "frame_id": "fitted_sheet_on_bed_000867",
+      "frame_index": 867,
+      "timestamp_seconds": 14.455155190866929,
+      "description": "The person remains bent over at the head of the bed, both hands still gripping and working the gray pinstriped sheet, shaking and repositioning the bunched fabric across the mattress protector.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping and shaking a section of the sheet fabric",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "gripping and shaking another section of the sheet fabric",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "fitted sheet",
+          "description": "still loosely bunched, being spread out over the mattress",
+          "identifier": "sheet"
+        },
+        {
+          "name": "mattress protector",
+          "description": "partly covered as the sheet is spread",
+          "identifier": "mattress_protector"
+        }
+      ],
+      "actions": [
+        {
+          "name": "reposition sheet",
+          "actor": "left_fingers",
+          "target": "sheet",
+          "description": "left fingers shake and reposition the bunched fabric"
+        },
+        {
+          "name": "reposition sheet",
+          "actor": "right_fingers",
+          "target": "sheet",
+          "description": "right fingers shake and reposition the bunched fabric"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers reposition sheet",
+        "right fingers reposition sheet"
+      ]
+    },
+    {
+      "frame_id": "fitted_sheet_on_bed_000965",
+      "frame_index": 965,
+      "timestamp_seconds": 16.089071,
+      "description": "The person continues bent over the sheet at the head of the bed, both hands gripping and repositioning the gray pinstriped fabric, which remains loosely gathered across the mattress protector.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping and repositioning a section of the sheet fabric",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "gripping and repositioning another section of the sheet fabric",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "fitted sheet",
+          "description": "still loosely gathered, being repositioned over the mattress",
+          "identifier": "sheet"
+        },
+        {
+          "name": "mattress protector",
+          "description": "partly covered as the sheet is repositioned",
+          "identifier": "mattress_protector"
+        }
+      ],
+      "actions": [
+        {
+          "name": "reposition sheet",
+          "actor": "left_fingers",
+          "target": "sheet",
+          "description": "left fingers reposition the gathered fabric"
+        },
+        {
+          "name": "reposition sheet",
+          "actor": "right_fingers",
+          "target": "sheet",
+          "description": "right fingers reposition the gathered fabric"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers reposition sheet",
+        "right fingers reposition sheet"
+      ]
+    },
+    {
+      "frame_id": "fitted_sheet_on_bed_001051",
+      "frame_index": 1051,
+      "timestamp_seconds": 17.522916,
+      "description": "The person pulls a large fold of the gray pinstriped sheet outward with both hands, spreading it further to one side across the mattress protector.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "pulling a fold of fabric outward across the mattress",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "pulling another fold of fabric outward across the mattress",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "fitted sheet",
+          "description": "a large fold now spread toward one side of the mattress, less centrally bunched than before",
+          "identifier": "sheet"
+        },
+        {
+          "name": "mattress protector",
+          "description": "exposed on the side not yet covered by the spreading sheet",
+          "identifier": "mattress_protector"
+        }
+      ],
+      "actions": [
+        {
+          "name": "spread sheet",
+          "actor": "left_fingers",
+          "target": "sheet",
+          "description": "left fingers pull a fold of fabric outward across the mattress"
+        },
+        {
+          "name": "spread sheet",
+          "actor": "right_fingers",
+          "target": "sheet",
+          "description": "right fingers pull a fold of fabric outward across the mattress"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers spread sheet",
+        "right fingers spread sheet"
+      ]
+    },
+    {
+      "frame_id": "fitted_sheet_on_bed_001135",
+      "frame_index": 1135,
+      "timestamp_seconds": 18.923415,
+      "description": "More of the gray pinstriped sheet now extends across the mattress top, spread by both hands, though a gathered mass of fabric remains near where the person stands.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "continuing to spread the sheet fabric across the mattress",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "continuing to spread the sheet fabric across the mattress",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "fitted sheet",
+          "description": "broader coverage of the mattress now, though a gathered mass of fabric remains",
+          "identifier": "sheet"
+        },
+        {
+          "name": "mattress protector",
+          "description": "barely exposed at the edges not yet covered",
+          "identifier": "mattress_protector"
+        }
+      ],
+      "actions": [
+        {
+          "name": "spread sheet",
+          "actor": "left_fingers",
+          "target": "sheet",
+          "description": "left fingers continue spreading the fabric"
+        },
+        {
+          "name": "spread sheet",
+          "actor": "right_fingers",
+          "target": "sheet",
+          "description": "right fingers continue spreading the fabric"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers spread sheet",
+        "right fingers spread sheet",
+        "sheet covers more of the mattress"
+      ]
+    },
+    {
+      "frame_id": "fitted_sheet_on_bed_001217",
+      "frame_index": 1217,
+      "timestamp_seconds": 20.29056962777976,
+      "description": "Seen from behind, the person is bent forward near the head of the bed, both hands gripping the sheet and pulling more fabric across the mattress; the near corner of the sheet now drapes down over the mattress edge toward the floor, not yet tucked underneath.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping the sheet fabric and pulling it across the mattress",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "gripping the sheet fabric and pulling it across the mattress",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "fitted sheet",
+          "description": "one corner now drapes over the mattress edge toward the floor -- a visible state change from fully bunched to draped over a corner",
+          "identifier": "sheet"
+        },
+        {
+          "name": "mattress protector",
+          "description": "partially covered by the sheet",
+          "identifier": "mattress_protector"
+        }
+      ],
+      "actions": [
+        {
+          "name": "pull sheet across mattress",
+          "actor": "left_fingers",
+          "target": "sheet",
+          "description": "left fingers pull fabric further across the mattress top"
+        },
+        {
+          "name": "pull sheet across mattress",
+          "actor": "right_fingers",
+          "target": "sheet",
+          "description": "right fingers pull fabric further across the mattress top"
+        }
+      ],
+      "ontological_phrases": [
+        "sheet corner drapes over mattress edge",
+        "left fingers pull sheet",
+        "right fingers pull sheet"
+      ]
+    },
+    {
+      "frame_id": "fitted_sheet_on_bed_001299",
+      "frame_index": 1299,
+      "timestamp_seconds": 21.657724,
+      "description": "The person has moved down to a corner of the mattress, bending low with both hands reaching to the fabric that rests at the mattress edge, beginning to work it toward the underside.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping the sheet fabric at the mattress corner",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "gripping the sheet fabric at the mattress corner",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "fitted sheet",
+          "description": "corner fabric now at the mattress edge, being handled at the corner",
+          "identifier": "sheet"
+        },
+        {
+          "name": "mattress protector",
+          "description": "partly exposed elsewhere on the mattress",
+          "identifier": "mattress_protector"
+        }
+      ],
+      "actions": [
+        {
+          "name": "handle sheet corner",
+          "actor": "left_fingers",
+          "target": "sheet",
+          "description": "left fingers grip the fabric at the mattress corner"
+        },
+        {
+          "name": "handle sheet corner",
+          "actor": "right_fingers",
+          "target": "sheet",
+          "description": "right fingers grip the fabric at the mattress corner"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers grip sheet corner",
+        "right fingers grip sheet corner"
+      ]
+    },
+    {
+      "frame_id": "fitted_sheet_on_bed_001387",
+      "frame_index": 1387,
+      "timestamp_seconds": 23.124913782851706,
+      "description": "The person is bent down low near a corner of the mattress, back to camera, both hands reaching down to grip the sheet's corner and pull it under the mattress; the striped fitted sheet now covers most of the mattress top.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping the sheet's corner fabric down near the mattress edge",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "gripping the sheet's corner fabric down near the mattress edge",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "fitted sheet",
+          "description": "corner being pulled under the mattress -- transitioning from draped-over to tucked-under",
+          "identifier": "sheet"
+        }
+      ],
+      "actions": [
+        {
+          "name": "tuck corner under mattress",
+          "actor": "left_fingers",
+          "target": "sheet",
+          "description": "left fingers pull the corner fabric down and under the mattress"
+        },
+        {
+          "name": "tuck corner under mattress",
+          "actor": "right_fingers",
+          "target": "sheet",
+          "description": "right fingers pull the corner fabric down and under the mattress"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers tuck sheet corner",
+        "right fingers tuck sheet corner"
+      ]
+    },
+    {
+      "frame_id": "fitted_sheet_on_bed_001461",
+      "frame_index": 1461,
+      "timestamp_seconds": 24.358687,
+      "description": "The person remains hunched deeply over the mattress corner, both hands working the sheet fabric snug against the corner as the tuck continues.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "pulling the fabric snug against the mattress corner",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "pulling the fabric snug against the mattress corner",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "fitted sheet",
+          "description": "corner fabric being pulled snug under the mattress, tuck still in progress",
+          "identifier": "sheet"
+        }
+      ],
+      "actions": [
+        {
+          "name": "tuck corner under mattress",
+          "actor": "left_fingers",
+          "target": "sheet",
+          "description": "left fingers continue pulling the fabric snug under the corner"
+        },
+        {
+          "name": "tuck corner under mattress",
+          "actor": "right_fingers",
+          "target": "sheet",
+          "description": "right fingers continue pulling the fabric snug under the corner"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers tuck sheet corner",
+        "right fingers tuck sheet corner"
+      ]
+    },
+    {
+      "frame_id": "fitted_sheet_on_bed_001519",
+      "frame_index": 1519,
+      "timestamp_seconds": 25.325699,
+      "description": "Largely unchanged from the moment before: the person stays hunched over the same mattress corner, both hands continuing to pull the sheet fabric snug underneath.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "pulling the fabric snug against the mattress corner",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "pulling the fabric snug against the mattress corner",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "fitted sheet",
+          "description": "corner fabric being pulled snug under the mattress, tuck still in progress",
+          "identifier": "sheet"
+        }
+      ],
+      "actions": [
+        {
+          "name": "tuck corner under mattress",
+          "actor": "left_fingers",
+          "target": "sheet",
+          "description": "left fingers continue pulling the fabric snug under the corner"
+        },
+        {
+          "name": "tuck corner under mattress",
+          "actor": "right_fingers",
+          "target": "sheet",
+          "description": "right fingers continue pulling the fabric snug under the corner"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers tuck sheet corner",
+        "right fingers tuck sheet corner"
+      ]
+    },
+    {
+      "frame_id": "fitted_sheet_on_bed_001565",
+      "frame_index": 1565,
+      "timestamp_seconds": 26.092639,
+      "description": "The person remains bent over the corner, both hands still working the fabric snug against the mattress edge, just before the tuck is finished.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "pulling the fabric snug against the mattress corner",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "pulling the fabric snug against the mattress corner",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "fitted sheet",
+          "description": "corner fabric nearly snug under the mattress, tuck almost finished",
+          "identifier": "sheet"
+        }
+      ],
+      "actions": [
+        {
+          "name": "tuck corner under mattress",
+          "actor": "left_fingers",
+          "target": "sheet",
+          "description": "left fingers continue pulling the fabric snug under the corner"
+        },
+        {
+          "name": "tuck corner under mattress",
+          "actor": "right_fingers",
+          "target": "sheet",
+          "description": "right fingers continue pulling the fabric snug under the corner"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers tuck sheet corner",
+        "right fingers tuck sheet corner"
+      ]
+    },
+    {
+      "frame_id": "fitted_sheet_on_bed_001599",
+      "frame_index": 1599,
+      "timestamp_seconds": 26.659507670353193,
+      "description": "The person remains hunched deeply over the same corner, both hands gripping the sheet fabric tight against the mattress corner, finishing tucking it underneath; this corner of the fitted sheet is now snug against the mattress.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping and pulling the fabric snug around the mattress corner",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "gripping and pulling the fabric snug around the mattress corner",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "fitted sheet",
+          "description": "corner now fitted snugly around the mattress -- state change complete for this corner",
+          "identifier": "sheet"
+        }
+      ],
+      "actions": [
+        {
+          "name": "tuck corner under mattress",
+          "actor": "left_fingers",
+          "target": "sheet",
+          "description": "left fingers finish pulling the fabric snug under the corner"
+        },
+        {
+          "name": "tuck corner under mattress",
+          "actor": "right_fingers",
+          "target": "sheet",
+          "description": "right fingers finish pulling the fabric snug under the corner"
+        }
+      ],
+      "ontological_phrases": [
+        "sheet corner now fitted snugly",
+        "left fingers finish tuck",
+        "right fingers finish tuck"
+      ]
+    },
+    {
+      "frame_id": "fitted_sheet_on_bed_001639",
+      "frame_index": 1639,
+      "timestamp_seconds": 27.326412,
+      "description": "The person has straightened up somewhat from the corner they just tucked; their left hand holds a fold of the gray pinstriped sheet that hangs down over the mattress edge, checking or adjusting it.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "holding a fold of sheet fabric hanging over the mattress edge",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "fitted sheet",
+          "description": "the corner just tucked is now snug; a nearby fold is being checked by hand",
+          "identifier": "sheet"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold sheet fold",
+          "actor": "left_fingers",
+          "target": "sheet",
+          "description": "left fingers hold a fold of fabric hanging over the mattress edge"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers hold sheet fold",
+        "right arm idle"
+      ]
+    },
+    {
+      "frame_id": "fitted_sheet_on_bed_001669",
+      "frame_index": 1669,
+      "timestamp_seconds": 27.826591,
+      "description": "The person stands beside the bed, turned more toward the camera; their left hand holds a fold of the sheet fabric on top of the mattress, adjusting its position, while the right arm hangs idle.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "holding and adjusting a fold of sheet fabric on top of the mattress",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "fitted sheet",
+          "description": "fold on the mattress top being adjusted by hand",
+          "identifier": "sheet"
+        }
+      ],
+      "actions": [
+        {
+          "name": "adjust sheet",
+          "actor": "left_fingers",
+          "target": "sheet",
+          "description": "left fingers adjust a fold of fabric on top of the mattress"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers adjust sheet fold",
+        "right arm idle"
+      ]
+    },
+    {
+      "frame_id": "fitted_sheet_on_bed_001715",
+      "frame_index": 1715,
+      "timestamp_seconds": 28.593530740872875,
+      "description": "The person has stood back up near the head of the bed on the nightstand side; their left hand grips the sheet fabric and pulls it down over the mattress's top corner, while their right hand is bent up near their own chest, not touching the sheet -- idle and disengaged from the task for the moment.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping the sheet fabric, pulling it down over the mattress corner near the headboard",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "fitted sheet",
+          "description": "this corner, near the headboard/nightstand, still drapes loosely over the mattress edge, not yet tucked",
+          "identifier": "sheet"
+        }
+      ],
+      "actions": [
+        {
+          "name": "pull sheet over corner",
+          "actor": "left_fingers",
+          "target": "sheet",
+          "description": "left fingers pull the sheet fabric down over the mattress's top corner"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers pull sheet corner",
+        "right hand idle near chest"
+      ]
+    },
+    {
+      "frame_id": "fitted_sheet_on_bed_001763",
+      "frame_index": 1763,
+      "timestamp_seconds": 29.393816,
+      "description": "The person is bent forward at the corner near the headboard/nightstand; their left hand grips the sheet fabric at this corner and pulls it down over the mattress edge, while their right arm rests bent near their torso, idle.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping the sheet fabric at the corner near the headboard/nightstand, pulling it down over the mattress edge",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "fitted sheet",
+          "description": "this corner, near the headboard/nightstand, still drapes loosely over the mattress edge",
+          "identifier": "sheet"
+        }
+      ],
+      "actions": [
+        {
+          "name": "pull sheet over corner",
+          "actor": "left_fingers",
+          "target": "sheet",
+          "description": "left fingers continue pulling the sheet fabric down over the mattress corner"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers pull sheet corner",
+        "right arm idle near torso"
+      ]
+    },
+    {
+      "frame_id": "fitted_sheet_on_bed_001815",
+      "frame_index": 1815,
+      "timestamp_seconds": 30.260792008562255,
+      "description": "The person is now bent deeply forward over the same corner near the headboard; their right hand has joined their left hand, and both hands grip the sheet fabric together, pulling it taut over the mattress corner -- the right hand is no longer idle.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping the sheet fabric at the corner",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "now gripping the sheet fabric at the corner, having joined the left hand",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "fitted sheet",
+          "description": "this corner is being pulled taut, transitioning from draped to fitted",
+          "identifier": "sheet"
+        }
+      ],
+      "actions": [
+        {
+          "name": "pull sheet taut over corner",
+          "actor": "left_fingers",
+          "target": "sheet",
+          "description": "left fingers continue pulling the corner fabric taut"
+        },
+        {
+          "name": "pull sheet taut over corner",
+          "actor": "right_fingers",
+          "target": "sheet",
+          "description": "right fingers join in, now also pulling the corner fabric taut"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers pull sheet taut",
+        "right fingers join pulling sheet taut"
+      ]
+    },
+    {
+      "frame_id": "fitted_sheet_on_bed_001869",
+      "frame_index": 1869,
+      "timestamp_seconds": 31.161113,
+      "description": "The person remains deeply bent over the corner near the headboard/nightstand; both hands now grip the sheet fabric together, continuing to pull it taut over the mattress corner.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping the sheet fabric at the corner",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "gripping the sheet fabric at the corner",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "fitted sheet",
+          "description": "this corner, near the headboard/nightstand, being pulled taut by both hands",
+          "identifier": "sheet"
+        }
+      ],
+      "actions": [
+        {
+          "name": "pull sheet taut over corner",
+          "actor": "left_fingers",
+          "target": "sheet",
+          "description": "left fingers pull the corner fabric taut"
+        },
+        {
+          "name": "pull sheet taut over corner",
+          "actor": "right_fingers",
+          "target": "sheet",
+          "description": "right fingers pull the corner fabric taut"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers pull sheet taut",
+        "right fingers pull sheet taut"
+      ]
+    },
+    {
+      "frame_id": "fitted_sheet_on_bed_001945",
+      "frame_index": 1945,
+      "timestamp_seconds": 32.428232,
+      "description": "Largely unchanged from the moment before: the person stays hunched over the same corner near the headboard/nightstand, both hands continuing to pull the sheet fabric taut.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping the sheet fabric at the corner",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "gripping the sheet fabric at the corner",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "fitted sheet",
+          "description": "this corner, near the headboard/nightstand, being pulled taut by both hands",
+          "identifier": "sheet"
+        }
+      ],
+      "actions": [
+        {
+          "name": "pull sheet taut over corner",
+          "actor": "left_fingers",
+          "target": "sheet",
+          "description": "left fingers pull the corner fabric taut"
+        },
+        {
+          "name": "pull sheet taut over corner",
+          "actor": "right_fingers",
+          "target": "sheet",
+          "description": "right fingers pull the corner fabric taut"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers pull sheet taut",
+        "right fingers pull sheet taut"
+      ]
+    },
+    {
+      "frame_id": "fitted_sheet_on_bed_001979",
+      "frame_index": 1979,
+      "timestamp_seconds": 32.9951,
+      "description": "The person remains bent over the corner, both hands still gripping and pulling the sheet fabric taut against the mattress edge.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping the sheet fabric at the corner",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "gripping the sheet fabric at the corner",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "fitted sheet",
+          "description": "this corner, near the headboard/nightstand, being pulled taut by both hands",
+          "identifier": "sheet"
+        }
+      ],
+      "actions": [
+        {
+          "name": "pull sheet taut over corner",
+          "actor": "left_fingers",
+          "target": "sheet",
+          "description": "left fingers pull the corner fabric taut"
+        },
+        {
+          "name": "pull sheet taut over corner",
+          "actor": "right_fingers",
+          "target": "sheet",
+          "description": "right fingers pull the corner fabric taut"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers pull sheet taut",
+        "right fingers pull sheet taut"
+      ]
+    },
+    {
+      "frame_id": "fitted_sheet_on_bed_002005",
+      "frame_index": 2005,
+      "timestamp_seconds": 33.428588,
+      "description": "The person has straightened up somewhat; their left hand, gloved in silver, holds a fold of the sheet fabric at the corner near the headboard/nightstand, while the right arm hangs at their side, idle.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "holding a fold of sheet fabric at the corner near the headboard/nightstand",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "fitted sheet",
+          "description": "this corner near the headboard/nightstand now mostly taut, held in place by the left hand",
+          "identifier": "sheet"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold sheet corner",
+          "actor": "left_fingers",
+          "target": "sheet",
+          "description": "left fingers hold the fabric fold at the corner"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers hold sheet corner",
+        "right arm idle at side"
+      ]
+    },
+    {
+      "frame_id": "fitted_sheet_on_bed_002023",
+      "frame_index": 2023,
+      "timestamp_seconds": 33.728695,
+      "description": "The person stands upright beside the corner near the headboard/nightstand; their left hand reaches forward, touching the fold of sheet fabric at the top of the mattress corner, while the right arm hangs at their side, idle.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "touching the fold of sheet fabric at the mattress corner",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "fitted sheet",
+          "description": "corner fold near the headboard/nightstand being touched and adjusted",
+          "identifier": "sheet"
+        }
+      ],
+      "actions": [
+        {
+          "name": "adjust sheet corner",
+          "actor": "left_fingers",
+          "target": "sheet",
+          "description": "left fingers touch and adjust the fold at the mattress corner"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers adjust sheet corner",
+        "right arm idle at side"
+      ]
+    },
+    {
+      "frame_id": "fitted_sheet_on_bed_002049",
+      "frame_index": 2049,
+      "timestamp_seconds": 34.162183,
+      "description": "The person bends again at the corner near the headboard/nightstand; their right hand now grips the sheet fold at the mattress edge, while the left arm is not visibly engaged.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "gripping the sheet fold at the mattress edge near the corner",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "fitted sheet",
+          "description": "corner fold near the headboard/nightstand being gripped and adjusted",
+          "identifier": "sheet"
+        }
+      ],
+      "actions": [
+        {
+          "name": "grip sheet corner",
+          "actor": "right_fingers",
+          "target": "sheet",
+          "description": "right fingers grip the fold at the mattress corner"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers grip sheet corner"
+      ]
+    },
+    {
+      "frame_id": "fitted_sheet_on_bed_002093",
+      "frame_index": 2093,
+      "timestamp_seconds": 34.895778,
+      "description": "The person bends down low again over the same corner, both hands now reaching into the fold of the sheet fabric at the mattress edge, working it further.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "working the fold of sheet fabric at the mattress edge",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "working the fold of sheet fabric at the mattress edge",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "fitted sheet",
+          "description": "fold at the corner near the headboard/nightstand still being worked",
+          "identifier": "sheet"
+        }
+      ],
+      "actions": [
+        {
+          "name": "work sheet fold",
+          "actor": "left_fingers",
+          "target": "sheet",
+          "description": "left fingers work the fold of fabric at the corner"
+        },
+        {
+          "name": "work sheet fold",
+          "actor": "right_fingers",
+          "target": "sheet",
+          "description": "right fingers work the fold of fabric at the corner"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers work sheet fold",
+        "right fingers work sheet fold"
+      ]
+    },
+    {
+      "frame_id": "fitted_sheet_on_bed_002161",
+      "frame_index": 2161,
+      "timestamp_seconds": 36.029516,
+      "description": "The person remains bent low over the corner near the headboard/nightstand, both hands still gripping the sheet fabric snugly at the mattress edge.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping the sheet fabric snugly at the mattress edge",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "gripping the sheet fabric snugly at the mattress edge",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "fitted sheet",
+          "description": "fold at the corner near the headboard/nightstand pulled snug",
+          "identifier": "sheet"
+        }
+      ],
+      "actions": [
+        {
+          "name": "grip sheet snug",
+          "actor": "left_fingers",
+          "target": "sheet",
+          "description": "left fingers grip the fabric snugly at the corner"
+        },
+        {
+          "name": "grip sheet snug",
+          "actor": "right_fingers",
+          "target": "sheet",
+          "description": "right fingers grip the fabric snugly at the corner"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers grip sheet snug",
+        "right fingers grip sheet snug"
+      ]
+    },
+    {
+      "frame_id": "fitted_sheet_on_bed_002236",
+      "frame_index": 2236,
+      "timestamp_seconds": 37.279961945534545,
+      "description": "The person stands upright again beside the headboard/nightstand corner; their right hand reaches down gripping the sheet fabric, pulling it up onto the mattress corner, while their left arm hangs down loosely at their side, not touching anything -- idle.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "gripping the sheet fabric at the corner, pulling it up onto the mattress",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "fitted sheet",
+          "description": "corner near the headboard still partially draped over the mattress side, not fully tucked yet",
+          "identifier": "sheet"
+        }
+      ],
+      "actions": [
+        {
+          "name": "pull sheet onto corner",
+          "actor": "right_fingers",
+          "target": "sheet",
+          "description": "right fingers pull the sheet fabric up onto the mattress corner"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers pull sheet onto corner",
+        "left arm idle at side"
+      ]
+    },
+    {
+      "frame_id": "fitted_sheet_on_bed_002323",
+      "frame_index": 2323,
+      "timestamp_seconds": 38.73047924842431,
+      "description": "The fitted sheet is now smooth and taut across the entire mattress, with the final corner fully tucked; the person has stepped back and stands upright beside the bed, arms relaxed at their sides, no longer touching the sheet.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "fitted sheet",
+          "description": "fully fitted and smooth across the mattress -- state change complete",
+          "identifier": "sheet"
+        }
+      ],
+      "actions": [],
+      "ontological_phrases": [
+        "sheet fully fitted on mattress",
+        "person stands idle beside bed"
+      ]
+    },
+    {
+      "frame_id": "fitted_sheet_on_bed_002409",
+      "frame_index": 2409,
+      "timestamp_seconds": 40.164324,
+      "description": "The gray pinstriped fitted sheet now lies smooth across the mattress; the person stands upright beside the corner near the headboard/nightstand, their left hand touching the top edge of the fabric at the corner, right arm at their side.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "touching the top edge of the fitted sheet at the corner",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "fitted sheet",
+          "description": "smooth and fitted across the mattress; the corner near the headboard/nightstand being touched/checked by hand",
+          "identifier": "sheet"
+        }
+      ],
+      "actions": [
+        {
+          "name": "check sheet corner",
+          "actor": "left_fingers",
+          "target": "sheet",
+          "description": "left fingers touch and check the fabric at the corner"
+        }
+      ],
+      "ontological_phrases": [
+        "sheet lies smooth on mattress",
+        "left fingers check sheet corner"
+      ]
+    },
+    {
+      "frame_id": "fitted_sheet_on_bed_002489",
+      "frame_index": 2489,
+      "timestamp_seconds": 41.498133,
+      "description": "The person remains standing at the corner near the headboard/nightstand; their right hand now touches and presses the fitted sheet fabric at this corner, smoothing it, while the left arm hangs at their side.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "pressing and smoothing the fitted sheet fabric at the corner",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "fitted sheet",
+          "description": "smooth across the mattress; the corner near the headboard/nightstand receiving a final smoothing touch",
+          "identifier": "sheet"
+        }
+      ],
+      "actions": [
+        {
+          "name": "smooth sheet corner",
+          "actor": "right_fingers",
+          "target": "sheet",
+          "description": "right fingers press and smooth the fabric at the corner"
+        }
+      ],
+      "ontological_phrases": [
+        "sheet lies smooth on mattress",
+        "right fingers smooth sheet corner"
+      ]
+    },
+    {
+      "frame_id": "fitted_sheet_on_bed_002573",
+      "frame_index": 2573,
+      "timestamp_seconds": 42.898632,
+      "description": "The person bends forward slightly at the headboard corner, hand pressing down on the fitted sheet fabric there; the rest of the gray pinstriped sheet remains smooth and fitted across the mattress.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "pressing down on the fitted sheet fabric at the headboard corner",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "fitted sheet",
+          "description": "smooth and fitted across the mattress, with a final press at the headboard corner",
+          "identifier": "sheet"
+        }
+      ],
+      "actions": [
+        {
+          "name": "press sheet corner",
+          "actor": "right_fingers",
+          "target": "sheet",
+          "description": "right fingers press down on the fabric at the corner"
+        }
+      ],
+      "ontological_phrases": [
+        "sheet lies smooth on mattress",
+        "right fingers press sheet corner"
+      ]
+    },
+    {
+      "frame_id": "fitted_sheet_on_bed_002643",
+      "frame_index": 2643,
+      "timestamp_seconds": 44.065715305030324,
+      "description": "The person stands facing the camera at the foot of the now made bed, arms hanging naturally at their sides; the gray pinstriped fitted sheet lies smooth and fully fitted over the mattress, and the task is complete.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "fitted sheet",
+          "description": "fully fitted, smooth, task complete",
+          "identifier": "sheet"
+        }
+      ],
+      "actions": [],
+      "ontological_phrases": [
+        "person stands idle, task complete"
+      ]
+    }
+  ]
+}

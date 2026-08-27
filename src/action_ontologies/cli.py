@@ -6,6 +6,7 @@ import json
 from .infer import run_inference
 from .json_utils import write_json
 from .prepare import prepare_project
+from .prepare_v8 import prepare_v8
 from .summarize import summarize_file
 
 
@@ -75,6 +76,11 @@ def build_parser() -> argparse.ArgumentParser:
         context_help="include up to this many preceding ground-truth frames as history in each training prompt; 0 disables",
     )
 
+    prepare_v8_parser = subparsers.add_parser(
+        "prepare-v8", help="rebuild the complete V8 training dataset from one folder of 15 original videos"
+    )
+    prepare_v8_parser.add_argument("--videos-dir", required=True, help="folder containing the 15 original .mov files")
+
     infer = subparsers.add_parser("infer", help="extract ontology JSON from a video")
     infer.add_argument("--video", required=True)
     infer.add_argument("--output", required=True)
@@ -135,6 +141,9 @@ def main(argv: list[str] | None = None) -> int:
             max_new_tokens=args.max_new_tokens,
         )
         print(f"wrote ontology output to {args.output}")
+        return 0
+    if args.command == "prepare-v8":
+        prepare_v8(args.videos_dir)
         return 0
     if args.command == "summarize":
         summary = summarize_file(args.input)

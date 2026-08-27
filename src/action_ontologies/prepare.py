@@ -180,4 +180,3 @@ def _load_json(path: Path) -> dict[str, Any]:
     if not isinstance(value, dict):
         raise ValueError(f"annotation must be a JSON object: {path}")
     return value
-

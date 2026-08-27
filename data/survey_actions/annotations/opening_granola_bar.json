@@ -1,0 +1,856 @@
+{
+  "video_id": "opening_granola_bar",
+  "video_path": "videos/opening_granola_bar.mov",
+  "frames": [
+    {
+      "frame_id": "opening_granola_bar_000000",
+      "frame_index": 0,
+      "timestamp_seconds": 0.0,
+      "description": "A person in a silver suit stands facing forward behind a table, both hands resting flat on the table surface on either side of an unopened granola bar.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "granola bar",
+          "description": "unopened granola bar in red and white wrapping, lying on the table",
+          "identifier": "bar"
+        },
+        {
+          "name": "table",
+          "description": "white counter the person stands behind",
+          "identifier": "white_table"
+        }
+      ],
+      "actions": [],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "opening_granola_bar_000024",
+      "frame_index": 24,
+      "timestamp_seconds": 0.4,
+      "description": "A person in a silver suit stands facing forward behind the table, both hands still resting flat on the table on either side of the unopened granola bar, unchanged from the very start.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "granola bar",
+          "description": "unopened granola bar in red and white wrapping, lying on the table",
+          "identifier": "bar"
+        },
+        {
+          "name": "table",
+          "description": "white counter the person stands behind",
+          "identifier": "white_table"
+        }
+      ],
+      "actions": [],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "opening_granola_bar_000032",
+      "frame_index": 32,
+      "timestamp_seconds": 0.533333,
+      "description": "A person in a silver suit stands behind the table, both hands still resting flat on the table on either side of the unopened granola bar, unchanged from the moment before.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "granola bar",
+          "description": "unopened granola bar in red and white wrapping, lying on the table",
+          "identifier": "bar"
+        },
+        {
+          "name": "table",
+          "description": "white counter the person stands behind",
+          "identifier": "white_table"
+        }
+      ],
+      "actions": [],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "opening_granola_bar_000042",
+      "frame_index": 42,
+      "timestamp_seconds": 0.7,
+      "description": "A person in a silver suit stands behind the table, both hands still resting flat on the table on either side of the unopened granola bar, unchanged from the moment before.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "granola bar",
+          "description": "unopened granola bar in red and white wrapping, lying on the table",
+          "identifier": "bar"
+        },
+        {
+          "name": "table",
+          "description": "white counter the person stands behind",
+          "identifier": "white_table"
+        }
+      ],
+      "actions": [],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "opening_granola_bar_000062",
+      "frame_index": 62,
+      "timestamp_seconds": 1.033333,
+      "description": "The person's right fingers have begun gripping the granola bar's wrapper, tilting it slightly up off the table, while the left hand rests flat on the table nearby, not touching the bar.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "gripping the bar's wrapper, tilting it slightly up off the table",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "granola bar",
+          "description": "wrapped, being gripped and tilted up by the right fingers",
+          "identifier": "bar"
+        },
+        {
+          "name": "table",
+          "description": "white counter the person stands behind",
+          "identifier": "white_table"
+        }
+      ],
+      "actions": [
+        {
+          "name": "grip bar",
+          "actor": "right fingers",
+          "target": "granola bar",
+          "description": "right fingers close around the bar's wrapper, tilting it up"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers grip bar"
+      ]
+    },
+    {
+      "frame_id": "opening_granola_bar_000070",
+      "frame_index": 70,
+      "timestamp_seconds": 1.166667,
+      "description": "The person's right fingers grip the wrapped granola bar package at the table edge, while their left hand hovers just above the table, fingers loosely pinched together but not touching or holding anything.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "gripping the wrapped bar package at the table edge",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "granola bar",
+          "description": "still in its wrapper, gripped at the table edge by the right hand",
+          "identifier": "bar"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold bar",
+          "actor": "right fingers",
+          "target": "granola bar",
+          "description": "the right hand's fingers grip the wrapped bar package at the table edge"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers hold bar"
+      ]
+    },
+    {
+      "frame_id": "opening_granola_bar_000076",
+      "frame_index": 76,
+      "timestamp_seconds": 1.266667,
+      "description": "Both of the person's hands are now down at the table edge together, fingers pinching the wrapped granola bar package on both sides.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "pinching one side of the wrapped bar package at the table edge",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "left fingers",
+          "description": "pinching the other side of the wrapped bar package, joining the right hand",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "granola bar",
+          "description": "still in its wrapper, now gripped by both hands at the table edge",
+          "identifier": "bar"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold bar",
+          "actor": "left fingers and right fingers",
+          "target": "granola bar",
+          "description": "both hands' fingers pinch the wrapped bar package together at the table edge"
+        }
+      ],
+      "ontological_phrases": [
+        "fingers hold bar"
+      ]
+    },
+    {
+      "frame_id": "opening_granola_bar_000088",
+      "frame_index": 88,
+      "timestamp_seconds": 1.466667,
+      "description": "A person in a silver suit holds a red and white wrapped granola bar in front of their chest, both hands' fingers pinching and tearing open the wrapper's top corner.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "pinching the wrapper's torn corner, pulling it open",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "pinching the wrapper's torn corner opposite the left fingers, pulling it open",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "granola bar",
+          "description": "wrapper torn open at one corner, bar not yet exposed",
+          "identifier": "bar"
+        }
+      ],
+      "actions": [
+        {
+          "name": "tear wrapper",
+          "actor": "left fingers and right fingers",
+          "target": "granola bar",
+          "description": "both hands' fingers pinch and pull apart the wrapper's corner to start opening it"
+        }
+      ],
+      "ontological_phrases": [
+        "fingers tear wrapper"
+      ]
+    },
+    {
+      "frame_id": "opening_granola_bar_000108",
+      "frame_index": 108,
+      "timestamp_seconds": 1.8,
+      "description": "A person in a silver suit holds the granola bar close to their body with both hands, the wrapper still torn open only at the top corner as before, the bar not yet exposed.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping one side of the wrapped bar, holding it close to the body",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "gripping the other side of the wrapped bar, holding it close to the body",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "granola bar",
+          "description": "wrapper torn open at one corner, bar not yet exposed, unchanged from the moment before",
+          "identifier": "bar"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold bar",
+          "actor": "left fingers and right fingers",
+          "target": "granola bar",
+          "description": "both hands' fingers grip the bar, holding it close to the body"
+        }
+      ],
+      "ontological_phrases": [
+        "fingers hold bar"
+      ]
+    },
+    {
+      "frame_id": "opening_granola_bar_000126",
+      "frame_index": 126,
+      "timestamp_seconds": 2.1,
+      "description": "A person in a silver suit holds the granola bar with both hands, arms extending forward, fingers gripping and pulling at the wrapper's torn top corner to widen the opening.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "pulling at the wrapper's torn corner, widening the opening",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "pulling at the wrapper's torn corner opposite the left fingers",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "granola bar",
+          "description": "wrapper torn corner being pulled wider, bar still not exposed",
+          "identifier": "bar"
+        }
+      ],
+      "actions": [
+        {
+          "name": "tear wrapper",
+          "actor": "left fingers and right fingers",
+          "target": "granola bar",
+          "description": "both hands' fingers pull at the wrapper's torn corner, widening the opening"
+        }
+      ],
+      "ontological_phrases": [
+        "fingers tear wrapper"
+      ]
+    },
+    {
+      "frame_id": "opening_granola_bar_000140",
+      "frame_index": 140,
+      "timestamp_seconds": 2.333333,
+      "description": "A person in a silver suit holds the granola bar out in front of them with both arms extended, fingers still gripping and pulling at the wrapper's torn top corner.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping and pulling at the wrapper's torn top corner",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "gripping and pulling at the wrapper's torn top corner opposite the left fingers",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "granola bar",
+          "description": "wrapper torn opening being widened at the top corner, bar dangling between the hands",
+          "identifier": "bar"
+        }
+      ],
+      "actions": [
+        {
+          "name": "tear wrapper",
+          "actor": "left fingers and right fingers",
+          "target": "granola bar",
+          "description": "both hands' fingers grip and pull at the wrapper's torn top corner while the bar dangles between them"
+        }
+      ],
+      "ontological_phrases": [
+        "fingers tear wrapper"
+      ]
+    },
+    {
+      "frame_id": "opening_granola_bar_000152",
+      "frame_index": 152,
+      "timestamp_seconds": 2.533333,
+      "description": "The person continues holding the granola bar with both arms extended forward, fingers gripping the wrapper's torn top corner, largely unchanged from the moment before.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping the wrapper's torn top corner",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "gripping the wrapper's torn top corner opposite the left fingers",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "granola bar",
+          "description": "wrapper torn opening at the top corner, bar dangling between the hands, unchanged from the moment before",
+          "identifier": "bar"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold bar",
+          "actor": "left fingers and right fingers",
+          "target": "granola bar",
+          "description": "both hands' fingers continue gripping the wrapper's torn corner while the bar dangles between them"
+        }
+      ],
+      "ontological_phrases": [
+        "fingers hold bar"
+      ]
+    },
+    {
+      "frame_id": "opening_granola_bar_000164",
+      "frame_index": 164,
+      "timestamp_seconds": 2.733333,
+      "description": "The person holds the granola bar with both arms extended forward; a bit more of the bar's surface is now visible through the widened tear at the top corner of the wrapper.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping the wrapper near the widening torn corner",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "gripping the wrapper near the widening torn corner opposite the left fingers",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "granola bar",
+          "description": "wrapper opening at the top corner slightly wider, a small portion of the bar's surface now visible",
+          "identifier": "bar"
+        }
+      ],
+      "actions": [
+        {
+          "name": "tear wrapper",
+          "actor": "left fingers and right fingers",
+          "target": "granola bar",
+          "description": "both hands' fingers continue pulling at the wrapper's torn corner, widening it further"
+        }
+      ],
+      "ontological_phrases": [
+        "fingers tear wrapper"
+      ]
+    },
+    {
+      "frame_id": "opening_granola_bar_000176",
+      "frame_index": 176,
+      "timestamp_seconds": 2.933333,
+      "description": "A person in a silver suit holds the granola bar close to their chest, both hands' fingers gripping the wrapper near its torn top opening, through which more of the bar's surface is now visible.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping the wrapper near the torn top opening",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "gripping the wrapper near the torn top opening opposite the left fingers",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "granola bar",
+          "description": "more of the bar's surface visible through the widened top opening, though still mostly wrapped",
+          "identifier": "bar"
+        }
+      ],
+      "actions": [
+        {
+          "name": "tear wrapper",
+          "actor": "left fingers and right fingers",
+          "target": "granola bar",
+          "description": "both hands' fingers pull the wrapper's torn opening wider, exposing more of the bar"
+        }
+      ],
+      "ontological_phrases": [
+        "fingers tear wrapper"
+      ]
+    },
+    {
+      "frame_id": "opening_granola_bar_000194",
+      "frame_index": 194,
+      "timestamp_seconds": 3.233333,
+      "description": "A person in a silver suit holds the granola bar close to their chest, both hands' fingers pulling the torn wrapper further down and away from the bar's top end, exposing more of it.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "pulling the torn wrapper down and away from the bar's top end",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "pulling the torn wrapper down and away from the bar's top end opposite the left fingers",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "granola bar",
+          "description": "top end increasingly exposed as the torn wrapper is pulled down and away",
+          "identifier": "bar"
+        }
+      ],
+      "actions": [
+        {
+          "name": "remove wrapper",
+          "actor": "left fingers and right fingers",
+          "target": "granola bar",
+          "description": "both hands' fingers pull the torn wrapper down and away from the bar's top end"
+        }
+      ],
+      "ontological_phrases": [
+        "fingers remove wrapper"
+      ]
+    },
+    {
+      "frame_id": "opening_granola_bar_000218",
+      "frame_index": 218,
+      "timestamp_seconds": 3.633333,
+      "description": "A person in a silver suit holds the granola bar up by its top, the wrapper now torn open and hanging loose below it like a sleeve, both hands' fingers gripping the bar's exposed top end.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping one side of the bar's exposed top end, holding it up",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "gripping the other side of the bar's exposed top end, holding it up",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "granola bar",
+          "description": "mostly unwrapped -- the torn wrapper now hangs loosely below the bar's exposed top end instead of enclosing it",
+          "identifier": "bar"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold bar",
+          "actor": "left fingers and right fingers",
+          "target": "granola bar",
+          "description": "both hands' fingers grip the bar's newly exposed top end while the torn wrapper dangles below, no longer enclosing it"
+        }
+      ],
+      "ontological_phrases": [
+        "fingers hold exposed bar",
+        "wrapper dangles from bar"
+      ]
+    },
+    {
+      "frame_id": "opening_granola_bar_000238",
+      "frame_index": 238,
+      "timestamp_seconds": 3.966667,
+      "description": "A person in a silver suit continues holding the granola bar by its exposed top end, the torn wrapper still hanging loosely below it like a sleeve, largely unchanged from the moment before.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping one side of the bar's exposed top end",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "gripping the other side of the bar's exposed top end",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "granola bar",
+          "description": "mostly unwrapped -- the torn wrapper hangs loosely below the bar's exposed top end, unchanged from the moment before",
+          "identifier": "bar"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold bar",
+          "actor": "left fingers and right fingers",
+          "target": "granola bar",
+          "description": "both hands' fingers continue gripping the bar's exposed top end while the torn wrapper dangles below"
+        }
+      ],
+      "ontological_phrases": [
+        "fingers hold exposed bar"
+      ]
+    },
+    {
+      "frame_id": "opening_granola_bar_000266",
+      "frame_index": 266,
+      "timestamp_seconds": 4.433333,
+      "description": "A person in a silver suit holds the granola bar, its top end still exposed with the torn wrapper hanging loosely below; the fingers have moved down and are now working at the remaining wrapper near the bar's lower end.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "working at the remaining wrapper near the bar's lower end",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "working at the remaining wrapper near the bar's lower end opposite the left fingers",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "granola bar",
+          "description": "top end exposed, only a portion of wrapper remaining near the bar's lower end",
+          "identifier": "bar"
+        }
+      ],
+      "actions": [
+        {
+          "name": "remove wrapper",
+          "actor": "left fingers and right fingers",
+          "target": "granola bar",
+          "description": "both hands' fingers work at the remaining wrapper near the bar's lower end"
+        }
+      ],
+      "ontological_phrases": [
+        "fingers remove wrapper"
+      ]
+    },
+    {
+      "frame_id": "opening_granola_bar_000302",
+      "frame_index": 302,
+      "timestamp_seconds": 5.033333,
+      "description": "A person in a silver suit holds the granola bar close to their chest, both hands' fingers pinching the last small piece of wrapper still clinging to its bottom end and pulling it free.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "pinching the last remaining piece of wrapper at the bar's bottom end",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "pinching the same piece of wrapper from the other side, helping pull it free",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "granola bar",
+          "description": "almost fully unwrapped -- only a small torn fragment of wrapper remains stuck to its bottom end",
+          "identifier": "bar"
+        }
+      ],
+      "actions": [
+        {
+          "name": "remove wrapper",
+          "actor": "left fingers and right fingers",
+          "target": "granola bar",
+          "description": "both hands' fingers pinch and pull the last clinging piece of wrapper off the bar"
+        }
+      ],
+      "ontological_phrases": [
+        "fingers remove last wrapper piece"
+      ]
+    },
+    {
+      "frame_id": "opening_granola_bar_000338",
+      "frame_index": 338,
+      "timestamp_seconds": 5.633333,
+      "description": "A person in a silver suit holds the now mostly unwrapped granola bar close to their chest with both hands together, examining it.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping one side of the bar, holding it close to the chest",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "gripping the other side of the bar, holding it close to the chest",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "granola bar",
+          "description": "mostly unwrapped, held close to the chest with both hands",
+          "identifier": "bar"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold bar",
+          "actor": "left fingers and right fingers",
+          "target": "granola bar",
+          "description": "both hands' fingers grip the mostly unwrapped bar, holding it close to the chest"
+        }
+      ],
+      "ontological_phrases": [
+        "fingers hold bar"
+      ]
+    },
+    {
+      "frame_id": "opening_granola_bar_000368",
+      "frame_index": 368,
+      "timestamp_seconds": 6.133333,
+      "description": "A person in a silver suit continues holding the mostly unwrapped granola bar close to their chest with both hands, largely unchanged from the moment before.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping one side of the bar, holding it close to the chest",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "gripping the other side of the bar, holding it close to the chest",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "granola bar",
+          "description": "mostly unwrapped, held close to the chest with both hands, unchanged from the moment before",
+          "identifier": "bar"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold bar",
+          "actor": "left fingers and right fingers",
+          "target": "granola bar",
+          "description": "both hands' fingers continue gripping the mostly unwrapped bar close to the chest"
+        }
+      ],
+      "ontological_phrases": [
+        "fingers hold bar"
+      ]
+    },
+    {
+      "frame_id": "opening_granola_bar_000388",
+      "frame_index": 388,
+      "timestamp_seconds": 6.466667,
+      "description": "A person in a silver suit holds the nearly fully unwrapped granola bar up in their right hand at chest height, while their left hand holds a small separated piece of wrapper down near the waist.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "gripping the bar's body, holding it up at chest height",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "left fingers",
+          "description": "holding a small separated piece of wrapper down near the waist",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "granola bar",
+          "description": "nearly fully unwrapped, held in the right hand",
+          "identifier": "bar"
+        },
+        {
+          "name": "wrapper fragment",
+          "description": "small separated piece of wrapper, held in the left hand near the waist",
+          "identifier": "wrapper_fragment"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold bar",
+          "actor": "right fingers",
+          "target": "granola bar",
+          "description": "the right hand's fingers grip the nearly unwrapped bar, holding it up at chest height"
+        },
+        {
+          "name": "hold wrapper fragment",
+          "actor": "left fingers",
+          "target": "wrapper fragment",
+          "description": "the left hand's fingers hold the small separated wrapper piece near the waist"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers hold bar",
+        "left fingers hold wrapper fragment"
+      ]
+    },
+    {
+      "frame_id": "opening_granola_bar_000398",
+      "frame_index": 398,
+      "timestamp_seconds": 6.633333,
+      "description": "A person in a silver suit holds the now fully unwrapped granola bar up in their right hand at chest height, examining it, while their left hand holds the small torn-off wrapper fragment down near their waist.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "gripping the bar's body, holding it up at chest height",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "left fingers",
+          "description": "holding the small torn-off wrapper fragment down near the waist, separate from the bar",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "granola bar",
+          "description": "fully unwrapped, held in the right hand",
+          "identifier": "bar"
+        },
+        {
+          "name": "wrapper fragment",
+          "description": "the torn-off piece of wrapper, now held separately in the left hand rather than on the bar",
+          "identifier": "wrapper_fragment"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold bar",
+          "actor": "right fingers",
+          "target": "granola bar",
+          "description": "the right hand's fingers grip the unwrapped bar, holding it up"
+        },
+        {
+          "name": "hold wrapper fragment",
+          "actor": "left fingers",
+          "target": "wrapper fragment",
+          "description": "the left hand's fingers hold the discarded wrapper fragment separately, no longer engaged with the bar"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers hold bar",
+        "left fingers hold wrapper fragment"
+      ]
+    },
+    {
+      "frame_id": "opening_granola_bar_000410",
+      "frame_index": 410,
+      "timestamp_seconds": 6.833333,
+      "description": "A person in a silver suit holds the unwrapped granola bar up in their right hand at chest height, looking at it; their left hand has released the wrapper fragment and now rests flat, palm down, on the table -- idle and no longer engaged with anything.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "gripping the bar's body, holding it up at chest height, unchanged from the moment before",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "granola bar",
+          "description": "fully unwrapped, held in the right hand",
+          "identifier": "bar"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold bar",
+          "actor": "right fingers",
+          "target": "granola bar",
+          "description": "the right hand's fingers continue gripping the unwrapped bar, holding it up"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers hold bar"
+      ]
+    },
+    {
+      "frame_id": "opening_granola_bar_000432",
+      "frame_index": 432,
+      "timestamp_seconds": 7.2,
+      "description": "A person in a silver suit stands holding the unwrapped granola bar in their right hand at chest height, looking down at it; their left hand continues resting flat on the table, idle.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "gripping the bar's body, holding it up at chest height",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "granola bar",
+          "description": "fully unwrapped, held in the right hand",
+          "identifier": "bar"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold bar",
+          "actor": "right fingers",
+          "target": "granola bar",
+          "description": "the right hand's fingers grip the unwrapped bar, holding it up while the person looks at it"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers hold bar"
+      ]
+    }
+  ]
+}

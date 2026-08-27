@@ -1,0 +1,2249 @@
+{
+  "video_id": "separate_the_yolk",
+  "video_path": "videos/separate_the_yolk.mov",
+  "frames": [
+    {
+      "frame_id": "separate_the_yolk_000000",
+      "frame_index": 0,
+      "timestamp_seconds": 0.0,
+      "description": "A person in a silver suit stands at the counter with a single brown egg resting under the fingers of their left hand; their right hand lies flat, palm down, on the counter -- idle. Two empty bowls, one pale blue-rimmed and one terracotta, sit side by side on the counter between the hands.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "resting on top of the whole egg, steadying it on the counter",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "egg",
+          "description": "whole, uncracked, resting on the counter under the left fingers",
+          "identifier": "egg"
+        },
+        {
+          "name": "bowl (grey)",
+          "description": "empty, sitting on the counter to the right of the egg",
+          "identifier": "bowl_grey"
+        },
+        {
+          "name": "bowl (orange)",
+          "description": "empty, sitting further right on the counter",
+          "identifier": "bowl_orange"
+        }
+      ],
+      "actions": [
+        {
+          "name": "steady egg",
+          "actor": "left_fingers",
+          "target": "egg",
+          "description": "left fingers rest on the whole egg, keeping it in place on the counter"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers steady egg"
+      ]
+    },
+    {
+      "frame_id": "separate_the_yolk_000016",
+      "frame_index": 16,
+      "timestamp_seconds": 0.269627,
+      "description": "The person holds the whole, uncracked brown egg in their left hand near the counter; their right hand is raised in the air with fingers spread, not touching anything. Both bowls sit empty on the counter.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "holding the whole, uncracked egg near the counter",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "egg",
+          "description": "whole, uncracked, held in the left hand",
+          "identifier": "egg"
+        },
+        {
+          "name": "bowl (grey)",
+          "description": "empty, on the counter",
+          "identifier": "bowl_grey"
+        },
+        {
+          "name": "bowl (orange)",
+          "description": "empty, on the counter",
+          "identifier": "bowl_orange"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold egg",
+          "actor": "left_fingers",
+          "target": "egg",
+          "description": "left fingers hold the whole egg near the counter"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers hold egg"
+      ]
+    },
+    {
+      "frame_id": "separate_the_yolk_000028",
+      "frame_index": 28,
+      "timestamp_seconds": 0.471847,
+      "description": "The left hand still holds the whole, uncracked egg; the right hand has lowered and hovers with fingers spread just above the rim of the grey bowl, not yet touching the egg.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "holding the whole, uncracked egg",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "hovering just above the grey bowl's rim, fingers spread",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "egg",
+          "description": "whole, uncracked, held in the left hand",
+          "identifier": "egg"
+        },
+        {
+          "name": "bowl (grey)",
+          "description": "empty, positioned beneath the hovering right hand",
+          "identifier": "bowl_grey"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold egg",
+          "actor": "left_fingers",
+          "target": "egg",
+          "description": "left fingers continue holding the whole egg"
+        },
+        {
+          "name": "hover over bowl",
+          "actor": "right_fingers",
+          "target": "bowl_grey",
+          "description": "right fingers hover just above the bowl's rim"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers hold egg",
+        "right fingers hover over bowl"
+      ]
+    },
+    {
+      "frame_id": "separate_the_yolk_000046",
+      "frame_index": 46,
+      "timestamp_seconds": 0.7751779106177057,
+      "description": "The person presses the egg down against the rim of the pale blue-rimmed bowl with their left fingers while their right fingers grip the egg's other side, both hands working together to crack the shell.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "pressing the egg against the bowl's rim to crack it",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "gripping the opposite side of the egg, helping crack the shell",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "egg",
+          "description": "held against the bowl rim, shell beginning to crack",
+          "identifier": "egg"
+        },
+        {
+          "name": "bowl (grey)",
+          "description": "positioned under the egg to catch its contents",
+          "identifier": "bowl_grey"
+        },
+        {
+          "name": "bowl (orange)",
+          "description": "empty, still off to the side",
+          "identifier": "bowl_orange"
+        }
+      ],
+      "actions": [
+        {
+          "name": "crack egg",
+          "actor": "left_fingers",
+          "target": "egg",
+          "description": "left fingers press the egg down onto the bowl rim to crack the shell"
+        },
+        {
+          "name": "grip egg",
+          "actor": "right_fingers",
+          "target": "egg",
+          "description": "right fingers grip the egg, helping break the shell open"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers crack egg",
+        "right fingers grip egg"
+      ]
+    },
+    {
+      "frame_id": "separate_the_yolk_000076",
+      "frame_index": 76,
+      "timestamp_seconds": 1.280729,
+      "description": "Both hands now come together above the grey bowl; the right fingers grip the top of the egg while the left fingers hold it from below at the bowl's rim, pressing it against the rim to begin cracking the shell. The shell has not yet visibly split open.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "holding the egg from below against the bowl rim",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "gripping the top of the egg, pressing it to crack the shell",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "egg",
+          "description": "held against the bowl rim, being pressed; shell not yet visibly split",
+          "identifier": "egg"
+        },
+        {
+          "name": "bowl (grey)",
+          "description": "positioned under the egg",
+          "identifier": "bowl_grey"
+        }
+      ],
+      "actions": [
+        {
+          "name": "crack egg",
+          "actor": "right_fingers",
+          "target": "egg",
+          "description": "right fingers press down on the egg against the rim to crack the shell"
+        },
+        {
+          "name": "hold egg",
+          "actor": "left_fingers",
+          "target": "egg",
+          "description": "left fingers hold the egg steady against the bowl rim"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers crack egg",
+        "left fingers hold egg"
+      ]
+    },
+    {
+      "frame_id": "separate_the_yolk_000094",
+      "frame_index": 94,
+      "timestamp_seconds": 1.584059,
+      "description": "Hands remain close together at the bowl's rim in nearly the same grip as the moment before, continuing to press the egg; the shell still appears intact, unchanged from the moment before.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "holding the egg from below against the bowl rim, unchanged from before",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "continuing to grip and press the top of the egg",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "egg",
+          "description": "still held against the bowl rim, being pressed; shell still intact",
+          "identifier": "egg"
+        },
+        {
+          "name": "bowl (grey)",
+          "description": "positioned under the egg",
+          "identifier": "bowl_grey"
+        }
+      ],
+      "actions": [
+        {
+          "name": "crack egg",
+          "actor": "right_fingers",
+          "target": "egg",
+          "description": "right fingers continue pressing the egg against the rim"
+        },
+        {
+          "name": "hold egg",
+          "actor": "left_fingers",
+          "target": "egg",
+          "description": "left fingers continue holding the egg steady"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers crack egg",
+        "left fingers hold egg"
+      ]
+    },
+    {
+      "frame_id": "separate_the_yolk_000116",
+      "frame_index": 116,
+      "timestamp_seconds": 1.954796,
+      "description": "Hands remain together at the bowl's rim; a small amount of egg white is now visible escaping between the fingers and beginning to drip toward the bowl, showing the shell has just started to open.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "holding the lower part of the egg against the bowl rim as it opens",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "pressing the upper shell, helping pry it open",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "egg",
+          "description": "shell beginning to split open at the bowl rim",
+          "identifier": "egg"
+        },
+        {
+          "name": "egg white",
+          "description": "a small amount visible escaping between the fingers",
+          "identifier": "egg_white"
+        },
+        {
+          "name": "bowl (grey)",
+          "description": "positioned to catch the escaping egg white",
+          "identifier": "bowl_grey"
+        }
+      ],
+      "actions": [
+        {
+          "name": "open shell",
+          "actor": "right_fingers",
+          "target": "egg",
+          "description": "right fingers pry the shell open further, letting egg white begin to escape"
+        },
+        {
+          "name": "hold egg",
+          "actor": "left_fingers",
+          "target": "egg",
+          "description": "left fingers continue holding the egg steady"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers open shell",
+        "left fingers hold egg"
+      ]
+    },
+    {
+      "frame_id": "separate_the_yolk_000140",
+      "frame_index": 140,
+      "timestamp_seconds": 2.359237119271278,
+      "description": "Both hands now hold the two halves of the cracked eggshell close together at chest height, fingers pulling the shell apart; a sliver of orange yolk is visible peeking between the shell edges.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping one half of the cracked eggshell",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "gripping the other half of the cracked eggshell, pulling it apart from the first",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "eggshell (left half)",
+          "description": "broken shell fragment held in the left hand, containing part of the egg's contents",
+          "identifier": "shell_left"
+        },
+        {
+          "name": "eggshell (right half)",
+          "description": "broken shell fragment held in the right hand",
+          "identifier": "shell_right"
+        },
+        {
+          "name": "yolk",
+          "description": "orange yolk just becoming visible between the two shell halves",
+          "identifier": "yolk"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold shell half",
+          "actor": "left_fingers",
+          "target": "shell_left",
+          "description": "left fingers hold one broken shell half steady"
+        },
+        {
+          "name": "pull shell half",
+          "actor": "right_fingers",
+          "target": "shell_right",
+          "description": "right fingers pull the other shell half away, opening the crack further"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers hold shell half",
+        "right fingers pull shell half"
+      ]
+    },
+    {
+      "frame_id": "separate_the_yolk_000166",
+      "frame_index": 166,
+      "timestamp_seconds": 2.797381,
+      "description": "The shell has opened further and split into two halves; the left hand holds the half containing the visible orange yolk at the bowl's rim, with a thin string of egg white dripping down into the grey bowl below. The right hand's fingers rest alongside, spread, not gripping a separate piece.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "holding the shell half containing the visible yolk at the bowl's rim",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "yolk",
+          "description": "visible inside the shell half held in the left hand",
+          "identifier": "yolk"
+        },
+        {
+          "name": "egg white",
+          "description": "a thin string dripping from the shell into the grey bowl",
+          "identifier": "egg_white"
+        },
+        {
+          "name": "bowl (grey)",
+          "description": "collecting the draining egg white",
+          "identifier": "bowl_grey"
+        }
+      ],
+      "actions": [
+        {
+          "name": "cradle yolk",
+          "actor": "left_fingers",
+          "target": "yolk",
+          "description": "left fingers cradle the shell half holding the yolk while egg white drips out"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers cradle yolk"
+      ]
+    },
+    {
+      "frame_id": "separate_the_yolk_000212",
+      "frame_index": 212,
+      "timestamp_seconds": 3.5725590663250784,
+      "description": "The egg is now fully cracked into two shell halves; the right hand tips its half, letting a thin stream of egg white fall from the yolk-filled shell down into the pale blue-rimmed bowl, while the left hand holds the empty shell half nearby.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "tipping the shell half to drain egg white while cradling the yolk inside it",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "left fingers",
+          "description": "holding the other, now-empty shell half",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "yolk",
+          "description": "intact, sitting inside the shell half held in the right hand",
+          "identifier": "yolk"
+        },
+        {
+          "name": "egg white",
+          "description": "draining in a thin stream from the shell into the bowl below",
+          "identifier": "egg_white"
+        },
+        {
+          "name": "eggshell (left half)",
+          "description": "empty, held in the left hand",
+          "identifier": "shell_left"
+        },
+        {
+          "name": "bowl (grey)",
+          "description": "collecting the draining egg white",
+          "identifier": "bowl_grey"
+        }
+      ],
+      "actions": [
+        {
+          "name": "drain egg white",
+          "actor": "right_fingers",
+          "target": "egg_white",
+          "description": "right fingers tip the yolk-filled shell, letting egg white drain out"
+        },
+        {
+          "name": "hold shell half",
+          "actor": "left_fingers",
+          "target": "shell_left",
+          "description": "left fingers continue holding the empty shell half"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers drain egg white",
+        "left fingers hold shell half"
+      ]
+    },
+    {
+      "frame_id": "separate_the_yolk_000248",
+      "frame_index": 248,
+      "timestamp_seconds": 4.17922,
+      "description": "Largely unchanged from the moment before: the left hand continues holding the shell half with the visible yolk at the bowl's rim, a thin string of egg white still dripping into the grey bowl; the right hand's fingers remain spread alongside.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "continuing to hold the shell half containing the visible yolk at the bowl's rim",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "yolk",
+          "description": "still visible inside the shell half held in the left hand",
+          "identifier": "yolk"
+        },
+        {
+          "name": "egg white",
+          "description": "still dripping from the shell into the grey bowl",
+          "identifier": "egg_white"
+        },
+        {
+          "name": "bowl (grey)",
+          "description": "continuing to collect the draining egg white",
+          "identifier": "bowl_grey"
+        }
+      ],
+      "actions": [
+        {
+          "name": "cradle yolk",
+          "actor": "left_fingers",
+          "target": "yolk",
+          "description": "left fingers continue cradling the shell half holding the yolk"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers cradle yolk"
+      ]
+    },
+    {
+      "frame_id": "separate_the_yolk_000272",
+      "frame_index": 272,
+      "timestamp_seconds": 4.583661,
+      "description": "Unchanged from the moment before: the left hand still holds the shell half with the visible yolk at the bowl's rim, egg white continuing to drip into the grey bowl.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "continuing to hold the shell half containing the visible yolk",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "yolk",
+          "description": "still visible inside the shell half held in the left hand",
+          "identifier": "yolk"
+        },
+        {
+          "name": "egg white",
+          "description": "still dripping from the shell into the grey bowl",
+          "identifier": "egg_white"
+        },
+        {
+          "name": "bowl (grey)",
+          "description": "continuing to collect the draining egg white",
+          "identifier": "bowl_grey"
+        }
+      ],
+      "actions": [
+        {
+          "name": "cradle yolk",
+          "actor": "left_fingers",
+          "target": "yolk",
+          "description": "left fingers continue cradling the shell half holding the yolk"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers cradle yolk"
+      ]
+    },
+    {
+      "frame_id": "separate_the_yolk_000292",
+      "frame_index": 292,
+      "timestamp_seconds": 4.920695,
+      "description": "Unchanged from the moment before: the left hand continues holding the shell half with the visible yolk at the bowl's rim, the drip of egg white continuing into the grey bowl.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "continuing to hold the shell half containing the visible yolk",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "yolk",
+          "description": "still visible inside the shell half held in the left hand",
+          "identifier": "yolk"
+        },
+        {
+          "name": "egg white",
+          "description": "still dripping from the shell into the grey bowl",
+          "identifier": "egg_white"
+        },
+        {
+          "name": "bowl (grey)",
+          "description": "continuing to collect the draining egg white",
+          "identifier": "bowl_grey"
+        }
+      ],
+      "actions": [
+        {
+          "name": "cradle yolk",
+          "actor": "left_fingers",
+          "target": "yolk",
+          "description": "left fingers continue cradling the shell half holding the yolk"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers cradle yolk"
+      ]
+    },
+    {
+      "frame_id": "separate_the_yolk_000310",
+      "frame_index": 310,
+      "timestamp_seconds": 5.224025,
+      "description": "Unchanged from the moment before: the left hand still holds the shell half with the visible yolk at the bowl's rim, egg white continuing to drip into the grey bowl.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "continuing to hold the shell half containing the visible yolk",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "yolk",
+          "description": "still visible inside the shell half held in the left hand",
+          "identifier": "yolk"
+        },
+        {
+          "name": "egg white",
+          "description": "still dripping from the shell into the grey bowl",
+          "identifier": "egg_white"
+        },
+        {
+          "name": "bowl (grey)",
+          "description": "continuing to collect the draining egg white",
+          "identifier": "bowl_grey"
+        }
+      ],
+      "actions": [
+        {
+          "name": "cradle yolk",
+          "actor": "left_fingers",
+          "target": "yolk",
+          "description": "left fingers continue cradling the shell half holding the yolk"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers cradle yolk"
+      ]
+    },
+    {
+      "frame_id": "separate_the_yolk_000324",
+      "frame_index": 324,
+      "timestamp_seconds": 5.459949,
+      "description": "Unchanged from the moment before: the left hand still holds the shell half with the visible yolk at the bowl's rim, a thin drip of egg white continuing into the grey bowl.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "continuing to hold the shell half containing the visible yolk",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "yolk",
+          "description": "still visible inside the shell half held in the left hand",
+          "identifier": "yolk"
+        },
+        {
+          "name": "egg white",
+          "description": "still dripping from the shell into the grey bowl",
+          "identifier": "egg_white"
+        },
+        {
+          "name": "bowl (grey)",
+          "description": "continuing to collect the draining egg white",
+          "identifier": "bowl_grey"
+        }
+      ],
+      "actions": [
+        {
+          "name": "cradle yolk",
+          "actor": "left_fingers",
+          "target": "yolk",
+          "description": "left fingers continue cradling the shell half holding the yolk"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers cradle yolk"
+      ]
+    },
+    {
+      "frame_id": "separate_the_yolk_000338",
+      "frame_index": 338,
+      "timestamp_seconds": 5.695872473669229,
+      "description": "The person passes the yolk back and forth between the two shell halves, one in each hand, held close together at waist height; a strand of egg white continues stretching down from the shells into the blue-rimmed bowl.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "cradling one shell half as the yolk passes into it",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "cradling the other shell half, having just released the yolk into the left half",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "yolk",
+          "description": "passing between the two shell halves",
+          "identifier": "yolk"
+        },
+        {
+          "name": "egg white",
+          "description": "stringing down from the shells into the bowl",
+          "identifier": "egg_white"
+        },
+        {
+          "name": "bowl (grey)",
+          "description": "continuing to collect the draining egg white",
+          "identifier": "bowl_grey"
+        }
+      ],
+      "actions": [
+        {
+          "name": "receive yolk",
+          "actor": "left_fingers",
+          "target": "yolk",
+          "description": "left fingers receive the yolk into their shell half"
+        },
+        {
+          "name": "drip egg white",
+          "actor": "right_fingers",
+          "target": "egg_white",
+          "description": "right fingers let the last egg white drip from their shell"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers receive yolk",
+        "right fingers drip egg white"
+      ]
+    },
+    {
+      "frame_id": "separate_the_yolk_000368",
+      "frame_index": 368,
+      "timestamp_seconds": 6.201423,
+      "description": "The left hand still holds the shell half with the yolk at the bowl's rim, egg white continuing to drip down into the grey bowl; the pose is largely unchanged from the moments before.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "continuing to hold the shell half containing the visible yolk",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "yolk",
+          "description": "still visible inside the shell half held in the left hand",
+          "identifier": "yolk"
+        },
+        {
+          "name": "egg white",
+          "description": "still dripping from the shell into the grey bowl",
+          "identifier": "egg_white"
+        },
+        {
+          "name": "bowl (grey)",
+          "description": "continuing to collect the draining egg white",
+          "identifier": "bowl_grey"
+        }
+      ],
+      "actions": [
+        {
+          "name": "cradle yolk",
+          "actor": "left_fingers",
+          "target": "yolk",
+          "description": "left fingers continue cradling the shell half holding the yolk"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers cradle yolk"
+      ]
+    },
+    {
+      "frame_id": "separate_the_yolk_000400",
+      "frame_index": 400,
+      "timestamp_seconds": 6.740677,
+      "description": "Unchanged from the moment before: the left hand still holds the shell half with the visible yolk at the bowl's rim, egg white continuing to drip into the grey bowl.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "continuing to hold the shell half containing the visible yolk",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "yolk",
+          "description": "still visible inside the shell half held in the left hand",
+          "identifier": "yolk"
+        },
+        {
+          "name": "egg white",
+          "description": "still dripping from the shell into the grey bowl",
+          "identifier": "egg_white"
+        },
+        {
+          "name": "bowl (grey)",
+          "description": "continuing to collect the draining egg white",
+          "identifier": "bowl_grey"
+        }
+      ],
+      "actions": [
+        {
+          "name": "cradle yolk",
+          "actor": "left_fingers",
+          "target": "yolk",
+          "description": "left fingers continue cradling the shell half holding the yolk"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers cradle yolk"
+      ]
+    },
+    {
+      "frame_id": "separate_the_yolk_000426",
+      "frame_index": 426,
+      "timestamp_seconds": 7.178822,
+      "description": "The yolk has passed to the right hand; the right fingers now hold the shell half containing the visible yolk at the bowl's rim, while the left fingers hold the other shell half, letting a thin string of egg white drip down into the grey bowl.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "holding the shell half containing the visible yolk at the bowl's rim",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "left fingers",
+          "description": "holding the other shell half, letting egg white drip from it",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "yolk",
+          "description": "visible inside the shell half now held in the right hand",
+          "identifier": "yolk"
+        },
+        {
+          "name": "egg white",
+          "description": "a thin string dripping from the left hand's shell into the grey bowl",
+          "identifier": "egg_white"
+        },
+        {
+          "name": "bowl (grey)",
+          "description": "collecting the draining egg white",
+          "identifier": "bowl_grey"
+        }
+      ],
+      "actions": [
+        {
+          "name": "cradle yolk",
+          "actor": "right_fingers",
+          "target": "yolk",
+          "description": "right fingers cradle the shell half holding the yolk"
+        },
+        {
+          "name": "drip egg white",
+          "actor": "left_fingers",
+          "target": "egg_white",
+          "description": "left fingers let egg white drip from their shell half"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers cradle yolk",
+        "left fingers drip egg white"
+      ]
+    },
+    {
+      "frame_id": "separate_the_yolk_000442",
+      "frame_index": 442,
+      "timestamp_seconds": 7.448449,
+      "description": "Unchanged from the moment before: the right fingers still cradle the shell half with the visible yolk, while the left fingers hold the other shell half, egg white continuing to drip into the grey bowl.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "continuing to hold the shell half containing the visible yolk",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "left fingers",
+          "description": "continuing to hold the other shell half, letting egg white drip from it",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "yolk",
+          "description": "still visible inside the shell half held in the right hand",
+          "identifier": "yolk"
+        },
+        {
+          "name": "egg white",
+          "description": "still dripping from the left hand's shell into the grey bowl",
+          "identifier": "egg_white"
+        },
+        {
+          "name": "bowl (grey)",
+          "description": "continuing to collect the draining egg white",
+          "identifier": "bowl_grey"
+        }
+      ],
+      "actions": [
+        {
+          "name": "cradle yolk",
+          "actor": "right_fingers",
+          "target": "yolk",
+          "description": "right fingers continue cradling the shell half holding the yolk"
+        },
+        {
+          "name": "drip egg white",
+          "actor": "left_fingers",
+          "target": "egg_white",
+          "description": "left fingers continue letting egg white drip from their shell half"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers cradle yolk",
+        "left fingers drip egg white"
+      ]
+    },
+    {
+      "frame_id": "separate_the_yolk_000462",
+      "frame_index": 462,
+      "timestamp_seconds": 7.785482,
+      "description": "The two shell halves are brought close together at the bowl's rim; the yolk is visible sitting between them as it passes from the right hand's half toward the left hand's half.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "tipping their shell half, passing the yolk toward the left hand",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "left fingers",
+          "description": "holding their shell half open to receive the yolk",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "yolk",
+          "description": "visible passing between the two shell halves",
+          "identifier": "yolk"
+        },
+        {
+          "name": "bowl (grey)",
+          "description": "positioned below, collecting drips",
+          "identifier": "bowl_grey"
+        }
+      ],
+      "actions": [
+        {
+          "name": "pass yolk",
+          "actor": "right_fingers",
+          "target": "yolk",
+          "description": "right fingers tip the yolk out toward the left hand's shell half"
+        },
+        {
+          "name": "receive yolk",
+          "actor": "left_fingers",
+          "target": "yolk",
+          "description": "left fingers position their shell half to receive the yolk"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers pass yolk",
+        "left fingers receive yolk"
+      ]
+    },
+    {
+      "frame_id": "separate_the_yolk_000494",
+      "frame_index": 494,
+      "timestamp_seconds": 8.324737,
+      "description": "The yolk has settled into the right hand's shell half; the right fingers cradle it at the bowl's rim with a thin drip of egg white falling below, while the left fingers hold the other shell half nearby.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "cradling the shell half containing the visible yolk at the bowl's rim",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "left fingers",
+          "description": "holding the other shell half nearby",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "yolk",
+          "description": "visible inside the shell half held in the right hand",
+          "identifier": "yolk"
+        },
+        {
+          "name": "egg white",
+          "description": "a thin drip falling into the grey bowl",
+          "identifier": "egg_white"
+        },
+        {
+          "name": "bowl (grey)",
+          "description": "collecting the draining egg white",
+          "identifier": "bowl_grey"
+        }
+      ],
+      "actions": [
+        {
+          "name": "cradle yolk",
+          "actor": "right_fingers",
+          "target": "yolk",
+          "description": "right fingers cradle the shell half holding the yolk"
+        },
+        {
+          "name": "hold shell half",
+          "actor": "left_fingers",
+          "target": "egg_white",
+          "description": "left fingers hold their shell half, letting the last of the egg white drip"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers cradle yolk",
+        "left fingers hold shell half"
+      ]
+    },
+    {
+      "frame_id": "separate_the_yolk_000520",
+      "frame_index": 520,
+      "timestamp_seconds": 8.762881,
+      "description": "Unchanged from the moment before: the right fingers still cradle the shell half with the visible yolk, egg white continuing to drip into the grey bowl.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "continuing to cradle the shell half containing the visible yolk",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "left fingers",
+          "description": "continuing to hold the other shell half nearby",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "yolk",
+          "description": "still visible inside the shell half held in the right hand",
+          "identifier": "yolk"
+        },
+        {
+          "name": "egg white",
+          "description": "still dripping into the grey bowl",
+          "identifier": "egg_white"
+        },
+        {
+          "name": "bowl (grey)",
+          "description": "continuing to collect the draining egg white",
+          "identifier": "bowl_grey"
+        }
+      ],
+      "actions": [
+        {
+          "name": "cradle yolk",
+          "actor": "right_fingers",
+          "target": "yolk",
+          "description": "right fingers continue cradling the shell half holding the yolk"
+        },
+        {
+          "name": "hold shell half",
+          "actor": "left_fingers",
+          "target": "egg_white",
+          "description": "left fingers continue holding their shell half"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers cradle yolk",
+        "left fingers hold shell half"
+      ]
+    },
+    {
+      "frame_id": "separate_the_yolk_000540",
+      "frame_index": 540,
+      "timestamp_seconds": 9.099914602903501,
+      "description": "The yolk-passing continues, the person's two hands still holding a shell half each just above the bowls, egg white still trailing down into the blue-rimmed bowl.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "holding a shell half with the yolk inside",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "holding the other, empty shell half",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "yolk",
+          "description": "held within the shell half in the left hand",
+          "identifier": "yolk"
+        },
+        {
+          "name": "egg white",
+          "description": "still dripping down into the bowl",
+          "identifier": "egg_white"
+        },
+        {
+          "name": "bowl (grey)",
+          "description": "now holding a visible pool of collected egg white",
+          "identifier": "bowl_grey"
+        }
+      ],
+      "actions": [
+        {
+          "name": "cradle yolk",
+          "actor": "left_fingers",
+          "target": "yolk",
+          "description": "left fingers keep the yolk cradled in the shell"
+        },
+        {
+          "name": "guide drip",
+          "actor": "right_fingers",
+          "target": "egg_white",
+          "description": "right fingers keep the second shell steady, guiding the drip"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers cradle yolk",
+        "right fingers guide drip"
+      ]
+    },
+    {
+      "frame_id": "separate_the_yolk_000558",
+      "frame_index": 558,
+      "timestamp_seconds": 9.403245,
+      "description": "The yolk has passed back to the left hand; the left fingers now cradle the shell half containing the visible yolk at the bowl's rim, while the right fingers hold the other shell half nearby.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "cradling the shell half containing the visible yolk",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "holding the other shell half nearby",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "yolk",
+          "description": "visible inside the shell half held in the left hand",
+          "identifier": "yolk"
+        },
+        {
+          "name": "bowl (grey)",
+          "description": "positioned below, collecting drips",
+          "identifier": "bowl_grey"
+        }
+      ],
+      "actions": [
+        {
+          "name": "cradle yolk",
+          "actor": "left_fingers",
+          "target": "yolk",
+          "description": "left fingers cradle the shell half holding the yolk"
+        },
+        {
+          "name": "hold shell half",
+          "actor": "right_fingers",
+          "target": "yolk",
+          "description": "right fingers hold their now-empty shell half nearby"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers cradle yolk",
+        "right fingers hold shell half"
+      ]
+    },
+    {
+      "frame_id": "separate_the_yolk_000588",
+      "frame_index": 588,
+      "timestamp_seconds": 9.908796,
+      "description": "The yolk has passed back to the right hand; the right fingers cradle the shell half containing the visible yolk, with a thin drip of egg white falling into the grey bowl below.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "cradling the shell half containing the visible yolk",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "left fingers",
+          "description": "holding the other shell half nearby",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "yolk",
+          "description": "visible inside the shell half held in the right hand",
+          "identifier": "yolk"
+        },
+        {
+          "name": "egg white",
+          "description": "a thin drip falling into the grey bowl",
+          "identifier": "egg_white"
+        },
+        {
+          "name": "bowl (grey)",
+          "description": "collecting the draining egg white",
+          "identifier": "bowl_grey"
+        }
+      ],
+      "actions": [
+        {
+          "name": "cradle yolk",
+          "actor": "right_fingers",
+          "target": "yolk",
+          "description": "right fingers cradle the shell half holding the yolk"
+        },
+        {
+          "name": "hold shell half",
+          "actor": "left_fingers",
+          "target": "egg_white",
+          "description": "left fingers hold their shell half nearby"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers cradle yolk",
+        "left fingers hold shell half"
+      ]
+    },
+    {
+      "frame_id": "separate_the_yolk_000608",
+      "frame_index": 608,
+      "timestamp_seconds": 10.24583,
+      "description": "The right hand continues cradling the shell half with the visible yolk, a thin drip falling into the bowl; the left fingers hold the other shell half just beneath, largely unchanged from the moment before.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "continuing to cradle the shell half containing the visible yolk",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "left fingers",
+          "description": "continuing to hold the other shell half just beneath",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "yolk",
+          "description": "still visible inside the shell half held in the right hand",
+          "identifier": "yolk"
+        },
+        {
+          "name": "egg white",
+          "description": "still dripping into the grey bowl",
+          "identifier": "egg_white"
+        },
+        {
+          "name": "bowl (grey)",
+          "description": "continuing to collect the draining egg white",
+          "identifier": "bowl_grey"
+        }
+      ],
+      "actions": [
+        {
+          "name": "cradle yolk",
+          "actor": "right_fingers",
+          "target": "yolk",
+          "description": "right fingers continue cradling the shell half holding the yolk"
+        },
+        {
+          "name": "hold shell half",
+          "actor": "left_fingers",
+          "target": "egg_white",
+          "description": "left fingers continue holding their shell half"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers cradle yolk",
+        "left fingers hold shell half"
+      ]
+    },
+    {
+      "frame_id": "separate_the_yolk_000636",
+      "frame_index": 636,
+      "timestamp_seconds": 10.717677,
+      "description": "The yolk has passed back to the left hand; the left fingers cradle the shell half containing the visible yolk low over the grey bowl, with a thin drip of egg white falling into it, while the right fingers hold the other shell half nearby.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "cradling the shell half containing the visible yolk low over the bowl",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "holding the other shell half nearby",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "yolk",
+          "description": "visible inside the shell half held in the left hand",
+          "identifier": "yolk"
+        },
+        {
+          "name": "egg white",
+          "description": "a thin drip falling into the grey bowl",
+          "identifier": "egg_white"
+        },
+        {
+          "name": "bowl (grey)",
+          "description": "collecting the draining egg white",
+          "identifier": "bowl_grey"
+        }
+      ],
+      "actions": [
+        {
+          "name": "cradle yolk",
+          "actor": "left_fingers",
+          "target": "yolk",
+          "description": "left fingers cradle the shell half holding the yolk"
+        },
+        {
+          "name": "hold shell half",
+          "actor": "right_fingers",
+          "target": "egg_white",
+          "description": "right fingers hold their shell half nearby"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers cradle yolk",
+        "right fingers hold shell half"
+      ]
+    },
+    {
+      "frame_id": "separate_the_yolk_000666",
+      "frame_index": 666,
+      "timestamp_seconds": 11.223228,
+      "description": "Unchanged from the moment before: the left fingers still cradle the shell half with the visible yolk low over the grey bowl, egg white continuing to drip in.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "continuing to cradle the shell half containing the visible yolk",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "continuing to hold the other shell half nearby",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "yolk",
+          "description": "still visible inside the shell half held in the left hand",
+          "identifier": "yolk"
+        },
+        {
+          "name": "egg white",
+          "description": "still dripping into the grey bowl",
+          "identifier": "egg_white"
+        },
+        {
+          "name": "bowl (grey)",
+          "description": "continuing to collect the draining egg white",
+          "identifier": "bowl_grey"
+        }
+      ],
+      "actions": [
+        {
+          "name": "cradle yolk",
+          "actor": "left_fingers",
+          "target": "yolk",
+          "description": "left fingers continue cradling the shell half holding the yolk"
+        },
+        {
+          "name": "hold shell half",
+          "actor": "right_fingers",
+          "target": "egg_white",
+          "description": "right fingers continue holding their shell half"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers cradle yolk",
+        "right fingers hold shell half"
+      ]
+    },
+    {
+      "frame_id": "separate_the_yolk_000696",
+      "frame_index": 696,
+      "timestamp_seconds": 11.728778821520068,
+      "description": "The person continues passing the yolk between the shell halves, hands held together at waist height; egg white keeps stringing down into the bowl below.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "holding a shell half with the yolk inside",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "left fingers",
+          "description": "holding the other, empty shell half",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "yolk",
+          "description": "held within the shell half in the right hand",
+          "identifier": "yolk"
+        },
+        {
+          "name": "egg white",
+          "description": "stringing down from the shells into the bowl",
+          "identifier": "egg_white"
+        },
+        {
+          "name": "bowl (grey)",
+          "description": "continuing to collect the draining egg white",
+          "identifier": "bowl_grey"
+        }
+      ],
+      "actions": [
+        {
+          "name": "cradle yolk",
+          "actor": "right_fingers",
+          "target": "yolk",
+          "description": "right fingers keep the yolk cradled in the shell"
+        },
+        {
+          "name": "guide drip",
+          "actor": "left_fingers",
+          "target": "egg_white",
+          "description": "left fingers keep the second shell steady, guiding the drip"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers cradle yolk",
+        "left fingers guide drip"
+      ]
+    },
+    {
+      "frame_id": "separate_the_yolk_000724",
+      "frame_index": 724,
+      "timestamp_seconds": 12.200626,
+      "description": "Both hands have lifted away from the bowl's rim and now hold their shell halves close together near the torso, working the remaining bit of yolk between them; no direct dripping into the bowl is visible in this pose.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "holding one shell half near the torso",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "holding the other shell half near the torso",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "yolk",
+          "description": "a small remaining amount visible between the shell halves",
+          "identifier": "yolk"
+        }
+      ],
+      "actions": [
+        {
+          "name": "work shell half",
+          "actor": "left_fingers",
+          "target": "yolk",
+          "description": "left fingers work their shell half, handling the remaining yolk"
+        },
+        {
+          "name": "work shell half",
+          "actor": "right_fingers",
+          "target": "yolk",
+          "description": "right fingers work their shell half similarly"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers work shell half",
+        "right fingers work shell half"
+      ]
+    },
+    {
+      "frame_id": "separate_the_yolk_000746",
+      "frame_index": 746,
+      "timestamp_seconds": 12.571364,
+      "description": "Unchanged from the moment before: both hands remain close together near the torso, working the shell halves and the remaining bit of yolk.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "continuing to hold one shell half near the torso",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "continuing to hold the other shell half near the torso",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "yolk",
+          "description": "still a small remaining amount visible between the shell halves",
+          "identifier": "yolk"
+        }
+      ],
+      "actions": [
+        {
+          "name": "work shell half",
+          "actor": "left_fingers",
+          "target": "yolk",
+          "description": "left fingers continue working their shell half"
+        },
+        {
+          "name": "work shell half",
+          "actor": "right_fingers",
+          "target": "yolk",
+          "description": "right fingers continue working their shell half"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers work shell half",
+        "right fingers work shell half"
+      ]
+    },
+    {
+      "frame_id": "separate_the_yolk_000766",
+      "frame_index": 766,
+      "timestamp_seconds": 12.908397,
+      "description": "Hands remain together near the torso working the shell halves, which now appear smaller; largely unchanged from the moments before.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "holding a now-smaller shell piece near the torso",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "holding the other, also smaller shell piece near the torso",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "yolk",
+          "description": "a small remaining trace visible on one of the shell pieces",
+          "identifier": "yolk"
+        }
+      ],
+      "actions": [
+        {
+          "name": "work shell half",
+          "actor": "left_fingers",
+          "target": "yolk",
+          "description": "left fingers continue working their smaller shell piece"
+        },
+        {
+          "name": "work shell half",
+          "actor": "right_fingers",
+          "target": "yolk",
+          "description": "right fingers continue working their smaller shell piece"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers work shell half",
+        "right fingers work shell half"
+      ]
+    },
+    {
+      "frame_id": "separate_the_yolk_000778",
+      "frame_index": 778,
+      "timestamp_seconds": 13.110618,
+      "description": "The shell pieces have broken down further into smaller fragments, still held close together near the torso in both hands; a faint trace of yolk color still clings to one of the pieces.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "holding a small eggshell fragment near the torso",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "holding another small eggshell fragment, with a faint trace of yolk color",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "eggshell fragment (left)",
+          "description": "small piece held in the left hand",
+          "identifier": "shell_fragment_left"
+        },
+        {
+          "name": "eggshell fragment (right)",
+          "description": "small piece held in the right hand, with a faint trace of yolk color",
+          "identifier": "shell_fragment_right"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold shell fragment",
+          "actor": "left_fingers",
+          "target": "shell_fragment_left",
+          "description": "left fingers hold their small shell fragment"
+        },
+        {
+          "name": "hold shell fragment",
+          "actor": "right_fingers",
+          "target": "shell_fragment_right",
+          "description": "right fingers hold their small shell fragment"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers hold shell fragment",
+        "right fingers hold shell fragment"
+      ]
+    },
+    {
+      "frame_id": "separate_the_yolk_000786",
+      "frame_index": 786,
+      "timestamp_seconds": 13.245431,
+      "description": "Unchanged from the moment before: both hands continue holding their small eggshell fragments close together near the torso.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "continuing to hold their small eggshell fragment",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "continuing to hold their small eggshell fragment",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "eggshell fragment (left)",
+          "description": "small piece held in the left hand",
+          "identifier": "shell_fragment_left"
+        },
+        {
+          "name": "eggshell fragment (right)",
+          "description": "small piece held in the right hand",
+          "identifier": "shell_fragment_right"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold shell fragment",
+          "actor": "left_fingers",
+          "target": "shell_fragment_left",
+          "description": "left fingers continue holding their shell fragment"
+        },
+        {
+          "name": "hold shell fragment",
+          "actor": "right_fingers",
+          "target": "shell_fragment_right",
+          "description": "right fingers continue holding their shell fragment"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers hold shell fragment",
+        "right fingers hold shell fragment"
+      ]
+    },
+    {
+      "frame_id": "separate_the_yolk_000794",
+      "frame_index": 794,
+      "timestamp_seconds": 13.380245,
+      "description": "Unchanged from the moment before: both hands continue holding their small eggshell fragments close together near the torso, the pieces looking slightly smaller.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "continuing to hold their small eggshell fragment",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "continuing to hold their small eggshell fragment",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "eggshell fragment (left)",
+          "description": "small piece held in the left hand",
+          "identifier": "shell_fragment_left"
+        },
+        {
+          "name": "eggshell fragment (right)",
+          "description": "small piece held in the right hand",
+          "identifier": "shell_fragment_right"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold shell fragment",
+          "actor": "left_fingers",
+          "target": "shell_fragment_left",
+          "description": "left fingers continue holding their shell fragment"
+        },
+        {
+          "name": "hold shell fragment",
+          "actor": "right_fingers",
+          "target": "shell_fragment_right",
+          "description": "right fingers continue holding their shell fragment"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers hold shell fragment",
+        "right fingers hold shell fragment"
+      ]
+    },
+    {
+      "frame_id": "separate_the_yolk_000802",
+      "frame_index": 802,
+      "timestamp_seconds": 13.515058,
+      "description": "The right hand holds a small shell fragment with a trace of yolk clinging to it, positioned over the orange bowl; a thin drip falls from it into that bowl. The left hand's fingers are open and empty, nearby.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "holding a small shell fragment with a trace of yolk over the orange bowl, letting it drip in",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "eggshell fragment (right)",
+          "description": "small piece held in the right hand, with a trace of yolk clinging to it",
+          "identifier": "shell_fragment_right"
+        },
+        {
+          "name": "bowl (orange)",
+          "description": "receiving a drip from the shell fragment",
+          "identifier": "bowl_orange"
+        }
+      ],
+      "actions": [
+        {
+          "name": "drip into bowl",
+          "actor": "right_fingers",
+          "target": "bowl_orange",
+          "description": "right fingers let a drip fall from the shell fragment into the orange bowl"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers drip into bowl"
+      ]
+    },
+    {
+      "frame_id": "separate_the_yolk_000812",
+      "frame_index": 812,
+      "timestamp_seconds": 13.683575,
+      "description": "Both hands come back together near the waist, each holding a small eggshell fragment, continuing to work the last bits loose.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "holding a small eggshell fragment near the waist",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "holding another small eggshell fragment",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "eggshell fragment (left)",
+          "description": "small piece held in the left hand",
+          "identifier": "shell_fragment_left"
+        },
+        {
+          "name": "eggshell fragment (right)",
+          "description": "small piece held in the right hand",
+          "identifier": "shell_fragment_right"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold shell fragment",
+          "actor": "left_fingers",
+          "target": "shell_fragment_left",
+          "description": "left fingers hold their small shell fragment"
+        },
+        {
+          "name": "hold shell fragment",
+          "actor": "right_fingers",
+          "target": "shell_fragment_right",
+          "description": "right fingers hold their small shell fragment"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers hold shell fragment",
+        "right fingers hold shell fragment"
+      ]
+    },
+    {
+      "frame_id": "separate_the_yolk_000822",
+      "frame_index": 822,
+      "timestamp_seconds": 13.852092,
+      "description": "Unchanged from the moment before: both hands continue holding small eggshell fragments close together near the waist.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "continuing to hold a small eggshell fragment",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "continuing to hold another small eggshell fragment",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "eggshell fragment (left)",
+          "description": "small piece held in the left hand",
+          "identifier": "shell_fragment_left"
+        },
+        {
+          "name": "eggshell fragment (right)",
+          "description": "small piece held in the right hand",
+          "identifier": "shell_fragment_right"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold shell fragment",
+          "actor": "left_fingers",
+          "target": "shell_fragment_left",
+          "description": "left fingers continue holding their shell fragment"
+        },
+        {
+          "name": "hold shell fragment",
+          "actor": "right_fingers",
+          "target": "shell_fragment_right",
+          "description": "right fingers continue holding their shell fragment"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers hold shell fragment",
+        "right fingers hold shell fragment"
+      ]
+    },
+    {
+      "frame_id": "separate_the_yolk_000832",
+      "frame_index": 832,
+      "timestamp_seconds": 14.020609,
+      "description": "Unchanged from the moment before: both hands continue holding their now tiny eggshell fragments close together near the waist.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "continuing to hold a tiny eggshell fragment",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "continuing to hold another tiny eggshell fragment",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "eggshell fragment (left)",
+          "description": "tiny piece held in the left hand",
+          "identifier": "shell_fragment_left"
+        },
+        {
+          "name": "eggshell fragment (right)",
+          "description": "tiny piece held in the right hand",
+          "identifier": "shell_fragment_right"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold shell fragment",
+          "actor": "left_fingers",
+          "target": "shell_fragment_left",
+          "description": "left fingers continue holding their shell fragment"
+        },
+        {
+          "name": "hold shell fragment",
+          "actor": "right_fingers",
+          "target": "shell_fragment_right",
+          "description": "right fingers continue holding their shell fragment"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers hold shell fragment",
+        "right fingers hold shell fragment"
+      ]
+    },
+    {
+      "frame_id": "separate_the_yolk_000844",
+      "frame_index": 844,
+      "timestamp_seconds": 14.222829,
+      "description": "Unchanged from the moment before: both hands continue holding their small eggshell fragments close together near the waist.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "continuing to hold a small eggshell fragment",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "continuing to hold another small eggshell fragment",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "eggshell fragment (left)",
+          "description": "small piece held in the left hand",
+          "identifier": "shell_fragment_left"
+        },
+        {
+          "name": "eggshell fragment (right)",
+          "description": "small piece held in the right hand",
+          "identifier": "shell_fragment_right"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold shell fragment",
+          "actor": "left_fingers",
+          "target": "shell_fragment_left",
+          "description": "left fingers continue holding their shell fragment"
+        },
+        {
+          "name": "hold shell fragment",
+          "actor": "right_fingers",
+          "target": "shell_fragment_right",
+          "description": "right fingers continue holding their shell fragment"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers hold shell fragment",
+        "right fingers hold shell fragment"
+      ]
+    },
+    {
+      "frame_id": "separate_the_yolk_000868",
+      "frame_index": 868,
+      "timestamp_seconds": 14.62727,
+      "description": "Hands remain close together near the waist, working the last small eggshell fragments; largely unchanged from the moments before.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "holding a small eggshell fragment near the waist",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "holding another small eggshell fragment near the waist",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "eggshell fragment (left)",
+          "description": "small piece held in the left hand",
+          "identifier": "shell_fragment_left"
+        },
+        {
+          "name": "eggshell fragment (right)",
+          "description": "small piece held in the right hand",
+          "identifier": "shell_fragment_right"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold shell fragment",
+          "actor": "left_fingers",
+          "target": "shell_fragment_left",
+          "description": "left fingers continue holding their shell fragment"
+        },
+        {
+          "name": "hold shell fragment",
+          "actor": "right_fingers",
+          "target": "shell_fragment_right",
+          "description": "right fingers continue holding their shell fragment"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers hold shell fragment",
+        "right fingers hold shell fragment"
+      ]
+    },
+    {
+      "frame_id": "separate_the_yolk_000896",
+      "frame_index": 896,
+      "timestamp_seconds": 15.099118,
+      "description": "The left hand now rests flat, palm down, on the counter's edge -- idle. The right hand holds a small eggshell fragment, raised near the bowls.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "holding a small eggshell fragment, raised near the bowls",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "eggshell fragment",
+          "description": "small piece held in the right hand",
+          "identifier": "shell_fragment_right"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold shell fragment",
+          "actor": "right_fingers",
+          "target": "shell_fragment_right",
+          "description": "right fingers hold the small eggshell fragment near the bowls"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers hold shell fragment"
+      ]
+    },
+    {
+      "frame_id": "separate_the_yolk_000916",
+      "frame_index": 916,
+      "timestamp_seconds": 15.436151437517792,
+      "description": "Both hands are still actively engaged, each pinching a small remaining eggshell fragment close to the body, working the last bit of egg white free before finishing.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "pinching a small eggshell fragment near the waist",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "pinching another eggshell fragment, working loose the last egg white",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "eggshell fragment (left)",
+          "description": "small piece held in the left hand",
+          "identifier": "shell_fragment_left"
+        },
+        {
+          "name": "eggshell fragment (right)",
+          "description": "small piece held in the right hand",
+          "identifier": "shell_fragment_right"
+        }
+      ],
+      "actions": [
+        {
+          "name": "pinch shell fragment",
+          "actor": "left_fingers",
+          "target": "shell_fragment_left",
+          "description": "left fingers continue pinching their shell fragment"
+        },
+        {
+          "name": "work shell fragment",
+          "actor": "right_fingers",
+          "target": "shell_fragment_right",
+          "description": "right fingers work the last egg white loose from their shell fragment"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers pinch shell fragment",
+        "right fingers work shell fragment"
+      ]
+    },
+    {
+      "frame_id": "separate_the_yolk_000924",
+      "frame_index": 924,
+      "timestamp_seconds": 15.570964987190434,
+      "description": "The right hand has released its shell fragment and now rests flat, palm down, on the counter's edge -- idle and no longer engaged with the task. The left hand continues holding a small eggshell fragment up near the torso, fingers still working it.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "holding a small eggshell fragment near the torso, unchanged from the moment before",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "eggshell fragment",
+          "description": "small piece still held in the left hand",
+          "identifier": "shell_fragment_left"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold shell fragment",
+          "actor": "left_fingers",
+          "target": "shell_fragment_left",
+          "description": "left fingers continue holding the shell fragment"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers hold shell fragment"
+      ]
+    },
+    {
+      "frame_id": "separate_the_yolk_000934",
+      "frame_index": 934,
+      "timestamp_seconds": 15.739482,
+      "description": "The left hand still rests flat, palm down, on the counter -- idle. The right hand continues holding a small eggshell fragment above the bowls, largely unchanged from the moment before.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "continuing to hold the small eggshell fragment above the bowls",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "eggshell fragment",
+          "description": "small piece held in the right hand",
+          "identifier": "shell_fragment_right"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold shell fragment",
+          "actor": "right_fingers",
+          "target": "shell_fragment_right",
+          "description": "right fingers continue holding the small eggshell fragment"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers hold shell fragment"
+      ]
+    },
+    {
+      "frame_id": "separate_the_yolk_000944",
+      "frame_index": 944,
+      "timestamp_seconds": 15.907998861372047,
+      "description": "The person looks up directly at the camera, smiling; the right hand still rests flat and idle on the counter, while the left hand keeps holding the small eggshell fragment near the torso.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "still holding the small eggshell fragment near the torso",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "eggshell fragment",
+          "description": "small piece still held in the left hand",
+          "identifier": "shell_fragment_left"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold shell fragment",
+          "actor": "left_fingers",
+          "target": "shell_fragment_left",
+          "description": "left fingers continue holding the shell fragment while the person looks up at the camera"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers hold shell fragment"
+      ]
+    },
+    {
+      "frame_id": "separate_the_yolk_000966",
+      "frame_index": 966,
+      "timestamp_seconds": 16.278736122971818,
+      "description": "The hands have swapped roles: the left hand now rests flat, palm down, on the counter's left edge -- idle -- while the right hand holds a small eggshell fragment lowered near the counter on the right side.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "holding a small eggshell fragment, lowered near the counter's right side",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "eggshell fragment",
+          "description": "small piece held in the right hand",
+          "identifier": "shell_fragment_right"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold shell fragment",
+          "actor": "right_fingers",
+          "target": "shell_fragment_right",
+          "description": "right fingers hold the small eggshell fragment near the counter"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers hold shell fragment"
+      ]
+    },
+    {
+      "frame_id": "separate_the_yolk_001145",
+      "frame_index": 1145,
+      "timestamp_seconds": 19.295189296897238,
+      "description": "In the final frame, the person faces the camera directly, smiling, with their left hand resting flat and idle on the counter's edge; their right hand loosely holds a last small eggshell fragment near the counter. Both bowls in front now hold the pale yellow egg white collected during the separation.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "loosely holding the last eggshell fragment near the counter, task essentially finished",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "eggshell fragment",
+          "description": "final small piece remaining in the right hand",
+          "identifier": "shell_fragment_right"
+        },
+        {
+          "name": "bowl (grey)",
+          "description": "holding the collected egg white",
+          "identifier": "bowl_grey"
+        },
+        {
+          "name": "bowl (orange)",
+          "description": "holding additional collected egg white",
+          "identifier": "bowl_orange"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold shell fragment",
+          "actor": "right_fingers",
+          "target": "shell_fragment_right",
+          "description": "right fingers hold the last shell fragment loosely, motion complete"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers hold shell fragment"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,698 @@
+{
+  "video_id": "yo_yo",
+  "video_path": "videos/yo_yo.mov",
+  "frames": [
+    {
+      "frame_id": "yo_yo_000000",
+      "frame_index": 0,
+      "timestamp_seconds": 0.0,
+      "description": "A person in a silver suit stands with their right fingers pinching the yo-yo's string, letting the yo-yo hang near their foot; the left hand is relaxed and not engaged.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "pinching the yo-yo's string, suspending it",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "yo-yo",
+          "description": "red and white yo-yo hanging on its string near the floor"
+        }
+      ],
+      "entities": [],
+      "actions": [
+        {
+          "name": "hold yo-yo string",
+          "actor": "right fingers",
+          "target": "yo-yo",
+          "description": "the fingers pinch the yo-yo's string, letting it hang near the floor"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "yo_yo_000078",
+      "frame_index": 78,
+      "timestamp_seconds": 1.30628,
+      "description": "A person in a silver suit stands with the right fingers pinching the yo-yo's string near chest height, letting the yo-yo hang low near the left leg; the left hand is relaxed and not engaged.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "pinching the yo-yo's string near chest height, suspending the yo-yo below",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "yo-yo",
+          "description": "red and white yo-yo hanging low near the left leg, suspended on its string",
+          "identifier": "yoyo"
+        }
+      ],
+      "entities": [],
+      "actions": [
+        {
+          "name": "hold yo-yo string",
+          "actor": "right fingers",
+          "target": "yo-yo",
+          "description": "the fingers pinch the yo-yo's string near chest height, letting the yo-yo hang near the left leg"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "yo_yo_000108",
+      "frame_index": 108,
+      "timestamp_seconds": 1.808696,
+      "description": "A person in a silver suit holds the yo-yo's string with the right fingers raised near head height, letting the yo-yo hang at hip level; the left hand is relaxed and not engaged.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "pinching the yo-yo's string, raised near head height",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "yo-yo",
+          "description": "red and white yo-yo hanging at hip level on its string",
+          "identifier": "yoyo"
+        }
+      ],
+      "entities": [],
+      "actions": [
+        {
+          "name": "hold yo-yo string",
+          "actor": "right fingers",
+          "target": "yo-yo",
+          "description": "the fingers pinch the yo-yo's string raised near head height, letting the yo-yo hang at hip level"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "yo_yo_000136",
+      "frame_index": 136,
+      "timestamp_seconds": 2.277617,
+      "description": "A person in a silver suit holds the yo-yo directly in the right fingers at waist height, with the string gathered above; the left hand is relaxed and not engaged.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "wrapped around the yo-yo's body, holding it at waist height",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "yo-yo",
+          "description": "red and white yo-yo held in the right hand at waist height",
+          "identifier": "yoyo"
+        }
+      ],
+      "entities": [],
+      "actions": [
+        {
+          "name": "hold yo-yo",
+          "actor": "right fingers",
+          "target": "yo-yo",
+          "description": "the fingers wrap around the yo-yo's body, holding it at waist height"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "yo_yo_000166",
+      "frame_index": 166,
+      "timestamp_seconds": 2.780032,
+      "description": "A person in a silver suit continues to hold the yo-yo in the right fingers at waist height, unchanged from the moment before; the left hand is relaxed and not engaged.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "wrapped around the yo-yo's body, holding it at waist height",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "yo-yo",
+          "description": "red and white yo-yo held in the right hand at waist height",
+          "identifier": "yoyo"
+        }
+      ],
+      "entities": [],
+      "actions": [
+        {
+          "name": "hold yo-yo",
+          "actor": "right fingers",
+          "target": "yo-yo",
+          "description": "the fingers remain wrapped around the yo-yo's body, holding it at waist height"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "yo_yo_000180",
+      "frame_index": 180,
+      "timestamp_seconds": 3.0,
+      "description": "A person in a silver suit holds the yo-yo close to their chest, both hands' fingers winding its string around the axle.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "winding the yo-yo's string around its axle",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "winding the yo-yo's string around its axle",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "yo-yo",
+          "description": "red and white yo-yo held close to the chest"
+        }
+      ],
+      "entities": [],
+      "actions": [
+        {
+          "name": "wind yo-yo string",
+          "actor": "left fingers and right fingers",
+          "target": "yo-yo",
+          "description": "both hands' fingers wind the yo-yo's string around its axle"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "yo_yo_000202",
+      "frame_index": 202,
+      "timestamp_seconds": 3.382931,
+      "description": "A person in a silver suit holds the yo-yo close to the stomach, both hands' fingers beginning to wind its string around the axle.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "winding the yo-yo's string around its axle",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "winding the yo-yo's string around its axle",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "yo-yo",
+          "description": "red and white yo-yo held close to the stomach",
+          "identifier": "yoyo"
+        }
+      ],
+      "entities": [],
+      "actions": [
+        {
+          "name": "wind yo-yo string",
+          "actor": "left fingers and right fingers",
+          "target": "yo-yo",
+          "description": "both hands' fingers wind the yo-yo's string around its axle, held close to the stomach"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "yo_yo_000240",
+      "frame_index": 240,
+      "timestamp_seconds": 4.019324,
+      "description": "A person in a silver suit continues winding the yo-yo's string with both hands' fingers held close to the stomach, unchanged from the moment before.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "winding the yo-yo's string around its axle",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "winding the yo-yo's string around its axle",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "yo-yo",
+          "description": "red and white yo-yo held close to the stomach",
+          "identifier": "yoyo"
+        }
+      ],
+      "entities": [],
+      "actions": [
+        {
+          "name": "wind yo-yo string",
+          "actor": "left fingers and right fingers",
+          "target": "yo-yo",
+          "description": "both hands' fingers continue winding the yo-yo's string"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "yo_yo_000280",
+      "frame_index": 280,
+      "timestamp_seconds": 4.689211,
+      "description": "A person in a silver suit still winds the yo-yo's string with both hands' fingers held close to the stomach, essentially unchanged from the moment before.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "winding the yo-yo's string around its axle",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "winding the yo-yo's string around its axle",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "yo-yo",
+          "description": "red and white yo-yo held close to the stomach",
+          "identifier": "yoyo"
+        }
+      ],
+      "entities": [],
+      "actions": [
+        {
+          "name": "wind yo-yo string",
+          "actor": "left fingers and right fingers",
+          "target": "yo-yo",
+          "description": "both hands' fingers continue winding the yo-yo's string"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "yo_yo_000322",
+      "frame_index": 322,
+      "timestamp_seconds": 5.392593,
+      "description": "A person in a silver suit continues winding the yo-yo's string with both hands' fingers held close to the stomach, essentially unchanged from the moment before.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "winding the yo-yo's string around its axle",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "winding the yo-yo's string around its axle",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "yo-yo",
+          "description": "red and white yo-yo held close to the stomach",
+          "identifier": "yoyo"
+        }
+      ],
+      "entities": [],
+      "actions": [
+        {
+          "name": "wind yo-yo string",
+          "actor": "left fingers and right fingers",
+          "target": "yo-yo",
+          "description": "both hands' fingers continue winding the yo-yo's string"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "yo_yo_000357",
+      "frame_index": 357,
+      "timestamp_seconds": 5.978744,
+      "description": "A person in a silver suit still winds the yo-yo's string with both hands' fingers held close to the stomach, essentially unchanged from the moment before.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "winding the yo-yo's string around its axle",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "winding the yo-yo's string around its axle",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "yo-yo",
+          "description": "red and white yo-yo held close to the stomach",
+          "identifier": "yoyo"
+        }
+      ],
+      "entities": [],
+      "actions": [
+        {
+          "name": "wind yo-yo string",
+          "actor": "left fingers and right fingers",
+          "target": "yo-yo",
+          "description": "both hands' fingers continue winding the yo-yo's string"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "yo_yo_000368",
+      "frame_index": 368,
+      "timestamp_seconds": 6.133333,
+      "description": "A person in a silver suit continues winding the yo-yo's string with both hands' fingers held close to their chest.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "winding the yo-yo's string around its axle",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "winding the yo-yo's string around its axle",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "yo-yo",
+          "description": "red and white yo-yo held close to the chest"
+        }
+      ],
+      "entities": [],
+      "actions": [
+        {
+          "name": "wind yo-yo string",
+          "actor": "left fingers and right fingers",
+          "target": "yo-yo",
+          "description": "both hands' fingers continue winding the yo-yo's string"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "yo_yo_000393",
+      "frame_index": 393,
+      "timestamp_seconds": 6.581643,
+      "description": "A person in a silver suit continues winding the yo-yo's string with both hands' fingers held close to the stomach, essentially unchanged from the moment before.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "winding the yo-yo's string around its axle",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "winding the yo-yo's string around its axle",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "yo-yo",
+          "description": "red and white yo-yo held close to the stomach",
+          "identifier": "yoyo"
+        }
+      ],
+      "entities": [],
+      "actions": [
+        {
+          "name": "wind yo-yo string",
+          "actor": "left fingers and right fingers",
+          "target": "yo-yo",
+          "description": "both hands' fingers continue winding the yo-yo's string"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "yo_yo_000434",
+      "frame_index": 434,
+      "timestamp_seconds": 7.268277,
+      "description": "A person in a silver suit still winds the yo-yo's string with both hands' fingers held close to the stomach, essentially unchanged from the moment before.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "winding the yo-yo's string around its axle",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "winding the yo-yo's string around its axle",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "yo-yo",
+          "description": "red and white yo-yo held close to the stomach",
+          "identifier": "yoyo"
+        }
+      ],
+      "entities": [],
+      "actions": [
+        {
+          "name": "wind yo-yo string",
+          "actor": "left fingers and right fingers",
+          "target": "yo-yo",
+          "description": "both hands' fingers continue winding the yo-yo's string"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "yo_yo_000472",
+      "frame_index": 472,
+      "timestamp_seconds": 7.90467,
+      "description": "A person in a silver suit continues winding the yo-yo's string with both hands' fingers held close to the stomach, essentially unchanged from the moment before.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "winding the yo-yo's string around its axle",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "winding the yo-yo's string around its axle",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "yo-yo",
+          "description": "red and white yo-yo held close to the stomach",
+          "identifier": "yoyo"
+        }
+      ],
+      "entities": [],
+      "actions": [
+        {
+          "name": "wind yo-yo string",
+          "actor": "left fingers and right fingers",
+          "target": "yo-yo",
+          "description": "both hands' fingers continue winding the yo-yo's string"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "yo_yo_000508",
+      "frame_index": 508,
+      "timestamp_seconds": 8.507568,
+      "description": "A person in a silver suit still winds the yo-yo's string with both hands' fingers held close to the stomach, essentially unchanged from the moment before.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "winding the yo-yo's string around its axle",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "winding the yo-yo's string around its axle",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "yo-yo",
+          "description": "red and white yo-yo held close to the stomach",
+          "identifier": "yoyo"
+        }
+      ],
+      "entities": [],
+      "actions": [
+        {
+          "name": "wind yo-yo string",
+          "actor": "left fingers and right fingers",
+          "target": "yo-yo",
+          "description": "both hands' fingers continue winding the yo-yo's string"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "yo_yo_000548",
+      "frame_index": 548,
+      "timestamp_seconds": 9.177456,
+      "description": "A person in a silver suit holds the yo-yo with both hands' fingers close to the stomach, still winding its string.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "winding the yo-yo's string around its axle",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "winding the yo-yo's string around its axle",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "yo-yo",
+          "description": "red and white yo-yo held close to the stomach",
+          "identifier": "yoyo"
+        }
+      ],
+      "entities": [],
+      "actions": [
+        {
+          "name": "wind yo-yo string",
+          "actor": "left fingers and right fingers",
+          "target": "yo-yo",
+          "description": "both hands' fingers wind the yo-yo's string"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "yo_yo_000550",
+      "frame_index": 550,
+      "timestamp_seconds": 9.166667,
+      "description": "A person in a silver suit holds the yo-yo with both hands' fingers, still winding its string.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "winding the yo-yo's string around its axle",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "winding the yo-yo's string around its axle",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "yo-yo",
+          "description": "red and white yo-yo held close to the chest"
+        }
+      ],
+      "entities": [],
+      "actions": [
+        {
+          "name": "wind yo-yo string",
+          "actor": "left fingers and right fingers",
+          "target": "yo-yo",
+          "description": "both hands' fingers wind the yo-yo's string"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "yo_yo_000578",
+      "frame_index": 578,
+      "timestamp_seconds": 9.679871,
+      "description": "A person in a silver suit raises the right hand near shoulder height with fingers loosely spread; the yo-yo and its string are not clearly visible in this frame, and the left hand is relaxed at the side.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "raised near shoulder height with fingers loosely spread, not visibly holding the string or yo-yo",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [],
+      "actions": [],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "yo_yo_000602",
+      "frame_index": 602,
+      "timestamp_seconds": 10.081804,
+      "description": "A person in a silver suit pinches the yo-yo's string in the right fingers raised near shoulder height, letting the yo-yo hang at hip level beside the left leg; the left hand is relaxed and not engaged.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "pinching the yo-yo's string, raised near shoulder height",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "yo-yo",
+          "description": "red and white yo-yo hanging at hip level on its string",
+          "identifier": "yoyo"
+        }
+      ],
+      "entities": [],
+      "actions": [
+        {
+          "name": "hold yo-yo string",
+          "actor": "right fingers",
+          "target": "yo-yo",
+          "description": "the fingers pinch the yo-yo's string raised near shoulder height, letting the yo-yo hang at hip level"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "yo_yo_000632",
+      "frame_index": 632,
+      "timestamp_seconds": 10.584219,
+      "description": "A person in a silver suit pinches the yo-yo's string in the left fingers raised near shoulder height, letting the yo-yo hang at chest level; the right hand is relaxed and not engaged.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "pinching the yo-yo's string, raised near shoulder height",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "yo-yo",
+          "description": "red and white yo-yo hanging at chest level on its string",
+          "identifier": "yoyo"
+        }
+      ],
+      "entities": [],
+      "actions": [
+        {
+          "name": "hold yo-yo string",
+          "actor": "left fingers",
+          "target": "yo-yo",
+          "description": "the fingers pinch the yo-yo's string raised near shoulder height, letting the yo-yo hang at chest level"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "yo_yo_000666",
+      "frame_index": 666,
+      "timestamp_seconds": 11.153623,
+      "description": "A person in a silver suit holds the yo-yo directly in the right fingers near the waist; the left hand is relaxed and not engaged.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "wrapped around the yo-yo's body, holding it near the waist",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "yo-yo",
+          "description": "red and white yo-yo held in the right hand near the waist",
+          "identifier": "yoyo"
+        }
+      ],
+      "entities": [],
+      "actions": [
+        {
+          "name": "hold yo-yo",
+          "actor": "right fingers",
+          "target": "yo-yo",
+          "description": "the fingers wrap around the yo-yo's body, holding it near the waist"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "yo_yo_000674",
+      "frame_index": 674,
+      "timestamp_seconds": 11.233333,
+      "description": "A person in a silver suit holds the yo-yo up near their chest, right fingers wrapped around its body, with the left hand relaxed and not engaged.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "wrapped around the yo-yo's body, holding it up near the chest",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "yo-yo",
+          "description": "red and white yo-yo held in one hand"
+        }
+      ],
+      "entities": [],
+      "actions": [
+        {
+          "name": "hold yo-yo",
+          "actor": "right fingers",
+          "target": "yo-yo",
+          "description": "the fingers wrap around the yo-yo's body, holding it near the chest"
+        }
+      ],
+      "ontological_phrases": []
+    }
+  ]
+}

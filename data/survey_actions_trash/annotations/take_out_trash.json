@@ -1,0 +1,2249 @@
+{
+  "video_id": "take_out_trash",
+  "video_path": "videos/take_out_trash.mov",
+  "frames": [
+    {
+      "frame_id": "take_out_trash_000000",
+      "frame_index": 0,
+      "timestamp_seconds": 0.0,
+      "description": "A person in a full-body silver reflective suit stands in a modern kitchen beside a white island, facing toward the stove and oven. Both hands hang relaxed at their sides, not yet engaged with any task.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "kitchen trash cabinet",
+          "description": "closed pull-out cabinet under the counter, not yet opened",
+          "identifier": "kitchen_bin"
+        }
+      ],
+      "actions": [],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "take_out_trash_000240",
+      "frame_index": 240,
+      "timestamp_seconds": 4.000958083832335,
+      "description": "The person bends forward at the pulled-out kitchen trash cabinet, reaching down with their right hand to grip the top of the full black trash bag inside the open bin. The left hand is not engaged, hanging near their side.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "gripping the gathered top of the black trash bag inside the open bin",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "trash bag",
+          "description": "full black bag sitting inside the open kitchen trash bin, being grasped at the top",
+          "identifier": "bag"
+        },
+        {
+          "name": "kitchen trash cabinet",
+          "description": "pulled open, revealing the full trash bin inside",
+          "identifier": "kitchen_bin"
+        }
+      ],
+      "actions": [
+        {
+          "name": "grip bag",
+          "actor": "right fingers",
+          "target": "trash bag",
+          "description": "the right hand's fingers grasp the gathered top of the full bag"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers grip bag"
+      ]
+    },
+    {
+      "frame_id": "take_out_trash_000480",
+      "frame_index": 480,
+      "timestamp_seconds": 8.00191616766467,
+      "description": "The person has pulled the full trash bag mostly out of the open kitchen bin, gripping its gathered plastic neck with both hands raised at chest height as they lift it clear of the bin.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "gripping the gathered neck of the bag, lifting it upward",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "left fingers",
+          "description": "gripping the gathered neck of the bag alongside the right hand, helping lift it out",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "trash bag",
+          "description": "full bag, gathered and bunched at the top, being lifted out of the bin",
+          "identifier": "bag"
+        },
+        {
+          "name": "kitchen trash cabinet",
+          "description": "open bin now mostly emptied as the bag is removed",
+          "identifier": "kitchen_bin"
+        }
+      ],
+      "actions": [
+        {
+          "name": "lift bag",
+          "actor": "right fingers",
+          "target": "trash bag",
+          "description": "the right hand's fingers lift the gathered bag neck upward and out of the bin"
+        },
+        {
+          "name": "lift bag",
+          "actor": "left fingers",
+          "target": "trash bag",
+          "description": "the left hand's fingers grip the bag alongside the right, jointly lifting it out"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers lift bag",
+        "left fingers lift bag"
+      ]
+    },
+    {
+      "frame_id": "take_out_trash_000645",
+      "frame_index": 645,
+      "timestamp_seconds": 10.752574850299402,
+      "description": "The person has fully removed the tied-off bag from the kitchen bin and turns to walk away, carrying it raised near shoulder height in their right hand. The left hand hangs open and idle near the counter, no longer engaged with anything.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "gripping the gathered neck of the bag, holding it up near shoulder height while turning to walk",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "trash bag",
+          "description": "fully removed from the bin, gathered shut at the top, now carried at shoulder height",
+          "identifier": "bag"
+        }
+      ],
+      "actions": [
+        {
+          "name": "carry bag",
+          "actor": "right fingers",
+          "target": "trash bag",
+          "description": "the right hand's fingers continue gripping the bag's neck, carrying it as the person turns away from the counter"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers carry bag"
+      ]
+    },
+    {
+      "frame_id": "take_out_trash_000743",
+      "frame_index": 743,
+      "timestamp_seconds": 12.386299,
+      "description": "Still in the kitchen, the person holds the full trash bag lifted close to their chest, right hand gripping its gathered neck. A dog sniffs near their feet. The left hand is not engaged, out of view at their side.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "gripping the gathered neck of the bag, holding it raised close to the chest",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "trash bag",
+          "description": "full bag, gathered at the top, held raised close to the body in the kitchen",
+          "identifier": "bag"
+        }
+      ],
+      "actions": [
+        {
+          "name": "carry bag",
+          "actor": "right fingers",
+          "target": "trash bag",
+          "description": "the right hand continues gripping the bag's gathered neck, holding it raised near the chest while still in the kitchen"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers carry bag"
+      ]
+    },
+    {
+      "frame_id": "take_out_trash_000785",
+      "frame_index": 785,
+      "timestamp_seconds": 13.086467,
+      "description": "Seen in profile, the person walks away from the kitchen counter carrying the full trash bag raised in their right hand, its gathered neck gripped as the bag swings beside them. The left hand hangs idle at their side.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "gripping the gathered neck of the bag, carrying it raised beside the body while walking away from the counter",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "trash bag",
+          "description": "full bag, swinging beside the body as the person walks away from the kitchen counter",
+          "identifier": "bag"
+        }
+      ],
+      "actions": [
+        {
+          "name": "carry bag",
+          "actor": "right fingers",
+          "target": "trash bag",
+          "description": "the right hand continues gripping the bag, carrying it while walking away from the counter"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers carry bag"
+      ]
+    },
+    {
+      "frame_id": "take_out_trash_000823",
+      "frame_index": 823,
+      "timestamp_seconds": 13.719952,
+      "description": "Seen from behind, the person walks through the dining area, right arm raised to carry the trash bag draped over their right shoulder, its gathered neck gripped in their raised right hand. The left hand hangs open and idle at their side. A dog trails behind them.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "gripping the bag's gathered neck, holding it draped over the right shoulder while walking through the dining area",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "trash bag",
+          "description": "draped over the right shoulder, carried through the dining area",
+          "identifier": "bag"
+        }
+      ],
+      "actions": [
+        {
+          "name": "carry bag",
+          "actor": "right fingers",
+          "target": "trash bag",
+          "description": "the right hand continues gripping and carrying the bag draped over the shoulder"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers carry bag"
+      ]
+    },
+    {
+      "frame_id": "take_out_trash_000859",
+      "frame_index": 859,
+      "timestamp_seconds": 14.320096,
+      "description": "Continuing through the living room toward the front of the house, the person carries the trash bag draped over their right shoulder in their raised right hand, unchanged from the moment before. The left hand remains idle at their side, and the dog follows close behind.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "still gripping the bag's neck, holding it draped over the right shoulder, unchanged from before",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "trash bag",
+          "description": "still draped over the right shoulder, unchanged",
+          "identifier": "bag"
+        }
+      ],
+      "actions": [
+        {
+          "name": "carry bag",
+          "actor": "right fingers",
+          "target": "trash bag",
+          "description": "the right hand continues gripping and carrying the bag, unchanged from the moment before"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers carry bag"
+      ]
+    },
+    {
+      "frame_id": "take_out_trash_000925",
+      "frame_index": 925,
+      "timestamp_seconds": 15.420359,
+      "description": "Nearing the front door, the person continues carrying the trash bag in their raised right hand, its neck still gripped and gathered. The left hand hangs idle at their side, and the dog follows close behind.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "gripping the bag's gathered neck, carrying it while nearing the front door",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "trash bag",
+          "description": "still carried in the right hand, nearing the front door",
+          "identifier": "bag"
+        }
+      ],
+      "actions": [
+        {
+          "name": "carry bag",
+          "actor": "right fingers",
+          "target": "trash bag",
+          "description": "the right hand continues carrying the bag toward the front door"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers carry bag"
+      ]
+    },
+    {
+      "frame_id": "take_out_trash_001001",
+      "frame_index": 1001,
+      "timestamp_seconds": 16.687329,
+      "description": "Now just steps from the front door, the person continues carrying the trash bag in their raised right hand, unchanged from the moment before. The left hand hangs idle at their side, and the dog follows close behind.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "still gripping the bag's neck, unchanged from the moment before",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "trash bag",
+          "description": "still carried in the right hand, unchanged",
+          "identifier": "bag"
+        }
+      ],
+      "actions": [
+        {
+          "name": "carry bag",
+          "actor": "right fingers",
+          "target": "trash bag",
+          "description": "the right hand continues gripping and carrying the bag, unchanged from before"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers carry bag"
+      ]
+    },
+    {
+      "frame_id": "take_out_trash_001069",
+      "frame_index": 1069,
+      "timestamp_seconds": 17.820934131736525,
+      "description": "Seen from behind, the person walks through the hallway carrying the trash bag draped over their right shoulder, gripped in the raised right hand. The left arm hangs relaxed at their side. A dog follows close behind.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "gripping the bag's neck, holding it draped over the right shoulder while walking",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "trash bag",
+          "description": "carried over the right shoulder, unchanged from before",
+          "identifier": "bag"
+        }
+      ],
+      "actions": [
+        {
+          "name": "carry bag",
+          "actor": "right fingers",
+          "target": "trash bag",
+          "description": "the right hand continues gripping and carrying the bag over the shoulder while walking through the house"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers carry bag"
+      ]
+    },
+    {
+      "frame_id": "take_out_trash_001139",
+      "frame_index": 1139,
+      "timestamp_seconds": 18.98788,
+      "description": "Nearing the front door, the person continues carrying the trash bag draped over their right shoulder in their raised right hand, unchanged from before. A dog stands close beside them in the entryway, and shoes sit on the floor near a low dresser. The left hand hangs idle at their side.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "still gripping the bag's neck, holding it draped over the right shoulder, unchanged from before",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "trash bag",
+          "description": "still draped over the right shoulder, unchanged, as the person nears the front door",
+          "identifier": "bag"
+        }
+      ],
+      "actions": [
+        {
+          "name": "carry bag",
+          "actor": "right fingers",
+          "target": "trash bag",
+          "description": "the right hand continues gripping and carrying the bag while approaching the front door"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers carry bag"
+      ]
+    },
+    {
+      "frame_id": "take_out_trash_001211",
+      "frame_index": 1211,
+      "timestamp_seconds": 20.188167664670658,
+      "description": "The person stands at the open front door, back to the camera, still carrying the trash bag in their lowered right hand. A dog sits at their feet looking up. The left arm hangs idle at their side.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "gripping the bag's gathered neck, holding it beside the leg at the doorway",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "trash bag",
+          "description": "held beside the leg at the open front door",
+          "identifier": "bag"
+        }
+      ],
+      "actions": [
+        {
+          "name": "carry bag",
+          "actor": "right fingers",
+          "target": "trash bag",
+          "description": "the right hand continues gripping the bag, holding it steady at the doorway"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers carry bag"
+      ]
+    },
+    {
+      "frame_id": "take_out_trash_001259",
+      "frame_index": 1259,
+      "timestamp_seconds": 20.988359,
+      "description": "Stepping out through the now-open front doorway onto the back deck, the person carries the trash bag in their raised left hand -- switched from the right hand seen moments before at the doorway. The right arm now hangs idle at their side, and the dog follows closely behind through the door.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping the bag's gathered neck, now carrying it raised on the left side after switching from the right hand",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "trash bag",
+          "description": "now held in the left hand, having switched sides as the person steps outside onto the deck",
+          "identifier": "bag"
+        }
+      ],
+      "actions": [
+        {
+          "name": "carry bag",
+          "actor": "left fingers",
+          "target": "trash bag",
+          "description": "the left hand grips the bag's neck, now carrying it after switching from the right hand used at the doorway"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers carry bag"
+      ]
+    },
+    {
+      "frame_id": "take_out_trash_001297",
+      "frame_index": 1297,
+      "timestamp_seconds": 21.621844,
+      "description": "Now on the back deck, the person continues walking away from the house, still carrying the trash bag raised in their left hand. The right arm hangs idle at their side, and the dog follows behind.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping the bag's gathered neck, carrying it raised on the left side while crossing the deck",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "trash bag",
+          "description": "carried in the left hand as the person crosses the deck",
+          "identifier": "bag"
+        }
+      ],
+      "actions": [
+        {
+          "name": "carry bag",
+          "actor": "left fingers",
+          "target": "trash bag",
+          "description": "the left hand continues gripping and carrying the bag across the deck"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers carry bag"
+      ]
+    },
+    {
+      "frame_id": "take_out_trash_001327",
+      "frame_index": 1327,
+      "timestamp_seconds": 22.121964071856286,
+      "description": "Now outside on the back deck, the person walks away from the house carrying the trash bag in their raised left hand instead of the right. The right arm hangs free and idle at their side, no longer holding anything.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping the bag's neck, now carrying it raised near shoulder height on the left side",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "trash bag",
+          "description": "now carried in the left hand as the person crosses the deck outside",
+          "identifier": "bag"
+        }
+      ],
+      "actions": [
+        {
+          "name": "carry bag",
+          "actor": "left fingers",
+          "target": "trash bag",
+          "description": "the left hand's fingers grip and carry the bag, having taken over from the right hand"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers carry bag"
+      ]
+    },
+    {
+      "frame_id": "take_out_trash_001355",
+      "frame_index": 1355,
+      "timestamp_seconds": 22.588743,
+      "description": "The person continues walking along a paved path beside the house, still carrying the trash bag raised in their left hand, unchanged from the moment before. The right arm hangs idle at their side.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "still gripping the bag's gathered neck, unchanged from before",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "trash bag",
+          "description": "still carried in the left hand, unchanged",
+          "identifier": "bag"
+        }
+      ],
+      "actions": [
+        {
+          "name": "carry bag",
+          "actor": "left fingers",
+          "target": "trash bag",
+          "description": "the left hand continues gripping and carrying the bag along the path"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers carry bag"
+      ]
+    },
+    {
+      "frame_id": "take_out_trash_001385",
+      "frame_index": 1385,
+      "timestamp_seconds": 23.088862,
+      "description": "Continuing along the path past potted plants, the person still carries the trash bag raised in their left hand. The dog pauses to sniff a nearby potted plant while the person walks past. The right arm hangs idle at their side.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping the bag's gathered neck, carrying it past the potted plants",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "trash bag",
+          "description": "still carried in the left hand, unchanged",
+          "identifier": "bag"
+        }
+      ],
+      "actions": [
+        {
+          "name": "carry bag",
+          "actor": "left fingers",
+          "target": "trash bag",
+          "description": "the left hand continues gripping and carrying the bag past the plants"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers carry bag"
+      ]
+    },
+    {
+      "frame_id": "take_out_trash_001433",
+      "frame_index": 1433,
+      "timestamp_seconds": 23.889054,
+      "description": "The person continues walking through the yard, a wooden fence visible ahead, still carrying the trash bag raised in their left hand, unchanged from before. The right arm hangs idle, and the dog trails behind them.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "still gripping the bag's gathered neck, unchanged from before",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "trash bag",
+          "description": "still carried in the left hand, unchanged",
+          "identifier": "bag"
+        }
+      ],
+      "actions": [
+        {
+          "name": "carry bag",
+          "actor": "left fingers",
+          "target": "trash bag",
+          "description": "the left hand continues gripping and carrying the bag through the yard"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers carry bag"
+      ]
+    },
+    {
+      "frame_id": "take_out_trash_001477",
+      "frame_index": 1477,
+      "timestamp_seconds": 24.622563,
+      "description": "The person carries the trash bag in their raised left hand while walking along a concrete path through the side yard, passing a soccer ball and a scooter propped near a planter. A wooden fence with a closed gate lies ahead. The right arm hangs idle at their side, and the dog follows behind.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping the bag's gathered neck, carrying it along the side-yard path",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "trash bag",
+          "description": "still carried in the left hand, unchanged",
+          "identifier": "bag"
+        }
+      ],
+      "actions": [
+        {
+          "name": "carry bag",
+          "actor": "left fingers",
+          "target": "trash bag",
+          "description": "the left hand continues gripping and carrying the bag along the path"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers carry bag"
+      ]
+    },
+    {
+      "frame_id": "take_out_trash_001523",
+      "frame_index": 1523,
+      "timestamp_seconds": 25.389413,
+      "description": "The person continues along the same garden path toward the wooden gate, still carrying the trash bag in their raised left hand, unchanged from the moment before. The right arm remains idle, and the dog follows close behind.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "still gripping the bag's gathered neck, unchanged from before",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "trash bag",
+          "description": "still carried in the left hand, unchanged",
+          "identifier": "bag"
+        }
+      ],
+      "actions": [
+        {
+          "name": "carry bag",
+          "actor": "left fingers",
+          "target": "trash bag",
+          "description": "the left hand continues gripping and carrying the bag toward the gate"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers carry bag"
+      ]
+    },
+    {
+      "frame_id": "take_out_trash_001563",
+      "frame_index": 1563,
+      "timestamp_seconds": 26.05624,
+      "description": "Nearing the wooden gate at the end of the path, the person continues carrying the trash bag in their raised left hand. The right arm hangs idle at their side, and the dog follows just behind.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping the bag's gathered neck, carrying it toward the gate",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "trash bag",
+          "description": "still carried in the left hand, unchanged",
+          "identifier": "bag"
+        }
+      ],
+      "actions": [
+        {
+          "name": "carry bag",
+          "actor": "left fingers",
+          "target": "trash bag",
+          "description": "the left hand continues gripping and carrying the bag near the gate"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers carry bag"
+      ]
+    },
+    {
+      "frame_id": "take_out_trash_001601",
+      "frame_index": 1601,
+      "timestamp_seconds": 26.689725,
+      "description": "Just a few steps from the wooden gate, the person still carries the trash bag in their raised left hand, unchanged from before. The right hand hangs open and relaxed at their side, and the dog follows closely.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "still gripping the bag's gathered neck, unchanged from before",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "trash bag",
+          "description": "still carried in the left hand, unchanged",
+          "identifier": "bag"
+        }
+      ],
+      "actions": [
+        {
+          "name": "carry bag",
+          "actor": "left fingers",
+          "target": "trash bag",
+          "description": "the left hand continues gripping and carrying the bag near the gate"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers carry bag"
+      ]
+    },
+    {
+      "frame_id": "take_out_trash_001631",
+      "frame_index": 1631,
+      "timestamp_seconds": 27.189844,
+      "description": "The person arrives at the wooden fence beside the closed gate, continuing to hold the trash bag raised in their left hand. The right hand hangs open at their side, and the dog stands close behind them.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping the bag's gathered neck, holding it beside the fence",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "trash bag",
+          "description": "still carried in the left hand, unchanged",
+          "identifier": "bag"
+        }
+      ],
+      "actions": [
+        {
+          "name": "carry bag",
+          "actor": "left fingers",
+          "target": "trash bag",
+          "description": "the left hand continues gripping and carrying the bag at the fence"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers carry bag"
+      ]
+    },
+    {
+      "frame_id": "take_out_trash_001663",
+      "frame_index": 1663,
+      "timestamp_seconds": 27.723305,
+      "description": "Standing near the wooden gate, the person continues holding the trash bag in their raised left hand, unchanged from the moment before. The dog stands beside them on the path.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "still gripping the bag's gathered neck, unchanged from before",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "trash bag",
+          "description": "still carried in the left hand, unchanged",
+          "identifier": "bag"
+        }
+      ],
+      "actions": [
+        {
+          "name": "carry bag",
+          "actor": "left fingers",
+          "target": "trash bag",
+          "description": "the left hand continues gripping and carrying the bag near the gate"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers carry bag"
+      ]
+    },
+    {
+      "frame_id": "take_out_trash_001695",
+      "frame_index": 1695,
+      "timestamp_seconds": 28.256766,
+      "description": "The person stands close to the wooden gate, still holding the trash bag raised in their left hand. The right arm hangs idle, and the dog remains beside them.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping the bag's gathered neck, holding it close to the gate",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "trash bag",
+          "description": "still carried in the left hand, unchanged",
+          "identifier": "bag"
+        }
+      ],
+      "actions": [
+        {
+          "name": "carry bag",
+          "actor": "left fingers",
+          "target": "trash bag",
+          "description": "the left hand continues gripping and carrying the bag at the gate"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers carry bag"
+      ]
+    },
+    {
+      "frame_id": "take_out_trash_001727",
+      "frame_index": 1727,
+      "timestamp_seconds": 28.790228,
+      "description": "Facing the closed wooden gate, the person continues to hold the trash bag raised in their left hand, unchanged from before. The dog stands on the path in front of the gate.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "still gripping the bag's gathered neck, unchanged from before",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "trash bag",
+          "description": "still carried in the left hand, unchanged",
+          "identifier": "bag"
+        }
+      ],
+      "actions": [
+        {
+          "name": "carry bag",
+          "actor": "left fingers",
+          "target": "trash bag",
+          "description": "the left hand continues gripping and carrying the bag facing the gate"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers carry bag"
+      ]
+    },
+    {
+      "frame_id": "take_out_trash_001759",
+      "frame_index": 1759,
+      "timestamp_seconds": 29.323689,
+      "description": "The person stands directly at the wooden gate, still carrying the trash bag raised in their left hand, unchanged from the moment before. The dog remains close beside them on the path.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "still gripping the bag's gathered neck, unchanged from before",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "trash bag",
+          "description": "still carried in the left hand, unchanged",
+          "identifier": "bag"
+        }
+      ],
+      "actions": [
+        {
+          "name": "carry bag",
+          "actor": "left fingers",
+          "target": "trash bag",
+          "description": "the left hand continues gripping and carrying the bag at the gate"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers carry bag"
+      ]
+    },
+    {
+      "frame_id": "take_out_trash_001801",
+      "frame_index": 1801,
+      "timestamp_seconds": 30.02385628742515,
+      "description": "The person walks through the side yard toward a wooden gate, continuing to carry the trash bag in their left hand. The right arm hangs relaxed and idle at their side.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping the bag's neck, carrying it toward the gate",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "trash bag",
+          "description": "still carried in the left hand, unchanged",
+          "identifier": "bag"
+        }
+      ],
+      "actions": [
+        {
+          "name": "carry bag",
+          "actor": "left fingers",
+          "target": "trash bag",
+          "description": "the left hand continues gripping and carrying the bag through the side yard"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers carry bag"
+      ]
+    },
+    {
+      "frame_id": "take_out_trash_001865",
+      "frame_index": 1865,
+      "timestamp_seconds": 31.090778,
+      "description": "At the wooden gate, the person reaches out with their right hand to grip its top edge, pushing it open, while the left hand continues gripping the trash bag's neck behind them, held down and back.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "gripping the top edge of the wooden gate, pushing it open",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "left fingers",
+          "description": "still gripping the bag's neck, holding it down and back behind the body, unchanged",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "wooden side gate",
+          "description": "closed gate at the end of the side-yard path, now being pushed open by the right hand",
+          "identifier": "side_gate"
+        },
+        {
+          "name": "trash bag",
+          "description": "still held in the left hand, unaffected by the right hand's new action",
+          "identifier": "bag"
+        }
+      ],
+      "actions": [
+        {
+          "name": "open gate",
+          "actor": "right fingers",
+          "target": "wooden side gate",
+          "description": "the right hand grips the gate's top edge and pushes it open"
+        },
+        {
+          "name": "carry bag",
+          "actor": "left fingers",
+          "target": "trash bag",
+          "description": "the left hand continues carrying the bag, held down behind the body while the right hand opens the gate"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers open wooden side gate",
+        "left fingers carry bag"
+      ]
+    },
+    {
+      "frame_id": "take_out_trash_001927",
+      "frame_index": 1927,
+      "timestamp_seconds": 32.124359,
+      "description": "Having passed through the gate into the driveway, the person walks between two parked cars, still carrying the trash bag in their left hand behind them. The right arm swings freely at their side.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping the bag's neck, carrying it behind the body while walking into the driveway",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "trash bag",
+          "description": "carried in the left hand, now in the driveway beyond the gate",
+          "identifier": "bag"
+        }
+      ],
+      "actions": [
+        {
+          "name": "carry bag",
+          "actor": "left fingers",
+          "target": "trash bag",
+          "description": "the left hand continues gripping and carrying the bag into the driveway"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers carry bag"
+      ]
+    },
+    {
+      "frame_id": "take_out_trash_001969",
+      "frame_index": 1969,
+      "timestamp_seconds": 32.824527,
+      "description": "The person continues walking down the driveway between the parked cars, still carrying the trash bag in their left hand. The right arm hangs relaxed at their side.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping the bag's neck, carrying it down the driveway",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "trash bag",
+          "description": "still carried in the left hand, unchanged",
+          "identifier": "bag"
+        }
+      ],
+      "actions": [
+        {
+          "name": "carry bag",
+          "actor": "left fingers",
+          "target": "trash bag",
+          "description": "the left hand continues gripping and carrying the bag down the driveway"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers carry bag"
+      ]
+    },
+    {
+      "frame_id": "take_out_trash_002005",
+      "frame_index": 2005,
+      "timestamp_seconds": 33.424671,
+      "description": "The person continues down the driveway, still carrying the trash bag raised in their left hand, unchanged from the moment before. The right arm hangs idle at their side.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "still gripping the bag's neck, unchanged from before",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "trash bag",
+          "description": "still carried in the left hand, unchanged",
+          "identifier": "bag"
+        }
+      ],
+      "actions": [
+        {
+          "name": "carry bag",
+          "actor": "left fingers",
+          "target": "trash bag",
+          "description": "the left hand continues gripping and carrying the bag down the driveway"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers carry bag"
+      ]
+    },
+    {
+      "frame_id": "take_out_trash_002045",
+      "frame_index": 2045,
+      "timestamp_seconds": 34.091497,
+      "description": "Further down the driveway, the person continues carrying the trash bag in their left hand, walking between the parked cars. The right arm hangs idle at their side.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping the bag's neck, carrying it further down the driveway",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "trash bag",
+          "description": "still carried in the left hand, unchanged",
+          "identifier": "bag"
+        }
+      ],
+      "actions": [
+        {
+          "name": "carry bag",
+          "actor": "left fingers",
+          "target": "trash bag",
+          "description": "the left hand continues gripping and carrying the bag down the driveway"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers carry bag"
+      ]
+    },
+    {
+      "frame_id": "take_out_trash_002081",
+      "frame_index": 2081,
+      "timestamp_seconds": 34.691641,
+      "description": "The person continues down the driveway carrying the trash bag in their left hand, unchanged from before. The dog has caught up and follows close behind, and the right arm hangs idle at their side.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "still gripping the bag's neck, unchanged from before",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "trash bag",
+          "description": "still carried in the left hand, unchanged",
+          "identifier": "bag"
+        }
+      ],
+      "actions": [
+        {
+          "name": "carry bag",
+          "actor": "left fingers",
+          "target": "trash bag",
+          "description": "the left hand continues gripping and carrying the bag down the driveway"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers carry bag"
+      ]
+    },
+    {
+      "frame_id": "take_out_trash_002117",
+      "frame_index": 2117,
+      "timestamp_seconds": 35.291784,
+      "description": "Walking in profile past a parked minivan, the person continues carrying the trash bag in their left hand. The right arm hangs idle at their side.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping the bag's neck, carrying it past the parked minivan",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "trash bag",
+          "description": "still carried in the left hand, unchanged",
+          "identifier": "bag"
+        }
+      ],
+      "actions": [
+        {
+          "name": "carry bag",
+          "actor": "left fingers",
+          "target": "trash bag",
+          "description": "the left hand continues gripping and carrying the bag past the minivan"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers carry bag"
+      ]
+    },
+    {
+      "frame_id": "take_out_trash_002149",
+      "frame_index": 2149,
+      "timestamp_seconds": 35.825246,
+      "description": "The person walks past a silver Airstream trailer parked in the driveway, still carrying the trash bag in their raised left hand. The right arm hangs idle at their side.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping the bag's neck, carrying it past the trailer",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "trash bag",
+          "description": "still carried in the left hand, unchanged",
+          "identifier": "bag"
+        }
+      ],
+      "actions": [
+        {
+          "name": "carry bag",
+          "actor": "left fingers",
+          "target": "trash bag",
+          "description": "the left hand continues gripping and carrying the bag past the trailer"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers carry bag"
+      ]
+    },
+    {
+      "frame_id": "take_out_trash_002181",
+      "frame_index": 2181,
+      "timestamp_seconds": 36.358707,
+      "description": "The person continues past the trailer, still carrying the trash bag in their left hand, unchanged from the moment before. The right arm hangs idle at their side.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "still gripping the bag's neck, unchanged from before",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "trash bag",
+          "description": "still carried in the left hand, unchanged",
+          "identifier": "bag"
+        }
+      ],
+      "actions": [
+        {
+          "name": "carry bag",
+          "actor": "left fingers",
+          "target": "trash bag",
+          "description": "the left hand continues gripping and carrying the bag past the trailer"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers carry bag"
+      ]
+    },
+    {
+      "frame_id": "take_out_trash_002217",
+      "frame_index": 2217,
+      "timestamp_seconds": 36.95885,
+      "description": "The person continues down the driveway, passing a smaller wheeled bin parked along the way, still carrying the trash bag in their left hand. The right arm hangs relaxed at their side.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping the bag's neck, carrying it past the parked bin",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "trash bag",
+          "description": "still carried in the left hand, unchanged",
+          "identifier": "bag"
+        }
+      ],
+      "actions": [
+        {
+          "name": "carry bag",
+          "actor": "left fingers",
+          "target": "trash bag",
+          "description": "the left hand continues gripping and carrying the bag down the driveway"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers carry bag"
+      ]
+    },
+    {
+      "frame_id": "take_out_trash_002261",
+      "frame_index": 2261,
+      "timestamp_seconds": 37.69235928143713,
+      "description": "The person approaches a large outdoor garbage bin in the driveway. Their right hand reaches out to grip the edge of the bin's closed lid, beginning to lift it open, while their left hand continues carrying the trash bag, raised near shoulder height, unchanged.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "reaching out and gripping the edge of the bin's lid, beginning to lift it open",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "left fingers",
+          "description": "still gripping the bag's neck, holding it up near shoulder height, unchanged from before",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "trash bag",
+          "description": "still carried in the left hand",
+          "identifier": "bag"
+        },
+        {
+          "name": "outdoor garbage bin",
+          "description": "large wheeled bin with its lid still mostly closed",
+          "identifier": "outdoor_bin"
+        }
+      ],
+      "actions": [
+        {
+          "name": "open lid",
+          "actor": "right fingers",
+          "target": "outdoor garbage bin",
+          "description": "the right hand grips the lid's edge and begins lifting it open"
+        },
+        {
+          "name": "carry bag",
+          "actor": "left fingers",
+          "target": "trash bag",
+          "description": "the left hand continues carrying the bag, unaffected by the right hand's new action"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers open outdoor garbage bin",
+        "left fingers carry bag"
+      ]
+    },
+    {
+      "frame_id": "take_out_trash_002315",
+      "frame_index": 2315,
+      "timestamp_seconds": 38.592575,
+      "description": "Beside the outdoor garbage bin, the person's right hand grips the lid, now raised further open than a moment before, while the left hand lifts the trash bag up near shoulder height, closer to the bin's opening.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "gripping the bin's lid, holding it raised further open than before",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "left fingers",
+          "description": "gripping the bag's neck, lifting it up near shoulder height toward the bin's opening",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "outdoor garbage bin",
+          "description": "lid now raised further open, held by the right hand",
+          "identifier": "outdoor_bin"
+        },
+        {
+          "name": "trash bag",
+          "description": "lifted up near shoulder height, closer to the bin's opening",
+          "identifier": "bag"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold lid",
+          "actor": "right fingers",
+          "target": "outdoor garbage bin",
+          "description": "the right hand grips and holds the lid, raised further than the moment before"
+        },
+        {
+          "name": "lift bag",
+          "actor": "left fingers",
+          "target": "trash bag",
+          "description": "the left hand lifts the bag up near shoulder height, approaching the bin's opening"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers hold outdoor garbage bin",
+        "left fingers lift bag"
+      ]
+    },
+    {
+      "frame_id": "take_out_trash_002373",
+      "frame_index": 2373,
+      "timestamp_seconds": 39.55947305389222,
+      "description": "Bent over the bin, the person holds its lid fully open with their right hand extended to the side, while their left hand lifts the bag up high above the bin's opening -- the two hands now doing clearly different things.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "gripping the open lid, holding it propped up to the side",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "left fingers",
+          "description": "gripping the bag's neck, lifting it up high above the bin's open mouth to drop it in",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "trash bag",
+          "description": "raised above the open bin",
+          "identifier": "bag"
+        },
+        {
+          "name": "outdoor garbage bin",
+          "description": "lid now fully open, held up by the right hand",
+          "identifier": "outdoor_bin"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold lid",
+          "actor": "right fingers",
+          "target": "outdoor garbage bin",
+          "description": "the right hand holds the lid open so the bag can be dropped inside"
+        },
+        {
+          "name": "lower bag",
+          "actor": "left fingers",
+          "target": "trash bag",
+          "description": "the left hand raises and positions the bag above the bin's opening to drop it in"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers hold outdoor garbage bin",
+        "left fingers lower bag"
+      ]
+    },
+    {
+      "frame_id": "take_out_trash_002433",
+      "frame_index": 2433,
+      "timestamp_seconds": 40.5597125748503,
+      "description": "The bag has now been dropped inside the bin. The left hand has released it and hangs open and idle at the person's side, no longer engaged with anything, while the right hand continues gripping the open lid, unchanged from the moment before.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "still gripping the open lid, holding it propped up, unchanged from the previous moment",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "trash bag",
+          "description": "now inside the outdoor garbage bin, no longer held by either hand",
+          "identifier": "bag"
+        },
+        {
+          "name": "outdoor garbage bin",
+          "description": "lid still held open by the right hand; the bag now sits inside it",
+          "identifier": "outdoor_bin"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold lid",
+          "actor": "right fingers",
+          "target": "outdoor garbage bin",
+          "description": "the right hand continues holding the lid open, unchanged from before"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers hold outdoor garbage bin"
+      ]
+    },
+    {
+      "frame_id": "take_out_trash_002565",
+      "frame_index": 2565,
+      "timestamp_seconds": 42.76024,
+      "description": "The person stands beside the outdoor garbage bin near the garage, right hand pushing its lid closed now that the bag has been placed inside. The left hand hangs idle at their side.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "gripping the bin's lid, pushing it closed now that the bag is inside",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "outdoor garbage bin",
+          "description": "lid being closed now that the bag has been placed inside",
+          "identifier": "outdoor_bin"
+        }
+      ],
+      "actions": [
+        {
+          "name": "close lid",
+          "actor": "right fingers",
+          "target": "outdoor garbage bin",
+          "description": "the right hand grips the lid and pushes it closed now that the bag has been placed inside"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers close outdoor garbage bin"
+      ]
+    },
+    {
+      "frame_id": "take_out_trash_002631",
+      "frame_index": 2631,
+      "timestamp_seconds": 43.86050299401197,
+      "description": "The person now grips the top edge of the garbage bin with their right hand to tilt and pull it away from the wall. The left hand remains hanging idle at their side, still not engaged.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "gripping the top edge of the bin, tilting it back to pull it along on its wheels",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "outdoor garbage bin",
+          "description": "tilted back onto its wheels, lid now closed, being pulled away from the garage",
+          "identifier": "outdoor_bin"
+        }
+      ],
+      "actions": [
+        {
+          "name": "pull bin",
+          "actor": "right fingers",
+          "target": "outdoor garbage bin",
+          "description": "the right hand grips the bin's edge and tilts it back to wheel it away"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers pull outdoor garbage bin"
+      ]
+    },
+    {
+      "frame_id": "take_out_trash_002709",
+      "frame_index": 2709,
+      "timestamp_seconds": 45.160814,
+      "description": "The person continues pulling the garbage bin by its top edge, tilted back onto its wheels, walking it away from the garage. The left arm hangs idle at their side.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "gripping the bin's top edge, tilting it back and pulling it along on its wheels",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "outdoor garbage bin",
+          "description": "tilted back onto its wheels, being pulled away from the garage",
+          "identifier": "outdoor_bin"
+        }
+      ],
+      "actions": [
+        {
+          "name": "pull bin",
+          "actor": "right fingers",
+          "target": "outdoor garbage bin",
+          "description": "the right hand grips the bin's edge and continues tilting it back to pull it along"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers pull outdoor garbage bin"
+      ]
+    },
+    {
+      "frame_id": "take_out_trash_002763",
+      "frame_index": 2763,
+      "timestamp_seconds": 46.06103,
+      "description": "The person continues pulling the garbage bin, tilted onto its wheels, along the driveway past the garage, unchanged from the moment before. The left arm hangs idle at their side.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "still gripping the bin's top edge, unchanged from before",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "outdoor garbage bin",
+          "description": "tilted onto its wheels, still being pulled along the driveway",
+          "identifier": "outdoor_bin"
+        }
+      ],
+      "actions": [
+        {
+          "name": "pull bin",
+          "actor": "right fingers",
+          "target": "outdoor garbage bin",
+          "description": "the right hand continues gripping and pulling the bin along the driveway"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers pull outdoor garbage bin"
+      ]
+    },
+    {
+      "frame_id": "take_out_trash_002817",
+      "frame_index": 2817,
+      "timestamp_seconds": 46.961246,
+      "description": "The person continues guiding the garbage bin along the driveway past another garage door, right hand gripping its top edge. The left arm hangs idle at their side.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "gripping the bin's top edge, guiding it along the driveway",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "outdoor garbage bin",
+          "description": "still being pulled along the driveway past the garage",
+          "identifier": "outdoor_bin"
+        }
+      ],
+      "actions": [
+        {
+          "name": "pull bin",
+          "actor": "right fingers",
+          "target": "outdoor garbage bin",
+          "description": "the right hand continues gripping and pulling the bin past the garage"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers pull outdoor garbage bin"
+      ]
+    },
+    {
+      "frame_id": "take_out_trash_002873",
+      "frame_index": 2873,
+      "timestamp_seconds": 47.894802,
+      "description": "The person continues pulling the garbage bin along the driveway, right hand gripping its top edge, unchanged from the moment before. The left arm hangs idle at their side.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "still gripping the bin's top edge, unchanged from before",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "outdoor garbage bin",
+          "description": "still being pulled along the driveway",
+          "identifier": "outdoor_bin"
+        }
+      ],
+      "actions": [
+        {
+          "name": "pull bin",
+          "actor": "right fingers",
+          "target": "outdoor garbage bin",
+          "description": "the right hand continues gripping and pulling the bin along the driveway"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers pull outdoor garbage bin"
+      ]
+    },
+    {
+      "frame_id": "take_out_trash_002933",
+      "frame_index": 2933,
+      "timestamp_seconds": 48.895042,
+      "description": "The person wheels the garbage bin past the silver Airstream trailer in the driveway, right hand gripping its top edge. The left arm hangs idle at their side.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "gripping the bin's top edge, wheeling it past the trailer",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "outdoor garbage bin",
+          "description": "wheeled along the ground past the parked trailer",
+          "identifier": "outdoor_bin"
+        }
+      ],
+      "actions": [
+        {
+          "name": "wheel bin",
+          "actor": "right fingers",
+          "target": "outdoor garbage bin",
+          "description": "the right hand grips the bin's edge and wheels it past the trailer"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers wheel outdoor garbage bin"
+      ]
+    },
+    {
+      "frame_id": "take_out_trash_002975",
+      "frame_index": 2975,
+      "timestamp_seconds": 49.59521,
+      "description": "The person continues wheeling the garbage bin past a parked car, right hand gripping its top edge, unchanged from before. The left arm hangs idle at their side.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "still gripping the bin's top edge, unchanged from before",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "outdoor garbage bin",
+          "description": "still being wheeled along the driveway past parked cars",
+          "identifier": "outdoor_bin"
+        }
+      ],
+      "actions": [
+        {
+          "name": "wheel bin",
+          "actor": "right fingers",
+          "target": "outdoor garbage bin",
+          "description": "the right hand continues gripping and wheeling the bin past the parked car"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers wheel outdoor garbage bin"
+      ]
+    },
+    {
+      "frame_id": "take_out_trash_003015",
+      "frame_index": 3015,
+      "timestamp_seconds": 50.262036,
+      "description": "The person continues wheeling the garbage bin further down the driveway, right hand gripping its top edge. A flowering tree and a basketball hoop are visible ahead. The left arm hangs idle at their side.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "gripping the bin's top edge, wheeling it further down the driveway",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "outdoor garbage bin",
+          "description": "still being wheeled down the driveway",
+          "identifier": "outdoor_bin"
+        }
+      ],
+      "actions": [
+        {
+          "name": "wheel bin",
+          "actor": "right fingers",
+          "target": "outdoor garbage bin",
+          "description": "the right hand continues gripping and wheeling the bin down the driveway"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers wheel outdoor garbage bin"
+      ]
+    },
+    {
+      "frame_id": "take_out_trash_003051",
+      "frame_index": 3051,
+      "timestamp_seconds": 50.86218,
+      "description": "The person continues wheeling the garbage bin down the driveway, right hand gripping its top edge, unchanged from the moment before. The left arm hangs idle at their side.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "still gripping the bin's top edge, unchanged from before",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "outdoor garbage bin",
+          "description": "still being wheeled down the driveway",
+          "identifier": "outdoor_bin"
+        }
+      ],
+      "actions": [
+        {
+          "name": "wheel bin",
+          "actor": "right fingers",
+          "target": "outdoor garbage bin",
+          "description": "the right hand continues gripping and wheeling the bin down the driveway"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers wheel outdoor garbage bin"
+      ]
+    },
+    {
+      "frame_id": "take_out_trash_003093",
+      "frame_index": 3093,
+      "timestamp_seconds": 51.562347,
+      "description": "Nearing the street, the person continues wheeling the garbage bin, right hand gripping its top edge. The left arm hangs idle at their side.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "gripping the bin's top edge, wheeling it toward the street",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "outdoor garbage bin",
+          "description": "still being wheeled toward the street",
+          "identifier": "outdoor_bin"
+        }
+      ],
+      "actions": [
+        {
+          "name": "wheel bin",
+          "actor": "right fingers",
+          "target": "outdoor garbage bin",
+          "description": "the right hand continues gripping and wheeling the bin toward the street"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers wheel outdoor garbage bin"
+      ]
+    },
+    {
+      "frame_id": "take_out_trash_003141",
+      "frame_index": 3141,
+      "timestamp_seconds": 52.362539,
+      "description": "The person continues wheeling the garbage bin toward the street, right hand gripping its top edge, unchanged from before. The left arm hangs idle at their side.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "still gripping the bin's top edge, unchanged from before",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "outdoor garbage bin",
+          "description": "still being wheeled toward the street",
+          "identifier": "outdoor_bin"
+        }
+      ],
+      "actions": [
+        {
+          "name": "wheel bin",
+          "actor": "right fingers",
+          "target": "outdoor garbage bin",
+          "description": "the right hand continues gripping and wheeling the bin toward the street"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers wheel outdoor garbage bin"
+      ]
+    },
+    {
+      "frame_id": "take_out_trash_003189",
+      "frame_index": 3189,
+      "timestamp_seconds": 53.162731,
+      "description": "Just before reaching the street, the person continues wheeling the garbage bin, right hand gripping its top edge. The left arm hangs idle at their side.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "gripping the bin's top edge, wheeling it just short of the street",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "outdoor garbage bin",
+          "description": "nearly at the street, still being wheeled along",
+          "identifier": "outdoor_bin"
+        }
+      ],
+      "actions": [
+        {
+          "name": "wheel bin",
+          "actor": "right fingers",
+          "target": "outdoor garbage bin",
+          "description": "the right hand continues gripping and wheeling the bin toward the street"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers wheel outdoor garbage bin"
+      ]
+    },
+    {
+      "frame_id": "take_out_trash_003251",
+      "frame_index": 3251,
+      "timestamp_seconds": 54.19631137724551,
+      "description": "The person wheels the large garbage bin down the driveway toward the street, gripping its top edge with their right hand as they walk. The left arm swings loosely at their side.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "gripping the top edge of the bin, guiding it along the ground on its wheels while walking",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "outdoor garbage bin",
+          "description": "being wheeled down the driveway toward the street",
+          "identifier": "outdoor_bin"
+        }
+      ],
+      "actions": [
+        {
+          "name": "wheel bin",
+          "actor": "right fingers",
+          "target": "outdoor garbage bin",
+          "description": "the right hand continues gripping and guiding the bin along the driveway"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers wheel outdoor garbage bin"
+      ]
+    },
+    {
+      "frame_id": "take_out_trash_003313",
+      "frame_index": 3313,
+      "timestamp_seconds": 55.229892,
+      "description": "The person walks down the driveway toward the street, now pulling the garbage bin behind them with both hands gripping its handle, the bin tilted back onto its wheels.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "gripping the bin's handle behind the back, pulling it along with the left hand",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "left fingers",
+          "description": "gripping the bin's handle behind the back alongside the right hand, pulling it along",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "outdoor garbage bin",
+          "description": "tilted onto its wheels, pulled behind the person with both hands toward the street",
+          "identifier": "outdoor_bin"
+        }
+      ],
+      "actions": [
+        {
+          "name": "pull bin",
+          "actor": "right fingers",
+          "target": "outdoor garbage bin",
+          "description": "the right hand grips the bin's handle behind the back, helping pull it along"
+        },
+        {
+          "name": "pull bin",
+          "actor": "left fingers",
+          "target": "outdoor garbage bin",
+          "description": "the left hand grips the bin's handle behind the back alongside the right, helping pull it along"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers pull outdoor garbage bin",
+        "left fingers pull outdoor garbage bin"
+      ]
+    },
+    {
+      "frame_id": "take_out_trash_003409",
+      "frame_index": 3409,
+      "timestamp_seconds": 56.830275,
+      "description": "The person continues pulling the garbage bin behind them with both hands gripping its handle, unchanged from the moment before, nearing the street.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "still gripping the bin's handle behind the back, unchanged from before",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "left fingers",
+          "description": "still gripping the bin's handle behind the back alongside the right hand, unchanged from before",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "outdoor garbage bin",
+          "description": "still tilted onto its wheels, pulled with both hands toward the street",
+          "identifier": "outdoor_bin"
+        }
+      ],
+      "actions": [
+        {
+          "name": "pull bin",
+          "actor": "right fingers",
+          "target": "outdoor garbage bin",
+          "description": "the right hand continues gripping the bin's handle, helping pull it along"
+        },
+        {
+          "name": "pull bin",
+          "actor": "left fingers",
+          "target": "outdoor garbage bin",
+          "description": "the left hand continues gripping the bin's handle alongside the right, helping pull it along"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers pull outdoor garbage bin",
+        "left fingers pull outdoor garbage bin"
+      ]
+    },
+    {
+      "frame_id": "take_out_trash_003503",
+      "frame_index": 3503,
+      "timestamp_seconds": 58.397317,
+      "description": "Now seen in profile, the person wheels the garbage bin along the street past parked trucks, right hand gripping the top of its lid. The left arm is no longer gripping the bin.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "gripping the top of the bin's lid, guiding it along the street",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "outdoor garbage bin",
+          "description": "wheeled along the street past parked trucks",
+          "identifier": "outdoor_bin"
+        }
+      ],
+      "actions": [
+        {
+          "name": "wheel bin",
+          "actor": "right fingers",
+          "target": "outdoor garbage bin",
+          "description": "the right hand grips the bin's lid and continues guiding it along the street"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers wheel outdoor garbage bin"
+      ]
+    },
+    {
+      "frame_id": "take_out_trash_003567",
+      "frame_index": 3567,
+      "timestamp_seconds": 59.46424,
+      "description": "The person continues wheeling the garbage bin along the street, right hand gripping its lid, unchanged from the moment before.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "still gripping the top of the bin's lid, unchanged from before",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "outdoor garbage bin",
+          "description": "still being wheeled along the street",
+          "identifier": "outdoor_bin"
+        }
+      ],
+      "actions": [
+        {
+          "name": "wheel bin",
+          "actor": "right fingers",
+          "target": "outdoor garbage bin",
+          "description": "the right hand continues gripping and guiding the bin along the street"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers wheel outdoor garbage bin"
+      ]
+    },
+    {
+      "frame_id": "take_out_trash_003633",
+      "frame_index": 3633,
+      "timestamp_seconds": 60.564503,
+      "description": "The person continues wheeling the garbage bin along the street, nearing a flowering bush at the curb ahead. The right hand continues gripping its lid.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "gripping the top of the bin's lid, guiding it toward the flowering bush ahead",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "outdoor garbage bin",
+          "description": "wheeled along the street, nearing a flowering bush at the curb",
+          "identifier": "outdoor_bin"
+        }
+      ],
+      "actions": [
+        {
+          "name": "wheel bin",
+          "actor": "right fingers",
+          "target": "outdoor garbage bin",
+          "description": "the right hand continues gripping and guiding the bin toward the curb"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers wheel outdoor garbage bin"
+      ]
+    },
+    {
+      "frame_id": "take_out_trash_003681",
+      "frame_index": 3681,
+      "timestamp_seconds": 61.364695,
+      "description": "The person continues wheeling the garbage bin closer to the flowering bush at the curb, right hand still gripping its lid, unchanged from before.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "still gripping the top of the bin's lid, unchanged from before",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "outdoor garbage bin",
+          "description": "nearing the flowering bush at the curb",
+          "identifier": "outdoor_bin"
+        }
+      ],
+      "actions": [
+        {
+          "name": "wheel bin",
+          "actor": "right fingers",
+          "target": "outdoor garbage bin",
+          "description": "the right hand continues gripping and guiding the bin toward the curb"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers wheel outdoor garbage bin"
+      ]
+    },
+    {
+      "frame_id": "take_out_trash_003725",
+      "frame_index": 3725,
+      "timestamp_seconds": 62.098204,
+      "description": "Nearing the flowering bush at the curb, the person continues wheeling the garbage bin, right hand gripping its lid.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "gripping the top of the bin's lid, guiding it near the flowering bush",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "outdoor garbage bin",
+          "description": "close to the flowering bush at the curb",
+          "identifier": "outdoor_bin"
+        }
+      ],
+      "actions": [
+        {
+          "name": "wheel bin",
+          "actor": "right fingers",
+          "target": "outdoor garbage bin",
+          "description": "the right hand continues gripping and guiding the bin near the curb"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers wheel outdoor garbage bin"
+      ]
+    },
+    {
+      "frame_id": "take_out_trash_003773",
+      "frame_index": 3773,
+      "timestamp_seconds": 62.898395,
+      "description": "The person wheels the garbage bin right up to the curb beside the flowering bush, right hand still gripping its lid.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "gripping the top of the bin's lid, guiding it up to the curb",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "outdoor garbage bin",
+          "description": "at the curb beside the flowering bush",
+          "identifier": "outdoor_bin"
+        }
+      ],
+      "actions": [
+        {
+          "name": "wheel bin",
+          "actor": "right fingers",
+          "target": "outdoor garbage bin",
+          "description": "the right hand continues gripping and guiding the bin to the curb"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers wheel outdoor garbage bin"
+      ]
+    },
+    {
+      "frame_id": "take_out_trash_003827",
+      "frame_index": 3827,
+      "timestamp_seconds": 63.798611,
+      "description": "The person continues positioning the garbage bin at the curb beside the flowering bush, right hand gripping its lid.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "gripping the top of the bin's lid, positioning it at the curb",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "outdoor garbage bin",
+          "description": "being positioned at the curb beside the flowering bush",
+          "identifier": "outdoor_bin"
+        }
+      ],
+      "actions": [
+        {
+          "name": "wheel bin",
+          "actor": "right fingers",
+          "target": "outdoor garbage bin",
+          "description": "the right hand continues gripping the lid, positioning the bin at the curb"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers wheel outdoor garbage bin"
+      ]
+    },
+    {
+      "frame_id": "take_out_trash_003889",
+      "frame_index": 3889,
+      "timestamp_seconds": 64.832192,
+      "description": "Standing beside the garbage bin near the flowering bush at the curb, the person's right hand still rests on its lid.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "resting on the bin's lid, no longer pulling or wheeling it",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "outdoor garbage bin",
+          "description": "parked beside the flowering bush at the curb",
+          "identifier": "outdoor_bin"
+        }
+      ],
+      "actions": [
+        {
+          "name": "rest hand",
+          "actor": "right fingers",
+          "target": "outdoor garbage bin",
+          "description": "the right hand comes to rest on the bin now that it is beside the curb"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers rest outdoor garbage bin"
+      ]
+    },
+    {
+      "frame_id": "take_out_trash_003935",
+      "frame_index": 3935,
+      "timestamp_seconds": 65.599042,
+      "description": "The person stands with the garbage bin beside the flowering bush at the curb, right hand resting lightly on its lid, unchanged from the moment before.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "still resting lightly on the bin's lid, unchanged from before",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "outdoor garbage bin",
+          "description": "still parked beside the flowering bush at the curb",
+          "identifier": "outdoor_bin"
+        }
+      ],
+      "actions": [
+        {
+          "name": "rest hand",
+          "actor": "right fingers",
+          "target": "outdoor garbage bin",
+          "description": "the right hand continues resting on the bin beside the curb"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers rest outdoor garbage bin"
+      ]
+    },
+    {
+      "frame_id": "take_out_trash_003977",
+      "frame_index": 3977,
+      "timestamp_seconds": 66.29920958083832,
+      "description": "The person has parked the garbage bin at the curb beside a flowering shrub and stands beside it, right hand resting lightly on its lid and left hand relaxed at their side -- the task is complete.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "resting lightly on top of the bin, no longer pulling or gripping tightly",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "outdoor garbage bin",
+          "description": "now parked at the curb, ready for collection",
+          "identifier": "outdoor_bin"
+        }
+      ],
+      "actions": [
+        {
+          "name": "rest hand",
+          "actor": "right fingers",
+          "target": "outdoor garbage bin",
+          "description": "the right hand comes to rest on the bin now that it has been positioned at the curb"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers rest outdoor garbage bin"
+      ]
+    }
+  ]
+}

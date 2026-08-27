@@ -1,0 +1,1302 @@
+{
+  "video_id": "get_into_car",
+  "video_path": "videos/get_into_car.mov",
+  "frames": [
+    {
+      "frame_id": "get_into_car_000000",
+      "frame_index": 0,
+      "timestamp_seconds": 0.0,
+      "description": "A person in a silver suit stands beside a silver minivan in a driveway, facing the vehicle, both hands relaxed and not yet touching it.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "minivan",
+          "description": "silver minivan parked in the driveway",
+          "identifier": "minivan"
+        }
+      ],
+      "actions": [
+        {
+          "name": "approach minivan",
+          "actor": "person",
+          "target": "minivan",
+          "description": "the person stands still, facing the minivan; no limb is in contact with it"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "get_into_car_000094",
+      "frame_index": 94,
+      "timestamp_seconds": 1.566667,
+      "description": "A person in a silver suit stands with their back to the camera beside the silver minivan, bent slightly forward. The driver-side door is still closed; the right fingers touch the door's exterior chrome handle, and the left arm hangs relaxed at the side.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "touching the minivan's exterior door handle",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "minivan",
+          "identifier": "minivan"
+        },
+        {
+          "name": "door handle",
+          "description": "chrome exterior handle of the driver-side door; door still closed",
+          "identifier": "door_handle"
+        }
+      ],
+      "actions": [
+        {
+          "name": "reach for door handle",
+          "actor": "right fingers",
+          "target": "door_handle",
+          "description": "the right fingers extend to touch the closed door's exterior handle"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "get_into_car_000144",
+      "frame_index": 144,
+      "timestamp_seconds": 2.4,
+      "description": "The minivan's driver-side door is now open. The person stands beside it in profile, right fingers resting on the upper interior edge of the open door near the window sill; the left arm hangs relaxed.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "resting on the upper interior edge of the open door",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "minivan",
+          "identifier": "minivan"
+        },
+        {
+          "name": "driver door",
+          "description": "the driver-side door, now open",
+          "identifier": "driver_door"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold open door",
+          "actor": "right fingers",
+          "target": "driver_door",
+          "description": "the right fingers rest against the open door's interior edge"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "get_into_car_000176",
+      "frame_index": 176,
+      "timestamp_seconds": 2.933333,
+      "description": "The person stands in profile next to the open driver-side door, facing into the vehicle. The right fingers grip the interior door pull handle; the left arm hangs at the side.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "gripping the interior door pull handle",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "minivan",
+          "identifier": "minivan"
+        },
+        {
+          "name": "driver door",
+          "identifier": "driver_door"
+        },
+        {
+          "name": "interior handle",
+          "description": "interior door pull handle on the open driver door",
+          "identifier": "interior_handle"
+        }
+      ],
+      "actions": [
+        {
+          "name": "grip interior handle",
+          "actor": "right fingers",
+          "target": "interior_handle",
+          "description": "the right fingers grip the interior door pull handle"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "get_into_car_000210",
+      "frame_index": 210,
+      "timestamp_seconds": 3.5,
+      "description": "Viewed through the open door's window, the person's face and torso are partly visible; a gloved hand grips the upper edge of the open door frame near the front pillar. One foot is visible on the ground beneath the door.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "gripping the upper edge of the open door frame",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "minivan",
+          "identifier": "minivan"
+        },
+        {
+          "name": "driver door",
+          "identifier": "driver_door"
+        }
+      ],
+      "actions": [
+        {
+          "name": "grip door frame",
+          "actor": "right fingers",
+          "target": "driver_door",
+          "description": "a gloved hand grips the upper edge of the open door frame while the person stands at the doorway"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "get_into_car_000238",
+      "frame_index": 238,
+      "timestamp_seconds": 3.966667,
+      "description": "A person in a silver suit steps into the open driver-side door of the silver minivan.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "minivan",
+          "identifier": "minivan"
+        }
+      ],
+      "actions": [
+        {
+          "name": "enter minivan",
+          "actor": "person",
+          "target": "minivan",
+          "description": "the person steps into the minivan through the open driver-side door"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "get_into_car_000260",
+      "frame_index": 260,
+      "timestamp_seconds": 4.333333,
+      "description": "Viewed through the open door's window, the person's back and shoulder are visible, the silver suit's vertical back seam showing. The body is oriented into the vehicle, lowering toward the driver's seat.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "minivan",
+          "identifier": "minivan"
+        },
+        {
+          "name": "driver door",
+          "identifier": "driver_door"
+        }
+      ],
+      "actions": [
+        {
+          "name": "enter minivan",
+          "actor": "person",
+          "target": "minivan",
+          "description": "the person's torso is visible through the open door's window, lowering into the driver's seat"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "get_into_car_000280",
+      "frame_index": 280,
+      "timestamp_seconds": 4.666667,
+      "description": "The person's torso and hooded head are visible through the open door's window, the silver suit reflecting sunlight. The body now appears seated in the driver's seat.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "minivan",
+          "identifier": "minivan"
+        },
+        {
+          "name": "driver door",
+          "identifier": "driver_door"
+        }
+      ],
+      "actions": [
+        {
+          "name": "sit in driver seat",
+          "actor": "person",
+          "target": "minivan",
+          "description": "the person appears seated in the driver's seat, visible through the open door's window"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "get_into_car_000300",
+      "frame_index": 300,
+      "timestamp_seconds": 5.0,
+      "description": "The person sits in the driver's seat, visible through the open door's window. A tan shape is visible in the passenger seat beyond them, consistent with a dog already inside the vehicle.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "minivan",
+          "identifier": "minivan"
+        },
+        {
+          "name": "driver door",
+          "identifier": "driver_door"
+        },
+        {
+          "name": "dog",
+          "description": "golden retriever seated in the passenger seat, partly visible",
+          "identifier": "dog"
+        }
+      ],
+      "actions": [
+        {
+          "name": "sit in minivan",
+          "actor": "person",
+          "target": "minivan",
+          "description": "the person sits in the driver's seat while a dog is visible in the passenger seat"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "get_into_car_000318",
+      "frame_index": 318,
+      "timestamp_seconds": 5.3,
+      "description": "The person sits in the driver's seat, silver-suited hood and torso visible through the open door's window. The golden retriever now sits upright and clearly visible in the passenger seat beside them.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "minivan",
+          "identifier": "minivan"
+        },
+        {
+          "name": "driver door",
+          "identifier": "driver_door"
+        },
+        {
+          "name": "dog",
+          "description": "golden retriever sitting upright in the passenger seat",
+          "identifier": "dog"
+        }
+      ],
+      "actions": [
+        {
+          "name": "sit in minivan",
+          "actor": "person",
+          "target": "minivan",
+          "description": "the person sits in the driver's seat beside the dog in the passenger seat"
+        },
+        {
+          "name": "sit in minivan",
+          "actor": "dog",
+          "target": "minivan",
+          "description": "the dog sits upright in the passenger seat"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "get_into_car_000334",
+      "frame_index": 334,
+      "timestamp_seconds": 5.566667,
+      "description": "Unchanged from the moment before: the person sits in the driver's seat and the dog sits upright in the passenger seat, both visible through the open door's window. The driver door remains open.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "minivan",
+          "identifier": "minivan"
+        },
+        {
+          "name": "driver door",
+          "identifier": "driver_door"
+        },
+        {
+          "name": "dog",
+          "identifier": "dog"
+        }
+      ],
+      "actions": [
+        {
+          "name": "sit in minivan",
+          "actor": "person",
+          "target": "minivan",
+          "description": "the person remains seated in the driver's seat"
+        },
+        {
+          "name": "sit in minivan",
+          "actor": "dog",
+          "target": "minivan",
+          "description": "the dog remains seated upright in the passenger seat"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "get_into_car_000352",
+      "frame_index": 352,
+      "timestamp_seconds": 5.866667,
+      "description": "Unchanged from the moment before: the person sits in the driver's seat and the dog sits upright in the passenger seat, both visible through the open door's window.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "minivan",
+          "identifier": "minivan"
+        },
+        {
+          "name": "driver door",
+          "identifier": "driver_door"
+        },
+        {
+          "name": "dog",
+          "identifier": "dog"
+        }
+      ],
+      "actions": [
+        {
+          "name": "sit in minivan",
+          "actor": "person",
+          "target": "minivan",
+          "description": "the person remains seated in the driver's seat"
+        },
+        {
+          "name": "sit in minivan",
+          "actor": "dog",
+          "target": "minivan",
+          "description": "the dog remains seated upright in the passenger seat"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "get_into_car_000370",
+      "frame_index": 370,
+      "timestamp_seconds": 6.166667,
+      "description": "Unchanged from the moment before: the person sits in the driver's seat and the dog sits upright in the passenger seat, both visible through the open door's window.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "minivan",
+          "identifier": "minivan"
+        },
+        {
+          "name": "driver door",
+          "identifier": "driver_door"
+        },
+        {
+          "name": "dog",
+          "identifier": "dog"
+        }
+      ],
+      "actions": [
+        {
+          "name": "sit in minivan",
+          "actor": "person",
+          "target": "minivan",
+          "description": "the person remains seated in the driver's seat"
+        },
+        {
+          "name": "sit in minivan",
+          "actor": "dog",
+          "target": "minivan",
+          "description": "the dog remains seated upright in the passenger seat"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "get_into_car_000386",
+      "frame_index": 386,
+      "timestamp_seconds": 6.433333,
+      "description": "Unchanged from the moment before: the person sits in the driver's seat and the dog sits upright in the passenger seat, both visible through the open door's window.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "minivan",
+          "identifier": "minivan"
+        },
+        {
+          "name": "driver door",
+          "identifier": "driver_door"
+        },
+        {
+          "name": "dog",
+          "identifier": "dog"
+        }
+      ],
+      "actions": [
+        {
+          "name": "sit in minivan",
+          "actor": "person",
+          "target": "minivan",
+          "description": "the person remains seated in the driver's seat"
+        },
+        {
+          "name": "sit in minivan",
+          "actor": "dog",
+          "target": "minivan",
+          "description": "the dog remains seated upright in the passenger seat"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "get_into_car_000400",
+      "frame_index": 400,
+      "timestamp_seconds": 6.666667,
+      "description": "Unchanged from the moment before: the person sits in the driver's seat and the dog sits upright in the passenger seat, both visible through the open door's window.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "minivan",
+          "identifier": "minivan"
+        },
+        {
+          "name": "driver door",
+          "identifier": "driver_door"
+        },
+        {
+          "name": "dog",
+          "identifier": "dog"
+        }
+      ],
+      "actions": [
+        {
+          "name": "sit in minivan",
+          "actor": "person",
+          "target": "minivan",
+          "description": "the person remains seated in the driver's seat"
+        },
+        {
+          "name": "sit in minivan",
+          "actor": "dog",
+          "target": "minivan",
+          "description": "the dog remains seated upright in the passenger seat"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "get_into_car_000414",
+      "frame_index": 414,
+      "timestamp_seconds": 6.9,
+      "description": "Unchanged from the moment before: the person sits in the driver's seat and the dog sits upright in the passenger seat, both visible through the open door's window.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "minivan",
+          "identifier": "minivan"
+        },
+        {
+          "name": "driver door",
+          "identifier": "driver_door"
+        },
+        {
+          "name": "dog",
+          "identifier": "dog"
+        }
+      ],
+      "actions": [
+        {
+          "name": "sit in minivan",
+          "actor": "person",
+          "target": "minivan",
+          "description": "the person remains seated in the driver's seat"
+        },
+        {
+          "name": "sit in minivan",
+          "actor": "dog",
+          "target": "minivan",
+          "description": "the dog remains seated upright in the passenger seat"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "get_into_car_000420",
+      "frame_index": 420,
+      "timestamp_seconds": 7.0,
+      "description": "A dog sits inside the silver minivan, visible through the windshield.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "minivan",
+          "identifier": "minivan"
+        },
+        {
+          "name": "dog",
+          "description": "golden retriever sitting inside the minivan"
+        }
+      ],
+      "actions": [
+        {
+          "name": "sit in minivan",
+          "actor": "dog",
+          "target": "minivan",
+          "description": "the dog sits inside the minivan"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "get_into_car_000426",
+      "frame_index": 426,
+      "timestamp_seconds": 7.1,
+      "description": "The person sits in the driver's seat, visible through the open door's window. The dog now sits with its mouth open, tongue visible, panting in the passenger seat.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "minivan",
+          "identifier": "minivan"
+        },
+        {
+          "name": "driver door",
+          "identifier": "driver_door"
+        },
+        {
+          "name": "dog",
+          "identifier": "dog"
+        }
+      ],
+      "actions": [
+        {
+          "name": "sit in minivan",
+          "actor": "person",
+          "target": "minivan",
+          "description": "the person remains seated in the driver's seat"
+        },
+        {
+          "name": "pant",
+          "actor": "dog",
+          "target": "dog",
+          "description": "the dog sits with mouth open and tongue visible"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "get_into_car_000434",
+      "frame_index": 434,
+      "timestamp_seconds": 7.233333,
+      "description": "Unchanged from the moment before: the person sits in the driver's seat and the dog sits panting in the passenger seat, both visible through the still-open door's window.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "minivan",
+          "identifier": "minivan"
+        },
+        {
+          "name": "driver door",
+          "identifier": "driver_door"
+        },
+        {
+          "name": "dog",
+          "identifier": "dog"
+        }
+      ],
+      "actions": [
+        {
+          "name": "sit in minivan",
+          "actor": "person",
+          "target": "minivan",
+          "description": "the person remains seated in the driver's seat"
+        },
+        {
+          "name": "pant",
+          "actor": "dog",
+          "target": "dog",
+          "description": "the dog continues sitting with mouth open and tongue visible"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "get_into_car_000444",
+      "frame_index": 444,
+      "timestamp_seconds": 7.4,
+      "description": "The driver-side door is now closed. The person sits in the driver's seat and the dog sits in the passenger seat, both visible from outside through the windshield and side window.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "minivan",
+          "identifier": "minivan"
+        },
+        {
+          "name": "dog",
+          "identifier": "dog"
+        }
+      ],
+      "actions": [
+        {
+          "name": "sit in minivan",
+          "actor": "person",
+          "target": "minivan",
+          "description": "the person sits in the driver's seat with the door now closed"
+        },
+        {
+          "name": "sit in minivan",
+          "actor": "dog",
+          "target": "minivan",
+          "description": "the dog sits in the passenger seat"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "get_into_car_000454",
+      "frame_index": 454,
+      "timestamp_seconds": 7.566667,
+      "description": "Unchanged from the moment before: the person sits in the driver's seat and the dog sits in the passenger seat, viewed from outside through the closed windows.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "minivan",
+          "identifier": "minivan"
+        },
+        {
+          "name": "dog",
+          "identifier": "dog"
+        }
+      ],
+      "actions": [
+        {
+          "name": "sit in minivan",
+          "actor": "person",
+          "target": "minivan",
+          "description": "the person remains seated in the driver's seat"
+        },
+        {
+          "name": "sit in minivan",
+          "actor": "dog",
+          "target": "minivan",
+          "description": "the dog remains seated in the passenger seat"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "get_into_car_000466",
+      "frame_index": 466,
+      "timestamp_seconds": 7.766667,
+      "description": "The person remains seated in the driver's seat. The dog's head is now lowered, resting down near the dashboard area.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "minivan",
+          "identifier": "minivan"
+        },
+        {
+          "name": "dog",
+          "identifier": "dog"
+        }
+      ],
+      "actions": [
+        {
+          "name": "sit in minivan",
+          "actor": "person",
+          "target": "minivan",
+          "description": "the person remains seated in the driver's seat"
+        },
+        {
+          "name": "lower head",
+          "actor": "dog",
+          "target": "dog",
+          "description": "the dog's head is lowered toward the dashboard"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "get_into_car_000478",
+      "frame_index": 478,
+      "timestamp_seconds": 7.966667,
+      "description": "Unchanged from the moment before: the person sits in the driver's seat while the dog's head remains lowered near the dashboard.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "minivan",
+          "identifier": "minivan"
+        },
+        {
+          "name": "dog",
+          "identifier": "dog"
+        }
+      ],
+      "actions": [
+        {
+          "name": "sit in minivan",
+          "actor": "person",
+          "target": "minivan",
+          "description": "the person remains seated in the driver's seat"
+        },
+        {
+          "name": "lower head",
+          "actor": "dog",
+          "target": "dog",
+          "description": "the dog's head remains lowered toward the dashboard"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "get_into_car_000488",
+      "frame_index": 488,
+      "timestamp_seconds": 8.133333,
+      "description": "The dog's head is raised again, sitting upright and alert in the passenger seat. The person remains seated in the driver's seat.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "minivan",
+          "identifier": "minivan"
+        },
+        {
+          "name": "dog",
+          "identifier": "dog"
+        }
+      ],
+      "actions": [
+        {
+          "name": "sit in minivan",
+          "actor": "person",
+          "target": "minivan",
+          "description": "the person remains seated in the driver's seat"
+        },
+        {
+          "name": "sit in minivan",
+          "actor": "dog",
+          "target": "minivan",
+          "description": "the dog sits upright again in the passenger seat"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "get_into_car_000498",
+      "frame_index": 498,
+      "timestamp_seconds": 8.3,
+      "description": "Unchanged from the moment before: the person sits in the driver's seat and the dog sits upright in the passenger seat.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "minivan",
+          "identifier": "minivan"
+        },
+        {
+          "name": "dog",
+          "identifier": "dog"
+        }
+      ],
+      "actions": [
+        {
+          "name": "sit in minivan",
+          "actor": "person",
+          "target": "minivan",
+          "description": "the person remains seated in the driver's seat"
+        },
+        {
+          "name": "sit in minivan",
+          "actor": "dog",
+          "target": "minivan",
+          "description": "the dog remains seated upright in the passenger seat"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "get_into_car_000508",
+      "frame_index": 508,
+      "timestamp_seconds": 8.466667,
+      "description": "The dog leans slightly toward the person, its head moving closer to the person's shoulder and arm. The person remains seated in the driver's seat.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "minivan",
+          "identifier": "minivan"
+        },
+        {
+          "name": "dog",
+          "identifier": "dog"
+        }
+      ],
+      "actions": [
+        {
+          "name": "sit in minivan",
+          "actor": "person",
+          "target": "minivan",
+          "description": "the person remains seated in the driver's seat"
+        },
+        {
+          "name": "lean toward person",
+          "actor": "dog",
+          "target": "person",
+          "description": "the dog leans its head toward the person's shoulder and arm"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "get_into_car_000518",
+      "frame_index": 518,
+      "timestamp_seconds": 8.633333,
+      "description": "The dog rests its head down against the person's arm, eyes appearing closed. The person remains seated in the driver's seat.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "minivan",
+          "identifier": "minivan"
+        },
+        {
+          "name": "dog",
+          "identifier": "dog"
+        }
+      ],
+      "actions": [
+        {
+          "name": "sit in minivan",
+          "actor": "person",
+          "target": "minivan",
+          "description": "the person remains seated in the driver's seat"
+        },
+        {
+          "name": "rest head on arm",
+          "actor": "dog",
+          "target": "person",
+          "description": "the dog rests its head against the person's arm"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "get_into_car_000528",
+      "frame_index": 528,
+      "timestamp_seconds": 8.8,
+      "description": "The person leans forward slightly, right arm extending toward the lower center of the vehicle. The dog's head is lowered near the dashboard, facing forward.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "minivan",
+          "identifier": "minivan"
+        },
+        {
+          "name": "dog",
+          "identifier": "dog"
+        }
+      ],
+      "actions": [
+        {
+          "name": "lean forward",
+          "actor": "person",
+          "target": "minivan",
+          "description": "the person leans forward with the right arm extending toward the lower center console area"
+        },
+        {
+          "name": "lower head",
+          "actor": "dog",
+          "target": "dog",
+          "description": "the dog's head is lowered near the dashboard"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "get_into_car_000538",
+      "frame_index": 538,
+      "timestamp_seconds": 8.966667,
+      "description": "The person continues leaning forward with the right arm extended. The dog leans its head toward the person's forearm, as if sniffing it.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "minivan",
+          "identifier": "minivan"
+        },
+        {
+          "name": "dog",
+          "identifier": "dog"
+        }
+      ],
+      "actions": [
+        {
+          "name": "lean forward",
+          "actor": "person",
+          "target": "minivan",
+          "description": "the person remains leaning forward with the right arm extended"
+        },
+        {
+          "name": "lean toward arm",
+          "actor": "dog",
+          "target": "person",
+          "description": "the dog leans its head toward the person's forearm"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "get_into_car_000552",
+      "frame_index": 552,
+      "timestamp_seconds": 9.2,
+      "description": "A seatbelt strap is now visible diagonally across the person's chest for the first time. The right fingers grip the strap near chest height, pulling it into position. The dog's back is visible, its head lowered near the dashboard.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "gripping the seatbelt strap near chest height, pulling it into position",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "seatbelt",
+          "description": "seatbelt strap now visible diagonally across the chest",
+          "identifier": "seatbelt"
+        }
+      ],
+      "entities": [
+        {
+          "name": "minivan",
+          "identifier": "minivan"
+        },
+        {
+          "name": "dog",
+          "identifier": "dog"
+        }
+      ],
+      "actions": [
+        {
+          "name": "grip seatbelt",
+          "actor": "right fingers",
+          "target": "seatbelt",
+          "description": "the right fingers grip the seatbelt strap and pull it across the chest"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "get_into_car_000564",
+      "frame_index": 564,
+      "timestamp_seconds": 9.4,
+      "description": "The seatbelt strap remains diagonally across the person's chest. The right fingers hold the strap near shoulder height, guiding it. The dog now sits upright again, looking to the side.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "holding the seatbelt strap near shoulder height",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "seatbelt",
+          "identifier": "seatbelt"
+        }
+      ],
+      "entities": [
+        {
+          "name": "minivan",
+          "identifier": "minivan"
+        },
+        {
+          "name": "dog",
+          "identifier": "dog"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold seatbelt",
+          "actor": "right fingers",
+          "target": "seatbelt",
+          "description": "the right fingers hold the seatbelt strap near the shoulder, guiding it into place"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "get_into_car_000578",
+      "frame_index": 578,
+      "timestamp_seconds": 9.633333,
+      "description": "Both hands are now engaged with the seatbelt: the right fingers are near the buckle at the lower chest while the left fingers hold the strap higher near the shoulder. The dog sits upright with mouth open, panting.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "positioned near the seatbelt buckle at the lower chest",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "left fingers",
+          "description": "holding the seatbelt strap higher, near the shoulder",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "seatbelt",
+          "identifier": "seatbelt"
+        }
+      ],
+      "entities": [
+        {
+          "name": "minivan",
+          "identifier": "minivan"
+        },
+        {
+          "name": "dog",
+          "identifier": "dog"
+        }
+      ],
+      "actions": [
+        {
+          "name": "buckle seatbelt",
+          "actor": "left fingers and right fingers",
+          "target": "seatbelt",
+          "description": "both hands' fingers work the seatbelt strap toward the buckle"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "get_into_car_000594",
+      "frame_index": 594,
+      "timestamp_seconds": 9.9,
+      "description": "A person in a silver suit sits in the driver's seat of the silver minivan, both hands' fingers gripping the seatbelt strap and pulling it across their chest, while a dog sits beside them.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping the seatbelt strap higher up, near the shoulder",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "gripping the seatbelt strap near the buckle, guiding it into place",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "seatbelt",
+          "description": "seatbelt strap being pulled across the chest and buckled"
+        }
+      ],
+      "entities": [
+        {
+          "name": "minivan",
+          "identifier": "minivan"
+        },
+        {
+          "name": "dog",
+          "description": "golden retriever sitting in the passenger seat"
+        }
+      ],
+      "actions": [
+        {
+          "name": "buckle seatbelt",
+          "actor": "left fingers and right fingers",
+          "target": "seatbelt",
+          "description": "both hands' fingers grip the seatbelt strap, pulling it across the chest and guiding it toward the buckle"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "get_into_car_000610",
+      "frame_index": 610,
+      "timestamp_seconds": 10.166667,
+      "description": "The seatbelt is now secured diagonally across the person's chest, hands no longer on the strap. The dog leans its head down against the person's forearm resting near the center console, in a relaxed posture.",
+      "resources": [
+        {
+          "name": "seatbelt",
+          "description": "secured diagonally across the chest",
+          "identifier": "seatbelt"
+        }
+      ],
+      "entities": [
+        {
+          "name": "minivan",
+          "identifier": "minivan"
+        },
+        {
+          "name": "dog",
+          "identifier": "dog"
+        }
+      ],
+      "actions": [
+        {
+          "name": "rest head on arm",
+          "actor": "dog",
+          "target": "person",
+          "description": "the dog leans its head against the person's forearm"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "get_into_car_000636",
+      "frame_index": 636,
+      "timestamp_seconds": 10.6,
+      "description": "Unchanged from the moment before: the seatbelt remains secured across the person's chest, and the dog continues resting its head against the person's forearm.",
+      "resources": [
+        {
+          "name": "seatbelt",
+          "identifier": "seatbelt"
+        }
+      ],
+      "entities": [
+        {
+          "name": "minivan",
+          "identifier": "minivan"
+        },
+        {
+          "name": "dog",
+          "identifier": "dog"
+        }
+      ],
+      "actions": [
+        {
+          "name": "rest head on arm",
+          "actor": "dog",
+          "target": "person",
+          "description": "the dog continues resting its head against the person's forearm"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "get_into_car_000686",
+      "frame_index": 686,
+      "timestamp_seconds": 11.433333,
+      "description": "The person's right fingers rest gently on the dog's back. The dog remains leaning into the person's arm, seatbelt still secured across the chest.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "resting on the dog's back",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "seatbelt",
+          "identifier": "seatbelt"
+        }
+      ],
+      "entities": [
+        {
+          "name": "minivan",
+          "identifier": "minivan"
+        },
+        {
+          "name": "dog",
+          "identifier": "dog"
+        }
+      ],
+      "actions": [
+        {
+          "name": "touch dog",
+          "actor": "right fingers",
+          "target": "dog",
+          "description": "the right fingers rest on the dog's back while the dog leans into the person's arm"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "get_into_car_000742",
+      "frame_index": 742,
+      "timestamp_seconds": 12.366667,
+      "description": "The seatbelt remains secured diagonally across the person's chest; the right hand rests near the buckle at the chest. The dog sits upright beside them, facing forward.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "resting near the seatbelt buckle at the chest",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "seatbelt",
+          "identifier": "seatbelt"
+        }
+      ],
+      "entities": [
+        {
+          "name": "minivan",
+          "identifier": "minivan"
+        },
+        {
+          "name": "dog",
+          "identifier": "dog"
+        }
+      ],
+      "actions": [
+        {
+          "name": "sit in minivan",
+          "actor": "dog",
+          "target": "minivan",
+          "description": "the dog sits upright facing forward beside the person"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "get_into_car_000774",
+      "frame_index": 774,
+      "timestamp_seconds": 12.9,
+      "description": "The person smiles, right fingers holding the seatbelt strap near the shoulder. The dog sits upright and calm in the passenger seat.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "holding the seatbelt strap near the shoulder",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "seatbelt",
+          "identifier": "seatbelt"
+        }
+      ],
+      "entities": [
+        {
+          "name": "minivan",
+          "identifier": "minivan"
+        },
+        {
+          "name": "dog",
+          "identifier": "dog"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold seatbelt",
+          "actor": "right fingers",
+          "target": "seatbelt",
+          "description": "the right fingers hold the seatbelt strap near the shoulder"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "get_into_car_000818",
+      "frame_index": 818,
+      "timestamp_seconds": 13.633333,
+      "description": "The person's right fingers rest on the dog's back, gently touching its fur. The dog sits leaning slightly toward the person, seatbelt secured diagonally across the person's chest.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "resting on the dog's back, touching its fur",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "seatbelt",
+          "identifier": "seatbelt"
+        }
+      ],
+      "entities": [
+        {
+          "name": "minivan",
+          "identifier": "minivan"
+        },
+        {
+          "name": "dog",
+          "identifier": "dog"
+        }
+      ],
+      "actions": [
+        {
+          "name": "pet dog",
+          "actor": "right fingers",
+          "target": "dog",
+          "description": "the right fingers rest on and gently touch the dog's back"
+        }
+      ],
+      "ontological_phrases": []
+    }
+  ]
+}

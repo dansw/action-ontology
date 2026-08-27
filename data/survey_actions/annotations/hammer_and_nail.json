@@ -1,0 +1,1392 @@
+{
+  "video_id": "hammer_and_nail",
+  "video_path": "videos/hammer_and_nail.mov",
+  "frames": [
+    {
+      "frame_id": "hammer_and_nail_000000",
+      "frame_index": 0,
+      "timestamp_seconds": 0.0,
+      "description": "A person in a reflective silver suit stands upright at a kitchen counter, both hands resting flat and idle on the countertop; a hammer lies untouched on the table to the left, and a single nail lies flat on the table in front of an untouched wood block.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "hammer",
+          "description": "resting on the table, untouched",
+          "identifier": "hammer"
+        },
+        {
+          "name": "nail",
+          "description": "lying flat on the table in front of the block, not yet placed",
+          "identifier": "nail"
+        },
+        {
+          "name": "wood block",
+          "description": "sitting on the table, untouched",
+          "identifier": "wood_block"
+        }
+      ],
+      "actions": [],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "hammer_and_nail_000044",
+      "frame_index": 44,
+      "timestamp_seconds": 0.733333,
+      "description": "A person in a reflective silver suit stands at the counter with both hands still resting flat on the table on either side of the wood block, unchanged from the moment before; the nail lies flat on the table in front of the block, and the hammer remains untouched to the left.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "nail",
+          "description": "lying flat on the table, not yet placed",
+          "identifier": "nail"
+        },
+        {
+          "name": "hammer",
+          "description": "resting on the table, untouched",
+          "identifier": "hammer"
+        },
+        {
+          "name": "wood block",
+          "description": "sitting on the table, untouched",
+          "identifier": "wood_block"
+        }
+      ],
+      "actions": [],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "hammer_and_nail_000056",
+      "frame_index": 56,
+      "timestamp_seconds": 0.933333,
+      "description": "Both of the person's hands move down toward the table's surface near the wood block, fingers open and not yet touching the nail or the hammer; the nail still lies flat on the table, and the hammer remains untouched to the left.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "nail",
+          "description": "still lying flat on the table",
+          "identifier": "nail"
+        },
+        {
+          "name": "hammer",
+          "description": "still resting untouched on the table",
+          "identifier": "hammer"
+        },
+        {
+          "name": "wood block",
+          "description": "still untouched on the table",
+          "identifier": "wood_block"
+        }
+      ],
+      "actions": [],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "hammer_and_nail_000064",
+      "frame_index": 64,
+      "timestamp_seconds": 1.066667,
+      "description": "The person's hands continue reaching down toward the wood block and nail, still not gripping either one; the nail remains flat on the table and the hammer untouched to the left.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "nail",
+          "description": "still lying flat on the table",
+          "identifier": "nail"
+        },
+        {
+          "name": "hammer",
+          "description": "still resting untouched on the table",
+          "identifier": "hammer"
+        },
+        {
+          "name": "wood block",
+          "description": "still untouched on the table",
+          "identifier": "wood_block"
+        }
+      ],
+      "actions": [],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "hammer_and_nail_000072",
+      "frame_index": 72,
+      "timestamp_seconds": 1.2,
+      "description": "The left hand's fingers reach down close to the nail on the table without yet gripping it, while the right hand's fingers rest near the hammer's handle without yet holding it.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "nail",
+          "description": "still on the table, fingers reaching near it",
+          "identifier": "nail"
+        },
+        {
+          "name": "hammer",
+          "description": "still resting untouched, fingers nearby",
+          "identifier": "hammer"
+        },
+        {
+          "name": "wood block",
+          "description": "untouched",
+          "identifier": "wood_block"
+        }
+      ],
+      "actions": [],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "hammer_and_nail_000082",
+      "frame_index": 82,
+      "timestamp_seconds": 1.366667,
+      "description": "Both hands are now positioned at the wood block's edge, closing in around the nail together, though neither hand has a firm hold on it yet; the hammer remains untouched on the table to the left.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "nail",
+          "description": "still on the table, hands closing around it",
+          "identifier": "nail"
+        },
+        {
+          "name": "wood block",
+          "description": "receiving the hands' attention",
+          "identifier": "wood_block"
+        },
+        {
+          "name": "hammer",
+          "description": "untouched",
+          "identifier": "hammer"
+        }
+      ],
+      "actions": [],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "hammer_and_nail_000100",
+      "frame_index": 100,
+      "timestamp_seconds": 1.666667,
+      "description": "Both hands come together above the wood block, fingers interlaced, working together to lift and position the nail upright on the block's top surface; the hammer remains untouched on the table to the left.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "interlaced with the left fingers, cooperating to position the nail on the block",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "left fingers",
+          "description": "interlaced with the right fingers, cooperating to position the nail on the block",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "nail",
+          "description": "being lifted and set upright on the block's top surface by both hands",
+          "identifier": "nail"
+        },
+        {
+          "name": "wood block",
+          "description": "receiving the nail on its top surface",
+          "identifier": "wood_block"
+        },
+        {
+          "name": "hammer",
+          "description": "still resting untouched on the table",
+          "identifier": "hammer"
+        }
+      ],
+      "actions": [
+        {
+          "name": "position nail",
+          "actor": "right fingers",
+          "target": "nail",
+          "description": "right fingers help lift and set the nail upright on the block"
+        },
+        {
+          "name": "position nail",
+          "actor": "left fingers",
+          "target": "nail",
+          "description": "left fingers help lift and set the nail upright on the block"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers position nail",
+        "left fingers position nail"
+      ]
+    },
+    {
+      "frame_id": "hammer_and_nail_000114",
+      "frame_index": 114,
+      "timestamp_seconds": 1.9,
+      "description": "Both hands come together above the wood block, fingers interlaced, working together to lift the nail off the table and set it upright on the block's top surface; the hammer remains untouched on the table to the left.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "interlaced with the left fingers, lifting the nail onto the block",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "left fingers",
+          "description": "interlaced with the right fingers, lifting the nail onto the block",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "nail",
+          "description": "being lifted off the table and set upright on the block",
+          "identifier": "nail"
+        },
+        {
+          "name": "wood block",
+          "description": "receiving the nail on its top surface",
+          "identifier": "wood_block"
+        },
+        {
+          "name": "hammer",
+          "description": "still resting untouched on the table",
+          "identifier": "hammer"
+        }
+      ],
+      "actions": [
+        {
+          "name": "position nail",
+          "actor": "right fingers",
+          "target": "nail",
+          "description": "right fingers help lift and set the nail upright on the block"
+        },
+        {
+          "name": "position nail",
+          "actor": "left fingers",
+          "target": "nail",
+          "description": "left fingers help lift and set the nail upright on the block"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers position nail",
+        "left fingers position nail"
+      ]
+    },
+    {
+      "frame_id": "hammer_and_nail_000122",
+      "frame_index": 122,
+      "timestamp_seconds": 2.033333,
+      "description": "The left hand's fingers pinch the nail, holding it upright against the block, while the right hand's fingers rest near the hammer on the table without yet lifting it.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "pinching the nail, holding it upright against the block",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "nail",
+          "description": "held upright on the block by the left fingers",
+          "identifier": "nail"
+        },
+        {
+          "name": "wood block",
+          "description": "holding the nail upright",
+          "identifier": "wood_block"
+        },
+        {
+          "name": "hammer",
+          "description": "still resting untouched on the table, right fingers nearby",
+          "identifier": "hammer"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold nail",
+          "actor": "left fingers",
+          "target": "nail",
+          "description": "left fingers pinch the nail, keeping it upright"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers hold nail"
+      ]
+    },
+    {
+      "frame_id": "hammer_and_nail_000134",
+      "frame_index": 134,
+      "timestamp_seconds": 2.233333,
+      "description": "Both hands' fingers pinch the nail upright between them, holding it steady on top of the wood block; the nail now sticks up a short distance from the block's surface, and the hammer is still resting untouched on the table.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "pinching the nail, holding it upright against the block",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "left fingers",
+          "description": "pinching the nail, holding it upright against the block",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "nail",
+          "description": "standing upright, sticking up a short distance from the block's surface",
+          "identifier": "nail"
+        },
+        {
+          "name": "wood block",
+          "description": "holding the nail upright on its top surface",
+          "identifier": "wood_block"
+        },
+        {
+          "name": "hammer",
+          "description": "still resting untouched on the table",
+          "identifier": "hammer"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold nail",
+          "actor": "right fingers",
+          "target": "nail",
+          "description": "right fingers pinch the nail, keeping it upright"
+        },
+        {
+          "name": "hold nail",
+          "actor": "left fingers",
+          "target": "nail",
+          "description": "left fingers pinch the nail, keeping it upright"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers hold nail",
+        "left fingers hold nail"
+      ]
+    },
+    {
+      "frame_id": "hammer_and_nail_000152",
+      "frame_index": 152,
+      "timestamp_seconds": 2.533333,
+      "description": "The right hand's fingers have released the nail and now grip the hammer's handle, lifting it off the table, while the left hand's fingers continue to pinch the nail upright against the block -- the two hands now doing different things for the first time.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "gripping the hammer's handle, having just lifted it off the table",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "left fingers",
+          "description": "still pinching the nail, holding it upright on the block",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "hammer",
+          "description": "now held, lifted from the table",
+          "identifier": "hammer"
+        },
+        {
+          "name": "nail",
+          "description": "held upright on the block by the left fingers",
+          "identifier": "nail"
+        },
+        {
+          "name": "wood block",
+          "description": "holding the nail upright",
+          "identifier": "wood_block"
+        }
+      ],
+      "actions": [
+        {
+          "name": "grip hammer",
+          "actor": "right fingers",
+          "target": "hammer",
+          "description": "right fingers close around the hammer's handle and lift it"
+        },
+        {
+          "name": "hold nail",
+          "actor": "left fingers",
+          "target": "nail",
+          "description": "left fingers keep pinching the nail upright, unchanged from the moment before"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers grip hammer",
+        "left fingers hold nail"
+      ]
+    },
+    {
+      "frame_id": "hammer_and_nail_000169",
+      "frame_index": 169,
+      "timestamp_seconds": 2.816667,
+      "description": "Both hands' fingers pinch the nail upright between them on top of the wood block, unchanged from a moment before; the hammer continues resting untouched on the table to the left.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "pinching the nail, holding it upright against the block",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "left fingers",
+          "description": "pinching the nail, holding it upright against the block",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "nail",
+          "description": "standing upright, sticking up a short distance from the block's surface",
+          "identifier": "nail"
+        },
+        {
+          "name": "wood block",
+          "description": "holding the nail upright on its top surface",
+          "identifier": "wood_block"
+        },
+        {
+          "name": "hammer",
+          "description": "still resting untouched on the table",
+          "identifier": "hammer"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold nail",
+          "actor": "right fingers",
+          "target": "nail",
+          "description": "right fingers pinch the nail, keeping it upright"
+        },
+        {
+          "name": "hold nail",
+          "actor": "left fingers",
+          "target": "nail",
+          "description": "left fingers pinch the nail, keeping it upright"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers hold nail",
+        "left fingers hold nail"
+      ]
+    },
+    {
+      "frame_id": "hammer_and_nail_000193",
+      "frame_index": 193,
+      "timestamp_seconds": 3.216667,
+      "description": "Both hands' fingers continue pinching the nail upright on top of the wood block, unchanged from the moment before; the hammer still lies untouched on the table to the left.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "pinching the nail, holding it upright against the block",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "left fingers",
+          "description": "pinching the nail, holding it upright against the block",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "nail",
+          "description": "standing upright, sticking up a short distance from the block's surface",
+          "identifier": "nail"
+        },
+        {
+          "name": "wood block",
+          "description": "holding the nail upright on its top surface",
+          "identifier": "wood_block"
+        },
+        {
+          "name": "hammer",
+          "description": "still resting untouched on the table",
+          "identifier": "hammer"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold nail",
+          "actor": "right fingers",
+          "target": "nail",
+          "description": "right fingers pinch the nail, keeping it upright"
+        },
+        {
+          "name": "hold nail",
+          "actor": "left fingers",
+          "target": "nail",
+          "description": "left fingers pinch the nail, keeping it upright"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers hold nail",
+        "left fingers hold nail"
+      ]
+    },
+    {
+      "frame_id": "hammer_and_nail_000218",
+      "frame_index": 218,
+      "timestamp_seconds": 3.633333,
+      "description": "The right hand's fingers raise the hammer high above the nail, while the left hand's fingers continue pinching the nail upright on the block, steadying it.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "gripping the hammer, raised high overhead",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "left fingers",
+          "description": "pinching the nail, steadying it against the block ahead of the strike",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "hammer",
+          "description": "raised overhead",
+          "identifier": "hammer"
+        },
+        {
+          "name": "nail",
+          "description": "upright, steadied on the block",
+          "identifier": "nail"
+        },
+        {
+          "name": "wood block",
+          "description": "supporting the steadied nail",
+          "identifier": "wood_block"
+        }
+      ],
+      "actions": [
+        {
+          "name": "raise hammer",
+          "actor": "right fingers",
+          "target": "hammer",
+          "description": "right fingers lift the hammer overhead"
+        },
+        {
+          "name": "steady nail",
+          "actor": "left fingers",
+          "target": "nail",
+          "description": "left fingers keep pinching the nail, holding it steady"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers raise hammer",
+        "left fingers steady nail"
+      ]
+    },
+    {
+      "frame_id": "hammer_and_nail_000240",
+      "frame_index": 240,
+      "timestamp_seconds": 4.0,
+      "description": "The right hand's fingers swing the hammer downward toward the nail, mid-motion and not yet landed, while the left hand's fingers rest flat on the block's surface beside the nail.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "gripping the hammer, swinging it down toward the nail",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "nail",
+          "description": "still standing upright on the block, hammer descending toward it",
+          "identifier": "nail"
+        },
+        {
+          "name": "hammer",
+          "description": "descending toward the nail, mid-swing",
+          "identifier": "hammer"
+        },
+        {
+          "name": "wood block",
+          "description": "supporting the nail",
+          "identifier": "wood_block"
+        }
+      ],
+      "actions": [
+        {
+          "name": "strike nail",
+          "actor": "right fingers",
+          "target": "nail",
+          "description": "right fingers swing the hammer down toward the nail's head, still mid-motion"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers strike nail"
+      ]
+    },
+    {
+      "frame_id": "hammer_and_nail_000256",
+      "frame_index": 256,
+      "timestamp_seconds": 4.266667,
+      "description": "The right hand's fingers bring the hammer down onto the nail's head, while the left hand's fingers are still curled around the nail's shaft against the block, steadying it against the strike -- this is the last frame before the left hand lets go.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "gripping the hammer, swinging it down onto the nail",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "left fingers",
+          "description": "still curled around the nail's shaft, steadying it against the block during the strike",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "hammer",
+          "description": "striking the nail's head",
+          "identifier": "hammer"
+        },
+        {
+          "name": "nail",
+          "description": "partially driven in, still steadied by the left fingers",
+          "identifier": "nail"
+        },
+        {
+          "name": "wood block",
+          "description": "receiving the nail",
+          "identifier": "wood_block"
+        }
+      ],
+      "actions": [
+        {
+          "name": "strike nail",
+          "actor": "right fingers",
+          "target": "nail",
+          "description": "right fingers swing the hammer down onto the nail's head"
+        },
+        {
+          "name": "steady nail",
+          "actor": "left fingers",
+          "target": "nail",
+          "description": "left fingers keep the nail's shaft steady against the block during the strike"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers strike nail",
+        "left fingers steady nail"
+      ]
+    },
+    {
+      "frame_id": "hammer_and_nail_000290",
+      "frame_index": 290,
+      "timestamp_seconds": 4.833333,
+      "description": "The right hand's fingers continue hammering the nail, but the left hand has released its grip on the nail and now rests flat, fingers spread, on the block's surface beside it -- no longer steadying anything, idle while the right hand works alone.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "gripping the hammer, continuing to strike the nail",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "nail",
+          "description": "driven further in than before, now needing no steadying",
+          "identifier": "nail"
+        },
+        {
+          "name": "hammer",
+          "description": "striking the nail",
+          "identifier": "hammer"
+        },
+        {
+          "name": "wood block",
+          "description": "receiving the nail",
+          "identifier": "wood_block"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hammer nail",
+          "actor": "right fingers",
+          "target": "nail",
+          "description": "right fingers continue swinging the hammer onto the nail, now working alone"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers hammer nail"
+      ]
+    },
+    {
+      "frame_id": "hammer_and_nail_000328",
+      "frame_index": 328,
+      "timestamp_seconds": 5.466667,
+      "description": "The right hand's fingers continue hammering the nail, now driven noticeably into the block, while the left hand rests flat, fingers spread, on the block's surface, uninvolved in the hammering.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "gripping the hammer, continuing to strike the nail",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "nail",
+          "description": "driven further into the block than before",
+          "identifier": "nail"
+        },
+        {
+          "name": "hammer",
+          "description": "striking the nail",
+          "identifier": "hammer"
+        },
+        {
+          "name": "wood block",
+          "description": "receiving the nail",
+          "identifier": "wood_block"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hammer nail",
+          "actor": "right fingers",
+          "target": "nail",
+          "description": "right fingers continue swinging the hammer, driving the nail deeper"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers hammer nail"
+      ]
+    },
+    {
+      "frame_id": "hammer_and_nail_000362",
+      "frame_index": 362,
+      "timestamp_seconds": 6.033333,
+      "description": "The right hand's fingers continue swinging the hammer onto the nail, driving it further into the block; the left hand remains at rest, palm down on the block's surface, still uninvolved.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "gripping the hammer, continuing to drive the nail into the block",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "nail",
+          "description": "driven further in, sticking up a shorter distance than before",
+          "identifier": "nail"
+        },
+        {
+          "name": "hammer",
+          "description": "striking the nail",
+          "identifier": "hammer"
+        },
+        {
+          "name": "wood block",
+          "description": "receiving the nail",
+          "identifier": "wood_block"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hammer nail",
+          "actor": "right fingers",
+          "target": "nail",
+          "description": "right fingers keep swinging the hammer, driving the nail deeper"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers hammer nail"
+      ]
+    },
+    {
+      "frame_id": "hammer_and_nail_000392",
+      "frame_index": 392,
+      "timestamp_seconds": 6.533333,
+      "description": "The right hand's fingers continue swinging the hammer onto the nail, driving it further into the block; the left hand remains at rest, palm down on the block's edge, still uninvolved in the hammering.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "gripping the hammer, continuing to drive the nail into the block",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "nail",
+          "description": "driven noticeably deeper, sticking up only a short distance now",
+          "identifier": "nail"
+        },
+        {
+          "name": "hammer",
+          "description": "striking the nail",
+          "identifier": "hammer"
+        },
+        {
+          "name": "wood block",
+          "description": "receiving the nail",
+          "identifier": "wood_block"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hammer nail",
+          "actor": "right fingers",
+          "target": "nail",
+          "description": "right fingers keep swinging the hammer, driving the nail deeper"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers hammer nail"
+      ]
+    },
+    {
+      "frame_id": "hammer_and_nail_000410",
+      "frame_index": 410,
+      "timestamp_seconds": 6.833333,
+      "description": "The right hand's fingers hold the hammer pulled back from the block, paused between strikes, while the left hand rests flat on the block's surface beside the nail, which now sticks up only a short distance from the wood.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "gripping the hammer, holding it paused above the block between strikes",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "nail",
+          "description": "sticking up only a short distance from the block's surface",
+          "identifier": "nail"
+        },
+        {
+          "name": "hammer",
+          "description": "held paused above the block",
+          "identifier": "hammer"
+        },
+        {
+          "name": "wood block",
+          "description": "receiving the nail",
+          "identifier": "wood_block"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold hammer",
+          "actor": "right fingers",
+          "target": "hammer",
+          "description": "right fingers keep gripping the hammer, pausing between strikes"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers hold hammer"
+      ]
+    },
+    {
+      "frame_id": "hammer_and_nail_000430",
+      "frame_index": 430,
+      "timestamp_seconds": 7.166667,
+      "description": "The right hand's fingers continue holding the hammer paused above the block, unchanged from the moment before; the left hand rests flat on the block's surface, and the nail still sticks up the same short distance.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "gripping the hammer, holding it paused above the block",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "nail",
+          "description": "sticking up the same short distance from the block's surface, unchanged",
+          "identifier": "nail"
+        },
+        {
+          "name": "hammer",
+          "description": "held paused above the block, unchanged",
+          "identifier": "hammer"
+        },
+        {
+          "name": "wood block",
+          "description": "receiving the nail",
+          "identifier": "wood_block"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold hammer",
+          "actor": "right fingers",
+          "target": "hammer",
+          "description": "right fingers keep gripping the hammer, still paused"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers hold hammer"
+      ]
+    },
+    {
+      "frame_id": "hammer_and_nail_000450",
+      "frame_index": 450,
+      "timestamp_seconds": 7.5,
+      "description": "The right hand's fingers continue holding the hammer paused above the block, unchanged from the moment before; the left hand rests flat on the block's surface, and the nail still sticks up the same short distance.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "gripping the hammer, holding it paused above the block",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "nail",
+          "description": "sticking up the same short distance from the block's surface, unchanged",
+          "identifier": "nail"
+        },
+        {
+          "name": "hammer",
+          "description": "held paused above the block, unchanged",
+          "identifier": "hammer"
+        },
+        {
+          "name": "wood block",
+          "description": "receiving the nail",
+          "identifier": "wood_block"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold hammer",
+          "actor": "right fingers",
+          "target": "hammer",
+          "description": "right fingers keep gripping the hammer, still paused"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers hold hammer"
+      ]
+    },
+    {
+      "frame_id": "hammer_and_nail_000476",
+      "frame_index": 476,
+      "timestamp_seconds": 7.933333,
+      "description": "The right hand's fingers continue holding the hammer paused above the block, unchanged from the moment before; the left hand rests flat on the block's surface, and the nail still sticks up the same short distance.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "gripping the hammer, holding it paused above the block",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "nail",
+          "description": "sticking up the same short distance from the block's surface, unchanged",
+          "identifier": "nail"
+        },
+        {
+          "name": "hammer",
+          "description": "held paused above the block, unchanged",
+          "identifier": "hammer"
+        },
+        {
+          "name": "wood block",
+          "description": "receiving the nail",
+          "identifier": "wood_block"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold hammer",
+          "actor": "right fingers",
+          "target": "hammer",
+          "description": "right fingers keep gripping the hammer, still paused"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers hold hammer"
+      ]
+    },
+    {
+      "frame_id": "hammer_and_nail_000502",
+      "frame_index": 502,
+      "timestamp_seconds": 8.366667,
+      "description": "The right hand's fingers continue holding the hammer paused above the block, unchanged from the moment before; the left hand rests flat on the block's surface, and the nail still sticks up the same short distance.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "gripping the hammer, holding it paused above the block",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "nail",
+          "description": "sticking up the same short distance from the block's surface, unchanged",
+          "identifier": "nail"
+        },
+        {
+          "name": "hammer",
+          "description": "held paused above the block, unchanged",
+          "identifier": "hammer"
+        },
+        {
+          "name": "wood block",
+          "description": "receiving the nail",
+          "identifier": "wood_block"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold hammer",
+          "actor": "right fingers",
+          "target": "hammer",
+          "description": "right fingers keep gripping the hammer, still paused"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers hold hammer"
+      ]
+    },
+    {
+      "frame_id": "hammer_and_nail_000528",
+      "frame_index": 528,
+      "timestamp_seconds": 8.8,
+      "description": "The right hand's fingers swing the hammer down onto the nail again, motion-blurred mid-strike, while the left hand continues resting flat on the block's surface.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "gripping the hammer, swinging it down onto the nail",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "nail",
+          "description": "still sticking up a short distance from the block's surface",
+          "identifier": "nail"
+        },
+        {
+          "name": "hammer",
+          "description": "swinging down onto the nail",
+          "identifier": "hammer"
+        },
+        {
+          "name": "wood block",
+          "description": "receiving the nail",
+          "identifier": "wood_block"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hammer nail",
+          "actor": "right fingers",
+          "target": "nail",
+          "description": "right fingers swing the hammer down onto the nail again"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers hammer nail"
+      ]
+    },
+    {
+      "frame_id": "hammer_and_nail_000550",
+      "frame_index": 550,
+      "timestamp_seconds": 9.166667,
+      "description": "The hammer's head presses down directly against the nail at the block's surface, mid-strike; the left hand continues resting flat on the block beside it.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "gripping the hammer, pressing it down onto the nail at the block's surface",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "nail",
+          "description": "nearly flush with the block's surface",
+          "identifier": "nail"
+        },
+        {
+          "name": "hammer",
+          "description": "pressed down against the nail",
+          "identifier": "hammer"
+        },
+        {
+          "name": "wood block",
+          "description": "receiving the nail",
+          "identifier": "wood_block"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hammer nail",
+          "actor": "right fingers",
+          "target": "nail",
+          "description": "right fingers press the hammer down onto the nearly flush nail"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers hammer nail"
+      ]
+    },
+    {
+      "frame_id": "hammer_and_nail_000574",
+      "frame_index": 574,
+      "timestamp_seconds": 9.566667,
+      "description": "The right hand's fingers keep driving the hammer down onto the nail, which now sits nearly flush with the block's surface; the left hand continues resting idle, flat on the block, still uninvolved.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "gripping the hammer, still striking the nail",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "nail",
+          "description": "nearly flush with the block's surface",
+          "identifier": "nail"
+        },
+        {
+          "name": "hammer",
+          "description": "striking the nail",
+          "identifier": "hammer"
+        },
+        {
+          "name": "wood block",
+          "description": "receiving the nail",
+          "identifier": "wood_block"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hammer nail",
+          "actor": "right fingers",
+          "target": "nail",
+          "description": "right fingers continue striking the nail, driving it nearly flush"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers hammer nail"
+      ]
+    },
+    {
+      "frame_id": "hammer_and_nail_000600",
+      "frame_index": 600,
+      "timestamp_seconds": 10.0,
+      "description": "The right hand's fingers swing the hammer down onto the block again, motion-blurred; the nail is no longer visibly sticking up above the block's surface, and the left hand continues resting flat beside it.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "gripping the hammer, striking down at the block",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "nail",
+          "description": "no longer visibly sticking up, flush or nearly flush with the block's surface",
+          "identifier": "nail"
+        },
+        {
+          "name": "hammer",
+          "description": "striking down at the block",
+          "identifier": "hammer"
+        },
+        {
+          "name": "wood block",
+          "description": "receiving the nail",
+          "identifier": "wood_block"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hammer nail",
+          "actor": "right fingers",
+          "target": "nail",
+          "description": "right fingers strike the nail, now flush with the block"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers hammer nail"
+      ]
+    },
+    {
+      "frame_id": "hammer_and_nail_000618",
+      "frame_index": 618,
+      "timestamp_seconds": 10.3,
+      "description": "The right hand's fingers hold the hammer loosely near the table beside the block, no longer swinging it, while the left hand continues resting flat on the block; the nail is no longer visible above the block's surface.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "holding the hammer loosely near the table, no longer swinging it",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "nail",
+          "description": "flush with the block's surface, no longer visible above it",
+          "identifier": "nail"
+        },
+        {
+          "name": "hammer",
+          "description": "held loosely, no longer in motion",
+          "identifier": "hammer"
+        },
+        {
+          "name": "wood block",
+          "description": "holding the driven nail",
+          "identifier": "wood_block"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold hammer",
+          "actor": "right fingers",
+          "target": "hammer",
+          "description": "right fingers hold the hammer loosely, no longer swinging"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers hold hammer"
+      ]
+    },
+    {
+      "frame_id": "hammer_and_nail_000642",
+      "frame_index": 642,
+      "timestamp_seconds": 10.7,
+      "description": "The person smiles toward the camera; the right hand's fingers lower the hammer to rest on the table, releasing their grip, while the left hand continues resting flat on the block.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "lowering the hammer to rest on the table, releasing its grip",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "hammer",
+          "description": "being set down on the table",
+          "identifier": "hammer"
+        },
+        {
+          "name": "nail",
+          "description": "flush with the block's surface, no longer visible",
+          "identifier": "nail"
+        },
+        {
+          "name": "wood block",
+          "description": "holding the driven nail",
+          "identifier": "wood_block"
+        }
+      ],
+      "actions": [
+        {
+          "name": "release hammer",
+          "actor": "right fingers",
+          "target": "hammer",
+          "description": "right fingers release their grip, lowering the hammer onto the table"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers release hammer"
+      ]
+    },
+    {
+      "frame_id": "hammer_and_nail_000652",
+      "frame_index": 652,
+      "timestamp_seconds": 10.866667,
+      "description": "The hammer's head rests against the nail, which is now flush with the block's surface -- the driving is essentially finished; the right hand's fingers still grip the hammer close to the nail, while the left hand remains idle, flat on the block.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "gripping the hammer, holding it resting against the now flush nail",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "nail",
+          "description": "flush with the block's surface, fully driven in",
+          "identifier": "nail"
+        },
+        {
+          "name": "hammer",
+          "description": "held at rest against the driven nail",
+          "identifier": "hammer"
+        },
+        {
+          "name": "wood block",
+          "description": "holding the fully driven nail",
+          "identifier": "wood_block"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold hammer",
+          "actor": "right fingers",
+          "target": "hammer",
+          "description": "right fingers keep gripping the hammer, resting its head against the flush nail"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers hold hammer"
+      ]
+    },
+    {
+      "frame_id": "hammer_and_nail_000660",
+      "frame_index": 660,
+      "timestamp_seconds": 11.0,
+      "description": "The person stands upright with the hood pushed back to reveal more of the face, smiling toward the camera; both hands rest open on the table, no longer touching the hammer or the block. The hammer lies on the table to the left, and the wood block with its driven nail remains in front.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "hammer",
+          "description": "resting on the table, idle",
+          "identifier": "hammer"
+        },
+        {
+          "name": "nail",
+          "description": "flush in the block, no longer being worked",
+          "identifier": "nail"
+        },
+        {
+          "name": "wood block",
+          "description": "still on the table, holding the driven nail",
+          "identifier": "wood_block"
+        }
+      ],
+      "actions": [],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "hammer_and_nail_000674",
+      "frame_index": 674,
+      "timestamp_seconds": 11.233333,
+      "description": "The person continues standing upright, smiling toward the camera, both hands still resting open on the table; the hammer and wood block with its driven nail remain in place on the table, unchanged from the moment before.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "hammer",
+          "description": "resting on the table, idle",
+          "identifier": "hammer"
+        },
+        {
+          "name": "nail",
+          "description": "flush in the block, no longer being worked",
+          "identifier": "nail"
+        },
+        {
+          "name": "wood block",
+          "description": "still on the table, holding the driven nail",
+          "identifier": "wood_block"
+        }
+      ],
+      "actions": [],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "hammer_and_nail_000854",
+      "frame_index": 854,
+      "timestamp_seconds": 14.233333,
+      "description": "The person stands upright, smiling toward the camera, both hands relaxed and resting open on the countertop; the hammer lies on the table to the left, and the wood block with its nail is no longer visible on the table -- the task has concluded.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "hammer",
+          "description": "resting on the table, idle",
+          "identifier": "hammer"
+        }
+      ],
+      "actions": [],
+      "ontological_phrases": []
+    }
+  ]
+}

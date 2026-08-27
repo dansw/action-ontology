@@ -1,0 +1,2692 @@
+{
+  "video_id": "egg_catch_001",
+  "video_path": "videos/egg_catch_001.mov",
+  "frames": [
+    {
+      "frame_id": "egg_catch_001_000000",
+      "timestamp_seconds": 0.0,
+      "frame_index": 0,
+      "description": "A person in a silver suit stands facing forward behind a table, both arms extended out to the sides with empty gloved hands.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "table",
+          "description": "white counter the person stands behind",
+          "identifier": "white_table"
+        }
+      ],
+      "actions": [
+        {
+          "name": "stand",
+          "actor": "person",
+          "target": "table",
+          "description": "the person stands still behind the table with both arms held open and hands empty; no limb is actively engaged with anything"
+        }
+      ],
+      "ontological_phrases": [
+        "person stand with arms open and hands empty"
+      ]
+    },
+    {
+      "frame_id": "egg_catch_001_000008",
+      "timestamp_seconds": 0.133333,
+      "frame_index": 8,
+      "description": "A person in a silver suit stands facing forward behind a table, both arms extended out to the sides with empty gloved hands.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "table",
+          "description": "white counter the person stands behind",
+          "identifier": "white_table"
+        }
+      ],
+      "actions": [
+        {
+          "name": "stand",
+          "actor": "person",
+          "target": "table",
+          "description": "the person stands still behind the table with both arms held open and hands empty; no limb is actively engaged with anything"
+        }
+      ],
+      "ontological_phrases": [
+        "person stand with arms open and hands empty"
+      ]
+    },
+    {
+      "frame_id": "egg_catch_001_000016",
+      "timestamp_seconds": 0.266667,
+      "frame_index": 16,
+      "description": "A person in a silver suit stands facing forward behind a table, both arms extended out to the sides with empty gloved hands.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "table",
+          "description": "white counter the person stands behind",
+          "identifier": "white_table"
+        }
+      ],
+      "actions": [
+        {
+          "name": "stand",
+          "actor": "person",
+          "target": "table",
+          "description": "the person stands still behind the table with both arms held open and hands empty; no limb is actively engaged with anything"
+        }
+      ],
+      "ontological_phrases": [
+        "person stand with arms open and hands empty"
+      ]
+    },
+    {
+      "frame_id": "egg_catch_001_000024",
+      "timestamp_seconds": 0.4,
+      "frame_index": 24,
+      "description": "A person in a silver suit stands facing forward behind a table, both arms extended out to the sides with empty gloved hands.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "table",
+          "description": "white counter the person stands behind",
+          "identifier": "white_table"
+        }
+      ],
+      "actions": [
+        {
+          "name": "stand",
+          "actor": "person",
+          "target": "table",
+          "description": "the person stands still behind the table with both arms held open and hands empty; no limb is actively engaged with anything"
+        }
+      ],
+      "ontological_phrases": [
+        "person stand with arms open and hands empty"
+      ]
+    },
+    {
+      "frame_id": "egg_catch_001_000032",
+      "timestamp_seconds": 0.533333,
+      "frame_index": 32,
+      "description": "A person in a silver suit stands facing forward behind a table, both arms extended out to the sides with empty gloved hands.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "table",
+          "description": "white counter the person stands behind",
+          "identifier": "white_table"
+        }
+      ],
+      "actions": [
+        {
+          "name": "stand",
+          "actor": "person",
+          "target": "table",
+          "description": "the person stands still behind the table with both arms held open and hands empty; no limb is actively engaged with anything"
+        }
+      ],
+      "ontological_phrases": [
+        "person stand with arms open and hands empty"
+      ]
+    },
+    {
+      "frame_id": "egg_catch_001_000040",
+      "timestamp_seconds": 0.666667,
+      "frame_index": 40,
+      "description": "A person in a silver suit stands facing forward behind a table, both arms extended out to the sides with empty gloved hands.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "table",
+          "description": "white counter the person stands behind",
+          "identifier": "white_table"
+        }
+      ],
+      "actions": [
+        {
+          "name": "stand",
+          "actor": "person",
+          "target": "table",
+          "description": "the person stands still behind the table with both arms held open and hands empty; no limb is actively engaged with anything"
+        }
+      ],
+      "ontological_phrases": [
+        "person stand with arms open and hands empty"
+      ]
+    },
+    {
+      "frame_id": "egg_catch_001_000048",
+      "timestamp_seconds": 0.8,
+      "frame_index": 48,
+      "description": "A person in a silver suit stands facing forward behind a table, both arms extended out to the sides with empty gloved hands.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "table",
+          "description": "white counter the person stands behind",
+          "identifier": "white_table"
+        }
+      ],
+      "actions": [
+        {
+          "name": "stand",
+          "actor": "person",
+          "target": "table",
+          "description": "the person stands still behind the table with both arms held open and hands empty; no limb is actively engaged with anything"
+        }
+      ],
+      "ontological_phrases": [
+        "person stand with arms open and hands empty"
+      ]
+    },
+    {
+      "frame_id": "egg_catch_001_000056",
+      "timestamp_seconds": 0.933333,
+      "frame_index": 56,
+      "description": "A person in a silver suit stands facing forward behind a table, both arms extended out to the sides with empty gloved hands.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "table",
+          "description": "white counter the person stands behind",
+          "identifier": "white_table"
+        }
+      ],
+      "actions": [
+        {
+          "name": "stand",
+          "actor": "person",
+          "target": "table",
+          "description": "the person stands still behind the table with both arms held open and hands empty; no limb is actively engaged with anything"
+        }
+      ],
+      "ontological_phrases": [
+        "person stand with arms open and hands empty"
+      ]
+    },
+    {
+      "frame_id": "egg_catch_001_000064",
+      "timestamp_seconds": 1.066667,
+      "frame_index": 64,
+      "description": "An egg thrown from off-camera falls directly in front of the person's face, while the person's own gloved hands remain mostly at their sides.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "table",
+          "description": "white counter the person stands behind",
+          "identifier": "white_table"
+        },
+        {
+          "name": "egg",
+          "description": "a brown egg in mid-air directly in front of the person's face, thrown from off-camera and not yet touched by the person, so no limb is engaged with it yet",
+          "identifier": "falling_egg"
+        }
+      ],
+      "actions": [
+        {
+          "name": "egg falls",
+          "actor": "egg",
+          "target": "person",
+          "description": "the egg descends directly in front of the person's face after being thrown from off-camera"
+        }
+      ],
+      "ontological_phrases": [
+        "egg falls toward person's face"
+      ]
+    },
+    {
+      "frame_id": "egg_catch_001_000072",
+      "timestamp_seconds": 1.2,
+      "frame_index": 72,
+      "description": "An egg thrown from off-camera falls at chest height in front of the person, while the person's own gloved hands remain mostly at their sides.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "table",
+          "description": "white counter the person stands behind",
+          "identifier": "white_table"
+        },
+        {
+          "name": "egg",
+          "description": "a brown egg in mid-air at chest height in front of the person, thrown from off-camera and not yet touched by the person, so no limb is engaged with it yet",
+          "identifier": "falling_egg"
+        }
+      ],
+      "actions": [
+        {
+          "name": "egg falls",
+          "actor": "egg",
+          "target": "person",
+          "description": "the egg descends at chest height in front of the person after being thrown from off-camera"
+        }
+      ],
+      "ontological_phrases": [
+        "egg falls toward person's chest"
+      ]
+    },
+    {
+      "frame_id": "egg_catch_001_000080",
+      "timestamp_seconds": 1.333333,
+      "frame_index": 80,
+      "description": "An egg thrown from off-camera falls near waist height as the person's hands begin to close, while the person's own gloved hands remain mostly at their sides.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "table",
+          "description": "white counter the person stands behind",
+          "identifier": "white_table"
+        },
+        {
+          "name": "egg",
+          "description": "a brown egg in mid-air near waist height as the person's hands begin to close, thrown from off-camera and not yet touched by the person, so no limb is engaged with it yet",
+          "identifier": "falling_egg"
+        }
+      ],
+      "actions": [
+        {
+          "name": "egg falls",
+          "actor": "egg",
+          "target": "person",
+          "description": "the egg descends near waist height as the person's hands begin to close after being thrown from off-camera"
+        }
+      ],
+      "ontological_phrases": [
+        "egg falls toward person's waist"
+      ]
+    },
+    {
+      "frame_id": "egg_catch_001_000088",
+      "timestamp_seconds": 1.466667,
+      "frame_index": 88,
+      "description": "A person in a silver suit stands with both hands clasped together at their waist, looking down; their fingers are interlocked around the egg they just caught, concealing it from view.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "interlocked with the right fingers, gripping the caught egg between both hands",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "interlocked with the left fingers, gripping the caught egg between both hands",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "egg",
+          "description": "the caught egg, enclosed and hidden from view inside the person's interlocked fingers",
+          "identifier": "caught_egg"
+        }
+      ],
+      "entities": [
+        {
+          "name": "table",
+          "description": "white counter the person stands behind",
+          "identifier": "white_table"
+        }
+      ],
+      "actions": [
+        {
+          "name": "catch egg",
+          "actor": "left fingers and right fingers",
+          "target": "egg",
+          "description": "the person's fingers interlock and close around the falling egg at their waist, concealing it from view -- the palms are not what is gripping it"
+        }
+      ],
+      "ontological_phrases": [
+        "fingers catch and grip egg"
+      ]
+    },
+    {
+      "frame_id": "egg_catch_001_000096",
+      "timestamp_seconds": 1.6,
+      "frame_index": 96,
+      "description": "A person in a silver suit stands with both hands clasped together at their waist, looking down; their fingers are interlocked around the egg they just caught, concealing it from view.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "interlocked with the right fingers, gripping the caught egg between both hands",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "interlocked with the left fingers, gripping the caught egg between both hands",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "egg",
+          "description": "the caught egg, enclosed and hidden from view inside the person's interlocked fingers",
+          "identifier": "caught_egg"
+        }
+      ],
+      "entities": [
+        {
+          "name": "table",
+          "description": "white counter the person stands behind",
+          "identifier": "white_table"
+        }
+      ],
+      "actions": [
+        {
+          "name": "catch egg",
+          "actor": "left fingers and right fingers",
+          "target": "egg",
+          "description": "the person's fingers interlock and close around the falling egg at their waist, concealing it from view -- the palms are not what is gripping it"
+        }
+      ],
+      "ontological_phrases": [
+        "fingers catch and grip egg"
+      ]
+    },
+    {
+      "frame_id": "egg_catch_001_000104",
+      "timestamp_seconds": 1.733333,
+      "frame_index": 104,
+      "description": "A person in a silver suit stands with both hands clasped together at their waist, looking down; their fingers are interlocked around the egg they just caught, concealing it from view.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "interlocked with the right fingers, gripping the caught egg between both hands",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "interlocked with the left fingers, gripping the caught egg between both hands",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "egg",
+          "description": "the caught egg, enclosed and hidden from view inside the person's interlocked fingers",
+          "identifier": "caught_egg"
+        }
+      ],
+      "entities": [
+        {
+          "name": "table",
+          "description": "white counter the person stands behind",
+          "identifier": "white_table"
+        }
+      ],
+      "actions": [
+        {
+          "name": "catch egg",
+          "actor": "left fingers and right fingers",
+          "target": "egg",
+          "description": "the person's fingers interlock and close around the falling egg at their waist, concealing it from view -- the palms are not what is gripping it"
+        }
+      ],
+      "ontological_phrases": [
+        "fingers catch and grip egg"
+      ]
+    },
+    {
+      "frame_id": "egg_catch_001_000112",
+      "timestamp_seconds": 1.866667,
+      "frame_index": 112,
+      "description": "A person in a silver suit stands with both hands clasped together at their waist, looking down; their fingers are interlocked around the egg they just caught, concealing it from view.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "interlocked with the right fingers, gripping the caught egg between both hands",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "interlocked with the left fingers, gripping the caught egg between both hands",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "egg",
+          "description": "the caught egg, enclosed and hidden from view inside the person's interlocked fingers",
+          "identifier": "caught_egg"
+        }
+      ],
+      "entities": [
+        {
+          "name": "table",
+          "description": "white counter the person stands behind",
+          "identifier": "white_table"
+        }
+      ],
+      "actions": [
+        {
+          "name": "catch egg",
+          "actor": "left fingers and right fingers",
+          "target": "egg",
+          "description": "the person's fingers interlock and close around the falling egg at their waist, concealing it from view -- the palms are not what is gripping it"
+        }
+      ],
+      "ontological_phrases": [
+        "fingers catch and grip egg"
+      ]
+    },
+    {
+      "frame_id": "egg_catch_001_000120",
+      "timestamp_seconds": 2.0,
+      "frame_index": 120,
+      "description": "A person in a silver suit stands with both hands clasped together at their waist, looking down; their fingers are interlocked around the egg they just caught, concealing it from view.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "interlocked with the right fingers, gripping the caught egg between both hands",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "interlocked with the left fingers, gripping the caught egg between both hands",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "egg",
+          "description": "the caught egg, enclosed and hidden from view inside the person's interlocked fingers",
+          "identifier": "caught_egg"
+        }
+      ],
+      "entities": [
+        {
+          "name": "table",
+          "description": "white counter the person stands behind",
+          "identifier": "white_table"
+        }
+      ],
+      "actions": [
+        {
+          "name": "catch egg",
+          "actor": "left fingers and right fingers",
+          "target": "egg",
+          "description": "the person's fingers interlock and close around the falling egg at their waist, concealing it from view -- the palms are not what is gripping it"
+        }
+      ],
+      "ontological_phrases": [
+        "fingers catch and grip egg"
+      ]
+    },
+    {
+      "frame_id": "egg_catch_001_000128",
+      "timestamp_seconds": 2.133333,
+      "frame_index": 128,
+      "description": "A person in a silver suit stands with both hands clasped together at their waist, looking down; their fingers are interlocked around the egg they just caught, concealing it from view.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "interlocked with the right fingers, gripping the caught egg between both hands",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "interlocked with the left fingers, gripping the caught egg between both hands",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "egg",
+          "description": "the caught egg, enclosed and hidden from view inside the person's interlocked fingers",
+          "identifier": "caught_egg"
+        }
+      ],
+      "entities": [
+        {
+          "name": "table",
+          "description": "white counter the person stands behind",
+          "identifier": "white_table"
+        }
+      ],
+      "actions": [
+        {
+          "name": "catch egg",
+          "actor": "left fingers and right fingers",
+          "target": "egg",
+          "description": "the person's fingers interlock and close around the falling egg at their waist, concealing it from view -- the palms are not what is gripping it"
+        }
+      ],
+      "ontological_phrases": [
+        "fingers catch and grip egg"
+      ]
+    },
+    {
+      "frame_id": "egg_catch_001_000136",
+      "timestamp_seconds": 2.266667,
+      "frame_index": 136,
+      "description": "A person in a silver suit stands with both hands clasped together at their waist, looking down; their fingers are interlocked around the egg they just caught, concealing it from view.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "interlocked with the right fingers, gripping the caught egg between both hands",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "interlocked with the left fingers, gripping the caught egg between both hands",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "egg",
+          "description": "the caught egg, enclosed and hidden from view inside the person's interlocked fingers",
+          "identifier": "caught_egg"
+        }
+      ],
+      "entities": [
+        {
+          "name": "table",
+          "description": "white counter the person stands behind",
+          "identifier": "white_table"
+        }
+      ],
+      "actions": [
+        {
+          "name": "catch egg",
+          "actor": "left fingers and right fingers",
+          "target": "egg",
+          "description": "the person's fingers interlock and close around the falling egg at their waist, concealing it from view -- the palms are not what is gripping it"
+        }
+      ],
+      "ontological_phrases": [
+        "fingers catch and grip egg"
+      ]
+    },
+    {
+      "frame_id": "egg_catch_001_000144",
+      "timestamp_seconds": 2.4,
+      "frame_index": 144,
+      "description": "A person in a silver suit stands with both hands clasped together at their waist, looking down; their fingers are interlocked around the egg they just caught, concealing it from view.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "interlocked with the right fingers, gripping the caught egg between both hands",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "interlocked with the left fingers, gripping the caught egg between both hands",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "egg",
+          "description": "the caught egg, enclosed and hidden from view inside the person's interlocked fingers",
+          "identifier": "caught_egg"
+        }
+      ],
+      "entities": [
+        {
+          "name": "table",
+          "description": "white counter the person stands behind",
+          "identifier": "white_table"
+        }
+      ],
+      "actions": [
+        {
+          "name": "catch egg",
+          "actor": "left fingers and right fingers",
+          "target": "egg",
+          "description": "the person's fingers interlock and close around the falling egg at their waist, concealing it from view -- the palms are not what is gripping it"
+        }
+      ],
+      "ontological_phrases": [
+        "fingers catch and grip egg"
+      ]
+    },
+    {
+      "frame_id": "egg_catch_001_000152",
+      "timestamp_seconds": 2.533333,
+      "frame_index": 152,
+      "description": "A person in a silver suit stands holding a caught brown egg resting on their open left palm, with the left fingers curled around it and the right fingers positioned near it.",
+      "resources": [
+        {
+          "name": "left palm",
+          "description": "open and flat, bearing the egg's weight directly on its surface",
+          "identifier": "left_palm"
+        },
+        {
+          "name": "left fingers",
+          "description": "curled loosely around the sides of the egg for containment, not gripping it tightly",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "positioned near the egg, lightly touching but not bearing any of its weight",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "egg",
+          "description": "a brown egg resting visibly on the person's open left palm",
+          "identifier": "caught_egg"
+        }
+      ],
+      "entities": [
+        {
+          "name": "table",
+          "description": "white counter the person stands behind",
+          "identifier": "white_table"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold egg",
+          "actor": "left palm",
+          "target": "egg",
+          "description": "the egg rests on the open left palm, which bears its weight, while the left fingers curl around it for containment"
+        }
+      ],
+      "ontological_phrases": [
+        "palm hold egg",
+        "fingers curl around egg"
+      ]
+    },
+    {
+      "frame_id": "egg_catch_001_000160",
+      "timestamp_seconds": 2.666667,
+      "frame_index": 160,
+      "description": "A person in a silver suit stands holding a caught brown egg resting on their open left palm, with the left fingers curled around it and the right fingers positioned near it.",
+      "resources": [
+        {
+          "name": "left palm",
+          "description": "open and flat, bearing the egg's weight directly on its surface",
+          "identifier": "left_palm"
+        },
+        {
+          "name": "left fingers",
+          "description": "curled loosely around the sides of the egg for containment, not gripping it tightly",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "positioned near the egg, lightly touching but not bearing any of its weight",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "egg",
+          "description": "a brown egg resting visibly on the person's open left palm",
+          "identifier": "caught_egg"
+        }
+      ],
+      "entities": [
+        {
+          "name": "table",
+          "description": "white counter the person stands behind",
+          "identifier": "white_table"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold egg",
+          "actor": "left palm",
+          "target": "egg",
+          "description": "the egg rests on the open left palm, which bears its weight, while the left fingers curl around it for containment"
+        }
+      ],
+      "ontological_phrases": [
+        "palm hold egg",
+        "fingers curl around egg"
+      ]
+    },
+    {
+      "frame_id": "egg_catch_001_000168",
+      "timestamp_seconds": 2.8,
+      "frame_index": 168,
+      "description": "A person in a silver suit stands holding a caught brown egg resting on their open left palm, with the left fingers curled around it and the right fingers positioned near it.",
+      "resources": [
+        {
+          "name": "left palm",
+          "description": "open and flat, bearing the egg's weight directly on its surface",
+          "identifier": "left_palm"
+        },
+        {
+          "name": "left fingers",
+          "description": "curled loosely around the sides of the egg for containment, not gripping it tightly",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "positioned near the egg, lightly touching but not bearing any of its weight",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "egg",
+          "description": "a brown egg resting visibly on the person's open left palm",
+          "identifier": "caught_egg"
+        }
+      ],
+      "entities": [
+        {
+          "name": "table",
+          "description": "white counter the person stands behind",
+          "identifier": "white_table"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold egg",
+          "actor": "left palm",
+          "target": "egg",
+          "description": "the egg rests on the open left palm, which bears its weight, while the left fingers curl around it for containment"
+        }
+      ],
+      "ontological_phrases": [
+        "palm hold egg",
+        "fingers curl around egg"
+      ]
+    },
+    {
+      "frame_id": "egg_catch_001_000176",
+      "timestamp_seconds": 2.933333,
+      "frame_index": 176,
+      "description": "A person in a silver suit stands holding a caught brown egg resting on their open left palm, with the left fingers curled around it and the right fingers positioned near it.",
+      "resources": [
+        {
+          "name": "left palm",
+          "description": "open and flat, bearing the egg's weight directly on its surface",
+          "identifier": "left_palm"
+        },
+        {
+          "name": "left fingers",
+          "description": "curled loosely around the sides of the egg for containment, not gripping it tightly",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "positioned near the egg, lightly touching but not bearing any of its weight",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "egg",
+          "description": "a brown egg resting visibly on the person's open left palm",
+          "identifier": "caught_egg"
+        }
+      ],
+      "entities": [
+        {
+          "name": "table",
+          "description": "white counter the person stands behind",
+          "identifier": "white_table"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold egg",
+          "actor": "left palm",
+          "target": "egg",
+          "description": "the egg rests on the open left palm, which bears its weight, while the left fingers curl around it for containment"
+        }
+      ],
+      "ontological_phrases": [
+        "palm hold egg",
+        "fingers curl around egg"
+      ]
+    },
+    {
+      "frame_id": "egg_catch_001_000184",
+      "timestamp_seconds": 3.066667,
+      "frame_index": 184,
+      "description": "A person in a silver suit stands holding a caught brown egg resting on their open left palm, with the left fingers curled around it and the right fingers positioned near it.",
+      "resources": [
+        {
+          "name": "left palm",
+          "description": "open and flat, bearing the egg's weight directly on its surface",
+          "identifier": "left_palm"
+        },
+        {
+          "name": "left fingers",
+          "description": "curled loosely around the sides of the egg for containment, not gripping it tightly",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "positioned near the egg, lightly touching but not bearing any of its weight",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "egg",
+          "description": "a brown egg resting visibly on the person's open left palm",
+          "identifier": "caught_egg"
+        }
+      ],
+      "entities": [
+        {
+          "name": "table",
+          "description": "white counter the person stands behind",
+          "identifier": "white_table"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold egg",
+          "actor": "left palm",
+          "target": "egg",
+          "description": "the egg rests on the open left palm, which bears its weight, while the left fingers curl around it for containment"
+        }
+      ],
+      "ontological_phrases": [
+        "palm hold egg",
+        "fingers curl around egg"
+      ]
+    },
+    {
+      "frame_id": "egg_catch_001_000192",
+      "timestamp_seconds": 3.2,
+      "frame_index": 192,
+      "description": "A person in a silver suit stands holding a caught brown egg resting on their open left palm, with the left fingers curled around it and the right fingers positioned near it.",
+      "resources": [
+        {
+          "name": "left palm",
+          "description": "open and flat, bearing the egg's weight directly on its surface",
+          "identifier": "left_palm"
+        },
+        {
+          "name": "left fingers",
+          "description": "curled loosely around the sides of the egg for containment, not gripping it tightly",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "positioned near the egg, lightly touching but not bearing any of its weight",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "egg",
+          "description": "a brown egg resting visibly on the person's open left palm",
+          "identifier": "caught_egg"
+        }
+      ],
+      "entities": [
+        {
+          "name": "table",
+          "description": "white counter the person stands behind",
+          "identifier": "white_table"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold egg",
+          "actor": "left palm",
+          "target": "egg",
+          "description": "the egg rests on the open left palm, which bears its weight, while the left fingers curl around it for containment"
+        }
+      ],
+      "ontological_phrases": [
+        "palm hold egg",
+        "fingers curl around egg"
+      ]
+    },
+    {
+      "frame_id": "egg_catch_001_000200",
+      "timestamp_seconds": 3.333333,
+      "frame_index": 200,
+      "description": "A person in a silver suit stands holding a caught brown egg resting on their open left palm, with the left fingers curled around it and the right fingers positioned near it.",
+      "resources": [
+        {
+          "name": "left palm",
+          "description": "open and flat, bearing the egg's weight directly on its surface",
+          "identifier": "left_palm"
+        },
+        {
+          "name": "left fingers",
+          "description": "curled loosely around the sides of the egg for containment, not gripping it tightly",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "positioned near the egg, lightly touching but not bearing any of its weight",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "egg",
+          "description": "a brown egg resting visibly on the person's open left palm",
+          "identifier": "caught_egg"
+        }
+      ],
+      "entities": [
+        {
+          "name": "table",
+          "description": "white counter the person stands behind",
+          "identifier": "white_table"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold egg",
+          "actor": "left palm",
+          "target": "egg",
+          "description": "the egg rests on the open left palm, which bears its weight, while the left fingers curl around it for containment"
+        }
+      ],
+      "ontological_phrases": [
+        "palm hold egg",
+        "fingers curl around egg"
+      ]
+    },
+    {
+      "frame_id": "egg_catch_001_000208",
+      "timestamp_seconds": 3.466667,
+      "frame_index": 208,
+      "description": "A person in a silver suit stands holding a caught brown egg resting on their open left palm, with the left fingers curled around it and the right fingers positioned near it.",
+      "resources": [
+        {
+          "name": "left palm",
+          "description": "open and flat, bearing the egg's weight directly on its surface",
+          "identifier": "left_palm"
+        },
+        {
+          "name": "left fingers",
+          "description": "curled loosely around the sides of the egg for containment, not gripping it tightly",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "positioned near the egg, lightly touching but not bearing any of its weight",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "egg",
+          "description": "a brown egg resting visibly on the person's open left palm",
+          "identifier": "caught_egg"
+        }
+      ],
+      "entities": [
+        {
+          "name": "table",
+          "description": "white counter the person stands behind",
+          "identifier": "white_table"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold egg",
+          "actor": "left palm",
+          "target": "egg",
+          "description": "the egg rests on the open left palm, which bears its weight, while the left fingers curl around it for containment"
+        }
+      ],
+      "ontological_phrases": [
+        "palm hold egg",
+        "fingers curl around egg"
+      ]
+    },
+    {
+      "frame_id": "egg_catch_001_000216",
+      "timestamp_seconds": 3.6,
+      "frame_index": 216,
+      "description": "A person in a silver suit stands holding a caught brown egg resting on their open left palm, with the left fingers curled around it and the right fingers positioned near it.",
+      "resources": [
+        {
+          "name": "left palm",
+          "description": "open and flat, bearing the egg's weight directly on its surface",
+          "identifier": "left_palm"
+        },
+        {
+          "name": "left fingers",
+          "description": "curled loosely around the sides of the egg for containment, not gripping it tightly",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "positioned near the egg, lightly touching but not bearing any of its weight",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "egg",
+          "description": "a brown egg resting visibly on the person's open left palm",
+          "identifier": "caught_egg"
+        }
+      ],
+      "entities": [
+        {
+          "name": "table",
+          "description": "white counter the person stands behind",
+          "identifier": "white_table"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold egg",
+          "actor": "left palm",
+          "target": "egg",
+          "description": "the egg rests on the open left palm, which bears its weight, while the left fingers curl around it for containment"
+        }
+      ],
+      "ontological_phrases": [
+        "palm hold egg",
+        "fingers curl around egg"
+      ]
+    },
+    {
+      "frame_id": "egg_catch_001_000224",
+      "timestamp_seconds": 3.733333,
+      "frame_index": 224,
+      "description": "A person in a silver suit stands holding a caught brown egg resting on their open left palm, with the left fingers curled around it and the right fingers positioned near it.",
+      "resources": [
+        {
+          "name": "left palm",
+          "description": "open and flat, bearing the egg's weight directly on its surface",
+          "identifier": "left_palm"
+        },
+        {
+          "name": "left fingers",
+          "description": "curled loosely around the sides of the egg for containment, not gripping it tightly",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "positioned near the egg, lightly touching but not bearing any of its weight",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "egg",
+          "description": "a brown egg resting visibly on the person's open left palm",
+          "identifier": "caught_egg"
+        }
+      ],
+      "entities": [
+        {
+          "name": "table",
+          "description": "white counter the person stands behind",
+          "identifier": "white_table"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold egg",
+          "actor": "left palm",
+          "target": "egg",
+          "description": "the egg rests on the open left palm, which bears its weight, while the left fingers curl around it for containment"
+        }
+      ],
+      "ontological_phrases": [
+        "palm hold egg",
+        "fingers curl around egg"
+      ]
+    },
+    {
+      "frame_id": "egg_catch_001_000232",
+      "timestamp_seconds": 3.866667,
+      "frame_index": 232,
+      "description": "A person in a silver suit stands holding a caught brown egg resting on their open left palm, with the left fingers curled around it and the right fingers positioned near it.",
+      "resources": [
+        {
+          "name": "left palm",
+          "description": "open and flat, bearing the egg's weight directly on its surface",
+          "identifier": "left_palm"
+        },
+        {
+          "name": "left fingers",
+          "description": "curled loosely around the sides of the egg for containment, not gripping it tightly",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "positioned near the egg, lightly touching but not bearing any of its weight",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "egg",
+          "description": "a brown egg resting visibly on the person's open left palm",
+          "identifier": "caught_egg"
+        }
+      ],
+      "entities": [
+        {
+          "name": "table",
+          "description": "white counter the person stands behind",
+          "identifier": "white_table"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold egg",
+          "actor": "left palm",
+          "target": "egg",
+          "description": "the egg rests on the open left palm, which bears its weight, while the left fingers curl around it for containment"
+        }
+      ],
+      "ontological_phrases": [
+        "palm hold egg",
+        "fingers curl around egg"
+      ]
+    },
+    {
+      "frame_id": "egg_catch_001_000240",
+      "timestamp_seconds": 4.0,
+      "frame_index": 240,
+      "description": "A person in a silver suit stands holding a caught brown egg resting on their open left palm, with the left fingers curled around it and the right fingers positioned near it.",
+      "resources": [
+        {
+          "name": "left palm",
+          "description": "open and flat, bearing the egg's weight directly on its surface",
+          "identifier": "left_palm"
+        },
+        {
+          "name": "left fingers",
+          "description": "curled loosely around the sides of the egg for containment, not gripping it tightly",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "positioned near the egg, lightly touching but not bearing any of its weight",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "egg",
+          "description": "a brown egg resting visibly on the person's open left palm",
+          "identifier": "caught_egg"
+        }
+      ],
+      "entities": [
+        {
+          "name": "table",
+          "description": "white counter the person stands behind",
+          "identifier": "white_table"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold egg",
+          "actor": "left palm",
+          "target": "egg",
+          "description": "the egg rests on the open left palm, which bears its weight, while the left fingers curl around it for containment"
+        }
+      ],
+      "ontological_phrases": [
+        "palm hold egg",
+        "fingers curl around egg"
+      ]
+    },
+    {
+      "frame_id": "egg_catch_001_000248",
+      "timestamp_seconds": 4.133333,
+      "frame_index": 248,
+      "description": "A person in a silver suit stands holding a caught brown egg resting on their open left palm, with the left fingers curled around it and the right fingers positioned near it.",
+      "resources": [
+        {
+          "name": "left palm",
+          "description": "open and flat, bearing the egg's weight directly on its surface",
+          "identifier": "left_palm"
+        },
+        {
+          "name": "left fingers",
+          "description": "curled loosely around the sides of the egg for containment, not gripping it tightly",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "positioned near the egg, lightly touching but not bearing any of its weight",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "egg",
+          "description": "a brown egg resting visibly on the person's open left palm",
+          "identifier": "caught_egg"
+        }
+      ],
+      "entities": [
+        {
+          "name": "table",
+          "description": "white counter the person stands behind",
+          "identifier": "white_table"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold egg",
+          "actor": "left palm",
+          "target": "egg",
+          "description": "the egg rests on the open left palm, which bears its weight, while the left fingers curl around it for containment"
+        }
+      ],
+      "ontological_phrases": [
+        "palm hold egg",
+        "fingers curl around egg"
+      ]
+    },
+    {
+      "frame_id": "egg_catch_001_000256",
+      "timestamp_seconds": 4.266667,
+      "frame_index": 256,
+      "description": "A person in a silver suit stands holding a caught brown egg resting on their open left palm, with the left fingers curled around it and the right fingers positioned near it.",
+      "resources": [
+        {
+          "name": "left palm",
+          "description": "open and flat, bearing the egg's weight directly on its surface",
+          "identifier": "left_palm"
+        },
+        {
+          "name": "left fingers",
+          "description": "curled loosely around the sides of the egg for containment, not gripping it tightly",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "positioned near the egg, lightly touching but not bearing any of its weight",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "egg",
+          "description": "a brown egg resting visibly on the person's open left palm",
+          "identifier": "caught_egg"
+        }
+      ],
+      "entities": [
+        {
+          "name": "table",
+          "description": "white counter the person stands behind",
+          "identifier": "white_table"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold egg",
+          "actor": "left palm",
+          "target": "egg",
+          "description": "the egg rests on the open left palm, which bears its weight, while the left fingers curl around it for containment"
+        }
+      ],
+      "ontological_phrases": [
+        "palm hold egg",
+        "fingers curl around egg"
+      ]
+    },
+    {
+      "frame_id": "egg_catch_001_000264",
+      "timestamp_seconds": 4.4,
+      "frame_index": 264,
+      "description": "A person in a silver suit stands holding a caught brown egg resting on their open left palm, with the left fingers curled around it and the right fingers positioned near it.",
+      "resources": [
+        {
+          "name": "left palm",
+          "description": "open and flat, bearing the egg's weight directly on its surface",
+          "identifier": "left_palm"
+        },
+        {
+          "name": "left fingers",
+          "description": "curled loosely around the sides of the egg for containment, not gripping it tightly",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "positioned near the egg, lightly touching but not bearing any of its weight",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "egg",
+          "description": "a brown egg resting visibly on the person's open left palm",
+          "identifier": "caught_egg"
+        }
+      ],
+      "entities": [
+        {
+          "name": "table",
+          "description": "white counter the person stands behind",
+          "identifier": "white_table"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold egg",
+          "actor": "left palm",
+          "target": "egg",
+          "description": "the egg rests on the open left palm, which bears its weight, while the left fingers curl around it for containment"
+        }
+      ],
+      "ontological_phrases": [
+        "palm hold egg",
+        "fingers curl around egg"
+      ]
+    },
+    {
+      "frame_id": "egg_catch_001_000272",
+      "timestamp_seconds": 4.533333,
+      "frame_index": 272,
+      "description": "A person in a silver suit stands holding a caught brown egg resting on their open left palm, with the left fingers curled around it and the right fingers positioned near it.",
+      "resources": [
+        {
+          "name": "left palm",
+          "description": "open and flat, bearing the egg's weight directly on its surface",
+          "identifier": "left_palm"
+        },
+        {
+          "name": "left fingers",
+          "description": "curled loosely around the sides of the egg for containment, not gripping it tightly",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "positioned near the egg, lightly touching but not bearing any of its weight",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "egg",
+          "description": "a brown egg resting visibly on the person's open left palm",
+          "identifier": "caught_egg"
+        }
+      ],
+      "entities": [
+        {
+          "name": "table",
+          "description": "white counter the person stands behind",
+          "identifier": "white_table"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold egg",
+          "actor": "left palm",
+          "target": "egg",
+          "description": "the egg rests on the open left palm, which bears its weight, while the left fingers curl around it for containment"
+        }
+      ],
+      "ontological_phrases": [
+        "palm hold egg",
+        "fingers curl around egg"
+      ]
+    },
+    {
+      "frame_id": "egg_catch_001_000280",
+      "timestamp_seconds": 4.666667,
+      "frame_index": 280,
+      "description": "A person in a silver suit stands holding a caught brown egg resting on their open left palm, with the left fingers curled around it and the right fingers positioned near it.",
+      "resources": [
+        {
+          "name": "left palm",
+          "description": "open and flat, bearing the egg's weight directly on its surface",
+          "identifier": "left_palm"
+        },
+        {
+          "name": "left fingers",
+          "description": "curled loosely around the sides of the egg for containment, not gripping it tightly",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "positioned near the egg, lightly touching but not bearing any of its weight",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "egg",
+          "description": "a brown egg resting visibly on the person's open left palm",
+          "identifier": "caught_egg"
+        }
+      ],
+      "entities": [
+        {
+          "name": "table",
+          "description": "white counter the person stands behind",
+          "identifier": "white_table"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold egg",
+          "actor": "left palm",
+          "target": "egg",
+          "description": "the egg rests on the open left palm, which bears its weight, while the left fingers curl around it for containment"
+        }
+      ],
+      "ontological_phrases": [
+        "palm hold egg",
+        "fingers curl around egg"
+      ]
+    },
+    {
+      "frame_id": "egg_catch_001_000288",
+      "timestamp_seconds": 4.8,
+      "frame_index": 288,
+      "description": "A person in a silver suit stands holding a caught brown egg resting on their open left palm, with the left fingers curled around it and the right fingers positioned near it.",
+      "resources": [
+        {
+          "name": "left palm",
+          "description": "open and flat, bearing the egg's weight directly on its surface",
+          "identifier": "left_palm"
+        },
+        {
+          "name": "left fingers",
+          "description": "curled loosely around the sides of the egg for containment, not gripping it tightly",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "positioned near the egg, lightly touching but not bearing any of its weight",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "egg",
+          "description": "a brown egg resting visibly on the person's open left palm",
+          "identifier": "caught_egg"
+        }
+      ],
+      "entities": [
+        {
+          "name": "table",
+          "description": "white counter the person stands behind",
+          "identifier": "white_table"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold egg",
+          "actor": "left palm",
+          "target": "egg",
+          "description": "the egg rests on the open left palm, which bears its weight, while the left fingers curl around it for containment"
+        }
+      ],
+      "ontological_phrases": [
+        "palm hold egg",
+        "fingers curl around egg"
+      ]
+    },
+    {
+      "frame_id": "egg_catch_001_000296",
+      "timestamp_seconds": 4.933333,
+      "frame_index": 296,
+      "description": "A person in a silver suit stands holding a caught brown egg resting on their open left palm, with the left fingers curled around it and the right fingers positioned near it.",
+      "resources": [
+        {
+          "name": "left palm",
+          "description": "open and flat, bearing the egg's weight directly on its surface",
+          "identifier": "left_palm"
+        },
+        {
+          "name": "left fingers",
+          "description": "curled loosely around the sides of the egg for containment, not gripping it tightly",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "positioned near the egg, lightly touching but not bearing any of its weight",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "egg",
+          "description": "a brown egg resting visibly on the person's open left palm",
+          "identifier": "caught_egg"
+        }
+      ],
+      "entities": [
+        {
+          "name": "table",
+          "description": "white counter the person stands behind",
+          "identifier": "white_table"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold egg",
+          "actor": "left palm",
+          "target": "egg",
+          "description": "the egg rests on the open left palm, which bears its weight, while the left fingers curl around it for containment"
+        }
+      ],
+      "ontological_phrases": [
+        "palm hold egg",
+        "fingers curl around egg"
+      ]
+    },
+    {
+      "frame_id": "egg_catch_001_000304",
+      "timestamp_seconds": 5.066667,
+      "frame_index": 304,
+      "description": "A person in a silver suit stands holding a caught brown egg resting on their open left palm, with the left fingers curled around it and the right fingers positioned near it.",
+      "resources": [
+        {
+          "name": "left palm",
+          "description": "open and flat, bearing the egg's weight directly on its surface",
+          "identifier": "left_palm"
+        },
+        {
+          "name": "left fingers",
+          "description": "curled loosely around the sides of the egg for containment, not gripping it tightly",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "positioned near the egg, lightly touching but not bearing any of its weight",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "egg",
+          "description": "a brown egg resting visibly on the person's open left palm",
+          "identifier": "caught_egg"
+        }
+      ],
+      "entities": [
+        {
+          "name": "table",
+          "description": "white counter the person stands behind",
+          "identifier": "white_table"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold egg",
+          "actor": "left palm",
+          "target": "egg",
+          "description": "the egg rests on the open left palm, which bears its weight, while the left fingers curl around it for containment"
+        }
+      ],
+      "ontological_phrases": [
+        "palm hold egg",
+        "fingers curl around egg"
+      ]
+    },
+    {
+      "frame_id": "egg_catch_001_000312",
+      "timestamp_seconds": 5.2,
+      "frame_index": 312,
+      "description": "A person in a silver suit stands holding a caught brown egg resting on their open left palm, with the left fingers curled around it and the right fingers positioned near it.",
+      "resources": [
+        {
+          "name": "left palm",
+          "description": "open and flat, bearing the egg's weight directly on its surface",
+          "identifier": "left_palm"
+        },
+        {
+          "name": "left fingers",
+          "description": "curled loosely around the sides of the egg for containment, not gripping it tightly",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "positioned near the egg, lightly touching but not bearing any of its weight",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "egg",
+          "description": "a brown egg resting visibly on the person's open left palm",
+          "identifier": "caught_egg"
+        }
+      ],
+      "entities": [
+        {
+          "name": "table",
+          "description": "white counter the person stands behind",
+          "identifier": "white_table"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold egg",
+          "actor": "left palm",
+          "target": "egg",
+          "description": "the egg rests on the open left palm, which bears its weight, while the left fingers curl around it for containment"
+        }
+      ],
+      "ontological_phrases": [
+        "palm hold egg",
+        "fingers curl around egg"
+      ]
+    },
+    {
+      "frame_id": "egg_catch_001_000320",
+      "timestamp_seconds": 5.333333,
+      "frame_index": 320,
+      "description": "A person in a silver suit stands holding a caught brown egg resting on their open left palm, with the left fingers curled around it and the right fingers positioned near it.",
+      "resources": [
+        {
+          "name": "left palm",
+          "description": "open and flat, bearing the egg's weight directly on its surface",
+          "identifier": "left_palm"
+        },
+        {
+          "name": "left fingers",
+          "description": "curled loosely around the sides of the egg for containment, not gripping it tightly",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "positioned near the egg, lightly touching but not bearing any of its weight",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "egg",
+          "description": "a brown egg resting visibly on the person's open left palm",
+          "identifier": "caught_egg"
+        }
+      ],
+      "entities": [
+        {
+          "name": "table",
+          "description": "white counter the person stands behind",
+          "identifier": "white_table"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold egg",
+          "actor": "left palm",
+          "target": "egg",
+          "description": "the egg rests on the open left palm, which bears its weight, while the left fingers curl around it for containment"
+        }
+      ],
+      "ontological_phrases": [
+        "palm hold egg",
+        "fingers curl around egg"
+      ]
+    },
+    {
+      "frame_id": "egg_catch_001_000328",
+      "timestamp_seconds": 5.466667,
+      "frame_index": 328,
+      "description": "A person in a silver suit stands holding a caught brown egg resting on their open left palm, with the left fingers curled around it and the right fingers positioned near it.",
+      "resources": [
+        {
+          "name": "left palm",
+          "description": "open and flat, bearing the egg's weight directly on its surface",
+          "identifier": "left_palm"
+        },
+        {
+          "name": "left fingers",
+          "description": "curled loosely around the sides of the egg for containment, not gripping it tightly",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "positioned near the egg, lightly touching but not bearing any of its weight",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "egg",
+          "description": "a brown egg resting visibly on the person's open left palm",
+          "identifier": "caught_egg"
+        }
+      ],
+      "entities": [
+        {
+          "name": "table",
+          "description": "white counter the person stands behind",
+          "identifier": "white_table"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold egg",
+          "actor": "left palm",
+          "target": "egg",
+          "description": "the egg rests on the open left palm, which bears its weight, while the left fingers curl around it for containment"
+        }
+      ],
+      "ontological_phrases": [
+        "palm hold egg",
+        "fingers curl around egg"
+      ]
+    },
+    {
+      "frame_id": "egg_catch_001_000336",
+      "timestamp_seconds": 5.6,
+      "frame_index": 336,
+      "description": "A person in a silver suit stands holding a caught brown egg resting on their open left palm, with the left fingers curled around it and the right fingers positioned near it.",
+      "resources": [
+        {
+          "name": "left palm",
+          "description": "open and flat, bearing the egg's weight directly on its surface",
+          "identifier": "left_palm"
+        },
+        {
+          "name": "left fingers",
+          "description": "curled loosely around the sides of the egg for containment, not gripping it tightly",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "positioned near the egg, lightly touching but not bearing any of its weight",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "egg",
+          "description": "a brown egg resting visibly on the person's open left palm",
+          "identifier": "caught_egg"
+        }
+      ],
+      "entities": [
+        {
+          "name": "table",
+          "description": "white counter the person stands behind",
+          "identifier": "white_table"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold egg",
+          "actor": "left palm",
+          "target": "egg",
+          "description": "the egg rests on the open left palm, which bears its weight, while the left fingers curl around it for containment"
+        }
+      ],
+      "ontological_phrases": [
+        "palm hold egg",
+        "fingers curl around egg"
+      ]
+    },
+    {
+      "frame_id": "egg_catch_001_000344",
+      "timestamp_seconds": 5.733333,
+      "frame_index": 344,
+      "description": "A person in a silver suit stands holding a caught brown egg resting on their open left palm, with the left fingers curled around it and the right fingers positioned near it.",
+      "resources": [
+        {
+          "name": "left palm",
+          "description": "open and flat, bearing the egg's weight directly on its surface",
+          "identifier": "left_palm"
+        },
+        {
+          "name": "left fingers",
+          "description": "curled loosely around the sides of the egg for containment, not gripping it tightly",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "positioned near the egg, lightly touching but not bearing any of its weight",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "egg",
+          "description": "a brown egg resting visibly on the person's open left palm",
+          "identifier": "caught_egg"
+        }
+      ],
+      "entities": [
+        {
+          "name": "table",
+          "description": "white counter the person stands behind",
+          "identifier": "white_table"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold egg",
+          "actor": "left palm",
+          "target": "egg",
+          "description": "the egg rests on the open left palm, which bears its weight, while the left fingers curl around it for containment"
+        }
+      ],
+      "ontological_phrases": [
+        "palm hold egg",
+        "fingers curl around egg"
+      ]
+    },
+    {
+      "frame_id": "egg_catch_001_000352",
+      "timestamp_seconds": 5.866667,
+      "frame_index": 352,
+      "description": "A person in a silver suit stands holding a caught brown egg resting on their open left palm, with the left fingers curled around it and the right fingers positioned near it.",
+      "resources": [
+        {
+          "name": "left palm",
+          "description": "open and flat, bearing the egg's weight directly on its surface",
+          "identifier": "left_palm"
+        },
+        {
+          "name": "left fingers",
+          "description": "curled loosely around the sides of the egg for containment, not gripping it tightly",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "positioned near the egg, lightly touching but not bearing any of its weight",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "egg",
+          "description": "a brown egg resting visibly on the person's open left palm",
+          "identifier": "caught_egg"
+        }
+      ],
+      "entities": [
+        {
+          "name": "table",
+          "description": "white counter the person stands behind",
+          "identifier": "white_table"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold egg",
+          "actor": "left palm",
+          "target": "egg",
+          "description": "the egg rests on the open left palm, which bears its weight, while the left fingers curl around it for containment"
+        }
+      ],
+      "ontological_phrases": [
+        "palm hold egg",
+        "fingers curl around egg"
+      ]
+    },
+    {
+      "frame_id": "egg_catch_001_000360",
+      "timestamp_seconds": 6.0,
+      "frame_index": 360,
+      "description": "A person in a silver suit stands holding a caught brown egg resting on their open left palm, with the left fingers curled around it and the right fingers positioned near it.",
+      "resources": [
+        {
+          "name": "left palm",
+          "description": "open and flat, bearing the egg's weight directly on its surface",
+          "identifier": "left_palm"
+        },
+        {
+          "name": "left fingers",
+          "description": "curled loosely around the sides of the egg for containment, not gripping it tightly",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "positioned near the egg, lightly touching but not bearing any of its weight",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "egg",
+          "description": "a brown egg resting visibly on the person's open left palm",
+          "identifier": "caught_egg"
+        }
+      ],
+      "entities": [
+        {
+          "name": "table",
+          "description": "white counter the person stands behind",
+          "identifier": "white_table"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold egg",
+          "actor": "left palm",
+          "target": "egg",
+          "description": "the egg rests on the open left palm, which bears its weight, while the left fingers curl around it for containment"
+        }
+      ],
+      "ontological_phrases": [
+        "palm hold egg",
+        "fingers curl around egg"
+      ]
+    },
+    {
+      "frame_id": "egg_catch_001_000368",
+      "timestamp_seconds": 6.133333,
+      "frame_index": 368,
+      "description": "A person in a silver suit stands holding a caught brown egg resting on their open left palm, with the left fingers curled around it and the right fingers positioned near it.",
+      "resources": [
+        {
+          "name": "left palm",
+          "description": "open and flat, bearing the egg's weight directly on its surface",
+          "identifier": "left_palm"
+        },
+        {
+          "name": "left fingers",
+          "description": "curled loosely around the sides of the egg for containment, not gripping it tightly",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "positioned near the egg, lightly touching but not bearing any of its weight",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "egg",
+          "description": "a brown egg resting visibly on the person's open left palm",
+          "identifier": "caught_egg"
+        }
+      ],
+      "entities": [
+        {
+          "name": "table",
+          "description": "white counter the person stands behind",
+          "identifier": "white_table"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold egg",
+          "actor": "left palm",
+          "target": "egg",
+          "description": "the egg rests on the open left palm, which bears its weight, while the left fingers curl around it for containment"
+        }
+      ],
+      "ontological_phrases": [
+        "palm hold egg",
+        "fingers curl around egg"
+      ]
+    },
+    {
+      "frame_id": "egg_catch_001_000376",
+      "timestamp_seconds": 6.266667,
+      "frame_index": 376,
+      "description": "A person in a silver suit stands holding a caught brown egg resting on their open left palm, with the left fingers curled around it and the right fingers positioned near it.",
+      "resources": [
+        {
+          "name": "left palm",
+          "description": "open and flat, bearing the egg's weight directly on its surface",
+          "identifier": "left_palm"
+        },
+        {
+          "name": "left fingers",
+          "description": "curled loosely around the sides of the egg for containment, not gripping it tightly",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "positioned near the egg, lightly touching but not bearing any of its weight",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "egg",
+          "description": "a brown egg resting visibly on the person's open left palm",
+          "identifier": "caught_egg"
+        }
+      ],
+      "entities": [
+        {
+          "name": "table",
+          "description": "white counter the person stands behind",
+          "identifier": "white_table"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold egg",
+          "actor": "left palm",
+          "target": "egg",
+          "description": "the egg rests on the open left palm, which bears its weight, while the left fingers curl around it for containment"
+        }
+      ],
+      "ontological_phrases": [
+        "palm hold egg",
+        "fingers curl around egg"
+      ]
+    },
+    {
+      "frame_id": "egg_catch_001_000384",
+      "timestamp_seconds": 6.4,
+      "frame_index": 384,
+      "description": "A person in a silver suit stands holding a caught brown egg resting on their open left palm, with the left fingers curled around it and the right fingers positioned near it.",
+      "resources": [
+        {
+          "name": "left palm",
+          "description": "open and flat, bearing the egg's weight directly on its surface",
+          "identifier": "left_palm"
+        },
+        {
+          "name": "left fingers",
+          "description": "curled loosely around the sides of the egg for containment, not gripping it tightly",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "positioned near the egg, lightly touching but not bearing any of its weight",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "egg",
+          "description": "a brown egg resting visibly on the person's open left palm",
+          "identifier": "caught_egg"
+        }
+      ],
+      "entities": [
+        {
+          "name": "table",
+          "description": "white counter the person stands behind",
+          "identifier": "white_table"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold egg",
+          "actor": "left palm",
+          "target": "egg",
+          "description": "the egg rests on the open left palm, which bears its weight, while the left fingers curl around it for containment"
+        }
+      ],
+      "ontological_phrases": [
+        "palm hold egg",
+        "fingers curl around egg"
+      ]
+    },
+    {
+      "frame_id": "egg_catch_001_000392",
+      "timestamp_seconds": 6.533333,
+      "frame_index": 392,
+      "description": "A person in a silver suit stands holding a caught brown egg resting on their open left palm, with the left fingers curled around it and the right fingers positioned near it.",
+      "resources": [
+        {
+          "name": "left palm",
+          "description": "open and flat, bearing the egg's weight directly on its surface",
+          "identifier": "left_palm"
+        },
+        {
+          "name": "left fingers",
+          "description": "curled loosely around the sides of the egg for containment, not gripping it tightly",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "positioned near the egg, lightly touching but not bearing any of its weight",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "egg",
+          "description": "a brown egg resting visibly on the person's open left palm",
+          "identifier": "caught_egg"
+        }
+      ],
+      "entities": [
+        {
+          "name": "table",
+          "description": "white counter the person stands behind",
+          "identifier": "white_table"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold egg",
+          "actor": "left palm",
+          "target": "egg",
+          "description": "the egg rests on the open left palm, which bears its weight, while the left fingers curl around it for containment"
+        }
+      ],
+      "ontological_phrases": [
+        "palm hold egg",
+        "fingers curl around egg"
+      ]
+    },
+    {
+      "frame_id": "egg_catch_001_000400",
+      "timestamp_seconds": 6.666667,
+      "frame_index": 400,
+      "description": "A person in a silver suit stands holding a caught brown egg resting on their open left palm, with the left fingers curled around it and the right fingers positioned near it.",
+      "resources": [
+        {
+          "name": "left palm",
+          "description": "open and flat, bearing the egg's weight directly on its surface",
+          "identifier": "left_palm"
+        },
+        {
+          "name": "left fingers",
+          "description": "curled loosely around the sides of the egg for containment, not gripping it tightly",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "positioned near the egg, lightly touching but not bearing any of its weight",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "egg",
+          "description": "a brown egg resting visibly on the person's open left palm",
+          "identifier": "caught_egg"
+        }
+      ],
+      "entities": [
+        {
+          "name": "table",
+          "description": "white counter the person stands behind",
+          "identifier": "white_table"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold egg",
+          "actor": "left palm",
+          "target": "egg",
+          "description": "the egg rests on the open left palm, which bears its weight, while the left fingers curl around it for containment"
+        }
+      ],
+      "ontological_phrases": [
+        "palm hold egg",
+        "fingers curl around egg"
+      ]
+    },
+    {
+      "frame_id": "egg_catch_001_000408",
+      "timestamp_seconds": 6.8,
+      "frame_index": 408,
+      "description": "A person in a silver suit stands holding a caught brown egg resting on their open left palm, with the left fingers curled around it and the right fingers positioned near it.",
+      "resources": [
+        {
+          "name": "left palm",
+          "description": "open and flat, bearing the egg's weight directly on its surface",
+          "identifier": "left_palm"
+        },
+        {
+          "name": "left fingers",
+          "description": "curled loosely around the sides of the egg for containment, not gripping it tightly",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "positioned near the egg, lightly touching but not bearing any of its weight",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "egg",
+          "description": "a brown egg resting visibly on the person's open left palm",
+          "identifier": "caught_egg"
+        }
+      ],
+      "entities": [
+        {
+          "name": "table",
+          "description": "white counter the person stands behind",
+          "identifier": "white_table"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold egg",
+          "actor": "left palm",
+          "target": "egg",
+          "description": "the egg rests on the open left palm, which bears its weight, while the left fingers curl around it for containment"
+        }
+      ],
+      "ontological_phrases": [
+        "palm hold egg",
+        "fingers curl around egg"
+      ]
+    },
+    {
+      "frame_id": "egg_catch_001_000416",
+      "timestamp_seconds": 6.933333,
+      "frame_index": 416,
+      "description": "A person in a silver suit stands holding a caught brown egg resting on their open left palm, with the left fingers curled around it and the right fingers positioned near it.",
+      "resources": [
+        {
+          "name": "left palm",
+          "description": "open and flat, bearing the egg's weight directly on its surface",
+          "identifier": "left_palm"
+        },
+        {
+          "name": "left fingers",
+          "description": "curled loosely around the sides of the egg for containment, not gripping it tightly",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "positioned near the egg, lightly touching but not bearing any of its weight",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "egg",
+          "description": "a brown egg resting visibly on the person's open left palm",
+          "identifier": "caught_egg"
+        }
+      ],
+      "entities": [
+        {
+          "name": "table",
+          "description": "white counter the person stands behind",
+          "identifier": "white_table"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold egg",
+          "actor": "left palm",
+          "target": "egg",
+          "description": "the egg rests on the open left palm, which bears its weight, while the left fingers curl around it for containment"
+        }
+      ],
+      "ontological_phrases": [
+        "palm hold egg",
+        "fingers curl around egg"
+      ]
+    },
+    {
+      "frame_id": "egg_catch_001_000424",
+      "timestamp_seconds": 7.066667,
+      "frame_index": 424,
+      "description": "A person in a silver suit stands holding a caught brown egg resting on their open left palm, with the left fingers curled around it and the right fingers positioned near it.",
+      "resources": [
+        {
+          "name": "left palm",
+          "description": "open and flat, bearing the egg's weight directly on its surface",
+          "identifier": "left_palm"
+        },
+        {
+          "name": "left fingers",
+          "description": "curled loosely around the sides of the egg for containment, not gripping it tightly",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "positioned near the egg, lightly touching but not bearing any of its weight",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "egg",
+          "description": "a brown egg resting visibly on the person's open left palm",
+          "identifier": "caught_egg"
+        }
+      ],
+      "entities": [
+        {
+          "name": "table",
+          "description": "white counter the person stands behind",
+          "identifier": "white_table"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold egg",
+          "actor": "left palm",
+          "target": "egg",
+          "description": "the egg rests on the open left palm, which bears its weight, while the left fingers curl around it for containment"
+        }
+      ],
+      "ontological_phrases": [
+        "palm hold egg",
+        "fingers curl around egg"
+      ]
+    },
+    {
+      "frame_id": "egg_catch_001_000432",
+      "timestamp_seconds": 7.2,
+      "frame_index": 432,
+      "description": "A person in a silver suit stands holding a caught brown egg resting on their open left palm, with the left fingers curled around it and the right fingers positioned near it.",
+      "resources": [
+        {
+          "name": "left palm",
+          "description": "open and flat, bearing the egg's weight directly on its surface",
+          "identifier": "left_palm"
+        },
+        {
+          "name": "left fingers",
+          "description": "curled loosely around the sides of the egg for containment, not gripping it tightly",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "positioned near the egg, lightly touching but not bearing any of its weight",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "egg",
+          "description": "a brown egg resting visibly on the person's open left palm",
+          "identifier": "caught_egg"
+        }
+      ],
+      "entities": [
+        {
+          "name": "table",
+          "description": "white counter the person stands behind",
+          "identifier": "white_table"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold egg",
+          "actor": "left palm",
+          "target": "egg",
+          "description": "the egg rests on the open left palm, which bears its weight, while the left fingers curl around it for containment"
+        }
+      ],
+      "ontological_phrases": [
+        "palm hold egg",
+        "fingers curl around egg"
+      ]
+    },
+    {
+      "frame_id": "egg_catch_001_000440",
+      "timestamp_seconds": 7.333333,
+      "frame_index": 440,
+      "description": "A person in a silver suit stands holding a caught brown egg resting on their open left palm, with the left fingers curled around it and the right fingers positioned near it.",
+      "resources": [
+        {
+          "name": "left palm",
+          "description": "open and flat, bearing the egg's weight directly on its surface",
+          "identifier": "left_palm"
+        },
+        {
+          "name": "left fingers",
+          "description": "curled loosely around the sides of the egg for containment, not gripping it tightly",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "positioned near the egg, lightly touching but not bearing any of its weight",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "egg",
+          "description": "a brown egg resting visibly on the person's open left palm",
+          "identifier": "caught_egg"
+        }
+      ],
+      "entities": [
+        {
+          "name": "table",
+          "description": "white counter the person stands behind",
+          "identifier": "white_table"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold egg",
+          "actor": "left palm",
+          "target": "egg",
+          "description": "the egg rests on the open left palm, which bears its weight, while the left fingers curl around it for containment"
+        }
+      ],
+      "ontological_phrases": [
+        "palm hold egg",
+        "fingers curl around egg"
+      ]
+    },
+    {
+      "frame_id": "egg_catch_001_000448",
+      "timestamp_seconds": 7.466667,
+      "frame_index": 448,
+      "description": "A person in a silver suit stands holding a caught brown egg resting on their open left palm, with the left fingers curled around it and the right fingers positioned near it.",
+      "resources": [
+        {
+          "name": "left palm",
+          "description": "open and flat, bearing the egg's weight directly on its surface",
+          "identifier": "left_palm"
+        },
+        {
+          "name": "left fingers",
+          "description": "curled loosely around the sides of the egg for containment, not gripping it tightly",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "positioned near the egg, lightly touching but not bearing any of its weight",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "egg",
+          "description": "a brown egg resting visibly on the person's open left palm",
+          "identifier": "caught_egg"
+        }
+      ],
+      "entities": [
+        {
+          "name": "table",
+          "description": "white counter the person stands behind",
+          "identifier": "white_table"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold egg",
+          "actor": "left palm",
+          "target": "egg",
+          "description": "the egg rests on the open left palm, which bears its weight, while the left fingers curl around it for containment"
+        }
+      ],
+      "ontological_phrases": [
+        "palm hold egg",
+        "fingers curl around egg"
+      ]
+    },
+    {
+      "frame_id": "egg_catch_001_000456",
+      "timestamp_seconds": 7.6,
+      "frame_index": 456,
+      "description": "A person in a silver suit stands holding a caught brown egg resting on their open left palm, with the left fingers curled around it and the right fingers positioned near it.",
+      "resources": [
+        {
+          "name": "left palm",
+          "description": "open and flat, bearing the egg's weight directly on its surface",
+          "identifier": "left_palm"
+        },
+        {
+          "name": "left fingers",
+          "description": "curled loosely around the sides of the egg for containment, not gripping it tightly",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "positioned near the egg, lightly touching but not bearing any of its weight",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "egg",
+          "description": "a brown egg resting visibly on the person's open left palm",
+          "identifier": "caught_egg"
+        }
+      ],
+      "entities": [
+        {
+          "name": "table",
+          "description": "white counter the person stands behind",
+          "identifier": "white_table"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold egg",
+          "actor": "left palm",
+          "target": "egg",
+          "description": "the egg rests on the open left palm, which bears its weight, while the left fingers curl around it for containment"
+        }
+      ],
+      "ontological_phrases": [
+        "palm hold egg",
+        "fingers curl around egg"
+      ]
+    },
+    {
+      "frame_id": "egg_catch_001_000464",
+      "timestamp_seconds": 7.733333,
+      "frame_index": 464,
+      "description": "A person in a silver suit stands holding a caught brown egg resting on their open left palm, with the left fingers curled around it and the right fingers positioned near it.",
+      "resources": [
+        {
+          "name": "left palm",
+          "description": "open and flat, bearing the egg's weight directly on its surface",
+          "identifier": "left_palm"
+        },
+        {
+          "name": "left fingers",
+          "description": "curled loosely around the sides of the egg for containment, not gripping it tightly",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "positioned near the egg, lightly touching but not bearing any of its weight",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "egg",
+          "description": "a brown egg resting visibly on the person's open left palm",
+          "identifier": "caught_egg"
+        }
+      ],
+      "entities": [
+        {
+          "name": "table",
+          "description": "white counter the person stands behind",
+          "identifier": "white_table"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold egg",
+          "actor": "left palm",
+          "target": "egg",
+          "description": "the egg rests on the open left palm, which bears its weight, while the left fingers curl around it for containment"
+        }
+      ],
+      "ontological_phrases": [
+        "palm hold egg",
+        "fingers curl around egg"
+      ]
+    },
+    {
+      "frame_id": "egg_catch_001_000472",
+      "timestamp_seconds": 7.866667,
+      "frame_index": 472,
+      "description": "A person in a silver suit stands holding a caught brown egg resting on their open left palm, with the left fingers curled around it and the right fingers positioned near it.",
+      "resources": [
+        {
+          "name": "left palm",
+          "description": "open and flat, bearing the egg's weight directly on its surface",
+          "identifier": "left_palm"
+        },
+        {
+          "name": "left fingers",
+          "description": "curled loosely around the sides of the egg for containment, not gripping it tightly",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "positioned near the egg, lightly touching but not bearing any of its weight",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "egg",
+          "description": "a brown egg resting visibly on the person's open left palm",
+          "identifier": "caught_egg"
+        }
+      ],
+      "entities": [
+        {
+          "name": "table",
+          "description": "white counter the person stands behind",
+          "identifier": "white_table"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold egg",
+          "actor": "left palm",
+          "target": "egg",
+          "description": "the egg rests on the open left palm, which bears its weight, while the left fingers curl around it for containment"
+        }
+      ],
+      "ontological_phrases": [
+        "palm hold egg",
+        "fingers curl around egg"
+      ]
+    },
+    {
+      "frame_id": "egg_catch_001_000480",
+      "timestamp_seconds": 8.0,
+      "frame_index": 480,
+      "description": "A person in a silver suit stands holding a caught brown egg resting on their open left palm, with the left fingers curled around it and the right fingers positioned near it.",
+      "resources": [
+        {
+          "name": "left palm",
+          "description": "open and flat, bearing the egg's weight directly on its surface",
+          "identifier": "left_palm"
+        },
+        {
+          "name": "left fingers",
+          "description": "curled loosely around the sides of the egg for containment, not gripping it tightly",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "positioned near the egg, lightly touching but not bearing any of its weight",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "egg",
+          "description": "a brown egg resting visibly on the person's open left palm",
+          "identifier": "caught_egg"
+        }
+      ],
+      "entities": [
+        {
+          "name": "table",
+          "description": "white counter the person stands behind",
+          "identifier": "white_table"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold egg",
+          "actor": "left palm",
+          "target": "egg",
+          "description": "the egg rests on the open left palm, which bears its weight, while the left fingers curl around it for containment"
+        }
+      ],
+      "ontological_phrases": [
+        "palm hold egg",
+        "fingers curl around egg"
+      ]
+    },
+    {
+      "frame_id": "egg_catch_001_000488",
+      "timestamp_seconds": 8.133333,
+      "frame_index": 488,
+      "description": "A person in a silver suit stands holding a caught brown egg resting on their open left palm, with the left fingers curled around it and the right fingers positioned near it.",
+      "resources": [
+        {
+          "name": "left palm",
+          "description": "open and flat, bearing the egg's weight directly on its surface",
+          "identifier": "left_palm"
+        },
+        {
+          "name": "left fingers",
+          "description": "curled loosely around the sides of the egg for containment, not gripping it tightly",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "positioned near the egg, lightly touching but not bearing any of its weight",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "egg",
+          "description": "a brown egg resting visibly on the person's open left palm",
+          "identifier": "caught_egg"
+        }
+      ],
+      "entities": [
+        {
+          "name": "table",
+          "description": "white counter the person stands behind",
+          "identifier": "white_table"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold egg",
+          "actor": "left palm",
+          "target": "egg",
+          "description": "the egg rests on the open left palm, which bears its weight, while the left fingers curl around it for containment"
+        }
+      ],
+      "ontological_phrases": [
+        "palm hold egg",
+        "fingers curl around egg"
+      ]
+    },
+    {
+      "frame_id": "egg_catch_001_000496",
+      "timestamp_seconds": 8.266667,
+      "frame_index": 496,
+      "description": "A person in a silver suit stands holding a caught brown egg resting on their open left palm, with the left fingers curled around it and the right fingers positioned near it.",
+      "resources": [
+        {
+          "name": "left palm",
+          "description": "open and flat, bearing the egg's weight directly on its surface",
+          "identifier": "left_palm"
+        },
+        {
+          "name": "left fingers",
+          "description": "curled loosely around the sides of the egg for containment, not gripping it tightly",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "positioned near the egg, lightly touching but not bearing any of its weight",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "egg",
+          "description": "a brown egg resting visibly on the person's open left palm",
+          "identifier": "caught_egg"
+        }
+      ],
+      "entities": [
+        {
+          "name": "table",
+          "description": "white counter the person stands behind",
+          "identifier": "white_table"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold egg",
+          "actor": "left palm",
+          "target": "egg",
+          "description": "the egg rests on the open left palm, which bears its weight, while the left fingers curl around it for containment"
+        }
+      ],
+      "ontological_phrases": [
+        "palm hold egg",
+        "fingers curl around egg"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1763 @@
+{
+  "video_id": "make_a_bed",
+  "video_path": "videos/make_a_bed.mov",
+  "frames": [
+    {
+      "frame_id": "make_a_bed_000000",
+      "frame_index": 0,
+      "timestamp_seconds": 0.0,
+      "description": "A person in a silver suit stands beside an unmade bed with rumpled bedding, at the start of a bed-making task, both hands relaxed and not yet engaged.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "bed",
+          "description": "unmade bed with rumpled bedding"
+        }
+      ],
+      "actions": [
+        {
+          "name": "stand",
+          "actor": "person",
+          "target": "bed",
+          "description": "the person stands beside the unmade bed; no limb is engaged with the bedding yet"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "make_a_bed_000281",
+      "frame_index": 281,
+      "timestamp_seconds": 4.711567,
+      "description": "A person in a silver suit bends forward at the left side of an unmade bed near the headboard; a bunched grayish-tan duvet covers most of the mattress and cascades off the front, with a gray pillow resting near the headboard.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "bed",
+          "description": "unmade bed with a bunched grayish-tan duvet covering most of the mattress",
+          "identifier": "bed"
+        },
+        {
+          "name": "pillow",
+          "description": "gray pillow resting near the headboard",
+          "identifier": "pillow_gray_a"
+        }
+      ],
+      "actions": [
+        {
+          "name": "bend at headboard",
+          "actor": "person",
+          "target": "bed",
+          "description": "the person bends forward beside the headboard of the unmade bed"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "make_a_bed_000475",
+      "frame_index": 475,
+      "timestamp_seconds": 7.964392,
+      "description": "The person leans further onto the bed near the headboard, right fingers resting against the gray pillow; the duvet remains bunched and rumpled across the mattress.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "resting against the gray pillow near the headboard",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "bed",
+          "description": "unmade bed with bunched, rumpled duvet",
+          "identifier": "bed"
+        },
+        {
+          "name": "pillow",
+          "description": "gray pillow near the headboard",
+          "identifier": "pillow_gray_a"
+        }
+      ],
+      "actions": [
+        {
+          "name": "touch pillow",
+          "actor": "right fingers",
+          "target": "pillow",
+          "description": "the right fingers rest against the gray pillow near the headboard"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "make_a_bed_000671",
+      "frame_index": 671,
+      "timestamp_seconds": 11.250752,
+      "description": "Essentially unchanged from the moment before: the person remains bent near the headboard, right fingers touching the edge of the gray pillow while the left arm reaches toward nearby plant leaves.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "touching the edge of the gray pillow near the headboard",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "bed",
+          "description": "unmade bed with bunched, rumpled duvet",
+          "identifier": "bed"
+        },
+        {
+          "name": "pillow",
+          "description": "gray pillow near the headboard",
+          "identifier": "pillow_gray_a"
+        }
+      ],
+      "actions": [
+        {
+          "name": "touch pillow",
+          "actor": "right fingers",
+          "target": "pillow",
+          "description": "the right fingers touch the edge of the gray pillow near the headboard"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "make_a_bed_000885",
+      "frame_index": 885,
+      "timestamp_seconds": 14.838921,
+      "description": "The person stands more upright beside the bed, left fingers reaching toward and touching the gray pillow at the headboard; a brownish pillow is bunched beside it, and the duvet remains rumpled.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "reaching toward and touching the gray pillow at the headboard",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "bed",
+          "description": "unmade bed with rumpled duvet",
+          "identifier": "bed"
+        },
+        {
+          "name": "pillow",
+          "description": "gray pillow at the headboard",
+          "identifier": "pillow_gray_a"
+        },
+        {
+          "name": "pillow",
+          "description": "brownish pillow bunched beside the gray pillow",
+          "identifier": "pillow_brown"
+        }
+      ],
+      "actions": [
+        {
+          "name": "touch pillow",
+          "actor": "left fingers",
+          "target": "pillow",
+          "description": "the left fingers reach toward and touch the gray pillow at the headboard"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "make_a_bed_001065",
+      "frame_index": 1065,
+      "timestamp_seconds": 17.857006,
+      "description": "The person stands with their back partially to the camera, right fingers reaching toward the pillow near the headboard; the duvet is still rumpled across the bed.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "reaching toward the gray pillow near the headboard",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "bed",
+          "description": "unmade bed with rumpled duvet",
+          "identifier": "bed"
+        },
+        {
+          "name": "pillow",
+          "description": "gray pillow near the headboard",
+          "identifier": "pillow_gray_a"
+        }
+      ],
+      "actions": [
+        {
+          "name": "reach toward pillow",
+          "actor": "right fingers",
+          "target": "pillow",
+          "description": "the right fingers reach toward the gray pillow near the headboard"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "make_a_bed_001177",
+      "frame_index": 1177,
+      "timestamp_seconds": 19.734926,
+      "description": "The person bends over the bed near the headboard, right fingers grasping the folded edge of the duvet, while the left arm extends toward nearby plant leaves.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "grasping the folded edge of the duvet near the headboard",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "bed",
+          "description": "unmade bed with rumpled duvet",
+          "identifier": "bed"
+        },
+        {
+          "name": "duvet",
+          "description": "grayish-tan duvet, folded edge near the headboard",
+          "identifier": "duvet"
+        }
+      ],
+      "actions": [
+        {
+          "name": "grasp duvet",
+          "actor": "right fingers",
+          "target": "duvet",
+          "description": "the right fingers grasp the folded edge of the duvet near the headboard"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "make_a_bed_001211",
+      "frame_index": 1211,
+      "timestamp_seconds": 20.305009,
+      "description": "Essentially unchanged from the moment before: the person remains bent at the headboard with right fingers gripping the duvet's edge while the left hand touches nearby plant leaves.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "gripping the duvet's edge at the headboard",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "bed",
+          "description": "unmade bed with rumpled duvet",
+          "identifier": "bed"
+        },
+        {
+          "name": "duvet",
+          "description": "grayish-tan duvet near the headboard",
+          "identifier": "duvet"
+        }
+      ],
+      "actions": [
+        {
+          "name": "grip duvet",
+          "actor": "right fingers",
+          "target": "duvet",
+          "description": "the right fingers grip the duvet's edge at the headboard"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "make_a_bed_001245",
+      "frame_index": 1245,
+      "timestamp_seconds": 20.875092,
+      "description": "The person remains bent forward with their back to the camera near the headboard; the left fingers touch nearby plant leaves while the right arm hangs relaxed near the mattress edge; a gray pillow and a brownish pillow sit at the headboard.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "bed",
+          "description": "unmade bed with rumpled duvet",
+          "identifier": "bed"
+        },
+        {
+          "name": "pillow",
+          "description": "gray pillow at the headboard",
+          "identifier": "pillow_gray_a"
+        },
+        {
+          "name": "pillow",
+          "description": "brownish pillow at the headboard",
+          "identifier": "pillow_brown"
+        }
+      ],
+      "actions": [
+        {
+          "name": "bend at headboard",
+          "actor": "person",
+          "target": "bed",
+          "description": "the person bends near the headboard, back to the camera"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "make_a_bed_001295",
+      "frame_index": 1295,
+      "timestamp_seconds": 21.713449,
+      "description": "The person stands more upright with their back to the camera, right fingers resting at the edge of the headboard; the duvet is rumpled and rolled at the foot of the bed, with a gray pillow and a brownish pillow visible at the head.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "resting at the edge of the headboard",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "bed",
+          "description": "unmade bed with duvet rolled at the foot",
+          "identifier": "bed"
+        },
+        {
+          "name": "pillow",
+          "description": "gray pillow at the headboard",
+          "identifier": "pillow_gray_a"
+        },
+        {
+          "name": "pillow",
+          "description": "brownish pillow at the headboard",
+          "identifier": "pillow_brown"
+        }
+      ],
+      "actions": [
+        {
+          "name": "rest hand at headboard",
+          "actor": "right fingers",
+          "target": "bed",
+          "description": "the right fingers rest at the edge of the headboard"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "make_a_bed_001447",
+      "frame_index": 1447,
+      "timestamp_seconds": 24.262055,
+      "description": "The person bends again near the headboard, right fingers gripping the duvet's edge and pulling it upward toward the headboard.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "gripping and pulling the duvet's edge toward the headboard",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "bed",
+          "description": "unmade bed with rumpled duvet",
+          "identifier": "bed"
+        },
+        {
+          "name": "duvet",
+          "description": "grayish-tan duvet being pulled toward the headboard",
+          "identifier": "duvet"
+        }
+      ],
+      "actions": [
+        {
+          "name": "pull duvet",
+          "actor": "right fingers",
+          "target": "duvet",
+          "description": "the right fingers grip and pull the duvet's edge toward the headboard"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "make_a_bed_001599",
+      "frame_index": 1599,
+      "timestamp_seconds": 26.81066,
+      "description": "Very similar to the moment before: the person remains bent near the headboard, right fingers engaged with the duvet's edge; the comforter is still bunched and rolled at the foot of the bed.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "gripping the duvet's edge near the headboard",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "bed",
+          "description": "unmade bed with duvet rolled at the foot",
+          "identifier": "bed"
+        },
+        {
+          "name": "duvet",
+          "description": "grayish-tan duvet near the headboard",
+          "identifier": "duvet"
+        }
+      ],
+      "actions": [
+        {
+          "name": "grip duvet",
+          "actor": "right fingers",
+          "target": "duvet",
+          "description": "the right fingers grip the duvet's edge near the headboard"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "make_a_bed_001749",
+      "frame_index": 1749,
+      "timestamp_seconds": 29.325732,
+      "description": "The person bends forward, left fingers gripping the duvet's edge and pulling it toward the headboard while the right fingers rest on the mattress surface nearby.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping the duvet's edge and pulling it toward the headboard",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "resting on the mattress surface near the headboard",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "bed",
+          "description": "unmade bed with duvet being pulled toward the headboard",
+          "identifier": "bed"
+        },
+        {
+          "name": "duvet",
+          "description": "grayish-tan duvet",
+          "identifier": "duvet"
+        }
+      ],
+      "actions": [
+        {
+          "name": "pull duvet",
+          "actor": "left fingers",
+          "target": "duvet",
+          "description": "the left fingers grip and pull the duvet's edge toward the headboard"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "make_a_bed_001839",
+      "frame_index": 1839,
+      "timestamp_seconds": 30.834774,
+      "description": "The person stands straighter beside the bed, right fingers gripping the gray pillow and lifting it near the headboard.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "gripping the gray pillow and lifting it near the headboard",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "bed",
+          "description": "unmade bed with rumpled duvet",
+          "identifier": "bed"
+        },
+        {
+          "name": "pillow",
+          "description": "gray pillow being lifted near the headboard",
+          "identifier": "pillow_gray_a"
+        }
+      ],
+      "actions": [
+        {
+          "name": "lift pillow",
+          "actor": "right fingers",
+          "target": "pillow",
+          "description": "the right fingers grip and lift the gray pillow near the headboard"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "make_a_bed_001961",
+      "frame_index": 1961,
+      "timestamp_seconds": 32.880366,
+      "description": "The person stands bent slightly at the headboard, right fingers adjusting the gray pillow's position.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "adjusting the gray pillow's position at the headboard",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "bed",
+          "description": "unmade bed with rumpled duvet",
+          "identifier": "bed"
+        },
+        {
+          "name": "pillow",
+          "description": "gray pillow at the headboard",
+          "identifier": "pillow_gray_a"
+        }
+      ],
+      "actions": [
+        {
+          "name": "adjust pillow",
+          "actor": "right fingers",
+          "target": "pillow",
+          "description": "the right fingers adjust the gray pillow's position at the headboard"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "make_a_bed_002067",
+      "frame_index": 2067,
+      "timestamp_seconds": 34.657683,
+      "description": "Continuing the same adjustment: the person's right fingers grip the corner of the pillow at the headboard.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "gripping the corner of the pillow at the headboard",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "bed",
+          "description": "unmade bed with rumpled duvet",
+          "identifier": "bed"
+        },
+        {
+          "name": "pillow",
+          "description": "gray pillow at the headboard",
+          "identifier": "pillow_gray_a"
+        }
+      ],
+      "actions": [
+        {
+          "name": "grip pillow",
+          "actor": "right fingers",
+          "target": "pillow",
+          "description": "the right fingers grip the corner of the pillow at the headboard"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "make_a_bed_002195",
+      "frame_index": 2195,
+      "timestamp_seconds": 36.803877,
+      "description": "The person stands upright beside the headboard, right fingers resting on the bed; the gray pillow is positioned at the head, a brownish blanket-like item is bunched to the left, and the rest of the duvet remains rumpled.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "resting on the bed near the headboard",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "bed",
+          "description": "unmade bed, mostly rumpled",
+          "identifier": "bed"
+        },
+        {
+          "name": "pillow",
+          "description": "gray pillow positioned at the head",
+          "identifier": "pillow_gray_a"
+        }
+      ],
+      "actions": [
+        {
+          "name": "rest hand on bed",
+          "actor": "right fingers",
+          "target": "bed",
+          "description": "the right fingers rest on the bed near the headboard"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "make_a_bed_002345",
+      "frame_index": 2345,
+      "timestamp_seconds": 39.318948,
+      "description": "The person stands tending to the pillow near the headboard; the duvet is still tan/gray in tone and not yet smoothed.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "tending to the pillow's position at the headboard",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "bed",
+          "description": "unmade bed with rumpled duvet",
+          "identifier": "bed"
+        },
+        {
+          "name": "pillow",
+          "description": "gray pillow at the headboard",
+          "identifier": "pillow_gray_a"
+        }
+      ],
+      "actions": [
+        {
+          "name": "adjust pillow",
+          "actor": "right fingers",
+          "target": "pillow",
+          "description": "the right fingers tend to the pillow's position at the headboard"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "make_a_bed_002502",
+      "frame_index": 2502,
+      "timestamp_seconds": 41.95139,
+      "description": "The person crouches at the left side near the headboard, both hands gripping the fabric; the duvet now appears smoother and lighter in tone than before, with the gray pillow visible near the headboard.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping fabric near the headboard",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "gripping fabric near the headboard",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "bed",
+          "description": "bed with duvet now smoother and lighter in tone",
+          "identifier": "bed"
+        },
+        {
+          "name": "duvet",
+          "description": "duvet becoming smoother and lighter in tone",
+          "identifier": "duvet"
+        },
+        {
+          "name": "pillow",
+          "description": "gray pillow near the headboard",
+          "identifier": "pillow_gray_a"
+        }
+      ],
+      "actions": [
+        {
+          "name": "grip fabric",
+          "actor": "left fingers and right fingers",
+          "target": "duvet",
+          "description": "both hands' fingers grip the duvet fabric near the headboard"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "make_a_bed_002667",
+      "frame_index": 2667,
+      "timestamp_seconds": 44.717968,
+      "description": "The person stands, holding a pillow aloft with both hands above the headboard; the duvet beneath is now smoothed and light-colored, with a brownish pillow bunched at the left corner.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping the pillow, holding it aloft above the headboard",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "gripping the pillow, holding it aloft above the headboard",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "bed",
+          "description": "bed with smoothed, light-colored duvet",
+          "identifier": "bed"
+        },
+        {
+          "name": "duvet",
+          "description": "smoothed, light-colored duvet",
+          "identifier": "duvet"
+        },
+        {
+          "name": "pillow",
+          "description": "pillow held aloft above the headboard",
+          "identifier": "pillow_gray_a"
+        },
+        {
+          "name": "pillow",
+          "description": "brownish pillow bunched at the left corner",
+          "identifier": "pillow_brown"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold pillow",
+          "actor": "left fingers and right fingers",
+          "target": "pillow",
+          "description": "both hands' fingers grip and hold the pillow aloft above the headboard"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "make_a_bed_002842",
+      "frame_index": 2842,
+      "timestamp_seconds": 47.652218,
+      "description": "The person stands at the headboard, right fingers gripping and tucking the corner of the now-smoothed cream duvet; a single gray pillow is visible.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "gripping and tucking the corner of the smoothed duvet near the headboard",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "bed",
+          "description": "bed with smoothed cream duvet",
+          "identifier": "bed"
+        },
+        {
+          "name": "duvet",
+          "description": "smoothed cream duvet",
+          "identifier": "duvet"
+        },
+        {
+          "name": "pillow",
+          "description": "gray pillow near the headboard",
+          "identifier": "pillow_gray_a"
+        }
+      ],
+      "actions": [
+        {
+          "name": "tuck duvet",
+          "actor": "right fingers",
+          "target": "duvet",
+          "description": "the right fingers grip and tuck the corner of the duvet near the headboard"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "make_a_bed_002983",
+      "frame_index": 2983,
+      "timestamp_seconds": 50.016385,
+      "description": "The person bends forward, right fingers pulling and adjusting the duvet's edge at the headboard; two similar gray pillows are now visible near the head.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "pulling and adjusting the duvet's edge at the headboard",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "bed",
+          "description": "bed with smoothed duvet and two gray pillows",
+          "identifier": "bed"
+        },
+        {
+          "name": "duvet",
+          "description": "smoothed duvet",
+          "identifier": "duvet"
+        },
+        {
+          "name": "pillow",
+          "description": "gray pillow near the headboard",
+          "identifier": "pillow_gray_a"
+        },
+        {
+          "name": "pillow",
+          "description": "second gray pillow near the headboard",
+          "identifier": "pillow_gray_b"
+        }
+      ],
+      "actions": [
+        {
+          "name": "adjust duvet",
+          "actor": "right fingers",
+          "target": "duvet",
+          "description": "the right fingers pull and adjust the duvet's edge at the headboard"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "make_a_bed_003009",
+      "frame_index": 3009,
+      "timestamp_seconds": 50.452331,
+      "description": "The person stands tall at the headboard, right fingers resting near it; two pillows are visible at the head, and a brown blanket now lies bunched diagonally on top of the smoothed duvet.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "resting near the headboard",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "bed",
+          "description": "bed with smoothed duvet, two pillows, and a brown blanket on top",
+          "identifier": "bed"
+        },
+        {
+          "name": "pillow",
+          "description": "gray pillow at the headboard",
+          "identifier": "pillow_gray_a"
+        },
+        {
+          "name": "pillow",
+          "description": "second gray pillow at the headboard",
+          "identifier": "pillow_gray_b"
+        },
+        {
+          "name": "blanket",
+          "description": "brown blanket lying bunched diagonally on top of the duvet",
+          "identifier": "runner"
+        }
+      ],
+      "actions": [
+        {
+          "name": "rest hand at headboard",
+          "actor": "right fingers",
+          "target": "bed",
+          "description": "the right fingers rest near the headboard"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "make_a_bed_003037",
+      "frame_index": 3037,
+      "timestamp_seconds": 50.921811,
+      "description": "The person stands, right fingers pulling the brown blanket so that it drapes down over the near corner post of the footboard, extending toward the floor.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "pulling the brown blanket so it drapes over the footboard's corner post",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "bed",
+          "description": "bed with smoothed duvet and brown blanket draping over the footboard corner",
+          "identifier": "bed"
+        },
+        {
+          "name": "blanket",
+          "description": "brown blanket draping over the footboard's corner post toward the floor",
+          "identifier": "runner"
+        }
+      ],
+      "actions": [
+        {
+          "name": "drape blanket",
+          "actor": "right fingers",
+          "target": "blanket",
+          "description": "the right fingers pull the brown blanket so it drapes over the footboard's corner post"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "make_a_bed_003093",
+      "frame_index": 3093,
+      "timestamp_seconds": 51.86077,
+      "description": "The person leans to the left, left fingers gripping the duvet's edge while right fingers grip the brown blanket, which now drapes diagonally across the bed near the headboard and hangs over the side rail; two pillows are visible.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping the duvet's edge",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "gripping the brown blanket draped diagonally across the bed",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "bed",
+          "description": "bed with duvet and brown blanket draped diagonally across it",
+          "identifier": "bed"
+        },
+        {
+          "name": "duvet",
+          "description": "smoothed duvet",
+          "identifier": "duvet"
+        },
+        {
+          "name": "blanket",
+          "description": "brown blanket draped diagonally across the bed, hanging over the side rail",
+          "identifier": "runner"
+        }
+      ],
+      "actions": [
+        {
+          "name": "grip blanket",
+          "actor": "right fingers",
+          "target": "blanket",
+          "description": "the right fingers grip the brown blanket draped diagonally across the bed"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "make_a_bed_003161",
+      "frame_index": 3161,
+      "timestamp_seconds": 53.000936,
+      "description": "The person stands at the left, right fingers holding and adjusting the brown blanket's edge near the headboard, extending it toward the nightstand; the duvet is smooth and two pillows are visible.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "holding and adjusting the brown blanket's edge near the headboard",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "bed",
+          "description": "bed with smoothed duvet and brown blanket near the headboard",
+          "identifier": "bed"
+        },
+        {
+          "name": "blanket",
+          "description": "brown blanket near the headboard, extending toward the nightstand",
+          "identifier": "runner"
+        }
+      ],
+      "actions": [
+        {
+          "name": "adjust blanket",
+          "actor": "right fingers",
+          "target": "blanket",
+          "description": "the right fingers hold and adjust the brown blanket's edge near the headboard"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "make_a_bed_003281",
+      "frame_index": 3281,
+      "timestamp_seconds": 55.012993,
+      "description": "The person crouches at the left near the headboard, both hands gripping and tucking fabric; the duvet is now fully smooth and cream-colored, with a single gray pillow visible near the headboard.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping and tucking fabric near the headboard",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "gripping and tucking fabric near the headboard",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "bed",
+          "description": "bed with fully smooth, cream-colored duvet",
+          "identifier": "bed"
+        },
+        {
+          "name": "duvet",
+          "description": "smooth, cream-colored duvet",
+          "identifier": "duvet"
+        },
+        {
+          "name": "pillow",
+          "description": "gray pillow near the headboard",
+          "identifier": "pillow_gray_a"
+        }
+      ],
+      "actions": [
+        {
+          "name": "tuck duvet",
+          "actor": "left fingers and right fingers",
+          "target": "duvet",
+          "description": "both hands' fingers grip and tuck the duvet fabric near the headboard"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "make_a_bed_003433",
+      "frame_index": 3433,
+      "timestamp_seconds": 57.561599,
+      "description": "The person stands, holding a gray pillow aloft with both hands above the headboard; a rumpled dark item rests at the left corner of the bed while the duvet remains smooth and light.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping the pillow, holding it aloft above the headboard",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "gripping the pillow, holding it aloft above the headboard",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "bed",
+          "description": "bed with smooth duvet",
+          "identifier": "bed"
+        },
+        {
+          "name": "pillow",
+          "description": "gray pillow held aloft above the headboard",
+          "identifier": "pillow_gray_a"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold pillow",
+          "actor": "left fingers and right fingers",
+          "target": "pillow",
+          "description": "both hands' fingers grip and hold the gray pillow aloft above the headboard"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "make_a_bed_003535",
+      "frame_index": 3535,
+      "timestamp_seconds": 58.916667,
+      "description": "A person in a silver suit bends over near the headboard, both hands' fingers gripping and tucking the smoothed white duvet into place among the pillows.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping and tucking the duvet near the headboard",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "gripping and tucking the duvet near the headboard",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "bed",
+          "description": "bed with a smoothed white duvet and two pillows"
+        }
+      ],
+      "actions": [
+        {
+          "name": "tuck bedding",
+          "actor": "left fingers and right fingers",
+          "target": "bedding",
+          "description": "both hands' fingers grip and tuck the duvet into place near the headboard"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "make_a_bed_003617",
+      "frame_index": 3617,
+      "timestamp_seconds": 60.646753,
+      "description": "The person stands at the headboard, right fingers gripping and tucking the corner of the smoothed cream duvet; a single gray pillow is visible.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "gripping and tucking the duvet's corner near the headboard",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "bed",
+          "description": "bed with smoothed cream duvet",
+          "identifier": "bed"
+        },
+        {
+          "name": "duvet",
+          "description": "smoothed cream duvet",
+          "identifier": "duvet"
+        },
+        {
+          "name": "pillow",
+          "description": "gray pillow near the headboard",
+          "identifier": "pillow_gray_a"
+        }
+      ],
+      "actions": [
+        {
+          "name": "tuck duvet",
+          "actor": "right fingers",
+          "target": "duvet",
+          "description": "the right fingers grip and tuck the duvet's corner near the headboard"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "make_a_bed_003833",
+      "frame_index": 3833,
+      "timestamp_seconds": 64.268456,
+      "description": "The person bends forward, right fingers pulling and adjusting fabric near the headboard; two similar gray pillows are now visible at the head.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "pulling and adjusting fabric near the headboard",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "bed",
+          "description": "bed with smoothed duvet and two gray pillows",
+          "identifier": "bed"
+        },
+        {
+          "name": "pillow",
+          "description": "gray pillow at the headboard",
+          "identifier": "pillow_gray_a"
+        },
+        {
+          "name": "pillow",
+          "description": "second gray pillow at the headboard",
+          "identifier": "pillow_gray_b"
+        }
+      ],
+      "actions": [
+        {
+          "name": "adjust fabric",
+          "actor": "right fingers",
+          "target": "bed",
+          "description": "the right fingers pull and adjust fabric near the headboard"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "make_a_bed_004033",
+      "frame_index": 4033,
+      "timestamp_seconds": 67.621884,
+      "description": "The person stands tall at the headboard, right fingers adjusting the bedding; two pillows are visible, and a brown blanket lies bunched diagonally on top of the duvet in the middle of the bed.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "adjusting the bedding near the headboard",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "bed",
+          "description": "bed with two pillows and a brown blanket bunched on top",
+          "identifier": "bed"
+        },
+        {
+          "name": "pillow",
+          "description": "gray pillow at the headboard",
+          "identifier": "pillow_gray_a"
+        },
+        {
+          "name": "pillow",
+          "description": "second gray pillow at the headboard",
+          "identifier": "pillow_gray_b"
+        },
+        {
+          "name": "blanket",
+          "description": "brown blanket lying bunched diagonally on top of the duvet",
+          "identifier": "runner"
+        }
+      ],
+      "actions": [
+        {
+          "name": "adjust bedding",
+          "actor": "right fingers",
+          "target": "bed",
+          "description": "the right fingers adjust the bedding near the headboard"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "make_a_bed_004237",
+      "frame_index": 4237,
+      "timestamp_seconds": 71.042381,
+      "description": "The person stands, right fingers pulling the brown blanket so it drapes down over the near corner post of the footboard, extending toward the floor.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "pulling the brown blanket so it drapes over the footboard's corner post",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "bed",
+          "description": "bed with brown blanket draping over the footboard corner",
+          "identifier": "bed"
+        },
+        {
+          "name": "blanket",
+          "description": "brown blanket draping over the footboard's corner post toward the floor",
+          "identifier": "runner"
+        }
+      ],
+      "actions": [
+        {
+          "name": "drape blanket",
+          "actor": "right fingers",
+          "target": "blanket",
+          "description": "the right fingers pull the brown blanket so it drapes over the footboard's corner post"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "make_a_bed_004439",
+      "frame_index": 4439,
+      "timestamp_seconds": 74.429344,
+      "description": "The person leans to the left, left fingers gripping the duvet's edge while right fingers grip the brown blanket, which now drapes diagonally across the bed near the headboard and hangs over the side rail; two pillows are visible.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping the duvet's edge",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "gripping the brown blanket draped diagonally across the bed",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "bed",
+          "description": "bed with duvet and brown blanket draped diagonally across it",
+          "identifier": "bed"
+        },
+        {
+          "name": "duvet",
+          "description": "smoothed duvet",
+          "identifier": "duvet"
+        },
+        {
+          "name": "blanket",
+          "description": "brown blanket draped diagonally across the bed, hanging over the side rail",
+          "identifier": "runner"
+        }
+      ],
+      "actions": [
+        {
+          "name": "grip blanket",
+          "actor": "right fingers",
+          "target": "blanket",
+          "description": "the right fingers grip the brown blanket draped diagonally across the bed"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "make_a_bed_004639",
+      "frame_index": 4639,
+      "timestamp_seconds": 77.782772,
+      "description": "The person stands at the left, right fingers holding and adjusting the brown blanket's edge near the headboard, extending it down toward the nightstand; the duvet is white and smooth, and two pillows are visible.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "holding and adjusting the brown blanket's edge near the headboard",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "bed",
+          "description": "bed with white, smooth duvet and brown blanket near the headboard",
+          "identifier": "bed"
+        },
+        {
+          "name": "blanket",
+          "description": "brown blanket near the headboard, extending toward the nightstand",
+          "identifier": "runner"
+        }
+      ],
+      "actions": [
+        {
+          "name": "adjust blanket",
+          "actor": "right fingers",
+          "target": "blanket",
+          "description": "the right fingers hold and adjust the brown blanket's edge near the headboard"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "make_a_bed_004842",
+      "frame_index": 4842,
+      "timestamp_seconds": 81.186502,
+      "description": "The person stands beside the bed; the brown blanket now lies laid flat as a runner across the middle of the white duvet, with two gray pillows arranged at the headboard.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "bed",
+          "description": "bed with white duvet, brown runner across the middle, and two gray pillows",
+          "identifier": "bed"
+        },
+        {
+          "name": "blanket",
+          "description": "brown runner laid flat across the middle of the bed",
+          "identifier": "runner"
+        },
+        {
+          "name": "pillow",
+          "description": "gray pillow at the headboard",
+          "identifier": "pillow_gray_a"
+        },
+        {
+          "name": "pillow",
+          "description": "second gray pillow at the headboard",
+          "identifier": "pillow_gray_b"
+        }
+      ],
+      "actions": [
+        {
+          "name": "stand beside bed",
+          "actor": "person",
+          "target": "bed",
+          "description": "the person stands beside the bed, which is now mostly made"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "make_a_bed_004960",
+      "frame_index": 4960,
+      "timestamp_seconds": 82.666667,
+      "description": "The bed is neatly made with a white duvet, a brown runner across the middle, and arranged pillows; no person is visible in the room.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "bed",
+          "description": "neatly made bed with white duvet and brown runner"
+        }
+      ],
+      "actions": [],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "make_a_bed_005039",
+      "frame_index": 5039,
+      "timestamp_seconds": 84.489629,
+      "description": "The person holds a mustard-colored pillow with both hands, placing it onto the bed at the headboard; another mustard pillow already rests there alongside two gray pillows, with the brown runner across the middle.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping the mustard pillow, placing it at the headboard",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "gripping the mustard pillow, placing it at the headboard",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "bed",
+          "description": "bed with brown runner, two gray pillows, and mustard pillows being added",
+          "identifier": "bed"
+        },
+        {
+          "name": "pillow",
+          "description": "mustard pillow already resting at the headboard",
+          "identifier": "pillow_mustard_a"
+        },
+        {
+          "name": "pillow",
+          "description": "mustard pillow being placed at the headboard",
+          "identifier": "pillow_mustard_b"
+        }
+      ],
+      "actions": [
+        {
+          "name": "place pillow",
+          "actor": "left fingers and right fingers",
+          "target": "pillow",
+          "description": "both hands' fingers grip the mustard pillow and place it onto the bed at the headboard"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "make_a_bed_005247",
+      "frame_index": 5247,
+      "timestamp_seconds": 87.977195,
+      "description": "The person adjusts the pillow arrangement; two mustard pillows and two gray pillows are now arranged together at the headboard, with the brown runner across the middle of the bed.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "adjusting the pillow arrangement at the headboard",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "bed",
+          "description": "bed with four pillows arranged at the headboard and brown runner across the middle",
+          "identifier": "bed"
+        },
+        {
+          "name": "pillow",
+          "description": "mustard pillow at the headboard",
+          "identifier": "pillow_mustard_a"
+        },
+        {
+          "name": "pillow",
+          "description": "second mustard pillow at the headboard",
+          "identifier": "pillow_mustard_b"
+        },
+        {
+          "name": "pillow",
+          "description": "gray pillow at the headboard",
+          "identifier": "pillow_gray_a"
+        },
+        {
+          "name": "pillow",
+          "description": "second gray pillow at the headboard",
+          "identifier": "pillow_gray_b"
+        }
+      ],
+      "actions": [
+        {
+          "name": "adjust pillows",
+          "actor": "right fingers",
+          "target": "pillow",
+          "description": "the right fingers adjust the pillow arrangement at the headboard"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "make_a_bed_005475",
+      "frame_index": 5475,
+      "timestamp_seconds": 91.800103,
+      "description": "The pillow arrangement now includes a blue floral pillow in place of one of the gray pillows, alongside two mustard pillows and one remaining gray pillow; the brown runner remains across the middle of the bed, and the person is mostly out of frame at the left edge.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "bed",
+          "description": "bed with blue floral, mustard, and gray pillows at the headboard and brown runner across the middle",
+          "identifier": "bed"
+        },
+        {
+          "name": "pillow",
+          "description": "blue floral embroidered pillow at the headboard",
+          "identifier": "pillow_floral"
+        },
+        {
+          "name": "pillow",
+          "description": "mustard pillow at the headboard",
+          "identifier": "pillow_mustard_a"
+        },
+        {
+          "name": "pillow",
+          "description": "second mustard pillow at the headboard",
+          "identifier": "pillow_mustard_b"
+        },
+        {
+          "name": "pillow",
+          "description": "remaining gray pillow at the headboard",
+          "identifier": "pillow_gray_a"
+        }
+      ],
+      "actions": [],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "make_a_bed_005705",
+      "frame_index": 5705,
+      "timestamp_seconds": 95.656546,
+      "description": "The person bends forward, right fingers adjusting the corner of the duvet near the mattress edge; the four-pillow arrangement (blue floral, two mustard, one gray) remains at the headboard, with the brown runner across the middle.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "adjusting the corner of the duvet near the mattress edge",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "bed",
+          "description": "bed with four-pillow arrangement and brown runner",
+          "identifier": "bed"
+        },
+        {
+          "name": "duvet",
+          "description": "duvet, corner being adjusted near the mattress edge",
+          "identifier": "duvet"
+        }
+      ],
+      "actions": [
+        {
+          "name": "adjust duvet",
+          "actor": "right fingers",
+          "target": "duvet",
+          "description": "the right fingers adjust the corner of the duvet near the mattress edge"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "make_a_bed_005875",
+      "frame_index": 5875,
+      "timestamp_seconds": 98.50696,
+      "description": "The person stands to the left near the foot of the bed; the bed is fully made with the four-pillow arrangement and the brown runner, and the person's hands are relaxed.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "bed",
+          "description": "fully made bed with four pillows and brown runner",
+          "identifier": "bed"
+        }
+      ],
+      "actions": [
+        {
+          "name": "stand beside bed",
+          "actor": "person",
+          "target": "bed",
+          "description": "the person stands near the foot of the fully made bed"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "make_a_bed_006059",
+      "frame_index": 6059,
+      "timestamp_seconds": 101.592114,
+      "description": "The person stands with their back to the camera near the left side of the bed; the fully made bed with four pillows and the brown runner is visible, and the person's hands are relaxed at their sides.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "bed",
+          "description": "fully made bed with four pillows and brown runner",
+          "identifier": "bed"
+        }
+      ],
+      "actions": [
+        {
+          "name": "stand beside bed",
+          "actor": "person",
+          "target": "bed",
+          "description": "the person stands with their back to the camera beside the fully made bed"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "make_a_bed_006121",
+      "frame_index": 6121,
+      "timestamp_seconds": 102.016667,
+      "description": "A person in a silver suit walks near the window in the bedroom, both hands' fingers wrapped around a yellow pillow held against their body; the bed is neatly made with a different set of yellow and blue pillows than before.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "wrapped around the yellow pillow, gripping it against the body",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "wrapped around the yellow pillow, gripping it against the body",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "bed",
+          "description": "neatly made bed, now with yellow and blue pillows"
+        }
+      ],
+      "actions": [
+        {
+          "name": "carry pillow",
+          "actor": "left fingers and right fingers",
+          "target": "pillow",
+          "description": "both hands' fingers grip the pillow while walking near the window"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "make_a_bed_006201",
+      "frame_index": 6201,
+      "timestamp_seconds": 103.973048,
+      "description": "The person stands close to the camera at the left, back partially turned; the made bed remains visible in the background with the same pillow arrangement and runner, and the person's hands are relaxed.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "bed",
+          "description": "fully made bed with four pillows and brown runner",
+          "identifier": "bed"
+        }
+      ],
+      "actions": [
+        {
+          "name": "stand near bed",
+          "actor": "person",
+          "target": "bed",
+          "description": "the person stands near the camera with the made bed visible behind them"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "make_a_bed_006277",
+      "frame_index": 6277,
+      "timestamp_seconds": 105.247351,
+      "description": "The person stands at the foot of the bed with their back to the camera, right fingers resting near the corner of the mattress; the bed remains fully made with four pillows and the brown runner.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "resting near the corner of the mattress at the foot of the bed",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "bed",
+          "description": "fully made bed with four pillows and brown runner",
+          "identifier": "bed"
+        }
+      ],
+      "actions": [
+        {
+          "name": "rest hand on mattress",
+          "actor": "right fingers",
+          "target": "bed",
+          "description": "the right fingers rest near the corner of the mattress at the foot of the bed"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "make_a_bed_006309",
+      "frame_index": 6309,
+      "timestamp_seconds": 105.783899,
+      "description": "The person stands beside the bed with their back to the camera, right fingers extended toward the mattress, touching near where the brown runner drapes over the side; the bed is fully made.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "touching the mattress near where the runner drapes over the side",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "bed",
+          "description": "fully made bed with brown runner draping over the side",
+          "identifier": "bed"
+        },
+        {
+          "name": "blanket",
+          "description": "brown runner draping over the side of the bed",
+          "identifier": "runner"
+        }
+      ],
+      "actions": [
+        {
+          "name": "touch mattress",
+          "actor": "right fingers",
+          "target": "bed",
+          "description": "the right fingers touch the mattress near where the runner drapes over the side"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "make_a_bed_006355",
+      "frame_index": 6355,
+      "timestamp_seconds": 106.555188,
+      "description": "Essentially unchanged from the moment before: the person remains standing beside the bed with right fingers touching the mattress near the runner.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "touching the mattress near the runner",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "bed",
+          "description": "fully made bed with brown runner",
+          "identifier": "bed"
+        },
+        {
+          "name": "blanket",
+          "description": "brown runner on the bed",
+          "identifier": "runner"
+        }
+      ],
+      "actions": [
+        {
+          "name": "touch mattress",
+          "actor": "right fingers",
+          "target": "bed",
+          "description": "the right fingers touch the mattress near the runner"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "make_a_bed_006511",
+      "frame_index": 6511,
+      "timestamp_seconds": 109.170862,
+      "description": "The person bends forward near the headboard, right fingers engaging with the pillow arrangement and adjusting it; the bed remains fully made with the brown runner.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "adjusting the pillow arrangement at the headboard",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "bed",
+          "description": "fully made bed with four pillows and brown runner",
+          "identifier": "bed"
+        }
+      ],
+      "actions": [
+        {
+          "name": "adjust pillows",
+          "actor": "right fingers",
+          "target": "pillow",
+          "description": "the right fingers adjust the pillow arrangement at the headboard"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "make_a_bed_006617",
+      "frame_index": 6617,
+      "timestamp_seconds": 110.948179,
+      "description": "The person stands facing the camera and smiling, both hands relaxed at their sides beside the fully made bed with its four pillows and brown runner.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "bed",
+          "description": "fully made bed with four pillows and brown runner",
+          "identifier": "bed"
+        }
+      ],
+      "actions": [
+        {
+          "name": "stand facing camera",
+          "actor": "person",
+          "target": "bed",
+          "description": "the person stands facing the camera beside the completed bed"
+        }
+      ],
+      "ontological_phrases": []
+    }
+  ]
+}

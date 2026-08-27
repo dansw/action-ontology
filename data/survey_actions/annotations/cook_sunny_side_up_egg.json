@@ -1,0 +1,2609 @@
+{
+  "video_id": "cook_sunny_side_up_egg",
+  "video_path": "videos/cook_sunny_side_up_egg.mov",
+  "frames": [
+    {
+      "frame_id": "cook_sunny_side_up_egg_000000",
+      "frame_index": 0,
+      "timestamp_seconds": 0.0,
+      "description": "A person in a full reflective silver suit and hood stands at a kitchen island behind a gas cooktop, looking toward the camera with hands relaxed at their sides. On the wooden cutting board in front of them sit an empty white plate, a raw egg, a green cup holding a spatula and fork, and a cold frying pan sits unused on the cooktop's grate.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "egg",
+          "description": "whole, raw, still in its shell, resting on the cutting board",
+          "identifier": "egg"
+        },
+        {
+          "name": "frying pan",
+          "description": "empty, sitting on an unlit burner grate",
+          "identifier": "pan"
+        },
+        {
+          "name": "plate",
+          "description": "empty white plate on the cutting board",
+          "identifier": "plate"
+        },
+        {
+          "name": "spatula",
+          "description": "resting handle-up in the green utensil cup, unused",
+          "identifier": "spatula"
+        },
+        {
+          "name": "cutting board",
+          "description": "wooden board bridging the counter and cooktop, holding the plate, egg, and utensil cup",
+          "identifier": "cutting_board"
+        }
+      ],
+      "actions": [],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "cook_sunny_side_up_egg_000118",
+      "frame_index": 118,
+      "timestamp_seconds": 1.966667,
+      "description": "The person stands at the cutting board, right fingers lifting a utensil partway out of the green utensil cup while left fingers steady the spatula inside the cup. The egg rests whole on the cutting board, and the frying pan sits cold and unused on the stove's grate.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "lifting a utensil partway out of the utensil cup",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "left fingers",
+          "description": "steadying the spatula inside the cup",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "egg",
+          "description": "whole, raw, resting on the cutting board",
+          "identifier": "egg"
+        },
+        {
+          "name": "frying pan",
+          "description": "cold, sitting unused on the stove's grate",
+          "identifier": "pan"
+        }
+      ],
+      "actions": [
+        {
+          "name": "arrange utensils",
+          "actor": "right fingers",
+          "target": "spatula",
+          "description": "lifting a utensil partway out of the cup while sorting through it"
+        },
+        {
+          "name": "steady cup",
+          "actor": "left fingers",
+          "target": "spatula",
+          "description": "holding the spatula steady inside the utensil cup"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers arrange spatula",
+        "left fingers steady spatula"
+      ]
+    },
+    {
+      "frame_id": "cook_sunny_side_up_egg_000210",
+      "frame_index": 210,
+      "timestamp_seconds": 3.5,
+      "description": "The person holds a small dark green box in their right hand, lifting it up near chest height for a look, while their left hand hangs relaxed at their side. The egg remains whole on the cutting board and the pan sits cold on the stove's grate.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "holding a small dark green box up near chest height",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "egg",
+          "description": "whole, raw, resting on the cutting board",
+          "identifier": "egg"
+        },
+        {
+          "name": "frying pan",
+          "description": "cold, sitting unused on the stove's grate",
+          "identifier": "pan"
+        }
+      ],
+      "actions": [
+        {
+          "name": "inspect item",
+          "actor": "right fingers",
+          "target": "small item",
+          "description": "holding a small dark green box up near chest height"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers inspect item"
+      ]
+    },
+    {
+      "frame_id": "cook_sunny_side_up_egg_000338",
+      "frame_index": 338,
+      "timestamp_seconds": 5.633333,
+      "description": "Unchanged from the moment before: the person's right fingers still hold the small dark green box near chest height, left hand relaxed at their side. The egg remains whole on the board and the pan is still cold.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "still holding the small dark green box near chest height",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "egg",
+          "description": "whole, raw, resting on the cutting board",
+          "identifier": "egg"
+        },
+        {
+          "name": "frying pan",
+          "description": "cold, sitting unused on the stove's grate",
+          "identifier": "pan"
+        }
+      ],
+      "actions": [
+        {
+          "name": "inspect item",
+          "actor": "right fingers",
+          "target": "small item",
+          "description": "continuing to hold a small dark green box near chest height"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers inspect item"
+      ]
+    },
+    {
+      "frame_id": "cook_sunny_side_up_egg_000416",
+      "frame_index": 416,
+      "timestamp_seconds": 6.933333,
+      "description": "The person now holds a slender orange igniter rod in their right hand near the stove knob, while their left fingers steady the green utensil cup on the cutting board. The pan remains cold and unlit, and the egg is still whole on the board.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "holding the igniter rod near the stove knob",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "left fingers",
+          "description": "steadying the utensil cup on the cutting board",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "stove knob",
+          "description": "unlit, not yet turned",
+          "identifier": "stove_knob"
+        },
+        {
+          "name": "egg",
+          "description": "whole, raw, resting on the cutting board",
+          "identifier": "egg"
+        },
+        {
+          "name": "frying pan",
+          "description": "cold, sitting unused on the stove's grate",
+          "identifier": "pan"
+        }
+      ],
+      "actions": [
+        {
+          "name": "retrieve igniter",
+          "actor": "right fingers",
+          "target": "stove_knob",
+          "description": "holding the igniter rod near the stove knob"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers retrieve igniter"
+      ]
+    },
+    {
+      "frame_id": "cook_sunny_side_up_egg_000462",
+      "frame_index": 462,
+      "timestamp_seconds": 7.7,
+      "description": "The person leans over the cooktop, holding a thin igniter stick in their right hand near a burner while their left fingers turn one of the stove's control knobs. The egg still sits whole on the cutting board and the pan is still off to the side, unlit.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "gripping a thin igniter stick, aiming it toward the burner",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "left fingers",
+          "description": "turning a stove control knob to light the burner",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "stove knob",
+          "description": "being turned to ignite the gas burner",
+          "identifier": "stove_knob"
+        },
+        {
+          "name": "egg",
+          "description": "still whole, raw, resting on the cutting board",
+          "identifier": "egg"
+        },
+        {
+          "name": "frying pan",
+          "description": "empty, positioned near the burner grate",
+          "identifier": "pan"
+        }
+      ],
+      "actions": [
+        {
+          "name": "ignite burner",
+          "actor": "right fingers",
+          "target": "stove knob",
+          "description": "holding the igniter stick toward the burner while lighting it"
+        },
+        {
+          "name": "adjust flame",
+          "actor": "left fingers",
+          "target": "stove knob",
+          "description": "turning the control knob to set the gas flow"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers hold igniter",
+        "left fingers turn stove_knob"
+      ]
+    },
+    {
+      "frame_id": "cook_sunny_side_up_egg_000532",
+      "frame_index": 532,
+      "timestamp_seconds": 8.866667,
+      "description": "The person's right fingers hold a black-handled utensil against the pan's edge, nudging it into position on the burner. The egg remains whole on the cutting board, untouched.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "holding a utensil, nudging the pan into position on the burner",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "egg",
+          "description": "whole, raw, resting on the cutting board",
+          "identifier": "egg"
+        },
+        {
+          "name": "frying pan",
+          "description": "empty, being nudged into position on the lit burner",
+          "identifier": "pan"
+        }
+      ],
+      "actions": [
+        {
+          "name": "adjust pan",
+          "actor": "right fingers",
+          "target": "pan",
+          "description": "nudging the pan into position on the burner with a utensil"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers adjust pan"
+      ]
+    },
+    {
+      "frame_id": "cook_sunny_side_up_egg_000666",
+      "frame_index": 666,
+      "timestamp_seconds": 11.1,
+      "description": "Unchanged from the moment before: the person's right fingers continue to hold the utensil against the pan's inner edge, adjusting its position over the flame. The egg is still whole on the cutting board.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "holding a utensil against the pan's inner edge",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "egg",
+          "description": "whole, raw, resting on the cutting board",
+          "identifier": "egg"
+        },
+        {
+          "name": "frying pan",
+          "description": "empty, being adjusted on the lit burner",
+          "identifier": "pan"
+        }
+      ],
+      "actions": [
+        {
+          "name": "adjust pan",
+          "actor": "right fingers",
+          "target": "pan",
+          "description": "continuing to adjust the pan's position with a utensil"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers adjust pan"
+      ]
+    },
+    {
+      "frame_id": "cook_sunny_side_up_egg_000756",
+      "frame_index": 756,
+      "timestamp_seconds": 12.6,
+      "description": "Unchanged from the moment before: the person's right fingers still hold the utensil at the pan's edge, settling it on the burner. The egg remains whole on the cutting board.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "holding a utensil at the pan's edge, settling it on the burner",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "egg",
+          "description": "whole, raw, resting on the cutting board",
+          "identifier": "egg"
+        },
+        {
+          "name": "frying pan",
+          "description": "empty, being settled on the lit burner",
+          "identifier": "pan"
+        }
+      ],
+      "actions": [
+        {
+          "name": "adjust pan",
+          "actor": "right fingers",
+          "target": "pan",
+          "description": "continuing to settle the pan on the burner with a utensil"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers adjust pan"
+      ]
+    },
+    {
+      "frame_id": "cook_sunny_side_up_egg_000872",
+      "frame_index": 872,
+      "timestamp_seconds": 14.533333,
+      "description": "The person now grips the frying pan's handle with their right hand, tilting and settling it onto the lit burner, while their left fingers remain on a stove knob adjusting the flame. The egg is still whole on the cutting board, untouched.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "gripping the pan's handle, positioning it over the flame",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "left fingers",
+          "description": "still resting on a stove knob, fine-tuning the flame",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "frying pan",
+          "description": "being set onto the lit burner, beginning to heat",
+          "identifier": "pan"
+        },
+        {
+          "name": "stove knob",
+          "description": "being fine-tuned for flame level",
+          "identifier": "stove_knob"
+        },
+        {
+          "name": "egg",
+          "description": "whole, raw, still resting on the cutting board",
+          "identifier": "egg"
+        }
+      ],
+      "actions": [
+        {
+          "name": "position pan",
+          "actor": "right fingers",
+          "target": "pan",
+          "description": "tilting and settling the pan onto the burner grate"
+        },
+        {
+          "name": "adjust flame",
+          "actor": "left fingers",
+          "target": "stove knob",
+          "description": "continuing to fine-tune the burner's flame"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers position pan",
+        "left fingers adjust stove_knob"
+      ]
+    },
+    {
+      "frame_id": "cook_sunny_side_up_egg_000958",
+      "frame_index": 958,
+      "timestamp_seconds": 15.966667,
+      "description": "The person's right fingers still hold the utensil near the pan, continuing to settle it on the burner. The plate and egg remain on the cutting board, untouched. The left hand is not engaged.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "holding a utensil near the pan, settling it on the burner",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "egg",
+          "description": "whole, raw, resting on the cutting board",
+          "identifier": "egg"
+        },
+        {
+          "name": "frying pan",
+          "description": "empty, on the lit burner",
+          "identifier": "pan"
+        }
+      ],
+      "actions": [
+        {
+          "name": "adjust pan",
+          "actor": "right fingers",
+          "target": "pan",
+          "description": "continuing to settle the pan's position on the burner"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers adjust pan"
+      ]
+    },
+    {
+      "frame_id": "cook_sunny_side_up_egg_001036",
+      "frame_index": 1036,
+      "timestamp_seconds": 17.266667,
+      "description": "The person's right fingers hold a utensil near the pan's edge, while the left hand rests, not engaged. The egg remains whole on the cutting board.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "holding a utensil near the pan's edge",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "egg",
+          "description": "whole, raw, resting on the cutting board",
+          "identifier": "egg"
+        },
+        {
+          "name": "frying pan",
+          "description": "empty, on the lit burner",
+          "identifier": "pan"
+        }
+      ],
+      "actions": [
+        {
+          "name": "adjust pan",
+          "actor": "right fingers",
+          "target": "pan",
+          "description": "holding the utensil near the pan's edge"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers adjust pan"
+      ]
+    },
+    {
+      "frame_id": "cook_sunny_side_up_egg_001096",
+      "frame_index": 1096,
+      "timestamp_seconds": 18.266667,
+      "description": "The person's left fingers grip the edge of the white plate, sliding it into position on the cutting board, while their right fingers rest on a stove knob near the now-heating pan. The two hands are doing distinct jobs: one arranging serving-ware, the other minding the burner.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping the plate's edge, repositioning it on the cutting board",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "resting on the stove knob, monitoring the flame",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "plate",
+          "description": "empty white plate, being repositioned on the cutting board",
+          "identifier": "plate"
+        },
+        {
+          "name": "frying pan",
+          "description": "on the lit burner, heating up, still empty",
+          "identifier": "pan"
+        },
+        {
+          "name": "egg",
+          "description": "whole, raw, resting on the cutting board",
+          "identifier": "egg"
+        }
+      ],
+      "actions": [
+        {
+          "name": "position plate",
+          "actor": "left fingers",
+          "target": "plate",
+          "description": "sliding the empty plate into place on the cutting board"
+        },
+        {
+          "name": "monitor flame",
+          "actor": "right fingers",
+          "target": "stove knob",
+          "description": "resting near the knob while the pan heats"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers position plate",
+        "right fingers monitor stove_knob"
+      ]
+    },
+    {
+      "frame_id": "cook_sunny_side_up_egg_001164",
+      "frame_index": 1164,
+      "timestamp_seconds": 19.4,
+      "description": "The person holds the whole egg in their right hand, lifting it up near the pan, while their left hand hangs relaxed at their side. The pan sits empty on the burner below.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "holding the whole egg, lifting it up near the pan",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "egg",
+          "description": "whole, raw, held up in the hand near the pan",
+          "identifier": "egg"
+        },
+        {
+          "name": "frying pan",
+          "description": "empty, on the lit burner",
+          "identifier": "pan"
+        }
+      ],
+      "actions": [
+        {
+          "name": "lift egg",
+          "actor": "right fingers",
+          "target": "egg",
+          "description": "lifting the whole egg up near the pan"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers lift egg"
+      ]
+    },
+    {
+      "frame_id": "cook_sunny_side_up_egg_001246",
+      "frame_index": 1246,
+      "timestamp_seconds": 20.766667,
+      "description": "Unchanged from the moment before: the person continues to hold the whole egg in their right hand above the pan, left hand relaxed at their side.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "holding the whole egg above the pan",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "egg",
+          "description": "whole, raw, held up in the hand above the pan",
+          "identifier": "egg"
+        },
+        {
+          "name": "frying pan",
+          "description": "empty, on the lit burner",
+          "identifier": "pan"
+        }
+      ],
+      "actions": [
+        {
+          "name": "lift egg",
+          "actor": "right fingers",
+          "target": "egg",
+          "description": "continuing to hold the whole egg above the pan"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers lift egg"
+      ]
+    },
+    {
+      "frame_id": "cook_sunny_side_up_egg_001348",
+      "frame_index": 1348,
+      "timestamp_seconds": 22.466667,
+      "description": "The person holds the whole egg with both hands together directly above the now-hot pan, fingers already pinching and pressing its shell. The pan beneath is empty.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "pinching the egg's shell, applying pressure to begin cracking it",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "left fingers",
+          "description": "supporting the egg from below, working together with the right hand",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "egg",
+          "description": "whole, raw, held over the pan, shell starting to be pinched open",
+          "identifier": "egg"
+        },
+        {
+          "name": "frying pan",
+          "description": "hot, empty, positioned directly beneath the egg",
+          "identifier": "pan"
+        }
+      ],
+      "actions": [
+        {
+          "name": "crack egg",
+          "actor": "right fingers",
+          "target": "egg",
+          "description": "pinching and pressing the shell to begin breaking it open above the pan"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers crack egg",
+        "left fingers support egg"
+      ]
+    },
+    {
+      "frame_id": "cook_sunny_side_up_egg_001438",
+      "frame_index": 1438,
+      "timestamp_seconds": 23.966667,
+      "description": "The egg has already been cracked: a bright orange yolk now sits in the pan below. The person's hands are raised near chest height, fingers spread, still holding the two shell halves apart.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "holding one eggshell half near chest height",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "left fingers",
+          "description": "holding the other eggshell half near chest height",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "cracked egg",
+          "description": "yolk sitting in the pan, having just been cracked",
+          "identifier": "egg"
+        },
+        {
+          "name": "eggshell halves",
+          "description": "held apart near chest height in each hand",
+          "identifier": "eggshell"
+        },
+        {
+          "name": "frying pan",
+          "description": "hot, now holding the yolk",
+          "identifier": "pan"
+        }
+      ],
+      "actions": [
+        {
+          "name": "separate shell",
+          "actor": "right fingers",
+          "target": "eggshell halves",
+          "description": "holding the shell halves apart near chest height after cracking"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers separate eggshell",
+        "cracked_egg enters pan"
+      ]
+    },
+    {
+      "frame_id": "cook_sunny_side_up_egg_001538",
+      "frame_index": 1538,
+      "timestamp_seconds": 25.633333,
+      "description": "The egg has broken open: its yolk and white now pool in the hot pan below, while both hands still hold the two shell halves apart just above the pan, finishing the separation.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "holding one half of the cracked eggshell, pulling it away",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "left fingers",
+          "description": "holding the other eggshell half, pulling it apart from the first",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "cracked egg",
+          "description": "yolk and white now spilled into the hot pan, replacing the whole egg",
+          "identifier": "egg"
+        },
+        {
+          "name": "eggshell halves",
+          "description": "the two emptied shell pieces, held apart in each hand",
+          "identifier": "eggshell"
+        },
+        {
+          "name": "frying pan",
+          "description": "hot, now holding the raw yolk and white",
+          "identifier": "pan"
+        }
+      ],
+      "actions": [
+        {
+          "name": "separate shell",
+          "actor": "right fingers",
+          "target": "eggshell halves",
+          "description": "pulling the cracked shell halves fully apart over the pan"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers separate eggshell",
+        "cracked_egg enters pan"
+      ]
+    },
+    {
+      "frame_id": "cook_sunny_side_up_egg_001638",
+      "frame_index": 1638,
+      "timestamp_seconds": 27.3,
+      "description": "Unchanged from the moment before: the person's hands remain raised near chest height holding the shell halves apart, the yolk sitting undisturbed in the pan below.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "still holding one eggshell half near chest height",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "left fingers",
+          "description": "still holding the other eggshell half near chest height",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "cracked egg",
+          "description": "yolk sitting undisturbed in the pan",
+          "identifier": "egg"
+        },
+        {
+          "name": "eggshell halves",
+          "description": "still held apart near chest height",
+          "identifier": "eggshell"
+        },
+        {
+          "name": "frying pan",
+          "description": "hot, holding the yolk",
+          "identifier": "pan"
+        }
+      ],
+      "actions": [
+        {
+          "name": "separate shell",
+          "actor": "right fingers",
+          "target": "eggshell halves",
+          "description": "continuing to hold the shell halves apart"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers separate eggshell"
+      ]
+    },
+    {
+      "frame_id": "cook_sunny_side_up_egg_001718",
+      "frame_index": 1718,
+      "timestamp_seconds": 28.633333,
+      "description": "The person holds one empty eggshell half up near the utensil cup with their right hand, while their left hand rests idly beside the cup, no longer engaged. The cracked egg sits in the pan below, yolk and white intact.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "holding an empty eggshell half, moving it toward disposal",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "eggshell half",
+          "description": "emptied shell fragment being held above the cutting board",
+          "identifier": "eggshell"
+        },
+        {
+          "name": "cracked egg",
+          "description": "yolk and white sitting in the hot pan, beginning to heat",
+          "identifier": "egg"
+        }
+      ],
+      "actions": [
+        {
+          "name": "discard shell",
+          "actor": "right fingers",
+          "target": "eggshell half",
+          "description": "moving the emptied shell fragment away from the pan"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers discard eggshell"
+      ]
+    },
+    {
+      "frame_id": "cook_sunny_side_up_egg_001808",
+      "frame_index": 1808,
+      "timestamp_seconds": 30.133333,
+      "description": "The person's left fingers rest flat on the cutting board beside a fragment of eggshell, while their right hand hangs relaxed at their side. The cracked egg's yolk sits undisturbed in the pan.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "cracked egg",
+          "description": "yolk sitting undisturbed in the pan",
+          "identifier": "egg"
+        },
+        {
+          "name": "eggshell fragment",
+          "description": "resting on the cutting board",
+          "identifier": "eggshell"
+        }
+      ],
+      "actions": [],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "cook_sunny_side_up_egg_001886",
+      "frame_index": 1886,
+      "timestamp_seconds": 31.433333,
+      "description": "The person stands upright and smiling, both hands now relaxed and open at their sides, no longer touching any object. The cracked egg sits undisturbed in the pan on the burner, just beginning to cook.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "cracked egg",
+          "description": "yolk and white sitting in the pan, just beginning to cook over the flame",
+          "identifier": "egg"
+        },
+        {
+          "name": "frying pan",
+          "description": "on the lit burner with the egg starting to cook",
+          "identifier": "pan"
+        }
+      ],
+      "actions": [],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "cook_sunny_side_up_egg_002042",
+      "frame_index": 2042,
+      "timestamp_seconds": 34.033333,
+      "description": "The person stands upright with both arms hanging relaxed at their sides, not touching any object. The cracked egg's yolk sits undisturbed in the pan, and a fragment of eggshell remains on the cutting board.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "cracked egg",
+          "description": "yolk sitting undisturbed in the pan",
+          "identifier": "egg"
+        },
+        {
+          "name": "eggshell fragment",
+          "description": "resting on the cutting board",
+          "identifier": "eggshell"
+        }
+      ],
+      "actions": [],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "cook_sunny_side_up_egg_002142",
+      "frame_index": 2142,
+      "timestamp_seconds": 35.7,
+      "description": "Unchanged from the moment before: the person stands upright with both arms relaxed at their sides. The egg's yolk sits undisturbed in the pan.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "cracked egg",
+          "description": "yolk sitting undisturbed in the pan",
+          "identifier": "egg"
+        },
+        {
+          "name": "eggshell fragment",
+          "description": "resting on the cutting board",
+          "identifier": "eggshell"
+        }
+      ],
+      "actions": [],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "cook_sunny_side_up_egg_002270",
+      "frame_index": 2270,
+      "timestamp_seconds": 37.833333,
+      "description": "Unchanged from the moment before: the person still stands upright with both arms relaxed at their sides, watching the pan.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "cracked egg",
+          "description": "yolk sitting undisturbed in the pan",
+          "identifier": "egg"
+        },
+        {
+          "name": "eggshell fragment",
+          "description": "resting on the cutting board",
+          "identifier": "eggshell"
+        }
+      ],
+      "actions": [],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "cook_sunny_side_up_egg_002392",
+      "frame_index": 2392,
+      "timestamp_seconds": 39.866667,
+      "description": "Unchanged from the moment before: the person stands upright with both arms relaxed at their sides, watching the pan.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "cracked egg",
+          "description": "yolk sitting undisturbed in the pan",
+          "identifier": "egg"
+        },
+        {
+          "name": "eggshell fragment",
+          "description": "resting on the cutting board",
+          "identifier": "eggshell"
+        }
+      ],
+      "actions": [],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "cook_sunny_side_up_egg_002430",
+      "frame_index": 2430,
+      "timestamp_seconds": 40.5,
+      "description": "Unchanged from the moment before: the person stands upright with both arms relaxed at their sides, watching the pan.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "cracked egg",
+          "description": "yolk sitting undisturbed in the pan",
+          "identifier": "egg"
+        },
+        {
+          "name": "eggshell fragment",
+          "description": "resting on the cutting board",
+          "identifier": "eggshell"
+        }
+      ],
+      "actions": [],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "cook_sunny_side_up_egg_002456",
+      "frame_index": 2456,
+      "timestamp_seconds": 40.933333,
+      "description": "Unchanged from the moment before: the person stands upright with both arms relaxed at their sides, watching the pan.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "cracked egg",
+          "description": "yolk sitting undisturbed in the pan",
+          "identifier": "egg"
+        },
+        {
+          "name": "eggshell fragment",
+          "description": "resting on the cutting board",
+          "identifier": "eggshell"
+        }
+      ],
+      "actions": [],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "cook_sunny_side_up_egg_002482",
+      "frame_index": 2482,
+      "timestamp_seconds": 41.366667,
+      "description": "The person stands watching the pan, right hand resting lightly on the pan's handle without gripping it, left hand hanging relaxed at their side. The cracked egg continues cooking undisturbed in the pan, the white still appearing translucent around the yolk.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "cooking egg",
+          "description": "white still translucent around the intact orange yolk, cooking in the pan",
+          "identifier": "egg"
+        },
+        {
+          "name": "frying pan",
+          "description": "on the burner, egg cooking inside",
+          "identifier": "pan"
+        }
+      ],
+      "actions": [],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "cook_sunny_side_up_egg_002504",
+      "frame_index": 2504,
+      "timestamp_seconds": 41.733333,
+      "description": "Unchanged from the moment before: the person stands watching the pan, right hand resting lightly on the pan's handle, left hand relaxed at their side.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "cooking egg",
+          "description": "white still translucent around the intact orange yolk, cooking in the pan",
+          "identifier": "egg"
+        },
+        {
+          "name": "frying pan",
+          "description": "on the burner, egg cooking inside",
+          "identifier": "pan"
+        }
+      ],
+      "actions": [],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "cook_sunny_side_up_egg_002536",
+      "frame_index": 2536,
+      "timestamp_seconds": 42.266667,
+      "description": "Unchanged from the moment before: the person stands watching the pan, right hand resting lightly on the pan's handle, left hand relaxed at their side.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "cooking egg",
+          "description": "white still translucent around the intact orange yolk, cooking in the pan",
+          "identifier": "egg"
+        },
+        {
+          "name": "frying pan",
+          "description": "on the burner, egg cooking inside",
+          "identifier": "pan"
+        }
+      ],
+      "actions": [],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "cook_sunny_side_up_egg_002554",
+      "frame_index": 2554,
+      "timestamp_seconds": 42.566667,
+      "description": "Unchanged from the moment before: the person stands watching the pan, right hand resting lightly on the pan's handle, left hand relaxed at their side.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "cooking egg",
+          "description": "white still translucent around the intact orange yolk, cooking in the pan",
+          "identifier": "egg"
+        },
+        {
+          "name": "frying pan",
+          "description": "on the burner, egg cooking inside",
+          "identifier": "pan"
+        }
+      ],
+      "actions": [],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "cook_sunny_side_up_egg_002596",
+      "frame_index": 2596,
+      "timestamp_seconds": 43.266667,
+      "description": "Unchanged from the moment before: the person stands watching the pan, right hand resting lightly on the pan's handle, left hand relaxed at their side.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "cooking egg",
+          "description": "white still translucent around the intact orange yolk, cooking in the pan",
+          "identifier": "egg"
+        },
+        {
+          "name": "frying pan",
+          "description": "on the burner, egg cooking inside",
+          "identifier": "pan"
+        }
+      ],
+      "actions": [],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "cook_sunny_side_up_egg_002628",
+      "frame_index": 2628,
+      "timestamp_seconds": 43.8,
+      "description": "Unchanged from the moment before: the person stands watching the pan, right hand resting lightly on the pan's handle, left hand relaxed at their side.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "cooking egg",
+          "description": "white still translucent around the intact orange yolk, cooking in the pan",
+          "identifier": "egg"
+        },
+        {
+          "name": "frying pan",
+          "description": "on the burner, egg cooking inside",
+          "identifier": "pan"
+        }
+      ],
+      "actions": [],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "cook_sunny_side_up_egg_002664",
+      "frame_index": 2664,
+      "timestamp_seconds": 44.4,
+      "description": "Unchanged from the moment before: the person stands watching the pan, right hand resting lightly on the pan's handle, left hand relaxed at their side.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "cooking egg",
+          "description": "white still translucent around the intact orange yolk, cooking in the pan",
+          "identifier": "egg"
+        },
+        {
+          "name": "frying pan",
+          "description": "on the burner, egg cooking inside",
+          "identifier": "pan"
+        }
+      ],
+      "actions": [],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "cook_sunny_side_up_egg_002682",
+      "frame_index": 2682,
+      "timestamp_seconds": 44.7,
+      "description": "Unchanged from the moment before: the person stands watching the pan, right hand resting lightly on the pan's handle, left hand relaxed at their side.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "cooking egg",
+          "description": "white still translucent around the intact orange yolk, cooking in the pan",
+          "identifier": "egg"
+        },
+        {
+          "name": "frying pan",
+          "description": "on the burner, egg cooking inside",
+          "identifier": "pan"
+        }
+      ],
+      "actions": [],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "cook_sunny_side_up_egg_002696",
+      "frame_index": 2696,
+      "timestamp_seconds": 44.933333,
+      "description": "The person stands watching the pan, their right hand resting lightly near the pan's handle without gripping it, left hand hanging idle at their side. The egg white in the pan has begun to turn from translucent to a more opaque white as it cooks.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "cooking egg",
+          "description": "white turning opaque around an intact orange yolk, cooking in the pan",
+          "identifier": "egg"
+        },
+        {
+          "name": "frying pan",
+          "description": "on the burner, egg cooking inside",
+          "identifier": "pan"
+        }
+      ],
+      "actions": [],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "cook_sunny_side_up_egg_002735",
+      "frame_index": 2735,
+      "timestamp_seconds": 45.583333,
+      "description": "The person stands watching the pan, right hand resting lightly on the pan's handle without gripping it, left hand hanging relaxed at their side. The egg white in the pan continues turning from translucent to opaque around the intact orange yolk.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "cooking egg",
+          "description": "white turning opaque around the intact orange yolk, cooking in the pan",
+          "identifier": "egg"
+        },
+        {
+          "name": "frying pan",
+          "description": "on the burner, egg cooking inside",
+          "identifier": "pan"
+        }
+      ],
+      "actions": [],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "cook_sunny_side_up_egg_002762",
+      "frame_index": 2762,
+      "timestamp_seconds": 46.033333,
+      "description": "Unchanged from the moment before: the person stands watching the pan, right hand resting lightly on the pan's handle, left hand relaxed at their side.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "cooking egg",
+          "description": "white turning opaque around the intact orange yolk, cooking in the pan",
+          "identifier": "egg"
+        },
+        {
+          "name": "frying pan",
+          "description": "on the burner, egg cooking inside",
+          "identifier": "pan"
+        }
+      ],
+      "actions": [],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "cook_sunny_side_up_egg_002786",
+      "frame_index": 2786,
+      "timestamp_seconds": 46.433333,
+      "description": "Unchanged from the moment before: the person stands watching the pan, right hand resting lightly on the pan's handle, left hand relaxed at their side.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "cooking egg",
+          "description": "white turning opaque around the intact orange yolk, cooking in the pan",
+          "identifier": "egg"
+        },
+        {
+          "name": "frying pan",
+          "description": "on the burner, egg cooking inside",
+          "identifier": "pan"
+        }
+      ],
+      "actions": [],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "cook_sunny_side_up_egg_002804",
+      "frame_index": 2804,
+      "timestamp_seconds": 46.733333,
+      "description": "Unchanged from the moment before: the person stands watching the pan, right hand resting lightly on the pan's handle, left hand relaxed at their side.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "cooking egg",
+          "description": "white turning opaque around the intact orange yolk, cooking in the pan",
+          "identifier": "egg"
+        },
+        {
+          "name": "frying pan",
+          "description": "on the burner, egg cooking inside",
+          "identifier": "pan"
+        }
+      ],
+      "actions": [],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "cook_sunny_side_up_egg_002824",
+      "frame_index": 2824,
+      "timestamp_seconds": 47.066667,
+      "description": "Unchanged from the moment before: the person stands watching the pan, right hand resting lightly on the pan's handle, left hand relaxed at their side.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "cooking egg",
+          "description": "white turning opaque around the intact orange yolk, cooking in the pan",
+          "identifier": "egg"
+        },
+        {
+          "name": "frying pan",
+          "description": "on the burner, egg cooking inside",
+          "identifier": "pan"
+        }
+      ],
+      "actions": [],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "cook_sunny_side_up_egg_002858",
+      "frame_index": 2858,
+      "timestamp_seconds": 47.633333,
+      "description": "Unchanged from the moment before: the person stands watching the pan, right hand resting lightly on the pan's handle, left hand relaxed at their side.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "cooking egg",
+          "description": "white turning opaque around the intact orange yolk, cooking in the pan",
+          "identifier": "egg"
+        },
+        {
+          "name": "frying pan",
+          "description": "on the burner, egg cooking inside",
+          "identifier": "pan"
+        }
+      ],
+      "actions": [],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "cook_sunny_side_up_egg_002876",
+      "frame_index": 2876,
+      "timestamp_seconds": 47.933333,
+      "description": "Unchanged from the moment before: the person stands watching the pan, right hand resting lightly on the pan's handle, left hand relaxed at their side.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "cooking egg",
+          "description": "white turning opaque around the intact orange yolk, cooking in the pan",
+          "identifier": "egg"
+        },
+        {
+          "name": "frying pan",
+          "description": "on the burner, egg cooking inside",
+          "identifier": "pan"
+        }
+      ],
+      "actions": [],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "cook_sunny_side_up_egg_002896",
+      "frame_index": 2896,
+      "timestamp_seconds": 48.266667,
+      "description": "Unchanged from the moment before: the person stands watching the pan, right hand resting lightly on the pan's handle, left hand relaxed at their side.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "cooking egg",
+          "description": "white turning opaque around the intact orange yolk, cooking in the pan",
+          "identifier": "egg"
+        },
+        {
+          "name": "frying pan",
+          "description": "on the burner, egg cooking inside",
+          "identifier": "pan"
+        }
+      ],
+      "actions": [],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "cook_sunny_side_up_egg_002914",
+      "frame_index": 2914,
+      "timestamp_seconds": 48.566667,
+      "description": "Unchanged from the moment before: the person stands watching the pan, right hand resting lightly on the pan's handle, left hand relaxed at their side.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "cooking egg",
+          "description": "white turning opaque around the intact orange yolk, cooking in the pan",
+          "identifier": "egg"
+        },
+        {
+          "name": "frying pan",
+          "description": "on the burner, egg cooking inside",
+          "identifier": "pan"
+        }
+      ],
+      "actions": [],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "cook_sunny_side_up_egg_002926",
+      "frame_index": 2926,
+      "timestamp_seconds": 48.766667,
+      "description": "Unchanged from the moment before: the person stands watching the pan, right hand resting lightly on the pan's handle, left hand relaxed at their side.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "cooking egg",
+          "description": "white turning opaque around the intact orange yolk, cooking in the pan",
+          "identifier": "egg"
+        },
+        {
+          "name": "frying pan",
+          "description": "on the burner, egg cooking inside",
+          "identifier": "pan"
+        }
+      ],
+      "actions": [],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "cook_sunny_side_up_egg_002942",
+      "frame_index": 2942,
+      "timestamp_seconds": 49.033333,
+      "description": "Unchanged from the moment before: the person stands watching the pan, right hand resting lightly on the pan's handle, left hand relaxed at their side.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "cooking egg",
+          "description": "white turning opaque around the intact orange yolk, cooking in the pan",
+          "identifier": "egg"
+        },
+        {
+          "name": "frying pan",
+          "description": "on the burner, egg cooking inside",
+          "identifier": "pan"
+        }
+      ],
+      "actions": [],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "cook_sunny_side_up_egg_002966",
+      "frame_index": 2966,
+      "timestamp_seconds": 49.433333,
+      "description": "Unchanged from the moment before: the person stands watching the pan, right hand resting lightly on the pan's handle, left hand relaxed at their side.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "cooking egg",
+          "description": "white turning opaque around the intact orange yolk, cooking in the pan",
+          "identifier": "egg"
+        },
+        {
+          "name": "frying pan",
+          "description": "on the burner, egg cooking inside",
+          "identifier": "pan"
+        }
+      ],
+      "actions": [],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "cook_sunny_side_up_egg_002990",
+      "frame_index": 2990,
+      "timestamp_seconds": 49.833333,
+      "description": "Unchanged from the moment before: the person stands watching the pan, right hand resting lightly on the pan's handle, left hand relaxed at their side.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "cooking egg",
+          "description": "white turning opaque around the intact orange yolk, cooking in the pan",
+          "identifier": "egg"
+        },
+        {
+          "name": "frying pan",
+          "description": "on the burner, egg cooking inside",
+          "identifier": "pan"
+        }
+      ],
+      "actions": [],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "cook_sunny_side_up_egg_003008",
+      "frame_index": 3008,
+      "timestamp_seconds": 50.133333,
+      "description": "Unchanged from the moment before: the person stands watching the pan, right hand resting lightly on the pan's handle, left hand relaxed at their side.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "cooking egg",
+          "description": "white turning opaque around the intact orange yolk, cooking in the pan",
+          "identifier": "egg"
+        },
+        {
+          "name": "frying pan",
+          "description": "on the burner, egg cooking inside",
+          "identifier": "pan"
+        }
+      ],
+      "actions": [],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "cook_sunny_side_up_egg_003094",
+      "frame_index": 3094,
+      "timestamp_seconds": 51.566667,
+      "description": "Unchanged from the moment before: the person stands watching the pan, right hand resting lightly on the pan's handle, left hand relaxed at their side.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "cooking egg",
+          "description": "white turning opaque around the intact orange yolk, cooking in the pan",
+          "identifier": "egg"
+        },
+        {
+          "name": "frying pan",
+          "description": "on the burner, egg cooking inside",
+          "identifier": "pan"
+        }
+      ],
+      "actions": [],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "cook_sunny_side_up_egg_003194",
+      "frame_index": 3194,
+      "timestamp_seconds": 53.233333,
+      "description": "The person leans forward over the stove, right hand reaching down toward the pan with fingers pinched together; the left hand is not visible in the shot. The egg continues cooking in the pan below.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "reaching down toward the pan, fingers pinched together",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "cooking egg",
+          "description": "cooking undisturbed in the pan",
+          "identifier": "egg"
+        },
+        {
+          "name": "frying pan",
+          "description": "on the burner, egg cooking inside",
+          "identifier": "pan"
+        }
+      ],
+      "actions": [
+        {
+          "name": "reach toward pan",
+          "actor": "right fingers",
+          "target": "cooking egg",
+          "description": "reaching down toward the pan with fingers pinched together"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers reach cooking_egg"
+      ]
+    },
+    {
+      "frame_id": "cook_sunny_side_up_egg_003268",
+      "frame_index": 3268,
+      "timestamp_seconds": 54.466667,
+      "description": "Unchanged from the moment before: the person continues to lean forward, right hand reaching toward the pan with fingers pinched together.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "still reaching down toward the pan, fingers pinched together",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "cooking egg",
+          "description": "cooking undisturbed in the pan",
+          "identifier": "egg"
+        },
+        {
+          "name": "frying pan",
+          "description": "on the burner, egg cooking inside",
+          "identifier": "pan"
+        }
+      ],
+      "actions": [
+        {
+          "name": "reach toward pan",
+          "actor": "right fingers",
+          "target": "cooking egg",
+          "description": "continuing to reach toward the pan with fingers pinched together"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers reach cooking_egg"
+      ]
+    },
+    {
+      "frame_id": "cook_sunny_side_up_egg_003358",
+      "frame_index": 3358,
+      "timestamp_seconds": 55.966667,
+      "description": "The person bends further forward, right fingers now holding a small light-colored object above the pan, tilting it toward the cooking egg. The left hand remains out of view.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "holding a small light-colored object, tilting it above the pan",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "cooking egg",
+          "description": "cooking in the pan, being tended to",
+          "identifier": "egg"
+        },
+        {
+          "name": "frying pan",
+          "description": "on the burner, egg cooking inside",
+          "identifier": "pan"
+        }
+      ],
+      "actions": [
+        {
+          "name": "tend to egg",
+          "actor": "right fingers",
+          "target": "cooking egg",
+          "description": "tilting a small object above the pan over the cooking egg"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers tend cooking_egg"
+      ]
+    },
+    {
+      "frame_id": "cook_sunny_side_up_egg_003462",
+      "frame_index": 3462,
+      "timestamp_seconds": 57.7,
+      "description": "Unchanged from the moment before: the person still tilts the small light-colored object above the pan over the cooking egg.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "still tilting the small light-colored object above the pan",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "cooking egg",
+          "description": "cooking in the pan, being tended to",
+          "identifier": "egg"
+        },
+        {
+          "name": "frying pan",
+          "description": "on the burner, egg cooking inside",
+          "identifier": "pan"
+        }
+      ],
+      "actions": [
+        {
+          "name": "tend to egg",
+          "actor": "right fingers",
+          "target": "cooking egg",
+          "description": "continuing to tilt the small object above the pan"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers tend cooking_egg"
+      ]
+    },
+    {
+      "frame_id": "cook_sunny_side_up_egg_003558",
+      "frame_index": 3558,
+      "timestamp_seconds": 59.3,
+      "description": "Unchanged from the moment before: the person continues tilting the small light-colored object above the pan over the cooking egg.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "still tilting the small light-colored object above the pan",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "cooking egg",
+          "description": "cooking in the pan, being tended to",
+          "identifier": "egg"
+        },
+        {
+          "name": "frying pan",
+          "description": "on the burner, egg cooking inside",
+          "identifier": "pan"
+        }
+      ],
+      "actions": [
+        {
+          "name": "tend to egg",
+          "actor": "right fingers",
+          "target": "cooking egg",
+          "description": "continuing to tilt the small object above the pan"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers tend cooking_egg"
+      ]
+    },
+    {
+      "frame_id": "cook_sunny_side_up_egg_003658",
+      "frame_index": 3658,
+      "timestamp_seconds": 60.966667,
+      "description": "The person continues to lean over the pan; the right fingers now appear to grip a utensil near the egg, adjusting it within the pan.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "gripping a utensil, adjusting the egg within the pan",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "cooking egg",
+          "description": "being adjusted with a utensil in the pan",
+          "identifier": "egg"
+        },
+        {
+          "name": "frying pan",
+          "description": "on the burner, egg cooking inside",
+          "identifier": "pan"
+        }
+      ],
+      "actions": [
+        {
+          "name": "tend to egg",
+          "actor": "right fingers",
+          "target": "cooking egg",
+          "description": "working a utensil near the egg in the pan"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers tend cooking_egg"
+      ]
+    },
+    {
+      "frame_id": "cook_sunny_side_up_egg_003728",
+      "frame_index": 3728,
+      "timestamp_seconds": 62.133333,
+      "description": "The person bends down further, right fingers now gripping the spatula directly in the pan, checking the cooking egg. The left hand remains out of view.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "gripping the spatula, checking the egg in the pan",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "cooking egg",
+          "description": "being checked with the spatula in the pan",
+          "identifier": "egg"
+        },
+        {
+          "name": "spatula",
+          "description": "being used to check the egg's progress",
+          "identifier": "spatula"
+        }
+      ],
+      "actions": [
+        {
+          "name": "check egg",
+          "actor": "right fingers",
+          "target": "cooking egg",
+          "description": "using the spatula to check the egg's progress in the pan"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers check cooking_egg"
+      ]
+    },
+    {
+      "frame_id": "cook_sunny_side_up_egg_003784",
+      "frame_index": 3784,
+      "timestamp_seconds": 63.066667,
+      "description": "Unchanged from the moment before: the person is still bent over the pan, checking the egg with the spatula.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "still gripping the spatula, checking the egg in the pan",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "cooking egg",
+          "description": "being checked with the spatula in the pan",
+          "identifier": "egg"
+        },
+        {
+          "name": "spatula",
+          "description": "being used to check the egg's progress",
+          "identifier": "spatula"
+        }
+      ],
+      "actions": [
+        {
+          "name": "check egg",
+          "actor": "right fingers",
+          "target": "cooking egg",
+          "description": "continuing to check the egg with the spatula"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers check cooking_egg"
+      ]
+    },
+    {
+      "frame_id": "cook_sunny_side_up_egg_003890",
+      "frame_index": 3890,
+      "timestamp_seconds": 64.833333,
+      "description": "Unchanged from the moment before: the person remains bent over the pan, still checking the egg with the spatula.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "still gripping the spatula, checking the egg in the pan",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "cooking egg",
+          "description": "being checked with the spatula in the pan",
+          "identifier": "egg"
+        },
+        {
+          "name": "spatula",
+          "description": "being used to check the egg's progress",
+          "identifier": "spatula"
+        }
+      ],
+      "actions": [
+        {
+          "name": "check egg",
+          "actor": "right fingers",
+          "target": "cooking egg",
+          "description": "continuing to check the egg with the spatula"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers check cooking_egg"
+      ]
+    },
+    {
+      "frame_id": "cook_sunny_side_up_egg_003988",
+      "frame_index": 3988,
+      "timestamp_seconds": 66.466667,
+      "description": "The person leans in closer over the stove, right fingers working the spatula further beneath the egg in the pan.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "working the spatula further beneath the egg",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "cooking egg",
+          "description": "being worked with the spatula sliding beneath it",
+          "identifier": "egg"
+        },
+        {
+          "name": "spatula",
+          "description": "being slid further beneath the egg",
+          "identifier": "spatula"
+        }
+      ],
+      "actions": [
+        {
+          "name": "check egg",
+          "actor": "right fingers",
+          "target": "cooking egg",
+          "description": "working the spatula further beneath the egg in the pan"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers check cooking_egg"
+      ]
+    },
+    {
+      "frame_id": "cook_sunny_side_up_egg_004086",
+      "frame_index": 4086,
+      "timestamp_seconds": 68.1,
+      "description": "The person bends far forward at the waist, leaning in closely over the pan, right fingers gripping the spatula and tucking its edge under the egg to check its progress. The left hand is not visible, hanging out of frame.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "gripping the spatula, sliding its edge under the egg to check how set it is",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "cooking egg",
+          "description": "white mostly set and turning opaque, edges beginning to firm up",
+          "identifier": "egg"
+        },
+        {
+          "name": "spatula",
+          "description": "being slid partway under the egg to check its underside",
+          "identifier": "spatula"
+        }
+      ],
+      "actions": [
+        {
+          "name": "check egg",
+          "actor": "right fingers",
+          "target": "cooking egg",
+          "description": "sliding the spatula edge under the egg to inspect how cooked it is"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers check cooking_egg"
+      ]
+    },
+    {
+      "frame_id": "cook_sunny_side_up_egg_004196",
+      "frame_index": 4196,
+      "timestamp_seconds": 69.933333,
+      "description": "The person bends far forward at the waist, leaning in closely over the pan to inspect the egg, their right fingers gripping the spatula's handle and tucking its edge under the egg to check its progress. Their left hand is out of contact with anything, hanging down out of frame.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "gripping the spatula, sliding its edge under the egg to check how set it is",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "cooking egg",
+          "description": "white mostly set and turning opaque, edges beginning to firm up",
+          "identifier": "egg"
+        },
+        {
+          "name": "spatula",
+          "description": "being slid partway under the egg to check its underside",
+          "identifier": "spatula"
+        }
+      ],
+      "actions": [
+        {
+          "name": "check egg",
+          "actor": "right fingers",
+          "target": "cooking egg",
+          "description": "sliding the spatula edge under the egg to inspect how cooked it is"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers check cooking_egg"
+      ]
+    },
+    {
+      "frame_id": "cook_sunny_side_up_egg_004304",
+      "frame_index": 4304,
+      "timestamp_seconds": 71.733333,
+      "description": "Unchanged from the moment before: the person remains bent over the pan, still checking the egg with the spatula.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "still gripping the spatula, checking the egg's underside",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "cooking egg",
+          "description": "white mostly set and turning opaque, edges beginning to firm up",
+          "identifier": "egg"
+        },
+        {
+          "name": "spatula",
+          "description": "being held partway under the egg",
+          "identifier": "spatula"
+        }
+      ],
+      "actions": [
+        {
+          "name": "check egg",
+          "actor": "right fingers",
+          "target": "cooking egg",
+          "description": "continuing to check the egg's underside with the spatula"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers check cooking_egg"
+      ]
+    },
+    {
+      "frame_id": "cook_sunny_side_up_egg_004416",
+      "frame_index": 4416,
+      "timestamp_seconds": 73.6,
+      "description": "Unchanged from the moment before: the person continues checking the egg with the spatula in the pan.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "still gripping the spatula, checking the egg's underside",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "cooking egg",
+          "description": "white mostly set and turning opaque, edges beginning to firm up",
+          "identifier": "egg"
+        },
+        {
+          "name": "spatula",
+          "description": "being held partway under the egg",
+          "identifier": "spatula"
+        }
+      ],
+      "actions": [
+        {
+          "name": "check egg",
+          "actor": "right fingers",
+          "target": "cooking egg",
+          "description": "continuing to check the egg's underside with the spatula"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers check cooking_egg"
+      ]
+    },
+    {
+      "frame_id": "cook_sunny_side_up_egg_004566",
+      "frame_index": 4566,
+      "timestamp_seconds": 76.1,
+      "description": "The person continues leaning over the pan, right fingers working the spatula further beneath the egg. The left hand appears to rest near the utensil cup at the edge of the cutting board.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "working the spatula further beneath the egg to prepare for flipping",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "cooking egg",
+          "description": "white mostly opaque and set, nearing readiness",
+          "identifier": "egg"
+        },
+        {
+          "name": "spatula",
+          "description": "being worked further beneath the egg",
+          "identifier": "spatula"
+        }
+      ],
+      "actions": [
+        {
+          "name": "slide spatula under egg",
+          "actor": "right fingers",
+          "target": "cooking egg",
+          "description": "working the spatula further beneath the egg in the pan"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers slide spatula under cooking_egg"
+      ]
+    },
+    {
+      "frame_id": "cook_sunny_side_up_egg_004656",
+      "frame_index": 4656,
+      "timestamp_seconds": 77.6,
+      "description": "The person leans over the pan, right fingers gripping the spatula and sliding it fully under the egg, while left fingers rest lightly on the green utensil cup at the edge of the cutting board, not actively working.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "gripping the spatula, sliding it fully beneath the egg to prepare to flip it",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "left fingers",
+          "description": "resting lightly on the utensil cup, not exerting force",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "cooking egg",
+          "description": "white mostly opaque and set, nearly ready to flip",
+          "identifier": "egg"
+        },
+        {
+          "name": "spatula",
+          "description": "being worked underneath the egg in the pan",
+          "identifier": "spatula"
+        }
+      ],
+      "actions": [
+        {
+          "name": "slide spatula under egg",
+          "actor": "right fingers",
+          "target": "cooking egg",
+          "description": "working the spatula fully beneath the egg to prepare for flipping"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers slide spatula under cooking_egg"
+      ]
+    },
+    {
+      "frame_id": "cook_sunny_side_up_egg_004836",
+      "frame_index": 4836,
+      "timestamp_seconds": 80.6,
+      "description": "The person lifts the egg's edge with the spatula in their right hand, revealing a lightly browned underside, while their left fingers grip the pan's handle to hold it steady during the flip. Both hands are actively engaged, each doing a different job.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "gripping the spatula, lifting the egg's edge up out of the pan",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "left fingers",
+          "description": "gripping the pan's handle, holding the pan steady during the flip",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "cooked egg",
+          "description": "underside now lightly browned and visible as it is lifted, top still slightly glossy",
+          "identifier": "egg"
+        },
+        {
+          "name": "frying pan",
+          "description": "held steady on the burner during the flipping motion",
+          "identifier": "pan"
+        },
+        {
+          "name": "spatula",
+          "description": "wedged under the egg, lifting its edge",
+          "identifier": "spatula"
+        }
+      ],
+      "actions": [
+        {
+          "name": "flip egg",
+          "actor": "right fingers",
+          "target": "cooked egg",
+          "description": "lifting the egg's edge with the spatula, revealing its browned underside"
+        },
+        {
+          "name": "steady pan",
+          "actor": "left fingers",
+          "target": "frying pan",
+          "description": "gripping the pan handle to keep it steady while the egg is flipped"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers flip cooked_egg",
+        "left fingers steady pan"
+      ]
+    },
+    {
+      "frame_id": "cook_sunny_side_up_egg_004978",
+      "frame_index": 4978,
+      "timestamp_seconds": 82.966667,
+      "description": "The person's right fingers hold the spatula with the egg lifted above the pan, its edges curled; the left hand is extended to the side. The egg's underside is now visible, browned from cooking.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "holding the spatula with the egg lifted above the pan",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "cooked egg",
+          "description": "lifted on the spatula above the pan, underside browned, edges curled",
+          "identifier": "egg"
+        },
+        {
+          "name": "spatula",
+          "description": "carrying the egg above the pan",
+          "identifier": "spatula"
+        }
+      ],
+      "actions": [
+        {
+          "name": "move egg",
+          "actor": "right fingers",
+          "target": "cooked egg",
+          "description": "carrying the egg on the spatula above the pan, moving it toward the plate"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers move cooked_egg"
+      ]
+    },
+    {
+      "frame_id": "cook_sunny_side_up_egg_005064",
+      "frame_index": 5064,
+      "timestamp_seconds": 84.4,
+      "description": "The egg has been transferred onto the plate; the person's right fingers still grip the spatula, tucking it against the egg to settle it in place. Their left hand, no longer needed to steady the pan, has released it and now hangs open at their side -- idle and disengaged.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "gripping the spatula, tucking it against the egg to settle it onto the plate",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "cooked egg",
+          "description": "now resting on the plate, white set and edges lightly browned, yolk intact",
+          "identifier": "egg"
+        },
+        {
+          "name": "plate",
+          "description": "holding the freshly transferred cooked egg",
+          "identifier": "plate"
+        },
+        {
+          "name": "spatula",
+          "description": "held against the egg on the plate, finishing its placement",
+          "identifier": "spatula"
+        }
+      ],
+      "actions": [
+        {
+          "name": "settle egg on plate",
+          "actor": "right fingers",
+          "target": "cooked egg",
+          "description": "using the spatula to nudge the egg into place on the plate"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers settle cooked_egg"
+      ]
+    },
+    {
+      "frame_id": "cook_sunny_side_up_egg_005180",
+      "frame_index": 5180,
+      "timestamp_seconds": 86.333333,
+      "description": "The egg now rests on the plate, sunny-side-up with the yolk visible. The person's right fingers hold the spatula against the egg, tucking it into place on the plate.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "gripping the spatula, tucking it against the egg on the plate",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "cooked egg",
+          "description": "resting on the plate, white set and edges lightly browned, yolk intact",
+          "identifier": "egg"
+        },
+        {
+          "name": "plate",
+          "description": "holding the freshly transferred cooked egg",
+          "identifier": "plate"
+        },
+        {
+          "name": "spatula",
+          "description": "held against the egg on the plate, settling its placement",
+          "identifier": "spatula"
+        }
+      ],
+      "actions": [
+        {
+          "name": "settle egg on plate",
+          "actor": "right fingers",
+          "target": "cooked egg",
+          "description": "using the spatula to nudge the egg into place on the plate"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers settle cooked_egg"
+      ]
+    },
+    {
+      "frame_id": "cook_sunny_side_up_egg_005284",
+      "frame_index": 5284,
+      "timestamp_seconds": 88.066667,
+      "description": "The person lifts the now-empty spatula up and away from the plate with their right hand, the flipping and plating task finished, while their left hand remains open and idle at their side, uninvolved.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "gripping the spatula, lifting it up and away from the finished plate",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "cooked egg",
+          "description": "fully plated, white set, yolk intact and orange",
+          "identifier": "egg"
+        },
+        {
+          "name": "spatula",
+          "description": "lifted clear of the plate, task with it finished",
+          "identifier": "spatula"
+        }
+      ],
+      "actions": [
+        {
+          "name": "withdraw spatula",
+          "actor": "right fingers",
+          "target": "spatula",
+          "description": "lifting the spatula up and away now that the egg is plated"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers withdraw spatula"
+      ]
+    },
+    {
+      "frame_id": "cook_sunny_side_up_egg_005372",
+      "frame_index": 5372,
+      "timestamp_seconds": 89.533333,
+      "description": "The person stands with both hands open and extended toward the cutting board, relaxed and not holding any tool. The finished egg rests on the plate, and the pan sits empty on the burner.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "cooked egg",
+          "description": "resting on the plate, white set and yolk intact",
+          "identifier": "egg"
+        },
+        {
+          "name": "frying pan",
+          "description": "empty, left on the burner",
+          "identifier": "pan"
+        }
+      ],
+      "actions": [],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "cook_sunny_side_up_egg_005428",
+      "frame_index": 5428,
+      "timestamp_seconds": 90.466667,
+      "description": "The person holds the plate up in front of their body with both hands cradling it from underneath, presenting the finished sunny-side-up egg toward the camera with a smile.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "cradling one side of the plate from below",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "left fingers",
+          "description": "cradling the other side of the plate from below",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "cooked egg",
+          "description": "finished sunny-side-up egg, white fully set and yolk intact, presented on the plate",
+          "identifier": "egg"
+        },
+        {
+          "name": "plate",
+          "description": "held up in front of the body with both hands",
+          "identifier": "plate"
+        }
+      ],
+      "actions": [
+        {
+          "name": "present plate",
+          "actor": "right fingers",
+          "target": "plate",
+          "description": "holding the plate up together with the left hand to present the finished egg"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers present plate",
+        "left fingers present plate"
+      ]
+    },
+    {
+      "frame_id": "cook_sunny_side_up_egg_005442",
+      "frame_index": 5442,
+      "timestamp_seconds": 90.7,
+      "description": "The person leans over the cutting board, right fingers holding the spatula against the egg on the plate, left fingers gripping the plate's edge to steady it.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "pressing the spatula against the egg to settle it on the plate",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "left fingers",
+          "description": "gripping the plate's edge to keep it steady",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "cooked egg",
+          "description": "resting on the plate, white set and yolk intact",
+          "identifier": "egg"
+        },
+        {
+          "name": "plate",
+          "description": "held steady on the cutting board",
+          "identifier": "plate"
+        },
+        {
+          "name": "spatula",
+          "description": "pressed against the egg on the plate",
+          "identifier": "spatula"
+        }
+      ],
+      "actions": [
+        {
+          "name": "settle egg on plate",
+          "actor": "right fingers",
+          "target": "cooked egg",
+          "description": "pressing the spatula against the egg to settle it on the plate"
+        },
+        {
+          "name": "steady plate",
+          "actor": "left fingers",
+          "target": "plate",
+          "description": "gripping the plate's edge to keep it steady"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers settle cooked_egg",
+        "left fingers steady plate"
+      ]
+    },
+    {
+      "frame_id": "cook_sunny_side_up_egg_005454",
+      "frame_index": 5454,
+      "timestamp_seconds": 90.9,
+      "description": "Unchanged from the moment before: right fingers still press the spatula against the egg on the plate, left fingers still gripping the plate's edge.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "still pressing the spatula against the egg on the plate",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "left fingers",
+          "description": "still gripping the plate's edge",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "cooked egg",
+          "description": "resting on the plate, white set and yolk intact",
+          "identifier": "egg"
+        },
+        {
+          "name": "plate",
+          "description": "held steady on the cutting board",
+          "identifier": "plate"
+        },
+        {
+          "name": "spatula",
+          "description": "pressed against the egg on the plate",
+          "identifier": "spatula"
+        }
+      ],
+      "actions": [
+        {
+          "name": "settle egg on plate",
+          "actor": "right fingers",
+          "target": "cooked egg",
+          "description": "continuing to press the spatula against the egg on the plate"
+        },
+        {
+          "name": "steady plate",
+          "actor": "left fingers",
+          "target": "plate",
+          "description": "continuing to grip the plate's edge"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers settle cooked_egg",
+        "left fingers steady plate"
+      ]
+    },
+    {
+      "frame_id": "cook_sunny_side_up_egg_005468",
+      "frame_index": 5468,
+      "timestamp_seconds": 91.133333,
+      "description": "The person's right fingers hold a utensil near the egg on the plate, adjusting it slightly, while left fingers steady the plate's edge on the cutting board.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "holding a utensil near the egg, adjusting it slightly on the plate",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "left fingers",
+          "description": "steadying the plate's edge on the cutting board",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "cooked egg",
+          "description": "resting on the plate, white set and yolk intact",
+          "identifier": "egg"
+        },
+        {
+          "name": "plate",
+          "description": "held steady on the cutting board",
+          "identifier": "plate"
+        }
+      ],
+      "actions": [
+        {
+          "name": "settle egg on plate",
+          "actor": "right fingers",
+          "target": "cooked egg",
+          "description": "adjusting the egg slightly on the plate with a utensil"
+        },
+        {
+          "name": "steady plate",
+          "actor": "left fingers",
+          "target": "plate",
+          "description": "steadying the plate's edge on the cutting board"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers settle cooked_egg",
+        "left fingers steady plate"
+      ]
+    },
+    {
+      "frame_id": "cook_sunny_side_up_egg_005484",
+      "frame_index": 5484,
+      "timestamp_seconds": 91.4,
+      "description": "The person's right fingers insert the spatula back into the green utensil cup, putting it away, while their left fingers grip the plate's edge on the cutting board, holding it steady. The two hands are now doing clearly different things: one finishing cleanup, the other maintaining the hold.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "inserting the spatula's handle down into the utensil cup",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "left fingers",
+          "description": "gripping the plate's edge, holding it steady on the cutting board",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "spatula",
+          "description": "being returned to the utensil cup",
+          "identifier": "spatula"
+        },
+        {
+          "name": "plate",
+          "description": "resting on the cutting board, held steady, holding the finished egg",
+          "identifier": "plate"
+        }
+      ],
+      "actions": [
+        {
+          "name": "put away spatula",
+          "actor": "right fingers",
+          "target": "spatula",
+          "description": "placing the spatula back into the utensil cup"
+        },
+        {
+          "name": "steady plate",
+          "actor": "left fingers",
+          "target": "plate",
+          "description": "gripping the plate's edge to keep it in place on the board"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers put_away spatula",
+        "left fingers steady plate"
+      ]
+    },
+    {
+      "frame_id": "cook_sunny_side_up_egg_005500",
+      "frame_index": 5500,
+      "timestamp_seconds": 91.666667,
+      "description": "The person stands upright behind the counter with both hands relaxed and open at their sides, no longer touching any object. The finished sunny-side-up egg rests on the plate on the cutting board, the cooking task complete.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "cooked egg",
+          "description": "finished sunny-side-up egg resting on the plate, white set and yolk intact",
+          "identifier": "egg"
+        },
+        {
+          "name": "plate",
+          "description": "resting on the cutting board holding the finished egg",
+          "identifier": "plate"
+        },
+        {
+          "name": "frying pan",
+          "description": "empty, left on the burner",
+          "identifier": "pan"
+        }
+      ],
+      "actions": [],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "cook_sunny_side_up_egg_005680",
+      "frame_index": 5680,
+      "timestamp_seconds": 94.666667,
+      "description": "The person stands at the counter, right hand resting near the cutting board, left hand relaxed at their side. The finished egg remains on the plate, the cooking task complete.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "cooked egg",
+          "description": "finished sunny-side-up egg resting on the plate, white set and yolk intact",
+          "identifier": "egg"
+        },
+        {
+          "name": "plate",
+          "description": "resting on the cutting board holding the finished egg",
+          "identifier": "plate"
+        }
+      ],
+      "actions": [],
+      "ontological_phrases": []
+    }
+  ]
+}

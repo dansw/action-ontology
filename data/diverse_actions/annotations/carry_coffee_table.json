@@ -1,0 +1,2217 @@
+{
+  "video_id": "carry_coffee_table",
+  "video_path": "videos/carry_coffee_table.mov",
+  "frames": [
+    {
+      "frame_id": "carry_coffee_table_000000",
+      "frame_index": 0,
+      "timestamp_seconds": 0.0,
+      "description": "A dog rests on a sofa in a living room; no person is yet visible and no task action has started.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "dog",
+          "description": "golden retriever resting on the sofa"
+        },
+        {
+          "name": "sofa",
+          "description": "gray sofa the dog rests on"
+        }
+      ],
+      "actions": [],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "carry_coffee_table_000129",
+      "frame_index": 129,
+      "timestamp_seconds": 2.151217,
+      "description": "A golden retriever lies on a gray sofa with its back to the camera, resting on cushions and facing toward the entryway. Through the glass door beside the coat-rack nook, the deck outside is empty with no one visible.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "dog",
+          "description": "golden retriever resting on the sofa, back to camera"
+        },
+        {
+          "name": "sofa",
+          "description": "gray sofa the dog rests on"
+        }
+      ],
+      "actions": [],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "carry_coffee_table_000211",
+      "frame_index": 211,
+      "timestamp_seconds": 3.518658,
+      "description": "A person in a full-body metallic silver costume is now visible outside on the deck through the glass door, bent forward near the deck's edge. The dog remains in the same reclined position on the sofa, back to camera.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "person",
+          "description": "person wearing a full-body metallic silver costume with a hooded mask, visible outside on the deck"
+        },
+        {
+          "name": "dog",
+          "description": "golden retriever resting on the sofa, unchanged from before"
+        }
+      ],
+      "actions": [
+        {
+          "name": "bend at deck edge",
+          "actor": "person",
+          "target": "deck",
+          "description": "the person bends forward near the deck's edge, outside the glass door"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "carry_coffee_table_000287",
+      "frame_index": 287,
+      "timestamp_seconds": 4.786042,
+      "description": "Unchanged from the moment before: the person in the silver costume remains bent forward on the deck outside the glass door, and the dog continues resting on the sofa in the same position.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "person",
+          "description": "person in silver costume, still bent forward on the deck"
+        },
+        {
+          "name": "dog",
+          "description": "golden retriever resting on the sofa"
+        }
+      ],
+      "actions": [
+        {
+          "name": "bend at deck edge",
+          "actor": "person",
+          "target": "deck",
+          "description": "unchanged bent-forward posture on the deck"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "carry_coffee_table_000349",
+      "frame_index": 349,
+      "timestamp_seconds": 5.81996,
+      "description": "The interior door to the hallway now stands open wider, letting in more daylight. The person in the silver costume is still outside on the deck in the same bent-forward posture, and the dog remains unchanged on the sofa.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "person",
+          "description": "person in silver costume, still bent forward on the deck"
+        },
+        {
+          "name": "dog",
+          "description": "golden retriever resting on the sofa"
+        }
+      ],
+      "actions": [
+        {
+          "name": "bend at deck edge",
+          "actor": "person",
+          "target": "deck",
+          "description": "unchanged bent-forward posture on the deck"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "carry_coffee_table_000386",
+      "frame_index": 386,
+      "timestamp_seconds": 6.436976,
+      "description": "The person in the silver costume has stepped up to the open interior doorway, their hooded silver-masked head and shoulders visible through the door frame as they move from the deck toward the hallway. The dog still rests on the sofa, back to camera.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "person",
+          "description": "person in silver costume, stepping through the interior doorway"
+        },
+        {
+          "name": "dog",
+          "description": "golden retriever resting on the sofa"
+        }
+      ],
+      "actions": [
+        {
+          "name": "enter doorway",
+          "actor": "person",
+          "target": "doorway",
+          "description": "the person steps through the open interior doorway from the deck toward the hallway"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "carry_coffee_table_000431",
+      "frame_index": 431,
+      "timestamp_seconds": 7.187401,
+      "description": "The person now stands fully upright inside the entry hallway, past the doorway, with the front door open behind them letting in bright daylight. The dog remains resting on the sofa, back to camera.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "person",
+          "description": "person in silver costume, standing upright in the entry hallway"
+        },
+        {
+          "name": "dog",
+          "description": "golden retriever resting on the sofa"
+        }
+      ],
+      "actions": [
+        {
+          "name": "stand in hallway",
+          "actor": "person",
+          "target": "hallway",
+          "description": "the person stands upright inside the entry hallway"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "carry_coffee_table_000489",
+      "frame_index": 489,
+      "timestamp_seconds": 8.154615,
+      "description": "The person walks further into the room toward the coat-rack nook. The dog has risen to sit up on the sofa back, front paws pressed onto the cushion, now watching the person.",
+      "resources": [
+        {
+          "name": "front paws",
+          "description": "dog's front paws pressed onto the cushion at the top of the sofa back, supporting its raised, watching posture",
+          "identifier": "dog_front_paws"
+        }
+      ],
+      "entities": [
+        {
+          "name": "person",
+          "description": "person in silver costume, walking toward the coat-rack nook"
+        },
+        {
+          "name": "dog",
+          "description": "golden retriever now sitting up on the sofa back, watching"
+        }
+      ],
+      "actions": [
+        {
+          "name": "walk toward coat rack",
+          "actor": "person",
+          "target": "coat rack nook",
+          "description": "the person walks further into the room"
+        },
+        {
+          "name": "sit up and watch",
+          "actor": "dog's front paws",
+          "target": "person",
+          "description": "the dog sits up on the sofa back, front paws braced on the cushion, watching the person"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "carry_coffee_table_000551",
+      "frame_index": 551,
+      "timestamp_seconds": 9.188533,
+      "description": "Unchanged from the moment before: the person stands near the coat-rack nook and the dog remains sitting up on the sofa back, front paws braced on the cushion, watching.",
+      "resources": [
+        {
+          "name": "front paws",
+          "description": "dog's front paws braced on the sofa-back cushion, unchanged",
+          "identifier": "dog_front_paws"
+        }
+      ],
+      "entities": [
+        {
+          "name": "person",
+          "description": "person in silver costume, standing near the coat-rack nook"
+        },
+        {
+          "name": "dog",
+          "description": "golden retriever sitting up on the sofa back, watching"
+        }
+      ],
+      "actions": [
+        {
+          "name": "watch",
+          "actor": "dog's front paws",
+          "target": "person",
+          "description": "the dog remains braced on the cushion, watching the person"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "carry_coffee_table_000597",
+      "frame_index": 597,
+      "timestamp_seconds": 9.955634,
+      "description": "A small round wooden stool or side table is now visible near the coat-rack nook. Through the glass door, a second person in dark clothing is visible outside on the deck. The dog continues watching from its seated position on the sofa back.",
+      "resources": [
+        {
+          "name": "front paws",
+          "description": "dog's front paws braced on the sofa-back cushion, unchanged",
+          "identifier": "dog_front_paws"
+        }
+      ],
+      "entities": [
+        {
+          "name": "stool",
+          "description": "small round wooden stool or side table near the coat-rack nook"
+        },
+        {
+          "name": "woman",
+          "description": "a second person in dark clothing, visible outside on the deck"
+        },
+        {
+          "name": "person",
+          "description": "person in silver costume, standing near the coat-rack nook"
+        },
+        {
+          "name": "dog",
+          "description": "golden retriever sitting up on the sofa back, watching"
+        }
+      ],
+      "actions": [],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "carry_coffee_table_000600",
+      "frame_index": 600,
+      "timestamp_seconds": 10.0,
+      "description": "A person in a silver suit walks through an open doorway into the room, backlit by daylight outside.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "doorway",
+          "description": "open glass doorway the person walks through"
+        },
+        {
+          "name": "dog",
+          "description": "golden retriever watching from the sofa"
+        }
+      ],
+      "actions": [
+        {
+          "name": "walk",
+          "actor": "person",
+          "target": "doorway",
+          "description": "the person walks through the doorway into the room; this is locomotion, no limb is gripping or bearing an object"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "carry_coffee_table_000633",
+      "frame_index": 633,
+      "timestamp_seconds": 10.555974,
+      "description": "Unchanged from the moment before: the person stands near the small round stool by the coat-rack nook, the woman remains outside on the deck visible through the glass door, and the dog continues watching from the sofa back.",
+      "resources": [
+        {
+          "name": "front paws",
+          "description": "dog's front paws braced on the sofa-back cushion, unchanged",
+          "identifier": "dog_front_paws"
+        }
+      ],
+      "entities": [
+        {
+          "name": "stool",
+          "description": "small round wooden stool near the coat-rack nook"
+        },
+        {
+          "name": "woman",
+          "description": "second person, visible outside on the deck"
+        },
+        {
+          "name": "person",
+          "description": "person in silver costume, near the coat-rack nook"
+        },
+        {
+          "name": "dog",
+          "description": "golden retriever watching from the sofa back"
+        }
+      ],
+      "actions": [],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "carry_coffee_table_000675",
+      "frame_index": 675,
+      "timestamp_seconds": 11.25637,
+      "description": "The woman is now more clearly visible through the glass door, walking closer along the deck. The person and dog remain in the same positions as before.",
+      "resources": [
+        {
+          "name": "front paws",
+          "description": "dog's front paws braced on the sofa-back cushion, unchanged",
+          "identifier": "dog_front_paws"
+        }
+      ],
+      "entities": [
+        {
+          "name": "woman",
+          "description": "second person, walking closer on the deck outside"
+        },
+        {
+          "name": "person",
+          "description": "person in silver costume, near the coat-rack nook"
+        },
+        {
+          "name": "dog",
+          "description": "golden retriever watching from the sofa back"
+        }
+      ],
+      "actions": [
+        {
+          "name": "walk on deck",
+          "actor": "woman",
+          "target": "deck",
+          "description": "the woman walks along the deck outside, visible through the glass"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "carry_coffee_table_000720",
+      "frame_index": 720,
+      "timestamp_seconds": 12.006795,
+      "description": "Unchanged from the moment before: the woman is still visible outside near the deck railing, the person remains near the coat-rack nook, and the dog continues watching from the sofa back.",
+      "resources": [
+        {
+          "name": "front paws",
+          "description": "dog's front paws braced on the sofa-back cushion, unchanged",
+          "identifier": "dog_front_paws"
+        }
+      ],
+      "entities": [
+        {
+          "name": "woman",
+          "description": "second person, visible near the deck railing outside"
+        },
+        {
+          "name": "person",
+          "description": "person in silver costume, near the coat-rack nook"
+        },
+        {
+          "name": "dog",
+          "description": "golden retriever watching from the sofa back"
+        }
+      ],
+      "actions": [],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "carry_coffee_table_000767",
+      "frame_index": 767,
+      "timestamp_seconds": 12.790572,
+      "description": "The woman has now come inside and stands in the entry hallway near the open front door, with shoes visible on the floor beside her. The person stands facing away, nearer the coat rack. The dog continues sitting up on the sofa back, watching.",
+      "resources": [
+        {
+          "name": "front paws",
+          "description": "dog's front paws braced on the sofa-back cushion, unchanged",
+          "identifier": "dog_front_paws"
+        }
+      ],
+      "entities": [
+        {
+          "name": "woman",
+          "description": "second person, now standing inside the entry hallway near the front door"
+        },
+        {
+          "name": "person",
+          "description": "person in silver costume, facing away near the coat rack"
+        },
+        {
+          "name": "dog",
+          "description": "golden retriever watching from the sofa back"
+        }
+      ],
+      "actions": [
+        {
+          "name": "enter hallway",
+          "actor": "woman",
+          "target": "hallway",
+          "description": "the woman stands inside the entry hallway near the open front door"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "carry_coffee_table_000813",
+      "frame_index": 813,
+      "timestamp_seconds": 13.55,
+      "description": "A person in a silver suit and a woman stand at a round marble table near the entryway, fingertips of both people resting lightly on its edge.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "the person's right fingertips resting lightly on the table's edge, not yet gripping to lift",
+          "identifier": "person_right_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "the woman's right fingertips resting lightly on the table's surface",
+          "identifier": "woman_right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "table",
+          "description": "round white marble coffee table",
+          "identifier": "coffee_table"
+        },
+        {
+          "name": "woman",
+          "description": "a second person assisting with the task"
+        },
+        {
+          "name": "dog",
+          "description": "golden retriever watching from the sofa"
+        }
+      ],
+      "actions": [
+        {
+          "name": "rest fingertips on table",
+          "actor": "person's right fingers",
+          "target": "table",
+          "description": "the person's fingertips rest lightly on the table's edge"
+        },
+        {
+          "name": "rest fingertips on table",
+          "actor": "woman's right fingers",
+          "target": "table",
+          "description": "the woman's fingertips rest lightly on the table's surface"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "carry_coffee_table_000849",
+      "frame_index": 849,
+      "timestamp_seconds": 14.158012,
+      "description": "A round marble-topped coffee table with dark wood legs is now visible between the person and the woman near the coat-rack nook. Both stand near it, but neither has their hands on its surface yet. The dog remains seated on the sofa back, watching.",
+      "resources": [
+        {
+          "name": "front paws",
+          "description": "dog's front paws braced on the sofa-back cushion, unchanged",
+          "identifier": "dog_front_paws"
+        }
+      ],
+      "entities": [
+        {
+          "name": "table",
+          "description": "round marble-topped coffee table with dark wood legs",
+          "identifier": "coffee_table"
+        },
+        {
+          "name": "woman",
+          "description": "second person, standing near the coffee table"
+        },
+        {
+          "name": "person",
+          "description": "person in silver costume, standing near the coffee table, facing away"
+        },
+        {
+          "name": "dog",
+          "description": "golden retriever watching from the sofa back"
+        }
+      ],
+      "actions": [],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "carry_coffee_table_000897",
+      "frame_index": 897,
+      "timestamp_seconds": 14.958465,
+      "description": "The woman leans forward with both hands resting flat on the near edge of the coffee table's top. The person stands on the opposite side, facing away, right hand also resting on the table's edge. The dog continues watching from the sofa back.",
+      "resources": [
+        {
+          "name": "hands",
+          "description": "woman's hands resting flat on the coffee table's near edge",
+          "identifier": "woman_hands"
+        },
+        {
+          "name": "right hand",
+          "description": "person's right hand resting on the coffee table's opposite edge",
+          "identifier": "person_right_hand"
+        },
+        {
+          "name": "front paws",
+          "description": "dog's front paws braced on the sofa-back cushion, unchanged",
+          "identifier": "dog_front_paws"
+        }
+      ],
+      "entities": [
+        {
+          "name": "table",
+          "description": "round marble-topped coffee table",
+          "identifier": "coffee_table"
+        },
+        {
+          "name": "woman",
+          "description": "second person, hands resting on the coffee table"
+        },
+        {
+          "name": "person",
+          "description": "person in silver costume, hand resting on the coffee table"
+        },
+        {
+          "name": "dog",
+          "description": "golden retriever watching from the sofa back"
+        }
+      ],
+      "actions": [
+        {
+          "name": "rest hands on table",
+          "actor": "woman's hands",
+          "target": "table",
+          "description": "the woman's hands rest flat on the coffee table's near edge"
+        },
+        {
+          "name": "rest hand on table",
+          "actor": "person's right hand",
+          "target": "table",
+          "description": "the person's right hand rests on the coffee table's opposite edge"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "carry_coffee_table_000939",
+      "frame_index": 939,
+      "timestamp_seconds": 15.658862,
+      "description": "Unchanged from the moment before: the woman's hands rest on the coffee table's near edge, the person's right hand rests on the opposite edge, and the dog continues watching from the sofa back.",
+      "resources": [
+        {
+          "name": "hands",
+          "description": "woman's hands resting flat on the coffee table's near edge, unchanged",
+          "identifier": "woman_hands"
+        },
+        {
+          "name": "right hand",
+          "description": "person's right hand resting on the coffee table's opposite edge, unchanged",
+          "identifier": "person_right_hand"
+        }
+      ],
+      "entities": [
+        {
+          "name": "table",
+          "description": "round marble-topped coffee table",
+          "identifier": "coffee_table"
+        },
+        {
+          "name": "woman",
+          "description": "second person, hands resting on the coffee table"
+        },
+        {
+          "name": "person",
+          "description": "person in silver costume, hand resting on the coffee table"
+        },
+        {
+          "name": "dog",
+          "description": "golden retriever watching from the sofa back"
+        }
+      ],
+      "actions": [
+        {
+          "name": "rest hands on table",
+          "actor": "woman's hands",
+          "target": "table",
+          "description": "unchanged resting position"
+        },
+        {
+          "name": "rest hand on table",
+          "actor": "person's right hand",
+          "target": "table",
+          "description": "unchanged resting position"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "carry_coffee_table_000971",
+      "frame_index": 971,
+      "timestamp_seconds": 16.192497,
+      "description": "Unchanged from the moment before: both the woman and the person keep their hands resting on opposite edges of the coffee table, and the dog continues watching from the sofa back.",
+      "resources": [
+        {
+          "name": "hands",
+          "description": "woman's hands resting flat on the coffee table's near edge, unchanged",
+          "identifier": "woman_hands"
+        },
+        {
+          "name": "right hand",
+          "description": "person's right hand resting on the coffee table's opposite edge, unchanged",
+          "identifier": "person_right_hand"
+        }
+      ],
+      "entities": [
+        {
+          "name": "table",
+          "description": "round marble-topped coffee table",
+          "identifier": "coffee_table"
+        },
+        {
+          "name": "woman",
+          "description": "second person, hands resting on the coffee table"
+        },
+        {
+          "name": "person",
+          "description": "person in silver costume, hand resting on the coffee table"
+        },
+        {
+          "name": "dog",
+          "description": "golden retriever watching from the sofa back"
+        }
+      ],
+      "actions": [],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "carry_coffee_table_001003",
+      "frame_index": 1003,
+      "timestamp_seconds": 16.726133,
+      "description": "Unchanged from the moment before: the static hold at the coffee table continues, with the woman's hands and the person's right hand resting on opposite edges, and the dog watching from the sofa back.",
+      "resources": [
+        {
+          "name": "hands",
+          "description": "woman's hands resting flat on the coffee table's near edge, unchanged",
+          "identifier": "woman_hands"
+        },
+        {
+          "name": "right hand",
+          "description": "person's right hand resting on the coffee table's opposite edge, unchanged",
+          "identifier": "person_right_hand"
+        }
+      ],
+      "entities": [
+        {
+          "name": "table",
+          "description": "round marble-topped coffee table",
+          "identifier": "coffee_table"
+        },
+        {
+          "name": "woman",
+          "description": "second person, hands resting on the coffee table"
+        },
+        {
+          "name": "person",
+          "description": "person in silver costume, hand resting on the coffee table"
+        },
+        {
+          "name": "dog",
+          "description": "golden retriever watching from the sofa back"
+        }
+      ],
+      "actions": [],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "carry_coffee_table_001033",
+      "frame_index": 1033,
+      "timestamp_seconds": 17.226416,
+      "description": "Unchanged from the moment before: the static hold at the coffee table continues, unchanged in stance and hand position for both the woman and the person.",
+      "resources": [
+        {
+          "name": "hands",
+          "description": "woman's hands resting flat on the coffee table's near edge, unchanged",
+          "identifier": "woman_hands"
+        },
+        {
+          "name": "right hand",
+          "description": "person's right hand resting on the coffee table's opposite edge, unchanged",
+          "identifier": "person_right_hand"
+        }
+      ],
+      "entities": [
+        {
+          "name": "table",
+          "description": "round marble-topped coffee table",
+          "identifier": "coffee_table"
+        },
+        {
+          "name": "woman",
+          "description": "second person, hands resting on the coffee table"
+        },
+        {
+          "name": "person",
+          "description": "person in silver costume, hand resting on the coffee table"
+        },
+        {
+          "name": "dog",
+          "description": "golden retriever watching from the sofa back"
+        }
+      ],
+      "actions": [],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "carry_coffee_table_001060",
+      "frame_index": 1060,
+      "timestamp_seconds": 17.67667,
+      "description": "Unchanged from the moment before: the woman and the person continue to rest their hands on opposite edges of the coffee table, and the dog watches from the sofa back.",
+      "resources": [
+        {
+          "name": "hands",
+          "description": "woman's hands resting flat on the coffee table's near edge, unchanged",
+          "identifier": "woman_hands"
+        },
+        {
+          "name": "right hand",
+          "description": "person's right hand resting on the coffee table's opposite edge, unchanged",
+          "identifier": "person_right_hand"
+        }
+      ],
+      "entities": [
+        {
+          "name": "table",
+          "description": "round marble-topped coffee table",
+          "identifier": "coffee_table"
+        },
+        {
+          "name": "woman",
+          "description": "second person, hands resting on the coffee table"
+        },
+        {
+          "name": "person",
+          "description": "person in silver costume, hand resting on the coffee table"
+        },
+        {
+          "name": "dog",
+          "description": "golden retriever watching from the sofa back"
+        }
+      ],
+      "actions": [],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "carry_coffee_table_001090",
+      "frame_index": 1090,
+      "timestamp_seconds": 18.176954,
+      "description": "Unchanged from the moment before: the same static hold at the coffee table continues.",
+      "resources": [
+        {
+          "name": "hands",
+          "description": "woman's hands resting flat on the coffee table's near edge, unchanged",
+          "identifier": "woman_hands"
+        },
+        {
+          "name": "right hand",
+          "description": "person's right hand resting on the coffee table's opposite edge, unchanged",
+          "identifier": "person_right_hand"
+        }
+      ],
+      "entities": [
+        {
+          "name": "table",
+          "description": "round marble-topped coffee table",
+          "identifier": "coffee_table"
+        },
+        {
+          "name": "woman",
+          "description": "second person, hands resting on the coffee table"
+        },
+        {
+          "name": "person",
+          "description": "person in silver costume, hand resting on the coffee table"
+        },
+        {
+          "name": "dog",
+          "description": "golden retriever watching from the sofa back"
+        }
+      ],
+      "actions": [],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "carry_coffee_table_001120",
+      "frame_index": 1120,
+      "timestamp_seconds": 18.677237,
+      "description": "Unchanged from the moment before: the woman and the person keep their hands resting on opposite edges of the coffee table, and the dog continues watching from the sofa back.",
+      "resources": [
+        {
+          "name": "hands",
+          "description": "woman's hands resting flat on the coffee table's near edge, unchanged",
+          "identifier": "woman_hands"
+        },
+        {
+          "name": "right hand",
+          "description": "person's right hand resting on the coffee table's opposite edge, unchanged",
+          "identifier": "person_right_hand"
+        }
+      ],
+      "entities": [
+        {
+          "name": "table",
+          "description": "round marble-topped coffee table",
+          "identifier": "coffee_table"
+        },
+        {
+          "name": "woman",
+          "description": "second person, hands resting on the coffee table"
+        },
+        {
+          "name": "person",
+          "description": "person in silver costume, hand resting on the coffee table"
+        },
+        {
+          "name": "dog",
+          "description": "golden retriever watching from the sofa back"
+        }
+      ],
+      "actions": [],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "carry_coffee_table_001138",
+      "frame_index": 1138,
+      "timestamp_seconds": 18.977407,
+      "description": "The person stands with their back to the camera near the entryway, right arm bent with the hand near their lower back, not touching any surface. The dog continues watching from the sofa back.",
+      "resources": [
+        {
+          "name": "front paws",
+          "description": "dog's front paws braced on the sofa-back cushion, unchanged",
+          "identifier": "dog_front_paws"
+        }
+      ],
+      "entities": [
+        {
+          "name": "person",
+          "description": "person in silver costume, standing with back to camera, arm bent"
+        },
+        {
+          "name": "dog",
+          "description": "golden retriever watching from the sofa back"
+        }
+      ],
+      "actions": [],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "carry_coffee_table_001156",
+      "frame_index": 1156,
+      "timestamp_seconds": 19.277576,
+      "description": "Unchanged from the moment before: the person stands with back to camera, right arm bent with the hand near the lower back, and the dog continues watching from the sofa back.",
+      "resources": [
+        {
+          "name": "front paws",
+          "description": "dog's front paws braced on the sofa-back cushion, unchanged",
+          "identifier": "dog_front_paws"
+        }
+      ],
+      "entities": [
+        {
+          "name": "person",
+          "description": "person in silver costume, standing with back to camera, arm bent"
+        },
+        {
+          "name": "dog",
+          "description": "golden retriever watching from the sofa back"
+        }
+      ],
+      "actions": [],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "carry_coffee_table_001180",
+      "frame_index": 1180,
+      "timestamp_seconds": 19.677803,
+      "description": "Unchanged from the moment before: the person remains standing with back to camera, arm bent, and the dog continues watching from the sofa back.",
+      "resources": [
+        {
+          "name": "front paws",
+          "description": "dog's front paws braced on the sofa-back cushion, unchanged",
+          "identifier": "dog_front_paws"
+        }
+      ],
+      "entities": [
+        {
+          "name": "person",
+          "description": "person in silver costume, standing with back to camera, arm bent"
+        },
+        {
+          "name": "dog",
+          "description": "golden retriever watching from the sofa back"
+        }
+      ],
+      "actions": [],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "carry_coffee_table_001192",
+      "frame_index": 1192,
+      "timestamp_seconds": 19.877916,
+      "description": "Unchanged from the moment before: the person remains standing with back to camera, arm bent near the lower back, and the dog continues watching from the sofa back.",
+      "resources": [
+        {
+          "name": "front paws",
+          "description": "dog's front paws braced on the sofa-back cushion, unchanged",
+          "identifier": "dog_front_paws"
+        }
+      ],
+      "entities": [
+        {
+          "name": "person",
+          "description": "person in silver costume, standing with back to camera, arm bent"
+        },
+        {
+          "name": "dog",
+          "description": "golden retriever watching from the sofa back"
+        }
+      ],
+      "actions": [],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "carry_coffee_table_001202",
+      "frame_index": 1202,
+      "timestamp_seconds": 20.044677,
+      "description": "The person has returned to stand at the coffee table, right hand again resting on its near edge; the woman stands opposite with both hands on the tabletop. The table's legs remain planted on the floor. The dog watches from the sofa back.",
+      "resources": [
+        {
+          "name": "right hand",
+          "description": "person's right hand resting on the coffee table's near edge",
+          "identifier": "person_right_hand"
+        },
+        {
+          "name": "hands",
+          "description": "woman's hands resting flat on the coffee table's top surface",
+          "identifier": "woman_hands"
+        },
+        {
+          "name": "front paws",
+          "description": "dog's front paws braced on the sofa-back cushion, unchanged",
+          "identifier": "dog_front_paws"
+        }
+      ],
+      "entities": [
+        {
+          "name": "table",
+          "description": "round marble-topped coffee table, standing on its own legs",
+          "identifier": "coffee_table"
+        },
+        {
+          "name": "person",
+          "description": "person in silver costume, hand on the coffee table's edge"
+        },
+        {
+          "name": "woman",
+          "description": "second person, hands on the coffee table's top surface"
+        },
+        {
+          "name": "dog",
+          "description": "golden retriever watching from the sofa back"
+        }
+      ],
+      "actions": [
+        {
+          "name": "rest hand on table",
+          "actor": "person's right hand",
+          "target": "table",
+          "description": "the person's right hand rests on the coffee table's near edge"
+        },
+        {
+          "name": "rest hands on table",
+          "actor": "woman's hands",
+          "target": "table",
+          "description": "the woman's hands rest on the coffee table's top surface"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "carry_coffee_table_001212",
+      "frame_index": 1212,
+      "timestamp_seconds": 20.211438,
+      "description": "Unchanged from the moment before: the person's right hand rests on the coffee table's edge, the woman's hands rest on the tabletop, and the table remains standing on its own legs.",
+      "resources": [
+        {
+          "name": "right hand",
+          "description": "person's right hand resting on the coffee table's near edge, unchanged",
+          "identifier": "person_right_hand"
+        },
+        {
+          "name": "hands",
+          "description": "woman's hands resting flat on the coffee table's top surface, unchanged",
+          "identifier": "woman_hands"
+        }
+      ],
+      "entities": [
+        {
+          "name": "table",
+          "description": "round marble-topped coffee table, standing on its own legs",
+          "identifier": "coffee_table"
+        },
+        {
+          "name": "person",
+          "description": "person in silver costume, hand on the coffee table's edge"
+        },
+        {
+          "name": "woman",
+          "description": "second person, hands on the coffee table's top surface"
+        },
+        {
+          "name": "dog",
+          "description": "golden retriever watching from the sofa back"
+        }
+      ],
+      "actions": [],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "carry_coffee_table_001222",
+      "frame_index": 1222,
+      "timestamp_seconds": 20.378199,
+      "description": "Unchanged from the moment before: the static hold at the coffee table continues, hands unchanged, table still standing on the floor.",
+      "resources": [
+        {
+          "name": "right hand",
+          "description": "person's right hand resting on the coffee table's near edge, unchanged",
+          "identifier": "person_right_hand"
+        },
+        {
+          "name": "hands",
+          "description": "woman's hands resting flat on the coffee table's top surface, unchanged",
+          "identifier": "woman_hands"
+        }
+      ],
+      "entities": [
+        {
+          "name": "table",
+          "description": "round marble-topped coffee table, standing on its own legs",
+          "identifier": "coffee_table"
+        },
+        {
+          "name": "person",
+          "description": "person in silver costume, hand on the coffee table's edge"
+        },
+        {
+          "name": "woman",
+          "description": "second person, hands on the coffee table's top surface"
+        },
+        {
+          "name": "dog",
+          "description": "golden retriever watching from the sofa back"
+        }
+      ],
+      "actions": [],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "carry_coffee_table_001234",
+      "frame_index": 1234,
+      "timestamp_seconds": 20.578313,
+      "description": "Unchanged from the moment before: the woman, smiling, keeps her hands on the tabletop while the person's right hand rests on the near edge; the table remains on the floor.",
+      "resources": [
+        {
+          "name": "right hand",
+          "description": "person's right hand resting on the coffee table's near edge, unchanged",
+          "identifier": "person_right_hand"
+        },
+        {
+          "name": "hands",
+          "description": "woman's hands resting flat on the coffee table's top surface, unchanged",
+          "identifier": "woman_hands"
+        }
+      ],
+      "entities": [
+        {
+          "name": "table",
+          "description": "round marble-topped coffee table, standing on its own legs",
+          "identifier": "coffee_table"
+        },
+        {
+          "name": "person",
+          "description": "person in silver costume, hand on the coffee table's edge"
+        },
+        {
+          "name": "woman",
+          "description": "second person, smiling, hands on the coffee table's top surface"
+        },
+        {
+          "name": "dog",
+          "description": "golden retriever watching from the sofa back"
+        }
+      ],
+      "actions": [],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "carry_coffee_table_001236",
+      "frame_index": 1236,
+      "timestamp_seconds": 20.6,
+      "description": "A person in a silver suit carries a round marble table across the room, their right fingers hooked under its edge bearing its weight, toward a woman standing near the door as a dog watches from the couch.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "hooked under the table's underside edge, bearing the table's weight while carrying it",
+          "identifier": "person_right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "table",
+          "identifier": "coffee_table"
+        },
+        {
+          "name": "woman",
+          "description": "a second person assisting with the task"
+        },
+        {
+          "name": "dog",
+          "description": "golden retriever watching from the couch"
+        }
+      ],
+      "actions": [
+        {
+          "name": "carry table",
+          "actor": "person's right fingers",
+          "target": "table",
+          "description": "the person's fingers, hooked under the table's edge, bear its weight while carrying it across the room"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "carry_coffee_table_001244",
+      "frame_index": 1244,
+      "timestamp_seconds": 20.745074,
+      "description": "Unchanged from the moment before: the static hold at the coffee table continues, table still resting on the floor.",
+      "resources": [
+        {
+          "name": "right hand",
+          "description": "person's right hand resting on the coffee table's near edge, unchanged",
+          "identifier": "person_right_hand"
+        },
+        {
+          "name": "hands",
+          "description": "woman's hands resting flat on the coffee table's top surface, unchanged",
+          "identifier": "woman_hands"
+        }
+      ],
+      "entities": [
+        {
+          "name": "table",
+          "description": "round marble-topped coffee table, standing on its own legs",
+          "identifier": "coffee_table"
+        },
+        {
+          "name": "person",
+          "description": "person in silver costume, hand on the coffee table's edge"
+        },
+        {
+          "name": "woman",
+          "description": "second person, hands on the coffee table's top surface"
+        },
+        {
+          "name": "dog",
+          "description": "golden retriever watching from the sofa back"
+        }
+      ],
+      "actions": [],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "carry_coffee_table_001252",
+      "frame_index": 1252,
+      "timestamp_seconds": 20.878482,
+      "description": "Unchanged from the moment before: the woman, smiling, and the person continue to rest their hands on the coffee table, which still stands on the floor.",
+      "resources": [
+        {
+          "name": "right hand",
+          "description": "person's right hand resting on the coffee table's near edge, unchanged",
+          "identifier": "person_right_hand"
+        },
+        {
+          "name": "hands",
+          "description": "woman's hands resting flat on the coffee table's top surface, unchanged",
+          "identifier": "woman_hands"
+        }
+      ],
+      "entities": [
+        {
+          "name": "table",
+          "description": "round marble-topped coffee table, standing on its own legs",
+          "identifier": "coffee_table"
+        },
+        {
+          "name": "person",
+          "description": "person in silver costume, hand on the coffee table's edge"
+        },
+        {
+          "name": "woman",
+          "description": "second person, smiling, hands on the coffee table's top surface"
+        },
+        {
+          "name": "dog",
+          "description": "golden retriever watching from the sofa back"
+        }
+      ],
+      "actions": [],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "carry_coffee_table_001260",
+      "frame_index": 1260,
+      "timestamp_seconds": 21.011891,
+      "description": "The person's right hand grips the coffee table's near edge more firmly, fingers curled around it, while the woman's hands remain on the tabletop from the opposite side. The table's legs are still visibly resting on the carpet.",
+      "resources": [
+        {
+          "name": "right hand",
+          "description": "person's right hand gripping the coffee table's near edge, fingers curled around it",
+          "identifier": "person_right_hand"
+        },
+        {
+          "name": "hands",
+          "description": "woman's hands resting flat on the coffee table's top surface",
+          "identifier": "woman_hands"
+        }
+      ],
+      "entities": [
+        {
+          "name": "table",
+          "description": "round marble-topped coffee table, legs resting on the carpet",
+          "identifier": "coffee_table"
+        },
+        {
+          "name": "person",
+          "description": "person in silver costume, gripping the coffee table's edge"
+        },
+        {
+          "name": "woman",
+          "description": "second person, hands on the coffee table's top surface"
+        }
+      ],
+      "actions": [
+        {
+          "name": "grip table edge",
+          "actor": "person's right hand",
+          "target": "table",
+          "description": "the person's right hand grips the coffee table's near edge"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "carry_coffee_table_001268",
+      "frame_index": 1268,
+      "timestamp_seconds": 21.1453,
+      "description": "Unchanged from the moment before: the person's right hand grips the coffee table's near edge, the woman's hands rest on the tabletop, and the table remains on the floor.",
+      "resources": [
+        {
+          "name": "right hand",
+          "description": "person's right hand gripping the coffee table's near edge, unchanged",
+          "identifier": "person_right_hand"
+        },
+        {
+          "name": "hands",
+          "description": "woman's hands resting flat on the coffee table's top surface, unchanged",
+          "identifier": "woman_hands"
+        }
+      ],
+      "entities": [
+        {
+          "name": "table",
+          "description": "round marble-topped coffee table, legs resting on the carpet",
+          "identifier": "coffee_table"
+        },
+        {
+          "name": "person",
+          "description": "person in silver costume, gripping the coffee table's edge"
+        },
+        {
+          "name": "woman",
+          "description": "second person, hands on the coffee table's top surface"
+        }
+      ],
+      "actions": [],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "carry_coffee_table_001276",
+      "frame_index": 1276,
+      "timestamp_seconds": 21.278709,
+      "description": "Unchanged from the moment before: the grip on the coffee table's edge and the resting hands on top continue, table still on the floor.",
+      "resources": [
+        {
+          "name": "right hand",
+          "description": "person's right hand gripping the coffee table's near edge, unchanged",
+          "identifier": "person_right_hand"
+        },
+        {
+          "name": "hands",
+          "description": "woman's hands resting flat on the coffee table's top surface, unchanged",
+          "identifier": "woman_hands"
+        }
+      ],
+      "entities": [
+        {
+          "name": "table",
+          "description": "round marble-topped coffee table, legs resting on the carpet",
+          "identifier": "coffee_table"
+        },
+        {
+          "name": "person",
+          "description": "person in silver costume, gripping the coffee table's edge"
+        },
+        {
+          "name": "woman",
+          "description": "second person, hands on the coffee table's top surface"
+        }
+      ],
+      "actions": [],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "carry_coffee_table_001284",
+      "frame_index": 1284,
+      "timestamp_seconds": 21.412118,
+      "description": "Unchanged from the moment before: the person continues gripping the coffee table's near edge while the woman's hands rest on the tabletop, table still standing on the carpet.",
+      "resources": [
+        {
+          "name": "right hand",
+          "description": "person's right hand gripping the coffee table's near edge, unchanged",
+          "identifier": "person_right_hand"
+        },
+        {
+          "name": "hands",
+          "description": "woman's hands resting flat on the coffee table's top surface, unchanged",
+          "identifier": "woman_hands"
+        }
+      ],
+      "entities": [
+        {
+          "name": "table",
+          "description": "round marble-topped coffee table, legs resting on the carpet",
+          "identifier": "coffee_table"
+        },
+        {
+          "name": "person",
+          "description": "person in silver costume, gripping the coffee table's edge"
+        },
+        {
+          "name": "woman",
+          "description": "second person, hands on the coffee table's top surface"
+        }
+      ],
+      "actions": [],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "carry_coffee_table_001292",
+      "frame_index": 1292,
+      "timestamp_seconds": 21.545527,
+      "description": "Unchanged from the moment before: the grip and resting-hand positions at the coffee table remain the same, table still on the floor.",
+      "resources": [
+        {
+          "name": "right hand",
+          "description": "person's right hand gripping the coffee table's near edge, unchanged",
+          "identifier": "person_right_hand"
+        },
+        {
+          "name": "hands",
+          "description": "woman's hands resting flat on the coffee table's top surface, unchanged",
+          "identifier": "woman_hands"
+        }
+      ],
+      "entities": [
+        {
+          "name": "table",
+          "description": "round marble-topped coffee table, legs resting on the carpet",
+          "identifier": "coffee_table"
+        },
+        {
+          "name": "person",
+          "description": "person in silver costume, gripping the coffee table's edge"
+        },
+        {
+          "name": "woman",
+          "description": "second person, hands on the coffee table's top surface"
+        }
+      ],
+      "actions": [],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "carry_coffee_table_001298",
+      "frame_index": 1298,
+      "timestamp_seconds": 21.645583,
+      "description": "Unchanged from the moment before: the person's grip on the table edge and the woman's resting hands remain the same, table still on the floor.",
+      "resources": [
+        {
+          "name": "right hand",
+          "description": "person's right hand gripping the coffee table's near edge, unchanged",
+          "identifier": "person_right_hand"
+        },
+        {
+          "name": "hands",
+          "description": "woman's hands resting flat on the coffee table's top surface, unchanged",
+          "identifier": "woman_hands"
+        }
+      ],
+      "entities": [
+        {
+          "name": "table",
+          "description": "round marble-topped coffee table, legs resting on the carpet",
+          "identifier": "coffee_table"
+        },
+        {
+          "name": "person",
+          "description": "person in silver costume, gripping the coffee table's edge"
+        },
+        {
+          "name": "woman",
+          "description": "second person, hands on the coffee table's top surface"
+        }
+      ],
+      "actions": [],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "carry_coffee_table_001304",
+      "frame_index": 1304,
+      "timestamp_seconds": 21.74564,
+      "description": "Unchanged from the moment before: the sustained hold at the coffee table continues, table still standing on the carpet.",
+      "resources": [
+        {
+          "name": "right hand",
+          "description": "person's right hand gripping the coffee table's near edge, unchanged",
+          "identifier": "person_right_hand"
+        },
+        {
+          "name": "hands",
+          "description": "woman's hands resting flat on the coffee table's top surface, unchanged",
+          "identifier": "woman_hands"
+        }
+      ],
+      "entities": [
+        {
+          "name": "table",
+          "description": "round marble-topped coffee table, legs resting on the carpet",
+          "identifier": "coffee_table"
+        },
+        {
+          "name": "person",
+          "description": "person in silver costume, gripping the coffee table's edge"
+        },
+        {
+          "name": "woman",
+          "description": "second person, hands on the coffee table's top surface"
+        }
+      ],
+      "actions": [],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "carry_coffee_table_001310",
+      "frame_index": 1310,
+      "timestamp_seconds": 21.845696,
+      "description": "Unchanged from the moment before: grip and hand positions at the coffee table remain the same.",
+      "resources": [
+        {
+          "name": "right hand",
+          "description": "person's right hand gripping the coffee table's near edge, unchanged",
+          "identifier": "person_right_hand"
+        },
+        {
+          "name": "hands",
+          "description": "woman's hands resting flat on the coffee table's top surface, unchanged",
+          "identifier": "woman_hands"
+        }
+      ],
+      "entities": [
+        {
+          "name": "table",
+          "description": "round marble-topped coffee table, legs resting on the carpet",
+          "identifier": "coffee_table"
+        },
+        {
+          "name": "person",
+          "description": "person in silver costume, gripping the coffee table's edge"
+        },
+        {
+          "name": "woman",
+          "description": "second person, hands on the coffee table's top surface"
+        }
+      ],
+      "actions": [],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "carry_coffee_table_001316",
+      "frame_index": 1316,
+      "timestamp_seconds": 21.945753,
+      "description": "Unchanged from the moment before: the person and woman continue holding the coffee table's edges without lifting it from the floor.",
+      "resources": [
+        {
+          "name": "right hand",
+          "description": "person's right hand gripping the coffee table's near edge, unchanged",
+          "identifier": "person_right_hand"
+        },
+        {
+          "name": "hands",
+          "description": "woman's hands resting flat on the coffee table's top surface, unchanged",
+          "identifier": "woman_hands"
+        }
+      ],
+      "entities": [
+        {
+          "name": "table",
+          "description": "round marble-topped coffee table, legs resting on the carpet",
+          "identifier": "coffee_table"
+        },
+        {
+          "name": "person",
+          "description": "person in silver costume, gripping the coffee table's edge"
+        },
+        {
+          "name": "woman",
+          "description": "second person, hands on the coffee table's top surface"
+        }
+      ],
+      "actions": [],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "carry_coffee_table_001322",
+      "frame_index": 1322,
+      "timestamp_seconds": 22.04581,
+      "description": "Unchanged from the moment before: the sustained hold at the coffee table continues, table legs still on the carpet.",
+      "resources": [
+        {
+          "name": "right hand",
+          "description": "person's right hand gripping the coffee table's near edge, unchanged",
+          "identifier": "person_right_hand"
+        },
+        {
+          "name": "hands",
+          "description": "woman's hands resting flat on the coffee table's top surface, unchanged",
+          "identifier": "woman_hands"
+        }
+      ],
+      "entities": [
+        {
+          "name": "table",
+          "description": "round marble-topped coffee table, legs resting on the carpet",
+          "identifier": "coffee_table"
+        },
+        {
+          "name": "person",
+          "description": "person in silver costume, gripping the coffee table's edge"
+        },
+        {
+          "name": "woman",
+          "description": "second person, hands on the coffee table's top surface"
+        }
+      ],
+      "actions": [],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "carry_coffee_table_001328",
+      "frame_index": 1328,
+      "timestamp_seconds": 22.145866,
+      "description": "Unchanged from the moment before: grip and hand positions remain the same, table still resting on the floor.",
+      "resources": [
+        {
+          "name": "right hand",
+          "description": "person's right hand gripping the coffee table's near edge, unchanged",
+          "identifier": "person_right_hand"
+        },
+        {
+          "name": "hands",
+          "description": "woman's hands resting flat on the coffee table's top surface, unchanged",
+          "identifier": "woman_hands"
+        }
+      ],
+      "entities": [
+        {
+          "name": "table",
+          "description": "round marble-topped coffee table, legs resting on the carpet",
+          "identifier": "coffee_table"
+        },
+        {
+          "name": "person",
+          "description": "person in silver costume, gripping the coffee table's edge"
+        },
+        {
+          "name": "woman",
+          "description": "second person, hands on the coffee table's top surface"
+        }
+      ],
+      "actions": [],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "carry_coffee_table_001334",
+      "frame_index": 1334,
+      "timestamp_seconds": 22.245923,
+      "description": "Unchanged from the moment before: the person and woman continue to hold the coffee table's edges, table legs still on the carpet.",
+      "resources": [
+        {
+          "name": "right hand",
+          "description": "person's right hand gripping the coffee table's near edge, unchanged",
+          "identifier": "person_right_hand"
+        },
+        {
+          "name": "hands",
+          "description": "woman's hands resting flat on the coffee table's top surface, unchanged",
+          "identifier": "woman_hands"
+        }
+      ],
+      "entities": [
+        {
+          "name": "table",
+          "description": "round marble-topped coffee table, legs resting on the carpet",
+          "identifier": "coffee_table"
+        },
+        {
+          "name": "person",
+          "description": "person in silver costume, gripping the coffee table's edge"
+        },
+        {
+          "name": "woman",
+          "description": "second person, hands on the coffee table's top surface"
+        }
+      ],
+      "actions": [],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "carry_coffee_table_001340",
+      "frame_index": 1340,
+      "timestamp_seconds": 22.34598,
+      "description": "Unchanged from the moment before: the sustained hold at the coffee table continues without the table leaving the floor.",
+      "resources": [
+        {
+          "name": "right hand",
+          "description": "person's right hand gripping the coffee table's near edge, unchanged",
+          "identifier": "person_right_hand"
+        },
+        {
+          "name": "hands",
+          "description": "woman's hands resting flat on the coffee table's top surface, unchanged",
+          "identifier": "woman_hands"
+        }
+      ],
+      "entities": [
+        {
+          "name": "table",
+          "description": "round marble-topped coffee table, legs resting on the carpet",
+          "identifier": "coffee_table"
+        },
+        {
+          "name": "person",
+          "description": "person in silver costume, gripping the coffee table's edge"
+        },
+        {
+          "name": "woman",
+          "description": "second person, hands on the coffee table's top surface"
+        }
+      ],
+      "actions": [],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "carry_coffee_table_001346",
+      "frame_index": 1346,
+      "timestamp_seconds": 22.446036,
+      "description": "Unchanged from the moment before: the person's right hand grips the coffee table's near edge and the woman's hands rest on the tabletop from the opposite side, table legs still on the carpet.",
+      "resources": [
+        {
+          "name": "right hand",
+          "description": "person's right hand gripping the coffee table's near edge, unchanged",
+          "identifier": "person_right_hand"
+        },
+        {
+          "name": "hands",
+          "description": "woman's hands resting flat on the coffee table's top surface, unchanged",
+          "identifier": "woman_hands"
+        }
+      ],
+      "entities": [
+        {
+          "name": "table",
+          "description": "round marble-topped coffee table, legs resting on the carpet",
+          "identifier": "coffee_table"
+        },
+        {
+          "name": "person",
+          "description": "person in silver costume, gripping the coffee table's edge"
+        },
+        {
+          "name": "woman",
+          "description": "second person, hands on the coffee table's top surface"
+        }
+      ],
+      "actions": [],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "carry_coffee_table_001354",
+      "frame_index": 1354,
+      "timestamp_seconds": 22.579445,
+      "description": "Unchanged from the moment before: grip and resting-hand positions at the coffee table remain the same.",
+      "resources": [
+        {
+          "name": "right hand",
+          "description": "person's right hand gripping the coffee table's near edge, unchanged",
+          "identifier": "person_right_hand"
+        },
+        {
+          "name": "hands",
+          "description": "woman's hands resting flat on the coffee table's top surface, unchanged",
+          "identifier": "woman_hands"
+        }
+      ],
+      "entities": [
+        {
+          "name": "table",
+          "description": "round marble-topped coffee table, legs resting on the carpet",
+          "identifier": "coffee_table"
+        },
+        {
+          "name": "person",
+          "description": "person in silver costume, gripping the coffee table's edge"
+        },
+        {
+          "name": "woman",
+          "description": "second person, hands on the coffee table's top surface"
+        }
+      ],
+      "actions": [],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "carry_coffee_table_001362",
+      "frame_index": 1362,
+      "timestamp_seconds": 22.712854,
+      "description": "Unchanged from the moment before: the person leans over the coffee table with the right hand still gripping its near edge, while the woman's hands remain on the tabletop; the table remains on the floor.",
+      "resources": [
+        {
+          "name": "right hand",
+          "description": "person's right hand gripping the coffee table's near edge, unchanged",
+          "identifier": "person_right_hand"
+        },
+        {
+          "name": "hands",
+          "description": "woman's hands resting flat on the coffee table's top surface, unchanged",
+          "identifier": "woman_hands"
+        }
+      ],
+      "entities": [
+        {
+          "name": "table",
+          "description": "round marble-topped coffee table, legs resting on the carpet",
+          "identifier": "coffee_table"
+        },
+        {
+          "name": "person",
+          "description": "person in silver costume, leaning over the coffee table's edge"
+        },
+        {
+          "name": "woman",
+          "description": "second person, hands on the coffee table's top surface"
+        }
+      ],
+      "actions": [],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "carry_coffee_table_001368",
+      "frame_index": 1368,
+      "timestamp_seconds": 22.8,
+      "description": "A person in a silver suit and a woman jointly carry a round marble table: the person's right fingers hook under its underside edge bearing its weight, while the woman's right hand rests flat on its top surface guiding it.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "hooked under the table's underside edge, bearing its weight",
+          "identifier": "person_right_fingers"
+        },
+        {
+          "name": "right hand",
+          "description": "resting flat, palm and fingers spread, on the table's top surface -- guiding it rather than bearing its weight",
+          "identifier": "woman_right_hand"
+        }
+      ],
+      "entities": [
+        {
+          "name": "table",
+          "identifier": "coffee_table"
+        },
+        {
+          "name": "woman",
+          "description": "a second person assisting with the task"
+        },
+        {
+          "name": "dog",
+          "description": "golden retriever visible nearby"
+        }
+      ],
+      "actions": [
+        {
+          "name": "carry table",
+          "actor": "person's right fingers and woman's right hand",
+          "target": "table",
+          "description": "the person and woman carry the table together: the person's fingers grip its underside edge and bear its weight, while the woman's hand rests on top guiding its position -- this is one shared action, not two independent ones"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "carry_coffee_table_001372",
+      "frame_index": 1372,
+      "timestamp_seconds": 22.879615,
+      "description": "The person has stepped out of the main view; only a small sliver of the silver costume is visible at the frame's edge. The woman remains at the coffee table, and the dog is visible again on the sofa in the background.",
+      "resources": [
+        {
+          "name": "hands",
+          "description": "woman's hands resting on the coffee table's top surface",
+          "identifier": "woman_hands"
+        }
+      ],
+      "entities": [
+        {
+          "name": "table",
+          "description": "round marble-topped coffee table, legs resting on the carpet",
+          "identifier": "coffee_table"
+        },
+        {
+          "name": "woman",
+          "description": "second person, hands on the coffee table's top surface"
+        },
+        {
+          "name": "dog",
+          "description": "golden retriever visible on the sofa in the background"
+        }
+      ],
+      "actions": [],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "carry_coffee_table_001392",
+      "frame_index": 1392,
+      "timestamp_seconds": 23.213137,
+      "description": "The person is no longer visible in the frame. The woman stands alone at the coffee table with her right hand resting on its near edge; the dog watches from the sofa in the background.",
+      "resources": [
+        {
+          "name": "right hand",
+          "description": "woman's right hand resting on the coffee table's near edge",
+          "identifier": "woman_right_hand"
+        }
+      ],
+      "entities": [
+        {
+          "name": "table",
+          "description": "round marble-topped coffee table, legs resting on the carpet",
+          "identifier": "coffee_table"
+        },
+        {
+          "name": "woman",
+          "description": "second person, standing alone at the coffee table"
+        },
+        {
+          "name": "dog",
+          "description": "golden retriever watching from the sofa"
+        }
+      ],
+      "actions": [
+        {
+          "name": "rest hand on table",
+          "actor": "woman's right hand",
+          "target": "table",
+          "description": "the woman's right hand rests on the coffee table's near edge"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "carry_coffee_table_001412",
+      "frame_index": 1412,
+      "timestamp_seconds": 23.546659,
+      "description": "Unchanged from the moment before: the woman stands alone at the coffee table with her right hand resting on its edge, and the dog watches from the sofa.",
+      "resources": [
+        {
+          "name": "right hand",
+          "description": "woman's right hand resting on the coffee table's near edge, unchanged",
+          "identifier": "woman_right_hand"
+        }
+      ],
+      "entities": [
+        {
+          "name": "table",
+          "description": "round marble-topped coffee table, legs resting on the carpet",
+          "identifier": "coffee_table"
+        },
+        {
+          "name": "woman",
+          "description": "second person, standing alone at the coffee table"
+        },
+        {
+          "name": "dog",
+          "description": "golden retriever watching from the sofa"
+        }
+      ],
+      "actions": [],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "carry_coffee_table_001428",
+      "frame_index": 1428,
+      "timestamp_seconds": 23.813477,
+      "description": "Unchanged from the moment before: the woman continues standing at the coffee table with her hand resting on its edge, dog watching from the sofa.",
+      "resources": [
+        {
+          "name": "right hand",
+          "description": "woman's right hand resting on the coffee table's near edge, unchanged",
+          "identifier": "woman_right_hand"
+        }
+      ],
+      "entities": [
+        {
+          "name": "table",
+          "description": "round marble-topped coffee table, legs resting on the carpet",
+          "identifier": "coffee_table"
+        },
+        {
+          "name": "woman",
+          "description": "second person, standing alone at the coffee table"
+        },
+        {
+          "name": "dog",
+          "description": "golden retriever watching from the sofa"
+        }
+      ],
+      "actions": [],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "carry_coffee_table_001448",
+      "frame_index": 1448,
+      "timestamp_seconds": 24.146999,
+      "description": "Unchanged from the moment before: the woman remains alone at the coffee table with her hand resting on its edge, and the dog watches from the sofa.",
+      "resources": [
+        {
+          "name": "right hand",
+          "description": "woman's right hand resting on the coffee table's near edge, unchanged",
+          "identifier": "woman_right_hand"
+        }
+      ],
+      "entities": [
+        {
+          "name": "table",
+          "description": "round marble-topped coffee table, legs resting on the carpet",
+          "identifier": "coffee_table"
+        },
+        {
+          "name": "woman",
+          "description": "second person, standing alone at the coffee table"
+        },
+        {
+          "name": "dog",
+          "description": "golden retriever watching from the sofa"
+        }
+      ],
+      "actions": [],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "carry_coffee_table_001466",
+      "frame_index": 1466,
+      "timestamp_seconds": 24.447169,
+      "description": "The dog now sits on the sofa with its front paws wrapped around a light-colored blanket or plush toy, head lowered toward it, no longer watching the entryway. The woman continues standing at the coffee table with her hand on its edge.",
+      "resources": [
+        {
+          "name": "right hand",
+          "description": "woman's right hand resting on the coffee table's near edge, unchanged",
+          "identifier": "woman_right_hand"
+        },
+        {
+          "name": "front paws",
+          "description": "dog's front paws now wrapped around a blanket or plush toy on the sofa",
+          "identifier": "dog_front_paws"
+        }
+      ],
+      "entities": [
+        {
+          "name": "table",
+          "description": "round marble-topped coffee table, legs resting on the carpet",
+          "identifier": "coffee_table"
+        },
+        {
+          "name": "woman",
+          "description": "second person, standing alone at the coffee table"
+        },
+        {
+          "name": "dog",
+          "description": "golden retriever now nuzzling a blanket or plush toy on the sofa"
+        }
+      ],
+      "actions": [
+        {
+          "name": "nuzzle blanket",
+          "actor": "dog's front paws",
+          "target": "blanket",
+          "description": "the dog's front paws wrap around a blanket or plush toy, head lowered toward it"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "carry_coffee_table_001480",
+      "frame_index": 1480,
+      "timestamp_seconds": 24.680634,
+      "description": "The woman leans forward more, bending over the coffee table with her hand still on its near edge. The dog continues nuzzling the blanket on the sofa.",
+      "resources": [
+        {
+          "name": "right hand",
+          "description": "woman's right hand resting on the coffee table's near edge, unchanged",
+          "identifier": "woman_right_hand"
+        },
+        {
+          "name": "front paws",
+          "description": "dog's front paws wrapped around the blanket, unchanged",
+          "identifier": "dog_front_paws"
+        }
+      ],
+      "entities": [
+        {
+          "name": "table",
+          "description": "round marble-topped coffee table, legs resting on the carpet",
+          "identifier": "coffee_table"
+        },
+        {
+          "name": "woman",
+          "description": "second person, bending forward over the coffee table"
+        },
+        {
+          "name": "dog",
+          "description": "golden retriever nuzzling a blanket on the sofa"
+        }
+      ],
+      "actions": [
+        {
+          "name": "bend over table",
+          "actor": "woman",
+          "target": "table",
+          "description": "the woman bends forward over the coffee table, hand on its edge"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "carry_coffee_table_001492",
+      "frame_index": 1492,
+      "timestamp_seconds": 24.880747,
+      "description": "Unchanged from the moment before: the woman remains bent over the coffee table with her hand on its edge, looking down at it; the dog is visible on the sofa with the blanket.",
+      "resources": [
+        {
+          "name": "right hand",
+          "description": "woman's right hand resting on the coffee table's near edge, unchanged",
+          "identifier": "woman_right_hand"
+        }
+      ],
+      "entities": [
+        {
+          "name": "table",
+          "description": "round marble-topped coffee table, legs resting on the carpet",
+          "identifier": "coffee_table"
+        },
+        {
+          "name": "woman",
+          "description": "second person, bent over the coffee table looking down"
+        },
+        {
+          "name": "dog",
+          "description": "golden retriever on the sofa with the blanket"
+        }
+      ],
+      "actions": [],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "carry_coffee_table_001522",
+      "frame_index": 1522,
+      "timestamp_seconds": 25.381031,
+      "description": "Unchanged from the moment before: the woman remains bent forward over the coffee table, her hand resting on its edge, gazing down at the tabletop.",
+      "resources": [
+        {
+          "name": "right hand",
+          "description": "woman's right hand resting on the coffee table's near edge, unchanged",
+          "identifier": "woman_right_hand"
+        }
+      ],
+      "entities": [
+        {
+          "name": "table",
+          "description": "round marble-topped coffee table, legs resting on the carpet",
+          "identifier": "coffee_table"
+        },
+        {
+          "name": "woman",
+          "description": "second person, bent over the coffee table looking down"
+        }
+      ],
+      "actions": [],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "carry_coffee_table_001552",
+      "frame_index": 1552,
+      "timestamp_seconds": 25.866667,
+      "description": "A woman bends over a round marble table, her right fingers reaching toward its edge but not yet gripping it, while a dog rests on the couch in the background.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "reaching toward the table's edge, not yet in contact with it",
+          "identifier": "woman_right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "table",
+          "identifier": "coffee_table"
+        },
+        {
+          "name": "woman",
+          "description": "a second person assisting with the task"
+        },
+        {
+          "name": "dog",
+          "description": "golden retriever resting on the couch"
+        }
+      ],
+      "actions": [
+        {
+          "name": "reach for table",
+          "actor": "woman's right fingers",
+          "target": "table",
+          "description": "the woman's fingers reach toward the table's edge"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "carry_coffee_table_001560",
+      "frame_index": 1560,
+      "timestamp_seconds": 26.014723,
+      "description": "Unchanged from the moment before: the woman is still bent forward over the coffee table, hand resting on its near edge, looking down at it.",
+      "resources": [
+        {
+          "name": "right hand",
+          "description": "woman's right hand resting on the coffee table's near edge, unchanged",
+          "identifier": "woman_right_hand"
+        }
+      ],
+      "entities": [
+        {
+          "name": "table",
+          "description": "round marble-topped coffee table, legs resting on the carpet",
+          "identifier": "coffee_table"
+        },
+        {
+          "name": "woman",
+          "description": "second person, bent over the coffee table looking down"
+        }
+      ],
+      "actions": [],
+      "ontological_phrases": []
+    }
+  ]
+}

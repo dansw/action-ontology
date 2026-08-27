@@ -1,0 +1,1865 @@
+{
+  "video_id": "turn_page_paperback",
+  "video_path": "videos/turn_page_paperback.mov",
+  "frames": [
+    {
+      "frame_id": "turn_page_paperback_000000",
+      "frame_index": 0,
+      "timestamp_seconds": 0.0,
+      "description": "A person in a silver reflective suit stands at a kitchen counter holding a closed paperback book upside-down just above the table surface; the fingers of each hand grip opposite edges of the closed book.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping the near edge of the closed, upside-down book",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "gripping the opposite edge of the closed, upside-down book",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "book",
+          "description": "closed paperback, held upside-down (cover text inverted), suspended just above the table",
+          "identifier": "book"
+        }
+      ],
+      "actions": [
+        {
+          "name": "grip book",
+          "actor": "left fingers",
+          "target": "book",
+          "description": "left fingers pinch one edge of the closed book, holding it aloft"
+        },
+        {
+          "name": "grip book",
+          "actor": "right fingers",
+          "target": "book",
+          "description": "right fingers pinch the opposite edge of the closed book, holding it aloft"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers grip book",
+        "right fingers grip book"
+      ]
+    },
+    {
+      "frame_id": "turn_page_paperback_000044",
+      "frame_index": 44,
+      "timestamp_seconds": 0.734219,
+      "description": "The book remains closed and held upside-down, just above the table surface; the fingers of each hand continue pinching opposite edges of the book, essentially unchanged from the very start.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "pinching the near edge of the closed, upside-down book, unchanged",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "pinching the opposite edge of the closed, upside-down book, unchanged",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "book",
+          "description": "closed paperback, held upside-down, suspended just above the table",
+          "identifier": "book"
+        }
+      ],
+      "actions": [
+        {
+          "name": "grip book",
+          "actor": "left fingers",
+          "target": "book",
+          "description": "left fingers pinch one edge of the closed book, holding it aloft, unchanged"
+        },
+        {
+          "name": "grip book",
+          "actor": "right fingers",
+          "target": "book",
+          "description": "right fingers pinch the opposite edge of the closed book, holding it aloft, unchanged"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers grip book",
+        "right fingers grip book"
+      ]
+    },
+    {
+      "frame_id": "turn_page_paperback_000062",
+      "frame_index": 62,
+      "timestamp_seconds": 1.034581,
+      "description": "The closed book has begun to crack open along its spine, still held upside-down; the fingers of each hand curl around the front and back covers, prying them apart at the middle.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "curling around one cover, prying the book open at the spine",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "curling around the opposite cover, prying the book open at the spine",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "book",
+          "description": "upside-down, cracked open at the spine, covers just beginning to separate",
+          "identifier": "book"
+        }
+      ],
+      "actions": [
+        {
+          "name": "open book",
+          "actor": "left fingers",
+          "target": "book",
+          "description": "left fingers pull one cover open, cracking the book apart at the spine"
+        },
+        {
+          "name": "open book",
+          "actor": "right fingers",
+          "target": "book",
+          "description": "right fingers pull the opposite cover open, cracking the book apart at the spine"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers open book",
+        "right fingers open book"
+      ]
+    },
+    {
+      "frame_id": "turn_page_paperback_000084",
+      "frame_index": 84,
+      "timestamp_seconds": 1.4016908212560386,
+      "description": "The book is now open but still held upside-down; the fingers of both hands are spread across the fanned pages near the spine as the person begins riffling through them before turning the book right-side up.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "spread across the fanned pages near the spine, holding that side open",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "spread across the fanned pages on the opposite side, holding that side open",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "book",
+          "description": "open with pages fanned, still oriented upside-down",
+          "identifier": "book"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold pages open",
+          "actor": "left fingers",
+          "target": "book",
+          "description": "left fingers keep one side of the fanned-open book spread"
+        },
+        {
+          "name": "hold pages open",
+          "actor": "right fingers",
+          "target": "book",
+          "description": "right fingers keep the other side of the fanned-open book spread"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers hold book",
+        "right fingers hold book"
+      ]
+    },
+    {
+      "frame_id": "turn_page_paperback_000112",
+      "frame_index": 112,
+      "timestamp_seconds": 1.868921,
+      "description": "The book is now right-side up and open, held up in front of the chest; the fingers of each hand grip the edges of the open pages, positioning it for reading.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping the edge of the left page, holding it open",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "gripping the edge of the right page, holding it open",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "book",
+          "description": "right-side up, open, held up in front of the chest, being positioned for reading",
+          "identifier": "book"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold page",
+          "actor": "left fingers",
+          "target": "book",
+          "description": "left fingers grip the edge of the left page, holding it open"
+        },
+        {
+          "name": "hold page",
+          "actor": "right fingers",
+          "target": "book",
+          "description": "right fingers grip the edge of the right page, holding it open"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers hold book",
+        "right fingers hold book"
+      ]
+    },
+    {
+      "frame_id": "turn_page_paperback_000144",
+      "frame_index": 144,
+      "timestamp_seconds": 2.402898550724638,
+      "description": "The book is now right-side up and open near its front pages, held up at chest height for reading; the left fingers grip the lower edge of the left page while the right fingers pinch the right page along its edge, holding it upright.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping the lower edge of the left page, holding it flat",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "pinching the right page along its edge, holding it upright open",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "book",
+          "description": "open right-side up near the front pages, held at chest height",
+          "identifier": "book"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold page",
+          "actor": "left fingers",
+          "target": "book",
+          "description": "left fingers keep the left page flat and open"
+        },
+        {
+          "name": "hold page",
+          "actor": "right fingers",
+          "target": "book",
+          "description": "right fingers keep the right page upright and open, positioned for reading"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers hold book",
+        "right fingers hold book"
+      ]
+    },
+    {
+      "frame_id": "turn_page_paperback_000184",
+      "frame_index": 184,
+      "timestamp_seconds": 3.07037,
+      "description": "The person continues holding the open book up for reading; the right fingers have lifted and fanned a thick chunk of pages into a curled stack, riffling through them, while the left fingers keep the left page and spine flat.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping the left page and spine, holding it flat",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "lifting and fanning a thick chunk of pages into a curled stack, riffling through them",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "book",
+          "description": "open, held up for reading, pages on the right side fanned into a riffled stack",
+          "identifier": "book"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold page",
+          "actor": "left fingers",
+          "target": "book",
+          "description": "left fingers keep the left page and spine flat"
+        },
+        {
+          "name": "riffle pages",
+          "actor": "right fingers",
+          "target": "book",
+          "description": "right fingers fan and lift a chunk of pages, riffling through them"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers hold book",
+        "right fingers riffle book"
+      ]
+    },
+    {
+      "frame_id": "turn_page_paperback_000210",
+      "frame_index": 210,
+      "timestamp_seconds": 3.504227,
+      "description": "The riffled pages have settled back down flat; the book is held open again with both hands, the right fingers now resting along the lower edge of the right page.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping the left page and spine, holding it flat",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "resting along the lower edge of the right page, holding it flat",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "book",
+          "description": "open, held for reading, pages settled flat again",
+          "identifier": "book"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold page",
+          "actor": "left fingers",
+          "target": "book",
+          "description": "left fingers keep the left page and spine flat"
+        },
+        {
+          "name": "hold page",
+          "actor": "right fingers",
+          "target": "book",
+          "description": "right fingers rest along the lower edge of the right page, holding it flat"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers hold book",
+        "right fingers hold book"
+      ]
+    },
+    {
+      "frame_id": "turn_page_paperback_000249",
+      "frame_index": 249,
+      "timestamp_seconds": 4.155012,
+      "description": "The person continues reading with the book held open and flat, both hands unchanged from the moment before.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping the left page and spine, steady, unchanged",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "resting along the lower edge of the right page, holding it flat, unchanged",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "book",
+          "description": "open, held for reading, pages flat",
+          "identifier": "book"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold page",
+          "actor": "left fingers",
+          "target": "book",
+          "description": "left fingers keep the left page and spine steady, unchanged"
+        },
+        {
+          "name": "hold page",
+          "actor": "right fingers",
+          "target": "book",
+          "description": "right fingers keep the right page flat, unchanged"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers hold book",
+        "right fingers hold book"
+      ]
+    },
+    {
+      "frame_id": "turn_page_paperback_000287",
+      "frame_index": 287,
+      "timestamp_seconds": 4.78911,
+      "description": "The right fingers have again lifted a bunch of pages into a curled arc, riffling through them a second time, while the left fingers continue holding the left page and spine flat, unchanged.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping the left page and spine, holding it flat, unchanged",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "lifting a bunch of pages into a curled arc, riffling through them again",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "book",
+          "description": "open, pages on the right side fanned into a riffled arc again",
+          "identifier": "book"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold page",
+          "actor": "left fingers",
+          "target": "book",
+          "description": "left fingers keep the left page and spine flat, unchanged"
+        },
+        {
+          "name": "riffle pages",
+          "actor": "right fingers",
+          "target": "book",
+          "description": "right fingers fan and lift a bunch of pages, riffling through them again"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers hold book",
+        "right fingers riffle book"
+      ]
+    },
+    {
+      "frame_id": "turn_page_paperback_000311",
+      "frame_index": 311,
+      "timestamp_seconds": 5.189593,
+      "description": "The riffled pages have settled flat once more; both hands hold the open book steady, the right fingers resting along the edge of the page.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping the left page and spine, holding it flat",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "resting along the lower edge of the right page, holding it flat",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "book",
+          "description": "open, held for reading, pages settled flat again",
+          "identifier": "book"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold page",
+          "actor": "left fingers",
+          "target": "book",
+          "description": "left fingers keep the left page and spine flat"
+        },
+        {
+          "name": "hold page",
+          "actor": "right fingers",
+          "target": "book",
+          "description": "right fingers rest along the lower edge of the right page, holding it flat"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers hold book",
+        "right fingers hold book"
+      ]
+    },
+    {
+      "frame_id": "turn_page_paperback_000331",
+      "frame_index": 331,
+      "timestamp_seconds": 5.523329,
+      "description": "The person continues reading with the book held open and flat, both hands unchanged from the moment before.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping the left page and spine, steady, unchanged",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "resting along the lower edge of the right page, holding it flat, unchanged",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "book",
+          "description": "open, held for reading, pages flat",
+          "identifier": "book"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold page",
+          "actor": "left fingers",
+          "target": "book",
+          "description": "left fingers keep the left page and spine steady, unchanged"
+        },
+        {
+          "name": "hold page",
+          "actor": "right fingers",
+          "target": "book",
+          "description": "right fingers keep the right page flat, unchanged"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers hold book",
+        "right fingers hold book"
+      ]
+    },
+    {
+      "frame_id": "turn_page_paperback_000361",
+      "frame_index": 361,
+      "timestamp_seconds": 6.023933172302738,
+      "description": "The person continues reading with the book held open at chest height; the right fingers rest along the lower edge of the right page keeping it flat and unturned, while the left fingers grip the left page and spine, unchanged from the moment before.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping the left page and spine, steady",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "resting along the lower edge of the right page, holding it flat",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "book",
+          "description": "open, held at chest height, being read",
+          "identifier": "book"
+        },
+        {
+          "name": "page",
+          "description": "the right-hand page, still flat and unturned",
+          "identifier": "page"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold page",
+          "actor": "left fingers",
+          "target": "book",
+          "description": "left fingers keep the left page and spine steady"
+        },
+        {
+          "name": "hold page",
+          "actor": "right fingers",
+          "target": "page",
+          "description": "right fingers keep the right page flat, not yet turning it"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers hold book",
+        "right fingers hold page"
+      ]
+    },
+    {
+      "frame_id": "turn_page_paperback_000375",
+      "frame_index": 375,
+      "timestamp_seconds": 6.257548309178744,
+      "description": "The right fingers have pinched the corner of the right page and lifted it into a curling arc, beginning the page turn, while the left fingers continue gripping the left page and spine exactly as before, unchanged.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping the left page and spine, unchanged from the moment before",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "pinching the lifted page's corner, bending it upward into a curl",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "book",
+          "description": "open, held at chest height, right page now being turned",
+          "identifier": "book"
+        },
+        {
+          "name": "page",
+          "description": "curling upward, mid-flip, lifted away from the book's surface",
+          "identifier": "page"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold spine",
+          "actor": "left fingers",
+          "target": "book",
+          "description": "left fingers keep the left page and spine steady, unchanged"
+        },
+        {
+          "name": "turn page",
+          "actor": "right fingers",
+          "target": "page",
+          "description": "right fingers lift and curl the right page's corner upward, starting the turn"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers hold book",
+        "right fingers turn page"
+      ]
+    },
+    {
+      "frame_id": "turn_page_paperback_000385",
+      "frame_index": 385,
+      "timestamp_seconds": 6.424416,
+      "description": "The lifted page has curved further, the right fingers pinching its lower corner and tilting it up at a diagonal angle, continuing the arc begun a moment before; the left fingers keep gripping the left page and spine, unchanged.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping the left page and spine, unchanged",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "pinching the lower corner of the lifted page, tilting it up at a diagonal angle",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "book",
+          "description": "open, right page continuing to turn, tilted at a diagonal angle",
+          "identifier": "book"
+        },
+        {
+          "name": "page",
+          "description": "curving further, tilted diagonally, mid-flip",
+          "identifier": "page"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold spine",
+          "actor": "left fingers",
+          "target": "book",
+          "description": "left fingers keep the left page and spine steady, unchanged"
+        },
+        {
+          "name": "turn page",
+          "actor": "right fingers",
+          "target": "page",
+          "description": "right fingers continue curling and tilting the page further along its arc"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers hold book",
+        "right fingers turn page"
+      ]
+    },
+    {
+      "frame_id": "turn_page_paperback_000395",
+      "frame_index": 395,
+      "timestamp_seconds": 6.591284,
+      "description": "The curling page has arced higher, approaching vertical, as the right fingers continue pinching its corner and carrying it further across; the left fingers remain gripping the left page and spine, unchanged.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping the left page and spine, unchanged",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "pinching the arcing page's corner, carrying it higher, approaching vertical",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "book",
+          "description": "open, right page mid-turn, arcing higher toward vertical",
+          "identifier": "book"
+        },
+        {
+          "name": "page",
+          "description": "arced higher, approaching vertical, mid-flip",
+          "identifier": "page"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold spine",
+          "actor": "left fingers",
+          "target": "book",
+          "description": "left fingers keep the left page and spine steady, unchanged"
+        },
+        {
+          "name": "turn page",
+          "actor": "right fingers",
+          "target": "page",
+          "description": "right fingers carry the page further along its arc, approaching vertical"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers hold book",
+        "right fingers turn page"
+      ]
+    },
+    {
+      "frame_id": "turn_page_paperback_000405",
+      "frame_index": 405,
+      "timestamp_seconds": 6.758152173913044,
+      "description": "The curling page has arced further over, now swinging nearly vertical as the right fingers continue pinching its corner and carrying it across toward the left side of the book; the left fingers remain gripping the left page and spine, unchanged.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping the left page and spine, unchanged",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "pinching the arcing page's corner, carrying it across toward the left side",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "book",
+          "description": "open, right page mid-turn, arcing across toward the left side",
+          "identifier": "book"
+        },
+        {
+          "name": "page",
+          "description": "arced nearly vertical, mid-flip, being carried across the book",
+          "identifier": "page"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold spine",
+          "actor": "left fingers",
+          "target": "book",
+          "description": "left fingers keep the left page and spine steady, unchanged"
+        },
+        {
+          "name": "turn page",
+          "actor": "right fingers",
+          "target": "page",
+          "description": "right fingers carry the arcing page further across toward the left side"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers hold book",
+        "right fingers turn page"
+      ]
+    },
+    {
+      "frame_id": "turn_page_paperback_000413",
+      "frame_index": 413,
+      "timestamp_seconds": 6.891647,
+      "description": "The page has passed its highest arc and is now descending toward the left side, nearly flat again; the right fingers still pinch its lower corner while the left fingers continue gripping the left page and spine, unchanged.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping the left page and spine, unchanged",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "pinching the lower corner of the descending page, guiding it down toward flat",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "book",
+          "description": "open, right page descending from its arc, nearly settled",
+          "identifier": "book"
+        },
+        {
+          "name": "page",
+          "description": "descending from its arc, nearly flat, not yet fully settled",
+          "identifier": "page"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold spine",
+          "actor": "left fingers",
+          "target": "book",
+          "description": "left fingers keep the left page and spine steady, unchanged"
+        },
+        {
+          "name": "turn page",
+          "actor": "right fingers",
+          "target": "page",
+          "description": "right fingers guide the page down as it descends toward flat"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers hold book",
+        "right fingers turn page"
+      ]
+    },
+    {
+      "frame_id": "turn_page_paperback_000419",
+      "frame_index": 419,
+      "timestamp_seconds": 6.99176731078905,
+      "description": "The turned page has settled flat onto its new side, completing the flip; the right fingers rest lightly at its lower edge, contact easing, while the left fingers continue gripping the book's left page and spine, unchanged from before.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping the left page and spine, unchanged from before",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "resting lightly on the lower edge of the now-settled page, contact easing",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "book",
+          "description": "open, page turn complete, new page now settled and readable",
+          "identifier": "book"
+        },
+        {
+          "name": "page",
+          "description": "settled flat on its new side, the flip now complete",
+          "identifier": "page"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold spine",
+          "actor": "left fingers",
+          "target": "book",
+          "description": "left fingers keep the left page and spine steady, unchanged"
+        },
+        {
+          "name": "release page",
+          "actor": "right fingers",
+          "target": "page",
+          "description": "right fingers rest lightly on the settled page, contact easing"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers hold book",
+        "right fingers release page"
+      ]
+    },
+    {
+      "frame_id": "turn_page_paperback_000425",
+      "frame_index": 425,
+      "timestamp_seconds": 7.09188808373591,
+      "description": "The right hand has released the page entirely and dropped away, its fingers now loose and lowered toward the table's edge, idle and no longer engaged with the book; the left fingers alone continue gripping the book's left page and spine, unchanged, now the sole support holding it open.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping the left page and spine alone, unchanged, now the book's sole support",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "book",
+          "description": "open, held up by one hand only, the turned page now fully settled",
+          "identifier": "book"
+        },
+        {
+          "name": "page",
+          "description": "fully settled and flat on its new side",
+          "identifier": "page"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold book",
+          "actor": "left fingers",
+          "target": "book",
+          "description": "left fingers alone continue gripping the book, holding it open and up, unchanged"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers hold book"
+      ]
+    },
+    {
+      "frame_id": "turn_page_paperback_000429",
+      "frame_index": 429,
+      "timestamp_seconds": 7.158635,
+      "description": "The right hand remains released and lowered near the table's edge, unchanged from the moment before; the left fingers alone continue gripping the book's left page and spine, the sole support holding it open.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping the left page and spine alone, unchanged, the book's sole support",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "book",
+          "description": "open, held up by one hand only, the turned page fully settled",
+          "identifier": "book"
+        },
+        {
+          "name": "page",
+          "description": "fully settled and flat on its new side",
+          "identifier": "page"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold book",
+          "actor": "left fingers",
+          "target": "book",
+          "description": "left fingers alone continue gripping the book, holding it open and up, unchanged"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers hold book"
+      ]
+    },
+    {
+      "frame_id": "turn_page_paperback_000433",
+      "frame_index": 433,
+      "timestamp_seconds": 7.225382,
+      "description": "The person looks up toward the camera, smiling, while the left fingers alone continue holding the open book; the right hand hangs lowered near the table, not engaged.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping the open book, holding it up as the person looks toward the camera",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "book",
+          "description": "open, held up by the left hand alone, angled toward the camera",
+          "identifier": "book"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold book",
+          "actor": "left fingers",
+          "target": "book",
+          "description": "left fingers hold the open book steady while the person looks up toward the camera"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers hold book"
+      ]
+    },
+    {
+      "frame_id": "turn_page_paperback_000437",
+      "frame_index": 437,
+      "timestamp_seconds": 7.29213,
+      "description": "The person continues smiling toward the camera, the left fingers still gripping the open book and tilting it toward the camera; the right hand descends further, nearing the table surface.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping the open book, holding it tilted toward the camera",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "book",
+          "description": "open, held up by the left hand alone, tilted toward the camera",
+          "identifier": "book"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold book",
+          "actor": "left fingers",
+          "target": "book",
+          "description": "left fingers hold the open book steady, tilted toward the camera"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers hold book"
+      ]
+    },
+    {
+      "frame_id": "turn_page_paperback_000443",
+      "frame_index": 443,
+      "timestamp_seconds": 7.39225,
+      "description": "The right hand now rests flat on the table surface, idle; the left fingers continue gripping the open book, holding it up and tilted toward the camera.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping the open book, holding it tilted toward the camera",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "book",
+          "description": "open, held up by the left hand alone, tilted toward the camera",
+          "identifier": "book"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold book",
+          "actor": "left fingers",
+          "target": "book",
+          "description": "left fingers hold the open book steady, tilted toward the camera"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers hold book"
+      ]
+    },
+    {
+      "frame_id": "turn_page_paperback_000449",
+      "frame_index": 449,
+      "timestamp_seconds": 7.492371,
+      "description": "The right hand continues resting flat on the table, idle; the left fingers keep holding the open book up, tilted toward the camera, unchanged from the moment before.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping the open book, holding it tilted toward the camera, unchanged",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "book",
+          "description": "open, held up by the left hand alone, tilted toward the camera",
+          "identifier": "book"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold book",
+          "actor": "left fingers",
+          "target": "book",
+          "description": "left fingers hold the open book steady, tilted toward the camera, unchanged"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers hold book"
+      ]
+    },
+    {
+      "frame_id": "turn_page_paperback_000455",
+      "frame_index": 455,
+      "timestamp_seconds": 7.592492,
+      "description": "The person now holds the open book up toward the camera, tilting it to display the page, left fingers alone gripping the book; the right hand rests idle on the table, fingers loosely open.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping the book's left page and spine, tilting it up toward the camera to display the page",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "book",
+          "description": "held up and tilted toward the camera, open page visible",
+          "identifier": "book"
+        }
+      ],
+      "actions": [
+        {
+          "name": "display book",
+          "actor": "left fingers",
+          "target": "book",
+          "description": "left fingers grip and tilt the book up toward the camera to show the page"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers hold book"
+      ]
+    },
+    {
+      "frame_id": "turn_page_paperback_000461",
+      "frame_index": 461,
+      "timestamp_seconds": 7.69261272141707,
+      "description": "The person now holds the entire open book up toward the camera with the left fingers alone gripping its left page and spine, tilting it to display the newly turned page; the right hand rests idle near the table's edge, fingers loosely open, not touching anything.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping the book's left page and spine, tilting it up toward the camera to display the page",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "book",
+          "description": "held up and tilted toward the camera, turned page fully visible",
+          "identifier": "book"
+        },
+        {
+          "name": "page",
+          "description": "settled on its new side, now displayed toward the camera",
+          "identifier": "page"
+        }
+      ],
+      "actions": [
+        {
+          "name": "display book",
+          "actor": "left fingers",
+          "target": "book",
+          "description": "left fingers grip and tilt the book up toward the camera to show the page"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers hold book"
+      ]
+    },
+    {
+      "frame_id": "turn_page_paperback_000467",
+      "frame_index": 467,
+      "timestamp_seconds": 7.792733,
+      "description": "The person continues holding the open book up toward the camera with the left fingers alone, unchanged from a moment before; the right hand remains idle on the table.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping the book's left page and spine, still holding it up toward the camera, unchanged",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "book",
+          "description": "held open and tilted toward the camera, page displayed",
+          "identifier": "book"
+        }
+      ],
+      "actions": [
+        {
+          "name": "display book",
+          "actor": "left fingers",
+          "target": "book",
+          "description": "left fingers continue holding the book up toward the camera, unchanged"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers hold book"
+      ]
+    },
+    {
+      "frame_id": "turn_page_paperback_000475",
+      "frame_index": 475,
+      "timestamp_seconds": 7.926228,
+      "description": "The person continues holding the open book up toward the camera with the left fingers alone, unchanged; the right hand remains idle on the table.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping the book's left page and spine, still holding it up toward the camera, unchanged",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "book",
+          "description": "held open and tilted toward the camera, page displayed",
+          "identifier": "book"
+        }
+      ],
+      "actions": [
+        {
+          "name": "display book",
+          "actor": "left fingers",
+          "target": "book",
+          "description": "left fingers continue holding the book up toward the camera, unchanged"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers hold book"
+      ]
+    },
+    {
+      "frame_id": "turn_page_paperback_000483",
+      "frame_index": 483,
+      "timestamp_seconds": 8.059722,
+      "description": "The person continues holding the open book up toward the camera with the left fingers alone, unchanged; the right hand remains idle on the table.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping the book's left page and spine, still holding it up toward the camera, unchanged",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "book",
+          "description": "held open and tilted toward the camera, page displayed",
+          "identifier": "book"
+        }
+      ],
+      "actions": [
+        {
+          "name": "display book",
+          "actor": "left fingers",
+          "target": "book",
+          "description": "left fingers continue holding the book up toward the camera, unchanged"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers hold book"
+      ]
+    },
+    {
+      "frame_id": "turn_page_paperback_000491",
+      "frame_index": 491,
+      "timestamp_seconds": 8.193217,
+      "description": "The person continues holding the open book up toward the camera with the left fingers alone, unchanged; the right hand remains idle on the table.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping the book's left page and spine, still holding it up toward the camera, unchanged",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "book",
+          "description": "held open and tilted toward the camera, page displayed",
+          "identifier": "book"
+        }
+      ],
+      "actions": [
+        {
+          "name": "display book",
+          "actor": "left fingers",
+          "target": "book",
+          "description": "left fingers continue holding the book up toward the camera, unchanged"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers hold book"
+      ]
+    },
+    {
+      "frame_id": "turn_page_paperback_000497",
+      "frame_index": 497,
+      "timestamp_seconds": 8.293337,
+      "description": "The person continues holding the open book up toward the camera with the left fingers alone, unchanged; the right hand remains idle on the table.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping the book's left page and spine, still holding it up toward the camera, unchanged",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "book",
+          "description": "held open and tilted toward the camera, page displayed",
+          "identifier": "book"
+        }
+      ],
+      "actions": [
+        {
+          "name": "display book",
+          "actor": "left fingers",
+          "target": "book",
+          "description": "left fingers continue holding the book up toward the camera, unchanged"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers hold book"
+      ]
+    },
+    {
+      "frame_id": "turn_page_paperback_000503",
+      "frame_index": 503,
+      "timestamp_seconds": 8.393458,
+      "description": "The person continues holding the open book up toward the camera with the left fingers alone, unchanged; the right hand remains idle on the table.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping the book's left page and spine, still holding it up toward the camera, unchanged",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "book",
+          "description": "held open and tilted toward the camera, page displayed",
+          "identifier": "book"
+        }
+      ],
+      "actions": [
+        {
+          "name": "display book",
+          "actor": "left fingers",
+          "target": "book",
+          "description": "left fingers continue holding the book up toward the camera, unchanged"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers hold book"
+      ]
+    },
+    {
+      "frame_id": "turn_page_paperback_000509",
+      "frame_index": 509,
+      "timestamp_seconds": 8.493579,
+      "description": "The person continues holding the open book up toward the camera with the left fingers alone, unchanged; the right hand remains idle, resting near the table's edge.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping the book's left page and spine, still holding it up toward the camera, unchanged",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "book",
+          "description": "held open and tilted toward the camera, page displayed",
+          "identifier": "book"
+        }
+      ],
+      "actions": [
+        {
+          "name": "display book",
+          "actor": "left fingers",
+          "target": "book",
+          "description": "left fingers continue holding the book up toward the camera, unchanged"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers hold book"
+      ]
+    },
+    {
+      "frame_id": "turn_page_paperback_000515",
+      "frame_index": 515,
+      "timestamp_seconds": 8.5937,
+      "description": "The person continues holding the open book up toward the camera with the left fingers alone, unchanged; the right hand is out of frame, not visible.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping the book's left page and spine, still holding it up toward the camera, unchanged",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "book",
+          "description": "held open and tilted toward the camera, page displayed",
+          "identifier": "book"
+        }
+      ],
+      "actions": [
+        {
+          "name": "display book",
+          "actor": "left fingers",
+          "target": "book",
+          "description": "left fingers continue holding the book up toward the camera, unchanged"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers hold book"
+      ]
+    },
+    {
+      "frame_id": "turn_page_paperback_000521",
+      "frame_index": 521,
+      "timestamp_seconds": 8.69382,
+      "description": "The person continues holding the open book up toward the camera with the left fingers alone, unchanged; the right hand remains out of frame, not visible.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping the book's left page and spine, still holding it up toward the camera, unchanged",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "book",
+          "description": "held open and tilted toward the camera, page displayed",
+          "identifier": "book"
+        }
+      ],
+      "actions": [
+        {
+          "name": "display book",
+          "actor": "left fingers",
+          "target": "book",
+          "description": "left fingers continue holding the book up toward the camera, unchanged"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers hold book"
+      ]
+    },
+    {
+      "frame_id": "turn_page_paperback_000527",
+      "frame_index": 527,
+      "timestamp_seconds": 8.793941,
+      "description": "The person continues holding the open book up toward the camera with the left fingers alone, unchanged; the right hand remains out of frame, not visible.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping the book's left page and spine, still holding it up toward the camera, unchanged",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "book",
+          "description": "held open and tilted toward the camera, page displayed",
+          "identifier": "book"
+        }
+      ],
+      "actions": [
+        {
+          "name": "display book",
+          "actor": "left fingers",
+          "target": "book",
+          "description": "left fingers continue holding the book up toward the camera, unchanged"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers hold book"
+      ]
+    },
+    {
+      "frame_id": "turn_page_paperback_000535",
+      "frame_index": 535,
+      "timestamp_seconds": 8.927436,
+      "description": "The person continues holding the open book up toward the camera with the left fingers alone, unchanged; the right hand remains out of frame, not visible.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping the book's left page and spine, still holding it up toward the camera, unchanged",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "book",
+          "description": "held open and tilted toward the camera, page displayed",
+          "identifier": "book"
+        }
+      ],
+      "actions": [
+        {
+          "name": "display book",
+          "actor": "left fingers",
+          "target": "book",
+          "description": "left fingers continue holding the book up toward the camera, unchanged"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers hold book"
+      ]
+    },
+    {
+      "frame_id": "turn_page_paperback_000541",
+      "frame_index": 541,
+      "timestamp_seconds": 9.027556,
+      "description": "The person continues holding the open book up toward the camera with the left fingers alone, unchanged; the right hand is visible again near the table's edge, fingers relaxed and idle.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping the book's left page and spine, still holding it up toward the camera, unchanged",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "book",
+          "description": "held open and tilted toward the camera, page displayed",
+          "identifier": "book"
+        }
+      ],
+      "actions": [
+        {
+          "name": "display book",
+          "actor": "left fingers",
+          "target": "book",
+          "description": "left fingers continue holding the book up toward the camera, unchanged"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers hold book"
+      ]
+    },
+    {
+      "frame_id": "turn_page_paperback_000547",
+      "frame_index": 547,
+      "timestamp_seconds": 9.127677,
+      "description": "The person continues holding the open book up toward the camera with the left fingers alone, unchanged; the right hand remains near the table's edge, relaxed and idle.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping the book's left page and spine, still holding it up toward the camera, unchanged",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "book",
+          "description": "held open and tilted toward the camera, page displayed",
+          "identifier": "book"
+        }
+      ],
+      "actions": [
+        {
+          "name": "display book",
+          "actor": "left fingers",
+          "target": "book",
+          "description": "left fingers continue holding the book up toward the camera, unchanged"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers hold book"
+      ]
+    },
+    {
+      "frame_id": "turn_page_paperback_000553",
+      "frame_index": 553,
+      "timestamp_seconds": 9.227798,
+      "description": "The person continues holding the open book up toward the camera with the left fingers alone, unchanged; the right hand remains near the table's edge, relaxed and idle.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping the book's left page and spine, still holding it up toward the camera, unchanged",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "book",
+          "description": "held open and tilted toward the camera, page displayed",
+          "identifier": "book"
+        }
+      ],
+      "actions": [
+        {
+          "name": "display book",
+          "actor": "left fingers",
+          "target": "book",
+          "description": "left fingers continue holding the book up toward the camera, unchanged"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers hold book"
+      ]
+    },
+    {
+      "frame_id": "turn_page_paperback_000559",
+      "frame_index": 559,
+      "timestamp_seconds": 9.327919,
+      "description": "The person continues holding the open book up toward the camera with the left fingers alone, unchanged; the right hand remains near the table's edge, relaxed and idle.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping the book's left page and spine, still holding it up toward the camera, unchanged",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "book",
+          "description": "held open and tilted toward the camera, page displayed",
+          "identifier": "book"
+        }
+      ],
+      "actions": [
+        {
+          "name": "display book",
+          "actor": "left fingers",
+          "target": "book",
+          "description": "left fingers continue holding the book up toward the camera, unchanged"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers hold book"
+      ]
+    },
+    {
+      "frame_id": "turn_page_paperback_000563",
+      "frame_index": 563,
+      "timestamp_seconds": 9.394666,
+      "description": "The person continues holding the open book up toward the camera with the left fingers alone, unchanged; the right hand remains near the table's edge, relaxed and idle.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping the book's left page and spine, still holding it up toward the camera, unchanged",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "book",
+          "description": "held open and tilted toward the camera, page displayed",
+          "identifier": "book"
+        }
+      ],
+      "actions": [
+        {
+          "name": "display book",
+          "actor": "left fingers",
+          "target": "book",
+          "description": "left fingers continue holding the book up toward the camera, unchanged"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers hold book"
+      ]
+    },
+    {
+      "frame_id": "turn_page_paperback_000567",
+      "frame_index": 567,
+      "timestamp_seconds": 9.461413,
+      "description": "The person continues holding the open book up toward the camera with the left fingers alone, unchanged; the right hand remains near the table's edge, relaxed and idle.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping the book's left page and spine, still holding it up toward the camera, unchanged",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "book",
+          "description": "held open and tilted toward the camera, page displayed",
+          "identifier": "book"
+        }
+      ],
+      "actions": [
+        {
+          "name": "display book",
+          "actor": "left fingers",
+          "target": "book",
+          "description": "left fingers continue holding the book up toward the camera, unchanged"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers hold book"
+      ]
+    },
+    {
+      "frame_id": "turn_page_paperback_000571",
+      "frame_index": 571,
+      "timestamp_seconds": 9.52816,
+      "description": "The person continues holding the open book up toward the camera with the left fingers alone, unchanged; the right hand remains near the table's edge, relaxed and idle.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping the book's left page and spine, still holding it up toward the camera, unchanged",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "book",
+          "description": "held open and tilted toward the camera, page displayed",
+          "identifier": "book"
+        }
+      ],
+      "actions": [
+        {
+          "name": "display book",
+          "actor": "left fingers",
+          "target": "book",
+          "description": "left fingers continue holding the book up toward the camera, unchanged"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers hold book"
+      ]
+    },
+    {
+      "frame_id": "turn_page_paperback_000575",
+      "frame_index": 575,
+      "timestamp_seconds": 9.594907,
+      "description": "The person continues holding the open book up toward the camera with the left fingers alone, unchanged; the right hand remains near the table's edge, relaxed and idle.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping the book's left page and spine, still holding it up toward the camera, unchanged",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "book",
+          "description": "held open and tilted toward the camera, page displayed",
+          "identifier": "book"
+        }
+      ],
+      "actions": [
+        {
+          "name": "display book",
+          "actor": "left fingers",
+          "target": "book",
+          "description": "left fingers continue holding the book up toward the camera, unchanged"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers hold book"
+      ]
+    },
+    {
+      "frame_id": "turn_page_paperback_000579",
+      "frame_index": 579,
+      "timestamp_seconds": 9.661655,
+      "description": "The person continues holding the open book up toward the camera with the left fingers alone, unchanged; the right hand remains near the table's edge, relaxed and idle.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping the book's left page and spine, still holding it up toward the camera, unchanged",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "book",
+          "description": "held open and tilted toward the camera, page displayed",
+          "identifier": "book"
+        }
+      ],
+      "actions": [
+        {
+          "name": "display book",
+          "actor": "left fingers",
+          "target": "book",
+          "description": "left fingers continue holding the book up toward the camera, unchanged"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers hold book"
+      ]
+    },
+    {
+      "frame_id": "turn_page_paperback_000583",
+      "frame_index": 583,
+      "timestamp_seconds": 9.728402,
+      "description": "The person continues holding the open book up toward the camera with the left fingers alone, unchanged; the right hand remains near the table's edge, relaxed and idle.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping the book's left page and spine, still holding it up toward the camera, unchanged",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "book",
+          "description": "held open and tilted toward the camera, page displayed",
+          "identifier": "book"
+        }
+      ],
+      "actions": [
+        {
+          "name": "display book",
+          "actor": "left fingers",
+          "target": "book",
+          "description": "left fingers continue holding the book up toward the camera, unchanged"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers hold book"
+      ]
+    },
+    {
+      "frame_id": "turn_page_paperback_000589",
+      "frame_index": 589,
+      "timestamp_seconds": 9.828523,
+      "description": "The person continues holding the open book up toward the camera with the left fingers alone, unchanged from moments before; the right hand remains idle at the table's edge.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping the book's left page and spine, still holding it up toward the camera, unchanged",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "book",
+          "description": "held open and tilted toward the camera, page displayed",
+          "identifier": "book"
+        }
+      ],
+      "actions": [
+        {
+          "name": "display book",
+          "actor": "left fingers",
+          "target": "book",
+          "description": "left fingers continue holding the book up toward the camera, unchanged"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers hold book"
+      ]
+    },
+    {
+      "frame_id": "turn_page_paperback_000595",
+      "frame_index": 595,
+      "timestamp_seconds": 9.928643317230275,
+      "description": "The person continues holding the open book up toward the camera with the left fingers alone, unchanged from moments before; the right hand remains idle at the table's edge, fingers relaxed, still not engaged with anything.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping the book's left page and spine, still holding it up toward the camera, unchanged",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "book",
+          "description": "held open and tilted toward the camera, turned page still displayed",
+          "identifier": "book"
+        }
+      ],
+      "actions": [
+        {
+          "name": "display book",
+          "actor": "left fingers",
+          "target": "book",
+          "description": "left fingers continue holding the book up toward the camera, unchanged"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers hold book"
+      ]
+    },
+    {
+      "frame_id": "turn_page_paperback_000775",
+      "frame_index": 775,
+      "timestamp_seconds": 12.932267,
+      "description": "Much later in the clip, the person still holds the open book up toward the camera with the left fingers alone, the same pose sustained; the right hand remains idle nearby, not engaged with the book.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping the book's left page and spine, still holding it up toward the camera, unchanged",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "book",
+          "description": "held open and tilted toward the camera, page displayed, sustained from much earlier",
+          "identifier": "book"
+        }
+      ],
+      "actions": [
+        {
+          "name": "display book",
+          "actor": "left fingers",
+          "target": "book",
+          "description": "left fingers continue holding the book up toward the camera, unchanged"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers hold book"
+      ]
+    }
+  ]
+}

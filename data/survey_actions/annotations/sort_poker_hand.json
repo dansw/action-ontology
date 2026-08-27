@@ -1,0 +1,2572 @@
+{
+  "video_id": "sort_poker_hand",
+  "video_path": "videos/sort_poker_hand.mov",
+  "frames": [
+    {
+      "frame_id": "sort_poker_hand_000000",
+      "frame_index": 0,
+      "timestamp_seconds": 0.0,
+      "description": "A person in a full-body reflective silver suit and hood stands at a kitchen island, both hands resting flat and idle on the countertop; a single closed deck of playing cards sits squarely in the middle of the table, untouched.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "deck",
+          "description": "closed deck of playing cards, blue-backed, resting face-down on the table, unopened",
+          "identifier": "deck"
+        }
+      ],
+      "actions": [],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "sort_poker_hand_000038",
+      "frame_index": 38,
+      "timestamp_seconds": 0.633758,
+      "description": "Both hands rest flat and idle on the tabletop; the closed deck of playing cards sits untouched in the middle of the table, unchanged from the video's opening moment.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "deck",
+          "description": "closed deck of playing cards resting face-down on the table, untouched",
+          "identifier": "deck"
+        }
+      ],
+      "actions": [],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "sort_poker_hand_000052",
+      "frame_index": 52,
+      "timestamp_seconds": 0.867248,
+      "description": "Unchanged from the moment before -- both hands rest flat and idle on the tabletop, and the closed deck sits untouched between them.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "deck",
+          "description": "closed deck of playing cards resting face-down on the table, untouched",
+          "identifier": "deck"
+        }
+      ],
+      "actions": [],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "sort_poker_hand_000068",
+      "frame_index": 68,
+      "timestamp_seconds": 1.134093,
+      "description": "Both hands have come together at the center, fingers clasped together and raised off the table; the tabletop in front of the person is now empty, the deck no longer resting on it.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "clasped together with the right fingers, raised off the table",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "clasped together with the left fingers, raised off the table",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "deck",
+          "description": "no longer resting on the table; hands are clasped together where it would be held",
+          "identifier": "deck"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold deck",
+          "actor": "left fingers",
+          "target": "deck",
+          "description": "left fingers clasped together with the right, holding the deck off the table"
+        },
+        {
+          "name": "hold deck",
+          "actor": "right fingers",
+          "target": "deck",
+          "description": "right fingers clasped together with the left, holding the deck off the table"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers hold deck",
+        "right fingers hold deck"
+      ]
+    },
+    {
+      "frame_id": "sort_poker_hand_000092",
+      "frame_index": 92,
+      "timestamp_seconds": 1.534361,
+      "description": "Hands remain clasped together at the center; a dark edge of the deck is now visible pinched between the fingers.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "clasped with the right fingers, gripping an edge of the deck",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "clasped with the left fingers, gripping an edge of the deck",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "deck",
+          "description": "held between the clasped hands, edge visible between the fingers",
+          "identifier": "deck"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold deck",
+          "actor": "left fingers",
+          "target": "deck",
+          "description": "left fingers grip an edge of the deck between the clasped hands"
+        },
+        {
+          "name": "hold deck",
+          "actor": "right fingers",
+          "target": "deck",
+          "description": "right fingers grip an edge of the deck between the clasped hands"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers hold deck",
+        "right fingers hold deck"
+      ]
+    },
+    {
+      "frame_id": "sort_poker_hand_000114",
+      "frame_index": 114,
+      "timestamp_seconds": 1.901273,
+      "description": "Unchanged from the moment before -- hands remain clasped together at the center, the deck's edge still visible pinched between the fingers.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "clasped with the right fingers, gripping the deck",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "clasped with the left fingers, gripping the deck",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "deck",
+          "description": "held between the clasped hands, edge visible between the fingers",
+          "identifier": "deck"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold deck",
+          "actor": "left fingers",
+          "target": "deck",
+          "description": "left fingers continue gripping the deck between the clasped hands"
+        },
+        {
+          "name": "hold deck",
+          "actor": "right fingers",
+          "target": "deck",
+          "description": "right fingers continue gripping the deck between the clasped hands"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers hold deck",
+        "right fingers hold deck"
+      ]
+    },
+    {
+      "frame_id": "sort_poker_hand_000138",
+      "frame_index": 138,
+      "timestamp_seconds": 2.3015415549597855,
+      "description": "Both hands have come together at the center, fingers gripping the deck and lifting it up off the table; the table in front of the person is now empty.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping one edge of the deck",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "gripping the opposite edge of the deck, together lifting it off the table",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "deck",
+          "description": "closed deck, now lifted off the table and held between both hands' fingers",
+          "identifier": "deck"
+        }
+      ],
+      "actions": [
+        {
+          "name": "pick up deck",
+          "actor": "left fingers",
+          "target": "deck",
+          "description": "left fingers grip the deck's edge, helping lift it off the table"
+        },
+        {
+          "name": "pick up deck",
+          "actor": "right fingers",
+          "target": "deck",
+          "description": "right fingers grip the opposite edge of the deck, lifting it together with the left hand"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers grip deck",
+        "right fingers grip deck"
+      ]
+    },
+    {
+      "frame_id": "sort_poker_hand_000164",
+      "frame_index": 164,
+      "timestamp_seconds": 2.735165,
+      "description": "The right hand's fingers hold the deck at chest height while the left hand's fingers pinch a single card just set face-down on the table; one card now lies on the table.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "holding the deck steady at chest height",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "left fingers",
+          "description": "pinching the first dealt card, just after placing it on the table",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "deck",
+          "description": "held in the right hand, reduced by the first card dealt",
+          "identifier": "deck"
+        },
+        {
+          "name": "dealt cards",
+          "description": "one card now lying face-down on the table",
+          "identifier": "dealt_cards"
+        }
+      ],
+      "actions": [
+        {
+          "name": "deal card",
+          "actor": "left fingers",
+          "target": "dealt cards",
+          "description": "left fingers place the first card face-down onto the table"
+        },
+        {
+          "name": "hold deck",
+          "actor": "right fingers",
+          "target": "deck",
+          "description": "right fingers keep the deck steady at chest height"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers deal card",
+        "right fingers hold deck"
+      ]
+    },
+    {
+      "frame_id": "sort_poker_hand_000186",
+      "frame_index": 186,
+      "timestamp_seconds": 3.102078,
+      "description": "Two cards now lie side by side on the table; the right hand's fingers hold the deck while the left hand's fingers linger near the second card just dealt.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "holding the deck steady after two cards dealt",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "left fingers",
+          "description": "lingering near the second dealt card just placed",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "deck",
+          "description": "held in the right hand, reduced by the cards dealt so far",
+          "identifier": "deck"
+        },
+        {
+          "name": "dealt cards",
+          "description": "two cards now lying face-down side by side on the table",
+          "identifier": "dealt_cards"
+        }
+      ],
+      "actions": [
+        {
+          "name": "deal card",
+          "actor": "left fingers",
+          "target": "dealt cards",
+          "description": "left fingers set the second card face-down beside the first"
+        },
+        {
+          "name": "hold deck",
+          "actor": "right fingers",
+          "target": "deck",
+          "description": "right fingers keep the remaining deck steady"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers deal card",
+        "right fingers hold deck"
+      ]
+    },
+    {
+      "frame_id": "sort_poker_hand_000208",
+      "frame_index": 208,
+      "timestamp_seconds": 3.4689901697944596,
+      "description": "The right hand's fingers hold the bulk of the deck at chest height while the left hand's fingers pinch a single card by its edge, having just set it face-down on the table; two cards now lie side by side on the table.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "holding the remaining deck steady at chest height",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "left fingers",
+          "description": "pinching a single dealt card by its edge, just after placing it on the table",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "deck",
+          "description": "held in the right hand, reduced by the cards already dealt",
+          "identifier": "deck"
+        },
+        {
+          "name": "dealt cards",
+          "description": "two cards now lying face-down side by side on the table",
+          "identifier": "dealt_cards"
+        }
+      ],
+      "actions": [
+        {
+          "name": "deal card",
+          "actor": "left fingers",
+          "target": "dealt cards",
+          "description": "left fingers place a single card face-down onto the table, adding to the row already started"
+        },
+        {
+          "name": "hold deck",
+          "actor": "right fingers",
+          "target": "deck",
+          "description": "right fingers keep the remaining deck steady, ready to deal the next card"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers deal card",
+        "right fingers hold deck"
+      ]
+    },
+    {
+      "frame_id": "sort_poker_hand_000232",
+      "frame_index": 232,
+      "timestamp_seconds": 3.869258,
+      "description": "Two cards remain on the table, side by side; the right hand's fingers hold the deck while the left hand's fingers pinch a card held just above the table beside the two already dealt.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "holding the deck steady",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "left fingers",
+          "description": "pinching a card held just above the table, beside the two already dealt",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "deck",
+          "description": "held in the right hand",
+          "identifier": "deck"
+        },
+        {
+          "name": "dealt cards",
+          "description": "two cards lying face-down on the table, unchanged",
+          "identifier": "dealt_cards"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold deck",
+          "actor": "right fingers",
+          "target": "deck",
+          "description": "right fingers keep the deck steady"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers hold deck",
+        "left fingers pinch card"
+      ]
+    },
+    {
+      "frame_id": "sort_poker_hand_000266",
+      "frame_index": 266,
+      "timestamp_seconds": 4.436305,
+      "description": "Unchanged from the moment before -- two cards remain on the table, the right hand's fingers hold the deck, and the left hand's fingers still pinch a card above the table.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "holding the deck steady",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "left fingers",
+          "description": "pinching a card held just above the table",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "deck",
+          "description": "held in the right hand",
+          "identifier": "deck"
+        },
+        {
+          "name": "dealt cards",
+          "description": "two cards lying face-down on the table, unchanged",
+          "identifier": "dealt_cards"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold deck",
+          "actor": "right fingers",
+          "target": "deck",
+          "description": "right fingers keep the deck steady"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers hold deck",
+        "left fingers pinch card"
+      ]
+    },
+    {
+      "frame_id": "sort_poker_hand_000296",
+      "frame_index": 296,
+      "timestamp_seconds": 4.936639857015193,
+      "description": "Unchanged from the moment before -- two cards remain on the table, the right hand's fingers hold the deck, and the left hand's fingers still pinch a card held just above the table, not yet placed.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "holding the deck",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "left fingers",
+          "description": "pinching a card held just above the table, not yet placed",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "dealt cards",
+          "description": "two cards face-down on the table, dealing still in progress",
+          "identifier": "dealt_cards"
+        },
+        {
+          "name": "deck",
+          "description": "remaining deck held in the right hand",
+          "identifier": "deck"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold deck",
+          "actor": "right fingers",
+          "target": "deck",
+          "description": "right fingers hold the deck, unchanged"
+        },
+        {
+          "name": "hold card",
+          "actor": "left fingers",
+          "target": "dealt cards",
+          "description": "left fingers pinch a card poised above the table, not yet placed"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers hold deck",
+        "left fingers hold card"
+      ]
+    },
+    {
+      "frame_id": "sort_poker_hand_000330",
+      "frame_index": 330,
+      "timestamp_seconds": 5.503686,
+      "description": "Unchanged again -- two cards remain on the table, the right hand's fingers hold the deck, and the left hand's fingers still pinch a card above the table, in the same pause as the two prior moments.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "holding the deck steady",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "left fingers",
+          "description": "pinching a card held just above the table",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "deck",
+          "description": "held in the right hand",
+          "identifier": "deck"
+        },
+        {
+          "name": "dealt cards",
+          "description": "two cards lying face-down on the table, unchanged",
+          "identifier": "dealt_cards"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold deck",
+          "actor": "right fingers",
+          "target": "deck",
+          "description": "right fingers keep the deck steady"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers hold deck",
+        "left fingers pinch card"
+      ]
+    },
+    {
+      "frame_id": "sort_poker_hand_000362",
+      "frame_index": 362,
+      "timestamp_seconds": 6.037377,
+      "description": "Three cards now lie fanned on the table; the right hand's fingers hold the reduced deck while the left hand's fingers hover near the cards just after placing the third.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "holding the reduced deck",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "left fingers",
+          "description": "hovering near the row, just after placing the third card",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "deck",
+          "description": "held in the right hand, reduced further",
+          "identifier": "deck"
+        },
+        {
+          "name": "dealt cards",
+          "description": "three cards now fanned face-down on the table",
+          "identifier": "dealt_cards"
+        }
+      ],
+      "actions": [
+        {
+          "name": "deal card",
+          "actor": "left fingers",
+          "target": "dealt cards",
+          "description": "left fingers set the third card face-down onto the table"
+        },
+        {
+          "name": "hold deck",
+          "actor": "right fingers",
+          "target": "deck",
+          "description": "right fingers keep the remaining deck steady"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers deal card",
+        "right fingers hold deck"
+      ]
+    },
+    {
+      "frame_id": "sort_poker_hand_000394",
+      "frame_index": 394,
+      "timestamp_seconds": 6.571068,
+      "description": "Both hands have come back together at the center, fingers clasped around the held deck remainder; three cards remain fanned on the table, unchanged.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "clasped with the right fingers around the deck remainder",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "clasped with the left fingers around the deck remainder",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "deck",
+          "description": "consolidated remainder of the deck, held between both hands",
+          "identifier": "deck"
+        },
+        {
+          "name": "dealt cards",
+          "description": "three cards fanned face-down on the table, unchanged",
+          "identifier": "dealt_cards"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold deck",
+          "actor": "left fingers",
+          "target": "deck",
+          "description": "left fingers help grip the consolidated deck"
+        },
+        {
+          "name": "hold deck",
+          "actor": "right fingers",
+          "target": "deck",
+          "description": "right fingers help grip the consolidated deck"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers hold deck",
+        "right fingers hold deck"
+      ]
+    },
+    {
+      "frame_id": "sort_poker_hand_000424",
+      "frame_index": 424,
+      "timestamp_seconds": 7.071403,
+      "description": "Hands have separated again; the right hand's fingers hold the much-reduced deck while the left hand's fingers pinch a card near the table; five cards now lie fanned across the table.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "holding the much-reduced deck",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "left fingers",
+          "description": "pinching a card near the table, beside the fanned row",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "deck",
+          "description": "held in the right hand, reduced by the five cards dealt",
+          "identifier": "deck"
+        },
+        {
+          "name": "dealt cards",
+          "description": "five cards now fanned face-down across the table",
+          "identifier": "dealt_cards"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold deck",
+          "actor": "right fingers",
+          "target": "deck",
+          "description": "right fingers hold the remaining deck"
+        },
+        {
+          "name": "deal card",
+          "actor": "left fingers",
+          "target": "dealt cards",
+          "description": "left fingers linger near the fifth card just dealt into the row"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers hold deck",
+        "left fingers deal card"
+      ]
+    },
+    {
+      "frame_id": "sort_poker_hand_000450",
+      "frame_index": 450,
+      "timestamp_seconds": 7.505026809651475,
+      "description": "Both hands have come back together at the center, fingers interlaced holding the remainder of the deck close to the body; the five dealt cards remain fanned in a row on the table, untouched since being dealt.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping one side of the held deck remainder",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "gripping the other side of the held deck remainder",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "deck",
+          "description": "remainder of the deck, held consolidated between both hands",
+          "identifier": "deck"
+        },
+        {
+          "name": "dealt cards",
+          "description": "five cards fanned face-down in a row on the table, unchanged",
+          "identifier": "dealt_cards"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold deck",
+          "actor": "left fingers",
+          "target": "deck",
+          "description": "left fingers help grip the consolidated deck"
+        },
+        {
+          "name": "hold deck",
+          "actor": "right fingers",
+          "target": "deck",
+          "description": "right fingers help grip the consolidated deck"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers hold deck",
+        "right fingers hold deck"
+      ]
+    },
+    {
+      "frame_id": "sort_poker_hand_000466",
+      "frame_index": 466,
+      "timestamp_seconds": 7.771872,
+      "description": "Both hands are together at the center again, fingers gripping the consolidated deck remainder; five dealt cards remain fanned on the table, unchanged.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping one side of the consolidated deck",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "gripping the other side of the consolidated deck",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "deck",
+          "description": "consolidated remainder of the deck, held between both hands",
+          "identifier": "deck"
+        },
+        {
+          "name": "dealt cards",
+          "description": "five cards fanned face-down in a row on the table, unchanged",
+          "identifier": "dealt_cards"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold deck",
+          "actor": "left fingers",
+          "target": "deck",
+          "description": "left fingers help grip the consolidated deck"
+        },
+        {
+          "name": "hold deck",
+          "actor": "right fingers",
+          "target": "deck",
+          "description": "right fingers help grip the consolidated deck"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers hold deck",
+        "right fingers hold deck"
+      ]
+    },
+    {
+      "frame_id": "sort_poker_hand_000480",
+      "frame_index": 480,
+      "timestamp_seconds": 8.005362,
+      "description": "Unchanged from the moment before -- both hands remain together holding the deck remainder, and the five dealt cards remain fanned on the table.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping one side of the consolidated deck",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "gripping the other side of the consolidated deck",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "deck",
+          "description": "consolidated remainder of the deck, held between both hands",
+          "identifier": "deck"
+        },
+        {
+          "name": "dealt cards",
+          "description": "five cards fanned face-down in a row on the table, unchanged",
+          "identifier": "dealt_cards"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold deck",
+          "actor": "left fingers",
+          "target": "deck",
+          "description": "left fingers continue gripping the consolidated deck"
+        },
+        {
+          "name": "hold deck",
+          "actor": "right fingers",
+          "target": "deck",
+          "description": "right fingers continue gripping the consolidated deck"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers hold deck",
+        "right fingers hold deck"
+      ]
+    },
+    {
+      "frame_id": "sort_poker_hand_000492",
+      "frame_index": 492,
+      "timestamp_seconds": 8.205496,
+      "description": "Hands are beginning to separate; the left hand still holds the deck near the center while the right hand's fingers open and move down toward the table; the five dealt cards remain fanned, unchanged.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "still holding the deck near the center",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "opening and moving down toward the table",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "deck",
+          "description": "held in the left hand",
+          "identifier": "deck"
+        },
+        {
+          "name": "dealt cards",
+          "description": "five cards fanned face-down in a row on the table, unchanged",
+          "identifier": "dealt_cards"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold deck",
+          "actor": "left fingers",
+          "target": "deck",
+          "description": "left fingers hold the deck near the center"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers hold deck",
+        "right fingers move toward dealt_cards"
+      ]
+    },
+    {
+      "frame_id": "sort_poker_hand_000508",
+      "frame_index": 508,
+      "timestamp_seconds": 8.472341,
+      "description": "The right hand's fingers reach down toward the table, open and spread, while the left hand's fingers hold the deck; the five dealt cards remain fanned, unchanged.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "reaching down toward the table, open and spread",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "left fingers",
+          "description": "holding the deck",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "deck",
+          "description": "held in the left hand",
+          "identifier": "deck"
+        },
+        {
+          "name": "dealt cards",
+          "description": "five cards fanned face-down in a row on the table, unchanged",
+          "identifier": "dealt_cards"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold deck",
+          "actor": "left fingers",
+          "target": "deck",
+          "description": "left fingers hold the deck"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers hold deck",
+        "right fingers reach toward dealt_cards"
+      ]
+    },
+    {
+      "frame_id": "sort_poker_hand_000516",
+      "frame_index": 516,
+      "timestamp_seconds": 8.605764,
+      "description": "The deck has just been set back down on the table to the right, separate from the fanned row; the right hand's fingers rest near it while the left hand's fingers reach toward the row of dealt cards.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "resting near the deck just after setting it down",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "left fingers",
+          "description": "reaching toward the fanned row of dealt cards",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "deck",
+          "description": "just set back down on the table to the right, no longer held",
+          "identifier": "deck"
+        },
+        {
+          "name": "dealt cards",
+          "description": "five cards still fanned face-down in a row on the table",
+          "identifier": "dealt_cards"
+        }
+      ],
+      "actions": [
+        {
+          "name": "set down deck",
+          "actor": "right fingers",
+          "target": "deck",
+          "description": "right fingers set the deck back down on the table"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers set down deck",
+        "left fingers reach dealt_cards"
+      ]
+    },
+    {
+      "frame_id": "sort_poker_hand_000524",
+      "frame_index": 524,
+      "timestamp_seconds": 8.739186773905272,
+      "description": "The held deck has just been set back down on the table to the right; both hands now hover with fingers spread just above the table, positioned over the fanned row of five dealt cards.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "spread open, hovering just above the fanned row of cards",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "spread open, hovering just above the fanned row of cards",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "deck",
+          "description": "set back down on the table to the right, no longer held",
+          "identifier": "deck"
+        },
+        {
+          "name": "dealt cards",
+          "description": "five cards still fanned face-down in a row on the table",
+          "identifier": "dealt_cards"
+        }
+      ],
+      "actions": [
+        {
+          "name": "position hands",
+          "actor": "left fingers",
+          "target": "dealt cards",
+          "description": "left fingers hover open above the card row"
+        },
+        {
+          "name": "position hands",
+          "actor": "right fingers",
+          "target": "dealt cards",
+          "description": "right fingers hover open above the card row"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers hover over dealt cards",
+        "right fingers hover over dealt cards"
+      ]
+    },
+    {
+      "frame_id": "sort_poker_hand_000532",
+      "frame_index": 532,
+      "timestamp_seconds": 8.872609472743521,
+      "description": "The right hand's fingers pinch a single card and lift it up off the table from the fanned row; the left hand rests flat, fingers spread on the tabletop, idle and no longer engaged with anything at this moment.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "pinching and lifting a single card off the table",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "dealt cards",
+          "description": "the fanned row on the table, now missing the one card just lifted",
+          "identifier": "dealt_cards"
+        },
+        {
+          "name": "lifted card",
+          "description": "single card just picked up off the table by the right hand",
+          "identifier": "lifted_card"
+        },
+        {
+          "name": "deck",
+          "description": "sitting untouched on the table to the right",
+          "identifier": "deck"
+        }
+      ],
+      "actions": [
+        {
+          "name": "pick up card",
+          "actor": "right fingers",
+          "target": "lifted card",
+          "description": "right fingers pinch and lift a single card from the table's fanned row, beginning to gather the dealt hand"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers lift card"
+      ]
+    },
+    {
+      "frame_id": "sort_poker_hand_000540",
+      "frame_index": 540,
+      "timestamp_seconds": 9.006032,
+      "description": "Both hands hover with fingers spread just above the table; a cluster of the dealt cards remains gathered at the left while the deck sits untouched to the right.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "spread open, hovering just above the cluster of dealt cards",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "spread open, hovering just above the cluster of dealt cards",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "dealt cards",
+          "description": "a cluster of cards gathered together on the table, not yet picked up",
+          "identifier": "dealt_cards"
+        },
+        {
+          "name": "deck",
+          "description": "sitting untouched on the table to the right",
+          "identifier": "deck"
+        }
+      ],
+      "actions": [
+        {
+          "name": "position hands",
+          "actor": "left fingers",
+          "target": "dealt cards",
+          "description": "left fingers hover open above the cluster of cards"
+        },
+        {
+          "name": "position hands",
+          "actor": "right fingers",
+          "target": "dealt cards",
+          "description": "right fingers hover open above the cluster of cards"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers hover over dealt_cards",
+        "right fingers hover over dealt_cards"
+      ]
+    },
+    {
+      "frame_id": "sort_poker_hand_000550",
+      "frame_index": 550,
+      "timestamp_seconds": 9.172811,
+      "description": "Hands come together near the table, fingers clasping a couple of cards just gathered from the row; a card or two remain on the table beside the deck, which sits untouched to the right.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "clasping a couple of cards just gathered from the table",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "clasping the same gathered cards alongside the left",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "held hand",
+          "description": "a couple of cards just gathered together between the hands",
+          "identifier": "held_hand"
+        },
+        {
+          "name": "dealt cards",
+          "description": "a card or two still remaining on the table",
+          "identifier": "dealt_cards"
+        },
+        {
+          "name": "deck",
+          "description": "untouched stack sitting on the table to the right",
+          "identifier": "deck"
+        }
+      ],
+      "actions": [
+        {
+          "name": "gather cards",
+          "actor": "left fingers",
+          "target": "held hand",
+          "description": "left fingers clasp a couple of cards just gathered from the table"
+        },
+        {
+          "name": "gather cards",
+          "actor": "right fingers",
+          "target": "held hand",
+          "description": "right fingers clasp the same gathered cards"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers gather held_hand",
+        "right fingers gather held_hand"
+      ]
+    },
+    {
+      "frame_id": "sort_poker_hand_000560",
+      "frame_index": 560,
+      "timestamp_seconds": 9.339589,
+      "description": "The left hand's fingers pinch a single card remaining on the table while the right hand holds a small fan of gathered cards; the deck sits untouched to the right.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "pinching the single card remaining on the table",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "holding a small fan of gathered cards",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "held hand",
+          "description": "a small fan of gathered cards held in the right hand",
+          "identifier": "held_hand"
+        },
+        {
+          "name": "dealt cards",
+          "description": "one card remaining on the table",
+          "identifier": "dealt_cards"
+        },
+        {
+          "name": "deck",
+          "description": "untouched stack sitting on the table to the right",
+          "identifier": "deck"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold fan",
+          "actor": "right fingers",
+          "target": "held hand",
+          "description": "right fingers hold the small fan of gathered cards"
+        },
+        {
+          "name": "reach for card",
+          "actor": "left fingers",
+          "target": "dealt cards",
+          "description": "left fingers pinch the last card remaining on the table"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers hold held_hand",
+        "left fingers pinch dealt_cards"
+      ]
+    },
+    {
+      "frame_id": "sort_poker_hand_000568",
+      "frame_index": 568,
+      "timestamp_seconds": 9.473012,
+      "description": "Unchanged from the moment before -- the left hand's fingers remain near the last card on the table while the right hand continues holding the gathered fan; the deck sits untouched to the right.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "near the last card remaining on the table",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "holding the gathered fan of cards",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "held hand",
+          "description": "the gathered fan of cards held in the right hand",
+          "identifier": "held_hand"
+        },
+        {
+          "name": "dealt cards",
+          "description": "one card remaining on the table",
+          "identifier": "dealt_cards"
+        },
+        {
+          "name": "deck",
+          "description": "untouched stack sitting on the table to the right",
+          "identifier": "deck"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold fan",
+          "actor": "right fingers",
+          "target": "held hand",
+          "description": "right fingers continue holding the gathered fan"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers hold held_hand",
+        "left fingers pinch dealt_cards"
+      ]
+    },
+    {
+      "frame_id": "sort_poker_hand_000578",
+      "frame_index": 578,
+      "timestamp_seconds": 9.63979,
+      "description": "The right hand holds a fan of gathered cards close to the body; the left hand's fingers are open and no longer holding anything; the table is clear of loose cards except for the deck.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "holding the fan of gathered cards close to the body",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "held hand",
+          "description": "the gathered fan of cards held in the right hand",
+          "identifier": "held_hand"
+        },
+        {
+          "name": "deck",
+          "description": "untouched stack sitting alone on the table to the right",
+          "identifier": "deck"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold fan",
+          "actor": "right fingers",
+          "target": "held hand",
+          "description": "right fingers hold the gathered fan close to the body"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers hold held_hand"
+      ]
+    },
+    {
+      "frame_id": "sort_poker_hand_000590",
+      "frame_index": 590,
+      "timestamp_seconds": 9.839924,
+      "description": "Unchanged from the moment before -- the right hand continues holding the gathered fan of cards while the left hand's fingers hover open nearby; the table remains clear except for the deck.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "holding the gathered fan of cards",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "held hand",
+          "description": "the gathered fan of cards held in the right hand",
+          "identifier": "held_hand"
+        },
+        {
+          "name": "deck",
+          "description": "untouched stack sitting alone on the table to the right",
+          "identifier": "deck"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold fan",
+          "actor": "right fingers",
+          "target": "held hand",
+          "description": "right fingers continue holding the gathered fan"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers hold held_hand"
+      ]
+    },
+    {
+      "frame_id": "sort_poker_hand_000598",
+      "frame_index": 598,
+      "timestamp_seconds": 9.973347,
+      "description": "Unchanged again -- the right hand holds the gathered cards close to the body while the left hand's fingers remain open nearby; the table remains clear except for the deck.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "holding the gathered cards close to the body",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "held hand",
+          "description": "the gathered cards held in the right hand",
+          "identifier": "held_hand"
+        },
+        {
+          "name": "deck",
+          "description": "untouched stack sitting alone on the table to the right",
+          "identifier": "deck"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold fan",
+          "actor": "right fingers",
+          "target": "held hand",
+          "description": "right fingers continue holding the gathered cards"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers hold held_hand"
+      ]
+    },
+    {
+      "frame_id": "sort_poker_hand_000606",
+      "frame_index": 606,
+      "timestamp_seconds": 10.10676943699732,
+      "description": "The right hand now holds a small fan of four cards gathered up from the table, fingers spread to keep them separated; the left hand's fingers reach back down toward the table's edge to help pick up the last remaining card.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "holding and spreading a fan of four cards gathered from the table",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "left fingers",
+          "description": "reaching toward the last card left on the table",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "held hand",
+          "description": "four cards now gathered and fanned in the right hand",
+          "identifier": "held_hand"
+        },
+        {
+          "name": "dealt cards",
+          "description": "one card still remaining on the table",
+          "identifier": "dealt_cards"
+        },
+        {
+          "name": "deck",
+          "description": "untouched stack sitting on the table to the right",
+          "identifier": "deck"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold fan",
+          "actor": "right fingers",
+          "target": "held hand",
+          "description": "right fingers keep the four gathered cards spread into a fan"
+        },
+        {
+          "name": "reach for card",
+          "actor": "left fingers",
+          "target": "dealt cards",
+          "description": "left fingers reach toward the last card left on the table"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers hold held_hand",
+        "left fingers reach dealt_cards"
+      ]
+    },
+    {
+      "frame_id": "sort_poker_hand_000624",
+      "frame_index": 624,
+      "timestamp_seconds": 10.406971,
+      "description": "Both hands have come together, holding the gathered cards in a fan with their backs toward the camera; the deck remains untouched on the table to the right.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping one side of the fan, backs of cards toward the camera",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "gripping the other side of the fan, backs of cards toward the camera",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "held hand",
+          "description": "the gathered cards held fanned together, backs facing the camera",
+          "identifier": "held_hand"
+        },
+        {
+          "name": "deck",
+          "description": "untouched stack sitting on the table to the right",
+          "identifier": "deck"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold fan",
+          "actor": "left fingers",
+          "target": "held hand",
+          "description": "left fingers help hold the fan of gathered cards"
+        },
+        {
+          "name": "hold fan",
+          "actor": "right fingers",
+          "target": "held hand",
+          "description": "right fingers help hold the fan of gathered cards"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers hold held_hand",
+        "right fingers hold held_hand"
+      ]
+    },
+    {
+      "frame_id": "sort_poker_hand_000648",
+      "frame_index": 648,
+      "timestamp_seconds": 10.807239,
+      "description": "Both hands continue holding and adjusting the fanned cards, backs still toward the camera; the deck remains untouched on the table to the right.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "adjusting its grip on the fan of cards",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "adjusting its grip on the fan of cards",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "held hand",
+          "description": "the gathered cards held fanned together, backs facing the camera",
+          "identifier": "held_hand"
+        },
+        {
+          "name": "deck",
+          "description": "untouched stack sitting on the table to the right",
+          "identifier": "deck"
+        }
+      ],
+      "actions": [
+        {
+          "name": "adjust fan",
+          "actor": "left fingers",
+          "target": "held hand",
+          "description": "left fingers adjust their grip on the fan"
+        },
+        {
+          "name": "adjust fan",
+          "actor": "right fingers",
+          "target": "held hand",
+          "description": "right fingers adjust their grip on the fan"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers adjust held_hand",
+        "right fingers adjust held_hand"
+      ]
+    },
+    {
+      "frame_id": "sort_poker_hand_000670",
+      "frame_index": 670,
+      "timestamp_seconds": 11.174151,
+      "description": "Both hands now hold the fan turned so the card faces show toward the camera; the visible ranks are not in any obvious sorted order. The deck remains on the table to the right.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "holding and fanning the left side of the cards, faces toward the camera",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "holding and fanning the right side of the cards, faces toward the camera",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "held hand",
+          "description": "the gathered cards turned face-up toward the camera, ranks not in obvious order",
+          "identifier": "held_hand"
+        },
+        {
+          "name": "deck",
+          "description": "untouched stack sitting on the table to the right",
+          "identifier": "deck"
+        }
+      ],
+      "actions": [
+        {
+          "name": "display hand",
+          "actor": "left fingers",
+          "target": "held hand",
+          "description": "left fingers hold and turn the cards to show their faces"
+        },
+        {
+          "name": "display hand",
+          "actor": "right fingers",
+          "target": "held hand",
+          "description": "right fingers hold and turn the cards to show their faces"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers display held_hand",
+        "right fingers display held_hand"
+      ]
+    },
+    {
+      "frame_id": "sort_poker_hand_000704",
+      "frame_index": 704,
+      "timestamp_seconds": 11.741197497765862,
+      "description": "Both hands now hold the complete five-card hand together, fanned and turned face-up toward the camera; the visible ranks are not in any obvious order, still in the random sequence they were dealt in. The deck sits untouched on the table to the right.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping and fanning the left side of the held hand",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "gripping and fanning the right side of the held hand",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "held hand",
+          "description": "all five cards now gathered, held fanned face-up, ranks in random unsorted order",
+          "identifier": "held_hand"
+        },
+        {
+          "name": "deck",
+          "description": "untouched stack sitting on the table to the right",
+          "identifier": "deck"
+        }
+      ],
+      "actions": [
+        {
+          "name": "display hand",
+          "actor": "left fingers",
+          "target": "held hand",
+          "description": "left fingers hold and fan out cards, showing their faces"
+        },
+        {
+          "name": "display hand",
+          "actor": "right fingers",
+          "target": "held hand",
+          "description": "right fingers hold and fan out cards, showing their faces"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers display held_hand",
+        "right fingers display held_hand"
+      ]
+    },
+    {
+      "frame_id": "sort_poker_hand_000726",
+      "frame_index": 726,
+      "timestamp_seconds": 12.10811,
+      "description": "Both hands hold the gathered hand together again, fanned with backs toward the camera; the deck remains untouched on the table to the right.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping the left side of the fan, backs toward the camera",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "gripping the right side of the fan, backs toward the camera",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "held hand",
+          "description": "the gathered cards held fanned together, backs facing the camera",
+          "identifier": "held_hand"
+        },
+        {
+          "name": "deck",
+          "description": "untouched stack sitting on the table to the right",
+          "identifier": "deck"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold fan",
+          "actor": "left fingers",
+          "target": "held hand",
+          "description": "left fingers help hold the fanned cards"
+        },
+        {
+          "name": "hold fan",
+          "actor": "right fingers",
+          "target": "held hand",
+          "description": "right fingers help hold the fanned cards"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers hold held_hand",
+        "right fingers hold held_hand"
+      ]
+    },
+    {
+      "frame_id": "sort_poker_hand_000748",
+      "frame_index": 748,
+      "timestamp_seconds": 12.475022,
+      "description": "The hand has been split into two smaller groups of cards, one held in each hand, backs still toward the camera; the deck remains untouched on the table to the right.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "holding one small group of cards, backs toward the camera",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "holding the other group of cards, backs toward the camera",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "held hand",
+          "description": "the cards split into two smaller groups, one in each hand",
+          "identifier": "held_hand"
+        },
+        {
+          "name": "deck",
+          "description": "untouched stack sitting on the table to the right",
+          "identifier": "deck"
+        }
+      ],
+      "actions": [
+        {
+          "name": "split hand",
+          "actor": "left fingers",
+          "target": "held hand",
+          "description": "left fingers hold one group of cards apart from the right"
+        },
+        {
+          "name": "split hand",
+          "actor": "right fingers",
+          "target": "held hand",
+          "description": "right fingers hold the other group of cards apart from the left"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers split held_hand",
+        "right fingers split held_hand"
+      ]
+    },
+    {
+      "frame_id": "sort_poker_hand_000768",
+      "frame_index": 768,
+      "timestamp_seconds": 12.808579,
+      "description": "The two groups of cards have come back together between the hands, backs still toward the camera; the deck remains untouched on the table to the right.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping the left side of the recombined cards",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "gripping the right side of the recombined cards",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "held hand",
+          "description": "the cards recombined into one held group, backs facing the camera",
+          "identifier": "held_hand"
+        },
+        {
+          "name": "deck",
+          "description": "untouched stack sitting on the table to the right",
+          "identifier": "deck"
+        }
+      ],
+      "actions": [
+        {
+          "name": "recombine hand",
+          "actor": "left fingers",
+          "target": "held hand",
+          "description": "left fingers bring their group of cards back together with the right"
+        },
+        {
+          "name": "recombine hand",
+          "actor": "right fingers",
+          "target": "held hand",
+          "description": "right fingers bring their group of cards back together with the left"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers recombine held_hand",
+        "right fingers recombine held_hand"
+      ]
+    },
+    {
+      "frame_id": "sort_poker_hand_000790",
+      "frame_index": 790,
+      "timestamp_seconds": 13.175492,
+      "description": "The hand has split apart again into two groups between the hands, backs toward the camera; the deck remains untouched on the table to the right.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "holding one small group of cards apart from the right",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "holding a larger group of cards apart from the left",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "held hand",
+          "description": "the cards split into two groups again, one in each hand",
+          "identifier": "held_hand"
+        },
+        {
+          "name": "deck",
+          "description": "untouched stack sitting on the table to the right",
+          "identifier": "deck"
+        }
+      ],
+      "actions": [
+        {
+          "name": "split hand",
+          "actor": "left fingers",
+          "target": "held hand",
+          "description": "left fingers hold their group apart from the right"
+        },
+        {
+          "name": "split hand",
+          "actor": "right fingers",
+          "target": "held hand",
+          "description": "right fingers hold their group apart from the left"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers split held_hand",
+        "right fingers split held_hand"
+      ]
+    },
+    {
+      "frame_id": "sort_poker_hand_000810",
+      "frame_index": 810,
+      "timestamp_seconds": 13.509048,
+      "description": "The two groups of cards are back together between the hands again, backs toward the camera; the deck remains untouched on the table to the right.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping the left side of the recombined cards",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "gripping the right side of the recombined cards",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "held hand",
+          "description": "the cards recombined into one held group, backs facing the camera",
+          "identifier": "held_hand"
+        },
+        {
+          "name": "deck",
+          "description": "untouched stack sitting on the table to the right",
+          "identifier": "deck"
+        }
+      ],
+      "actions": [
+        {
+          "name": "recombine hand",
+          "actor": "left fingers",
+          "target": "held hand",
+          "description": "left fingers bring their group of cards back together with the right"
+        },
+        {
+          "name": "recombine hand",
+          "actor": "right fingers",
+          "target": "held hand",
+          "description": "right fingers bring their group of cards back together with the left"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers recombine held_hand",
+        "right fingers recombine held_hand"
+      ]
+    },
+    {
+      "frame_id": "sort_poker_hand_000840",
+      "frame_index": 840,
+      "timestamp_seconds": 14.009383,
+      "description": "Both hands hold the fanned hand close together, backs toward the camera, fingers adjusting the positions of individual cards within the fan; the deck remains untouched on the table to the right.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping the left side of the fan, adjusting card positions",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "gripping the right side of the fan, adjusting card positions",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "held hand",
+          "description": "five cards fanned face-down, being reordered by hand",
+          "identifier": "held_hand"
+        },
+        {
+          "name": "deck",
+          "description": "untouched stack sitting on the table to the right",
+          "identifier": "deck"
+        }
+      ],
+      "actions": [
+        {
+          "name": "adjust card order",
+          "actor": "left fingers",
+          "target": "held hand",
+          "description": "left fingers shift a card's position within the fan"
+        },
+        {
+          "name": "adjust card order",
+          "actor": "right fingers",
+          "target": "held hand",
+          "description": "right fingers shift a card's position within the fan"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers adjust held_hand",
+        "right fingers adjust held_hand"
+      ]
+    },
+    {
+      "frame_id": "sort_poker_hand_000872",
+      "frame_index": 872,
+      "timestamp_seconds": 14.543074,
+      "description": "Unchanged from the moment before -- both hands continue holding and adjusting the fanned hand, backs toward the camera; the deck remains untouched on the table to the right.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping the left side of the fan, adjusting card positions",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "gripping the right side of the fan, adjusting card positions",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "held hand",
+          "description": "five cards fanned face-down, being reordered by hand",
+          "identifier": "held_hand"
+        },
+        {
+          "name": "deck",
+          "description": "untouched stack sitting on the table to the right",
+          "identifier": "deck"
+        }
+      ],
+      "actions": [
+        {
+          "name": "adjust card order",
+          "actor": "left fingers",
+          "target": "held hand",
+          "description": "left fingers continue shifting cards within the fan"
+        },
+        {
+          "name": "adjust card order",
+          "actor": "right fingers",
+          "target": "held hand",
+          "description": "right fingers continue shifting cards within the fan"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers adjust held_hand",
+        "right fingers adjust held_hand"
+      ]
+    },
+    {
+      "frame_id": "sort_poker_hand_000902",
+      "frame_index": 902,
+      "timestamp_seconds": 15.043409,
+      "description": "Unchanged again -- both hands continue holding and adjusting the fanned hand, backs toward the camera; the deck remains untouched on the table to the right.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping the left side of the fan, adjusting card positions",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "gripping the right side of the fan, adjusting card positions",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "held hand",
+          "description": "five cards fanned face-down, being reordered by hand",
+          "identifier": "held_hand"
+        },
+        {
+          "name": "deck",
+          "description": "untouched stack sitting on the table to the right",
+          "identifier": "deck"
+        }
+      ],
+      "actions": [
+        {
+          "name": "adjust card order",
+          "actor": "left fingers",
+          "target": "held hand",
+          "description": "left fingers continue shifting cards within the fan"
+        },
+        {
+          "name": "adjust card order",
+          "actor": "right fingers",
+          "target": "held hand",
+          "description": "right fingers continue shifting cards within the fan"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers adjust held_hand",
+        "right fingers adjust held_hand"
+      ]
+    },
+    {
+      "frame_id": "sort_poker_hand_000938",
+      "frame_index": 938,
+      "timestamp_seconds": 15.643811,
+      "description": "Unchanged -- both hands continue holding and adjusting the fanned hand, backs toward the camera; the deck remains untouched on the table to the right.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping the left side of the fan, adjusting card positions",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "gripping the right side of the fan, adjusting card positions",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "held hand",
+          "description": "five cards fanned face-down, being reordered by hand",
+          "identifier": "held_hand"
+        },
+        {
+          "name": "deck",
+          "description": "untouched stack sitting on the table to the right",
+          "identifier": "deck"
+        }
+      ],
+      "actions": [
+        {
+          "name": "adjust card order",
+          "actor": "left fingers",
+          "target": "held hand",
+          "description": "left fingers continue shifting cards within the fan"
+        },
+        {
+          "name": "adjust card order",
+          "actor": "right fingers",
+          "target": "held hand",
+          "description": "right fingers continue shifting cards within the fan"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers adjust held_hand",
+        "right fingers adjust held_hand"
+      ]
+    },
+    {
+      "frame_id": "sort_poker_hand_000974",
+      "frame_index": 974,
+      "timestamp_seconds": 16.244214,
+      "description": "Unchanged -- both hands continue holding and adjusting the fanned hand, backs toward the camera; the deck remains untouched on the table to the right.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping the left side of the fan, adjusting card positions",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "gripping the right side of the fan, adjusting card positions",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "held hand",
+          "description": "five cards fanned face-down, being reordered by hand",
+          "identifier": "held_hand"
+        },
+        {
+          "name": "deck",
+          "description": "untouched stack sitting on the table to the right",
+          "identifier": "deck"
+        }
+      ],
+      "actions": [
+        {
+          "name": "adjust card order",
+          "actor": "left fingers",
+          "target": "held hand",
+          "description": "left fingers continue shifting cards within the fan"
+        },
+        {
+          "name": "adjust card order",
+          "actor": "right fingers",
+          "target": "held hand",
+          "description": "right fingers continue shifting cards within the fan"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers adjust held_hand",
+        "right fingers adjust held_hand"
+      ]
+    },
+    {
+      "frame_id": "sort_poker_hand_001014",
+      "frame_index": 1014,
+      "timestamp_seconds": 16.911327,
+      "description": "Unchanged -- both hands continue holding and adjusting the fanned hand, backs toward the camera; the deck remains untouched on the table to the right.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping the left side of the fan, adjusting card positions",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "gripping the right side of the fan, adjusting card positions",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "held hand",
+          "description": "five cards fanned face-down, being reordered by hand",
+          "identifier": "held_hand"
+        },
+        {
+          "name": "deck",
+          "description": "untouched stack sitting on the table to the right",
+          "identifier": "deck"
+        }
+      ],
+      "actions": [
+        {
+          "name": "adjust card order",
+          "actor": "left fingers",
+          "target": "held hand",
+          "description": "left fingers continue shifting cards within the fan"
+        },
+        {
+          "name": "adjust card order",
+          "actor": "right fingers",
+          "target": "held hand",
+          "description": "right fingers continue shifting cards within the fan"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers adjust held_hand",
+        "right fingers adjust held_hand"
+      ]
+    },
+    {
+      "frame_id": "sort_poker_hand_001050",
+      "frame_index": 1050,
+      "timestamp_seconds": 17.511729222520106,
+      "description": "Both hands hold the five-card hand fanned with the backs facing the camera again, fingers pressed close together adjusting the order and spacing of the cards; the deck still sits untouched on the table to the right.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping the left side of the fan, adjusting card positions",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "gripping the right side of the fan, adjusting card positions",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "held hand",
+          "description": "five cards fanned face-down toward the camera, being reordered by hand",
+          "identifier": "held_hand"
+        },
+        {
+          "name": "deck",
+          "description": "untouched stack sitting on the table to the right",
+          "identifier": "deck"
+        }
+      ],
+      "actions": [
+        {
+          "name": "adjust card order",
+          "actor": "left fingers",
+          "target": "held hand",
+          "description": "left fingers shift a card's position within the fan"
+        },
+        {
+          "name": "adjust card order",
+          "actor": "right fingers",
+          "target": "held hand",
+          "description": "right fingers shift a card's position within the fan"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers adjust held_hand",
+        "right fingers adjust held_hand"
+      ]
+    },
+    {
+      "frame_id": "sort_poker_hand_001088",
+      "frame_index": 1088,
+      "timestamp_seconds": 18.145487,
+      "description": "Both hands hold the fanned hand close together, backs toward the camera, fingers pressed close adjusting the spacing of the cards; the deck remains untouched on the table to the right.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping the left side of the fan, adjusting card spacing",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "gripping the right side of the fan, adjusting card spacing",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "held hand",
+          "description": "five cards fanned face-down toward the camera, being reordered by hand",
+          "identifier": "held_hand"
+        },
+        {
+          "name": "deck",
+          "description": "untouched stack sitting on the table to the right",
+          "identifier": "deck"
+        }
+      ],
+      "actions": [
+        {
+          "name": "adjust card order",
+          "actor": "left fingers",
+          "target": "held hand",
+          "description": "left fingers shift a card's position within the fan"
+        },
+        {
+          "name": "adjust card order",
+          "actor": "right fingers",
+          "target": "held hand",
+          "description": "right fingers shift a card's position within the fan"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers adjust held_hand",
+        "right fingers adjust held_hand"
+      ]
+    },
+    {
+      "frame_id": "sort_poker_hand_001124",
+      "frame_index": 1124,
+      "timestamp_seconds": 18.745889,
+      "description": "Unchanged from the moment before -- both hands continue holding and adjusting the fanned hand, backs toward the camera; the deck remains untouched on the table to the right.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping the left side of the fan, adjusting card spacing",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "gripping the right side of the fan, adjusting card spacing",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "held hand",
+          "description": "five cards fanned face-down toward the camera, being reordered by hand",
+          "identifier": "held_hand"
+        },
+        {
+          "name": "deck",
+          "description": "untouched stack sitting on the table to the right",
+          "identifier": "deck"
+        }
+      ],
+      "actions": [
+        {
+          "name": "adjust card order",
+          "actor": "left fingers",
+          "target": "held hand",
+          "description": "left fingers continue shifting cards within the fan"
+        },
+        {
+          "name": "adjust card order",
+          "actor": "right fingers",
+          "target": "held hand",
+          "description": "right fingers continue shifting cards within the fan"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers adjust held_hand",
+        "right fingers adjust held_hand"
+      ]
+    },
+    {
+      "frame_id": "sort_poker_hand_001166",
+      "frame_index": 1166,
+      "timestamp_seconds": 19.44635835567471,
+      "description": "Both hands continue holding the fanned hand face-down, fingers pressed together tightening the cards into a neater, more even fan just before laying them down; the deck remains untouched on the table to the right.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping the left side of the fan, tightening its spacing",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "gripping the right side of the fan, tightening its spacing",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "held hand",
+          "description": "five cards held in a neatened, even fan, still face-down",
+          "identifier": "held_hand"
+        },
+        {
+          "name": "deck",
+          "description": "untouched stack sitting on the table to the right",
+          "identifier": "deck"
+        }
+      ],
+      "actions": [
+        {
+          "name": "tighten fan",
+          "actor": "left fingers",
+          "target": "held hand",
+          "description": "left fingers press cards into a tighter, even fan"
+        },
+        {
+          "name": "tighten fan",
+          "actor": "right fingers",
+          "target": "held hand",
+          "description": "right fingers press cards into a tighter, even fan"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers tighten held_hand",
+        "right fingers tighten held_hand"
+      ]
+    },
+    {
+      "frame_id": "sort_poker_hand_001208",
+      "frame_index": 1208,
+      "timestamp_seconds": 20.146828,
+      "description": "Both hands hold the fanned hand pressed into a tighter, more even fan, backs still toward the camera; the deck remains untouched on the table to the right.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping the left side of the fan, pressing it tighter",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "gripping the right side of the fan, pressing it tighter",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "held hand",
+          "description": "five cards held in a tighter, more even fan, still face-down",
+          "identifier": "held_hand"
+        },
+        {
+          "name": "deck",
+          "description": "untouched stack sitting on the table to the right",
+          "identifier": "deck"
+        }
+      ],
+      "actions": [
+        {
+          "name": "tighten fan",
+          "actor": "left fingers",
+          "target": "held hand",
+          "description": "left fingers press cards into a tighter, even fan"
+        },
+        {
+          "name": "tighten fan",
+          "actor": "right fingers",
+          "target": "held hand",
+          "description": "right fingers press cards into a tighter, even fan"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers tighten held_hand",
+        "right fingers tighten held_hand"
+      ]
+    },
+    {
+      "frame_id": "sort_poker_hand_001222",
+      "frame_index": 1222,
+      "timestamp_seconds": 20.380317,
+      "description": "The left hand's fingers pinch a card, lowering it toward the table, while the right hand's fingers are open and empty near the table's edge; the deck remains untouched on the table to the right.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "pinching a card, lowering it toward the table",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "open and empty, no longer holding any cards",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "held hand",
+          "description": "the hand of cards beginning to be laid out on the table",
+          "identifier": "held_hand"
+        },
+        {
+          "name": "deck",
+          "description": "untouched stack sitting on the table to the right",
+          "identifier": "deck"
+        }
+      ],
+      "actions": [
+        {
+          "name": "place card",
+          "actor": "left fingers",
+          "target": "held hand",
+          "description": "left fingers lower a card toward the table"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers place held_hand"
+      ]
+    },
+    {
+      "frame_id": "sort_poker_hand_001234",
+      "frame_index": 1234,
+      "timestamp_seconds": 20.580451295799822,
+      "description": "The right hand has already released its grip and now rests open, fingers spread flat on the tabletop, idle; the left hand's fingers still pinch the last card, in the process of lowering it onto the table beside the rest of the hand.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "pinching the final card, lowering it onto the table next to the others already placed",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "held hand",
+          "description": "hand of cards being laid out on the table, one card still being placed",
+          "identifier": "held_hand"
+        },
+        {
+          "name": "deck",
+          "description": "untouched stack sitting on the table to the right",
+          "identifier": "deck"
+        }
+      ],
+      "actions": [
+        {
+          "name": "place card",
+          "actor": "left fingers",
+          "target": "held hand",
+          "description": "left fingers lower the final card onto the table, finishing laying out the hand"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers place held_hand"
+      ]
+    },
+    {
+      "frame_id": "sort_poker_hand_001260",
+      "frame_index": 1260,
+      "timestamp_seconds": 21.01407506702413,
+      "description": "Both hands now rest flat and idle on the tabletop on either side of the fully laid-out hand; five cards lie face-up in a fanned row on the table showing ranks ten, jack, queen, king, and ace, now sorted into ascending order. The person smiles toward the camera. The deck remains stacked on the table to the right.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "held hand",
+          "description": "state change: five cards now laid face-up on the table in sorted ascending rank order (ten through ace)",
+          "identifier": "held_hand"
+        },
+        {
+          "name": "deck",
+          "description": "untouched stack sitting on the table to the right",
+          "identifier": "deck"
+        }
+      ],
+      "actions": [],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "sort_poker_hand_001294",
+      "frame_index": 1294,
+      "timestamp_seconds": 21.581122,
+      "description": "Both hands rest flat and idle on the tabletop beside the laid-out hand; five cards lie face-up in a fanned row showing ten, jack, queen, king, and ace, all of the spade suit, sorted in ascending order. The person looks down at the cards. The deck remains stacked on the table to the right.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "held hand",
+          "description": "five cards laid face-up on the table, all spades, sorted in ascending rank order (ten through ace)",
+          "identifier": "held_hand"
+        },
+        {
+          "name": "deck",
+          "description": "untouched stack sitting on the table to the right",
+          "identifier": "deck"
+        }
+      ],
+      "actions": [],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "sort_poker_hand_001304",
+      "frame_index": 1304,
+      "timestamp_seconds": 21.7479,
+      "description": "Unchanged from the moment before -- the sorted five-card spade hand still lies face-up on the table; both hands remain flat and idle, and the person now looks up, smiling directly at the camera.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "held hand",
+          "description": "unchanged: five cards laid face-up on the table, all spades, in sorted ascending rank order",
+          "identifier": "held_hand"
+        },
+        {
+          "name": "deck",
+          "description": "unchanged stack sitting on the table to the right",
+          "identifier": "deck"
+        }
+      ],
+      "actions": [],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "sort_poker_hand_001310",
+      "frame_index": 1310,
+      "timestamp_seconds": 21.847966934763182,
+      "description": "Both hands remain flat and idle on the tabletop beside the sorted five-card hand; the person smiles broadly, directly at the camera. Nothing has changed since the hand was laid out -- the task is complete.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "held hand",
+          "description": "unchanged: five cards laid face-up on the table in sorted ascending rank order",
+          "identifier": "held_hand"
+        },
+        {
+          "name": "deck",
+          "description": "unchanged stack sitting on the table to the right",
+          "identifier": "deck"
+        }
+      ],
+      "actions": [],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "sort_poker_hand_001320",
+      "frame_index": 1320,
+      "timestamp_seconds": 22.014745,
+      "description": "The sorted five-card hand remains unchanged on the table; the person smiles broadly at the camera; the left hand rests flat on the table while the right hand now rests closed in a loose fist.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "held hand",
+          "description": "unchanged: five cards laid face-up on the table, all spades, in sorted ascending rank order",
+          "identifier": "held_hand"
+        },
+        {
+          "name": "deck",
+          "description": "unchanged stack sitting on the table to the right",
+          "identifier": "deck"
+        }
+      ],
+      "actions": [],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "sort_poker_hand_001463",
+      "frame_index": 1463,
+      "timestamp_seconds": 24.399676,
+      "description": "Unchanged from the moment before -- the sorted five-card spade hand still lies face-up on the table beside the deck; the person continues smiling at the camera, left hand flat and right hand resting in a loose fist. This appears to be the final held moment of the video.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "held hand",
+          "description": "unchanged: five cards laid face-up on the table, all spades, in sorted ascending rank order",
+          "identifier": "held_hand"
+        },
+        {
+          "name": "deck",
+          "description": "unchanged stack sitting on the table to the right",
+          "identifier": "deck"
+        }
+      ],
+      "actions": [],
+      "ontological_phrases": []
+    }
+  ]
+}

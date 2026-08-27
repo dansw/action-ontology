@@ -1,0 +1,3739 @@
+{
+  "video_id": "clean_ketchup",
+  "video_path": "videos/clean_ketchup.mov",
+  "frames": [
+    {
+      "frame_id": "clean_ketchup_000000",
+      "frame_index": 0,
+      "timestamp_seconds": 0.0,
+      "description": "A person in a reflective silver suit and hood stands at a kitchen counter, both hands resting flat and idle on the countertop; an unopened bottle of Heinz Tomato Ketchup (cap on) stands upright left-of-center, a clean blue sponge sits right-of-center, and the counter surface is otherwise clean.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "ketchup bottle",
+          "description": "Heinz Tomato Ketchup bottle, capped and unopened, standing upright on the counter",
+          "identifier": "ketchup_bottle"
+        },
+        {
+          "name": "sponge",
+          "description": "clean blue sponge resting on the counter, unused",
+          "identifier": "sponge"
+        },
+        {
+          "name": "countertop",
+          "description": "clean white countertop surface",
+          "identifier": "countertop"
+        }
+      ],
+      "actions": [],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "clean_ketchup_000037",
+      "frame_index": 37,
+      "timestamp_seconds": 0.616667,
+      "description": "Unchanged from the very first moment: the person stands with both hands resting flat and idle on the countertop, the capped ketchup bottle upright to one side and the clean blue sponge resting untouched nearby; the counter is otherwise clean.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "ketchup bottle",
+          "description": "capped and unopened, standing upright on the counter, untouched",
+          "identifier": "ketchup_bottle"
+        },
+        {
+          "name": "sponge",
+          "description": "clean blue sponge resting on the counter, unused",
+          "identifier": "sponge"
+        },
+        {
+          "name": "countertop",
+          "description": "clean white countertop surface",
+          "identifier": "countertop"
+        }
+      ],
+      "actions": [],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "clean_ketchup_000085",
+      "frame_index": 85,
+      "timestamp_seconds": 1.416667,
+      "description": "The person's left hand fingers now grip the ketchup bottle's body (its cap still on), lifting and steadying it, while the right hand remains flat and idle on the countertop beside the sponge.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping the ketchup bottle's body, lifting it from the counter",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "ketchup bottle",
+          "description": "still capped, now held upright by the left hand",
+          "identifier": "ketchup_bottle"
+        },
+        {
+          "name": "sponge",
+          "description": "clean and untouched, resting on the counter to the right",
+          "identifier": "sponge"
+        }
+      ],
+      "actions": [
+        {
+          "name": "grip bottle",
+          "actor": "left fingers",
+          "target": "ketchup bottle",
+          "description": "the left hand's fingers close around the bottle body and lift it, beginning to engage with the task while the right hand stays idle"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers grip ketchup_bottle"
+      ]
+    },
+    {
+      "frame_id": "clean_ketchup_000099",
+      "frame_index": 99,
+      "timestamp_seconds": 1.65,
+      "description": "The bottle's cap has been twisted off; the right hand's fingers hold the small white cap up near chest height while the left hand's fingers grip the now-open bottle body lower down, steadying it.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "holding the detached white cap, lifted away from the bottle",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "left fingers",
+          "description": "gripping the open bottle's body, holding it steady",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "bottle cap",
+          "description": "newly separated from the bottle -- state change from sealed to detached -- held in the right hand",
+          "identifier": "bottle_cap"
+        },
+        {
+          "name": "ketchup bottle",
+          "description": "now open at the top, no longer sealed, held in the left hand",
+          "identifier": "ketchup_bottle"
+        }
+      ],
+      "actions": [
+        {
+          "name": "remove cap",
+          "actor": "right fingers",
+          "target": "bottle cap",
+          "description": "the right hand's fingers lift the small cap fully away from the bottle's mouth"
+        },
+        {
+          "name": "hold bottle",
+          "actor": "left fingers",
+          "target": "ketchup bottle",
+          "description": "the left hand's fingers keep the now-open bottle steady while the right hand handles the cap"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers remove bottle_cap",
+        "left fingers hold ketchup_bottle"
+      ]
+    },
+    {
+      "frame_id": "clean_ketchup_000115",
+      "frame_index": 115,
+      "timestamp_seconds": 1.916667,
+      "description": "The bottle's cap has already been twisted off; the left fingers continue gripping the open bottle's body low near the waist while the right fingers hold the small white cap just above it, both hands drawn close together in front of the body as the cap is handled. The countertop remains clean.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping the open bottle's body low near the waist",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "holding the detached white cap just above the bottle",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "ketchup bottle",
+          "description": "open, held steady in the left hand",
+          "identifier": "ketchup_bottle"
+        },
+        {
+          "name": "bottle cap",
+          "description": "detached, held in the right hand",
+          "identifier": "bottle_cap"
+        },
+        {
+          "name": "countertop",
+          "description": "still clean",
+          "identifier": "countertop"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold bottle",
+          "actor": "left fingers",
+          "target": "ketchup bottle",
+          "description": "keeping the open bottle steady low near the waist"
+        },
+        {
+          "name": "handle cap",
+          "actor": "right fingers",
+          "target": "bottle cap",
+          "description": "holding the detached cap just above the bottle"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers hold ketchup_bottle",
+        "right fingers handle bottle_cap"
+      ]
+    },
+    {
+      "frame_id": "clean_ketchup_000143",
+      "frame_index": 143,
+      "timestamp_seconds": 2.383333,
+      "description": "Both hands work together near chest height, fingers turning the small detached white cap between them; the countertop in front is still completely clean, with no ketchup on it yet.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "holding and rotating the small white cap",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "left fingers",
+          "description": "assisting, gripping near the cap and bottle threading",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "bottle cap",
+          "description": "held between the fingers of both hands, fully detached from the bottle",
+          "identifier": "bottle_cap"
+        },
+        {
+          "name": "countertop",
+          "description": "still clean, no ketchup visible yet",
+          "identifier": "countertop"
+        }
+      ],
+      "actions": [
+        {
+          "name": "handle cap",
+          "actor": "right fingers",
+          "target": "bottle cap",
+          "description": "fingers rotate and hold the detached cap in front of the body"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers handle bottle_cap"
+      ]
+    },
+    {
+      "frame_id": "clean_ketchup_000167",
+      "frame_index": 167,
+      "timestamp_seconds": 2.783333,
+      "description": "Both hands' fingers work together near chest height with visible motion blur, manipulating the small cap and the open bottle; the countertop below remains clean, with the sponge still resting untouched.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping the bottle, blurred with motion",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "holding the cap, blurred with motion",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "bottle cap",
+          "description": "held between the fingers, motion-blurred",
+          "identifier": "bottle_cap"
+        },
+        {
+          "name": "ketchup bottle",
+          "description": "held steady while the cap is handled",
+          "identifier": "ketchup_bottle"
+        },
+        {
+          "name": "sponge",
+          "description": "still untouched on the counter",
+          "identifier": "sponge"
+        },
+        {
+          "name": "countertop",
+          "description": "still clean",
+          "identifier": "countertop"
+        }
+      ],
+      "actions": [
+        {
+          "name": "handle cap",
+          "actor": "right fingers",
+          "target": "bottle cap",
+          "description": "manipulating the small cap near chest height"
+        },
+        {
+          "name": "hold bottle",
+          "actor": "left fingers",
+          "target": "ketchup bottle",
+          "description": "keeping the bottle steady"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers handle bottle_cap",
+        "left fingers hold ketchup_bottle"
+      ]
+    },
+    {
+      "frame_id": "clean_ketchup_000185",
+      "frame_index": 185,
+      "timestamp_seconds": 3.083333,
+      "description": "Both hands' fingers grip the open bottle, now tilted up near chin height with its reddish contents visible sloshing inside as it is turned; the countertop below remains clean and the sponge still rests unused -- no ketchup has been dispensed yet.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping the tilted bottle",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "gripping the tilted bottle",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "ketchup bottle",
+          "description": "open, tilted up near chin height, contents visible inside",
+          "identifier": "ketchup_bottle"
+        },
+        {
+          "name": "sponge",
+          "description": "unused, resting on the counter below",
+          "identifier": "sponge"
+        },
+        {
+          "name": "countertop",
+          "description": "still clean, no ketchup dispensed yet",
+          "identifier": "countertop"
+        }
+      ],
+      "actions": [
+        {
+          "name": "tilt bottle",
+          "actor": "left fingers and right fingers",
+          "target": "ketchup bottle",
+          "description": "turning the open bottle upward near chin height"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers hold ketchup_bottle",
+        "right fingers hold ketchup_bottle"
+      ]
+    },
+    {
+      "frame_id": "clean_ketchup_000197",
+      "frame_index": 197,
+      "timestamp_seconds": 3.283333,
+      "description": "Both hands grip the inverted ketchup bottle and squeeze it over the countertop; a thin stream of ketchup has just begun to fall from the bottle's open mouth, with a tiny red dot forming on the table below it -- the first ketchup now visible on the counter.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "gripping the upper part of the inverted bottle, squeezing",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "left fingers",
+          "description": "gripping the lower part of the bottle, squeezing together with the right hand",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "ketchup bottle",
+          "description": "held upside down, open, being squeezed to dispense its contents",
+          "identifier": "ketchup_bottle"
+        },
+        {
+          "name": "ketchup",
+          "description": "a thin stream just starting to drip from the bottle onto the table, forming the first small dot -- new state, table no longer clean",
+          "identifier": "ketchup"
+        },
+        {
+          "name": "countertop",
+          "description": "now marked with the first tiny drop of ketchup",
+          "identifier": "countertop"
+        }
+      ],
+      "actions": [
+        {
+          "name": "squeeze bottle",
+          "actor": "right fingers and left fingers",
+          "target": "ketchup bottle",
+          "description": "both hands' fingers squeeze the inverted bottle together, forcing out the first drip onto the counter"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers squeeze ketchup_bottle",
+        "ketchup_bottle drips onto countertop"
+      ]
+    },
+    {
+      "frame_id": "clean_ketchup_000209",
+      "frame_index": 209,
+      "timestamp_seconds": 3.483333,
+      "description": "Both hands grip the bottle with strong motion blur near chest height, continuing to squeeze it; the blur obscures the fine detail of the counter below, though the sponge is still visible resting in place.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping the bottle, blurred with vigorous motion",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "gripping the bottle, blurred with vigorous motion",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "ketchup bottle",
+          "description": "gripped tightly and squeezed, motion-blurred",
+          "identifier": "ketchup_bottle"
+        },
+        {
+          "name": "sponge",
+          "description": "visible resting in place on the counter",
+          "identifier": "sponge"
+        }
+      ],
+      "actions": [
+        {
+          "name": "squeeze bottle",
+          "actor": "left fingers and right fingers",
+          "target": "ketchup bottle",
+          "description": "vigorously squeezing the bottle near chest height"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers squeeze ketchup_bottle",
+        "left fingers squeeze ketchup_bottle"
+      ]
+    },
+    {
+      "frame_id": "clean_ketchup_000217",
+      "frame_index": 217,
+      "timestamp_seconds": 3.616667,
+      "description": "Both hands grip the bottle, held up near chin height and tilted with its reddish contents visible inside, similar to the moment just before; the sponge still rests on the counter below.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping the tilted bottle",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "gripping the tilted bottle",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "ketchup bottle",
+          "description": "tilted near chin height, contents visible",
+          "identifier": "ketchup_bottle"
+        },
+        {
+          "name": "sponge",
+          "description": "resting on the counter below",
+          "identifier": "sponge"
+        }
+      ],
+      "actions": [
+        {
+          "name": "squeeze bottle",
+          "actor": "left fingers and right fingers",
+          "target": "ketchup bottle",
+          "description": "continuing to grip and tilt the bottle"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers hold ketchup_bottle",
+        "right fingers hold ketchup_bottle"
+      ]
+    },
+    {
+      "frame_id": "clean_ketchup_000223",
+      "frame_index": 223,
+      "timestamp_seconds": 3.716667,
+      "description": "Both hands grip the bottle with pronounced motion blur near chest height, continuing to squeeze it vigorously.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping the bottle, blurred with motion",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "gripping the bottle, blurred with motion",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "ketchup bottle",
+          "description": "gripped and squeezed, motion-blurred",
+          "identifier": "ketchup_bottle"
+        }
+      ],
+      "actions": [
+        {
+          "name": "squeeze bottle",
+          "actor": "left fingers and right fingers",
+          "target": "ketchup bottle",
+          "description": "vigorous squeezing motion"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers squeeze ketchup_bottle",
+        "left fingers squeeze ketchup_bottle"
+      ]
+    },
+    {
+      "frame_id": "clean_ketchup_000235",
+      "frame_index": 235,
+      "timestamp_seconds": 3.916667,
+      "description": "The person continues squeezing the bottle with both hands held at chest height; several small dots and a short streak of ketchup are now visible on the countertop below, more than the single drop seen a moment before.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "gripping the bottle, continuing to squeeze",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "left fingers",
+          "description": "gripping the bottle's lower body, squeezing together with the right hand",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "ketchup bottle",
+          "description": "held inverted, still being squeezed",
+          "identifier": "ketchup_bottle"
+        },
+        {
+          "name": "ketchup",
+          "description": "several small dots and a short line now dispensed onto the countertop, more than before",
+          "identifier": "ketchup"
+        }
+      ],
+      "actions": [
+        {
+          "name": "squeeze bottle",
+          "actor": "right fingers and left fingers",
+          "target": "ketchup bottle",
+          "description": "continued squeezing dispenses more ketchup onto the table"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers squeeze ketchup_bottle"
+      ]
+    },
+    {
+      "frame_id": "clean_ketchup_000243",
+      "frame_index": 243,
+      "timestamp_seconds": 4.05,
+      "description": "The ketchup bottle, cap off, is now held upright at waist height in the right hand (the Heinz label visible), while the left hand's fingers rest lightly on the sponge on the counter without gripping it; the countertop in front is unmarked in this view.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "holding the open bottle upright at waist height",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "left fingers",
+          "description": "resting lightly on the sponge, not gripping it",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "ketchup bottle",
+          "description": "open, held upright",
+          "identifier": "ketchup_bottle"
+        },
+        {
+          "name": "sponge",
+          "description": "resting on the counter, touched lightly",
+          "identifier": "sponge"
+        },
+        {
+          "name": "countertop",
+          "description": "unmarked in this view",
+          "identifier": "countertop"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold bottle",
+          "actor": "right fingers",
+          "target": "ketchup bottle",
+          "description": "holding the open bottle upright"
+        },
+        {
+          "name": "rest on sponge",
+          "actor": "left fingers",
+          "target": "sponge",
+          "description": "resting lightly on the sponge without gripping"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers hold ketchup_bottle",
+        "left fingers rest sponge"
+      ]
+    },
+    {
+      "frame_id": "clean_ketchup_000257",
+      "frame_index": 257,
+      "timestamp_seconds": 4.283333,
+      "description": "Unchanged from the moment before: the bottle remains held upright in the right hand while the left hand's fingers rest on the sponge.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "holding the open bottle upright",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "left fingers",
+          "description": "resting on the sponge",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "ketchup bottle",
+          "description": "open, held upright",
+          "identifier": "ketchup_bottle"
+        },
+        {
+          "name": "sponge",
+          "description": "resting on the counter, touched lightly",
+          "identifier": "sponge"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold bottle",
+          "actor": "right fingers",
+          "target": "ketchup bottle",
+          "description": "unchanged, holding the bottle upright"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers hold ketchup_bottle"
+      ]
+    },
+    {
+      "frame_id": "clean_ketchup_000271",
+      "frame_index": 271,
+      "timestamp_seconds": 4.516667,
+      "description": "Unchanged from the moment before: the bottle remains held upright in the right hand while the left hand's fingers rest on the sponge on the counter.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "holding the open bottle upright",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "left fingers",
+          "description": "resting on the sponge",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "ketchup bottle",
+          "description": "open, held upright",
+          "identifier": "ketchup_bottle"
+        },
+        {
+          "name": "sponge",
+          "description": "resting on the counter",
+          "identifier": "sponge"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold bottle",
+          "actor": "right fingers",
+          "target": "ketchup bottle",
+          "description": "unchanged, holding the bottle upright"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers hold ketchup_bottle"
+      ]
+    },
+    {
+      "frame_id": "clean_ketchup_000285",
+      "frame_index": 285,
+      "timestamp_seconds": 4.75,
+      "description": "Still unchanged from the moments before: the bottle is held upright in the right hand, and the left fingers hover just above the sponge without making contact.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "holding the open bottle upright",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "left fingers",
+          "description": "hovering just above the sponge, not touching it",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "ketchup bottle",
+          "description": "open, held upright",
+          "identifier": "ketchup_bottle"
+        },
+        {
+          "name": "sponge",
+          "description": "resting on the counter, untouched in this instant",
+          "identifier": "sponge"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold bottle",
+          "actor": "right fingers",
+          "target": "ketchup bottle",
+          "description": "unchanged, holding the bottle upright"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers hold ketchup_bottle"
+      ]
+    },
+    {
+      "frame_id": "clean_ketchup_000295",
+      "frame_index": 295,
+      "timestamp_seconds": 4.916667,
+      "description": "The bottle is inverted again and gripped tightly by both hands; a thin new drip has just begun falling from its mouth toward the countertop near the sponge.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping the inverted bottle",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "gripping the inverted bottle",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "ketchup bottle",
+          "description": "inverted and squeezed again",
+          "identifier": "ketchup_bottle"
+        },
+        {
+          "name": "ketchup",
+          "description": "a thin new drip just beginning to fall toward the counter near the sponge",
+          "identifier": "ketchup"
+        },
+        {
+          "name": "sponge",
+          "description": "resting on the counter nearby",
+          "identifier": "sponge"
+        }
+      ],
+      "actions": [
+        {
+          "name": "squeeze bottle",
+          "actor": "left fingers and right fingers",
+          "target": "ketchup bottle",
+          "description": "squeezing the inverted bottle, starting a new drip"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers squeeze ketchup_bottle",
+        "ketchup_bottle drips onto countertop"
+      ]
+    },
+    {
+      "frame_id": "clean_ketchup_000317",
+      "frame_index": 317,
+      "timestamp_seconds": 5.283333,
+      "description": "The bottle is held higher, near chest height, still inverted and squeezed by both hands; a small cluster of ketchup dots now sits on the countertop below.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping the inverted bottle",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "gripping the inverted bottle",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "ketchup bottle",
+          "description": "held inverted near chest height, being squeezed",
+          "identifier": "ketchup_bottle"
+        },
+        {
+          "name": "ketchup",
+          "description": "a small cluster of dots now on the countertop",
+          "identifier": "ketchup"
+        }
+      ],
+      "actions": [
+        {
+          "name": "squeeze bottle",
+          "actor": "left fingers and right fingers",
+          "target": "ketchup bottle",
+          "description": "continued squeezing dispenses a small cluster of dots"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers squeeze ketchup_bottle"
+      ]
+    },
+    {
+      "frame_id": "clean_ketchup_000333",
+      "frame_index": 333,
+      "timestamp_seconds": 5.55,
+      "description": "Unchanged from the moment before: the bottle remains held inverted near chest height and squeezed, with the same small cluster of ketchup dots on the counter.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping the inverted bottle",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "gripping the inverted bottle",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "ketchup bottle",
+          "description": "held inverted, being squeezed",
+          "identifier": "ketchup_bottle"
+        },
+        {
+          "name": "ketchup",
+          "description": "small cluster of dots on the countertop, unchanged",
+          "identifier": "ketchup"
+        }
+      ],
+      "actions": [
+        {
+          "name": "squeeze bottle",
+          "actor": "left fingers and right fingers",
+          "target": "ketchup bottle",
+          "description": "continued squeezing"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers squeeze ketchup_bottle"
+      ]
+    },
+    {
+      "frame_id": "clean_ketchup_000349",
+      "frame_index": 349,
+      "timestamp_seconds": 5.816667,
+      "description": "The bottle is now held lower, near waist height, still inverted and squeezed by both hands; the ketchup on the counter has grown into a longer streak alongside the earlier dots.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping the inverted bottle",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "gripping the inverted bottle",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "ketchup bottle",
+          "description": "held lower near waist height, being squeezed",
+          "identifier": "ketchup_bottle"
+        },
+        {
+          "name": "ketchup",
+          "description": "a longer streak has formed alongside the earlier dots",
+          "identifier": "ketchup"
+        }
+      ],
+      "actions": [
+        {
+          "name": "squeeze bottle",
+          "actor": "left fingers and right fingers",
+          "target": "ketchup bottle",
+          "description": "continued squeezing grows the streak"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers squeeze ketchup_bottle"
+      ]
+    },
+    {
+      "frame_id": "clean_ketchup_000361",
+      "frame_index": 361,
+      "timestamp_seconds": 6.016667,
+      "description": "The bottle continues to be held near waist height and squeezed by both hands; the streak of ketchup on the counter has grown slightly longer than a moment before.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping the inverted bottle",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "gripping the inverted bottle",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "ketchup bottle",
+          "description": "held near waist height, being squeezed",
+          "identifier": "ketchup_bottle"
+        },
+        {
+          "name": "ketchup",
+          "description": "streak slightly longer than before",
+          "identifier": "ketchup"
+        }
+      ],
+      "actions": [
+        {
+          "name": "squeeze bottle",
+          "actor": "left fingers and right fingers",
+          "target": "ketchup bottle",
+          "description": "continued squeezing"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers squeeze ketchup_bottle"
+      ]
+    },
+    {
+      "frame_id": "clean_ketchup_000371",
+      "frame_index": 371,
+      "timestamp_seconds": 6.183333,
+      "description": "The bottle is held even lower and still being squeezed; the squiggle of ketchup on the counter has grown longer and more elaborate than before.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping the inverted bottle",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "gripping the inverted bottle",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "ketchup bottle",
+          "description": "held low, being squeezed",
+          "identifier": "ketchup_bottle"
+        },
+        {
+          "name": "ketchup",
+          "description": "longer, more elaborate squiggle on the countertop",
+          "identifier": "ketchup"
+        }
+      ],
+      "actions": [
+        {
+          "name": "squeeze bottle",
+          "actor": "left fingers and right fingers",
+          "target": "ketchup bottle",
+          "description": "continued squeezing extends the squiggle"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers squeeze ketchup_bottle"
+      ]
+    },
+    {
+      "frame_id": "clean_ketchup_000383",
+      "frame_index": 383,
+      "timestamp_seconds": 6.383333,
+      "description": "The right fingers now hold the small cap near the bottle's mouth while the left fingers keep the bottle body steady; the ketchup on the counter has reached its longest extent yet -- a long squiggly line together with separate dots.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "holding the cap near the bottle's mouth",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "left fingers",
+          "description": "keeping the bottle body steady",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "ketchup bottle",
+          "description": "held steady, being resealed",
+          "identifier": "ketchup_bottle"
+        },
+        {
+          "name": "bottle cap",
+          "description": "held near the bottle's mouth, being returned to close it",
+          "identifier": "bottle_cap"
+        },
+        {
+          "name": "ketchup",
+          "description": "at its longest extent yet -- a long squiggly line plus separate dots",
+          "identifier": "ketchup"
+        }
+      ],
+      "actions": [
+        {
+          "name": "close bottle",
+          "actor": "right fingers",
+          "target": "bottle cap",
+          "description": "beginning to return the cap to the bottle's mouth"
+        },
+        {
+          "name": "hold bottle",
+          "actor": "left fingers",
+          "target": "ketchup bottle",
+          "description": "keeping the bottle body steady"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers close bottle_cap",
+        "left fingers hold ketchup_bottle"
+      ]
+    },
+    {
+      "frame_id": "clean_ketchup_000397",
+      "frame_index": 397,
+      "timestamp_seconds": 6.616667,
+      "description": "The person now twists the cap back onto the ketchup bottle with both hands held at chest height; a long squiggly line of ketchup is already fully drawn out on the countertop below from the earlier squeezing.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "holding the cap, twisting it onto the bottle's neck",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "left fingers",
+          "description": "gripping the bottle body, holding it steady while the cap is screwed on",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "ketchup bottle",
+          "description": "being resealed, cap being twisted back on",
+          "identifier": "ketchup_bottle"
+        },
+        {
+          "name": "bottle cap",
+          "description": "being turned back onto the bottle's neck -- returning to a closed state",
+          "identifier": "bottle_cap"
+        },
+        {
+          "name": "ketchup",
+          "description": "a long squiggly line and dots already sitting on the countertop",
+          "identifier": "ketchup"
+        }
+      ],
+      "actions": [
+        {
+          "name": "close bottle",
+          "actor": "right fingers",
+          "target": "bottle cap",
+          "description": "the right hand's fingers twist the cap back onto the bottle to reseal it"
+        },
+        {
+          "name": "hold bottle",
+          "actor": "left fingers",
+          "target": "ketchup bottle",
+          "description": "the left hand's fingers keep the bottle body steady during resealing"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers close bottle_cap",
+        "left fingers hold ketchup_bottle"
+      ]
+    },
+    {
+      "frame_id": "clean_ketchup_000413",
+      "frame_index": 413,
+      "timestamp_seconds": 6.883333,
+      "description": "The right fingers continue twisting the cap onto the bottle's neck while the left fingers hold the bottle body steady; the long squiggly line and dots of ketchup remain unchanged on the counter, no longer growing now that squeezing has stopped.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "twisting the cap onto the bottle's neck",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "left fingers",
+          "description": "holding the bottle body steady",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "ketchup bottle",
+          "description": "being resealed",
+          "identifier": "ketchup_bottle"
+        },
+        {
+          "name": "bottle cap",
+          "description": "being twisted onto the bottle's neck",
+          "identifier": "bottle_cap"
+        },
+        {
+          "name": "ketchup",
+          "description": "unchanged, no longer growing",
+          "identifier": "ketchup"
+        }
+      ],
+      "actions": [
+        {
+          "name": "close bottle",
+          "actor": "right fingers",
+          "target": "bottle cap",
+          "description": "twisting the cap onto the neck"
+        },
+        {
+          "name": "hold bottle",
+          "actor": "left fingers",
+          "target": "ketchup bottle",
+          "description": "keeping the bottle steady during resealing"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers close bottle_cap",
+        "left fingers hold ketchup_bottle"
+      ]
+    },
+    {
+      "frame_id": "clean_ketchup_000425",
+      "frame_index": 425,
+      "timestamp_seconds": 7.083333,
+      "description": "Unchanged from the moment before: the right fingers continue twisting the cap onto the bottle's neck while the left fingers hold the bottle steady; the ketchup marks on the counter remain the same.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "twisting the cap onto the bottle's neck",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "left fingers",
+          "description": "holding the bottle body steady",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "ketchup bottle",
+          "description": "being resealed",
+          "identifier": "ketchup_bottle"
+        },
+        {
+          "name": "bottle cap",
+          "description": "being twisted onto the bottle's neck",
+          "identifier": "bottle_cap"
+        },
+        {
+          "name": "ketchup",
+          "description": "unchanged",
+          "identifier": "ketchup"
+        }
+      ],
+      "actions": [
+        {
+          "name": "close bottle",
+          "actor": "right fingers",
+          "target": "bottle cap",
+          "description": "continuing to twist the cap onto the neck"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers close bottle_cap",
+        "left fingers hold ketchup_bottle"
+      ]
+    },
+    {
+      "frame_id": "clean_ketchup_000439",
+      "frame_index": 439,
+      "timestamp_seconds": 7.316667,
+      "description": "The cap continues to be twisted onto the bottle's neck by the right fingers while the left fingers hold the body steady; the long squiggle and dots of ketchup on the counter remain unchanged.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "twisting the cap onto the bottle's neck",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "left fingers",
+          "description": "holding the bottle body steady",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "ketchup bottle",
+          "description": "being resealed, held upright",
+          "identifier": "ketchup_bottle"
+        },
+        {
+          "name": "bottle cap",
+          "description": "being twisted onto the neck",
+          "identifier": "bottle_cap"
+        },
+        {
+          "name": "ketchup",
+          "description": "unchanged squiggle and dots on the countertop",
+          "identifier": "ketchup"
+        }
+      ],
+      "actions": [
+        {
+          "name": "close bottle",
+          "actor": "right fingers",
+          "target": "bottle cap",
+          "description": "continuing to twist the cap onto the neck"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers close bottle_cap",
+        "left fingers hold ketchup_bottle"
+      ]
+    },
+    {
+      "frame_id": "clean_ketchup_000451",
+      "frame_index": 451,
+      "timestamp_seconds": 7.516667,
+      "description": "Unchanged from the moment before: the cap is still being twisted onto the bottle's neck, and the ketchup marks on the counter remain the same extensive squiggle and dots.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "twisting the cap onto the bottle's neck",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "left fingers",
+          "description": "holding the bottle body steady",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "ketchup bottle",
+          "description": "being resealed",
+          "identifier": "ketchup_bottle"
+        },
+        {
+          "name": "bottle cap",
+          "description": "being twisted onto the neck",
+          "identifier": "bottle_cap"
+        },
+        {
+          "name": "ketchup",
+          "description": "unchanged",
+          "identifier": "ketchup"
+        }
+      ],
+      "actions": [
+        {
+          "name": "close bottle",
+          "actor": "right fingers",
+          "target": "bottle cap",
+          "description": "continuing to twist the cap onto the neck"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers close bottle_cap",
+        "left fingers hold ketchup_bottle"
+      ]
+    },
+    {
+      "frame_id": "clean_ketchup_000459",
+      "frame_index": 459,
+      "timestamp_seconds": 7.65,
+      "description": "Unchanged: the cap continues to be twisted onto the bottle's neck, and the ketchup marks on the counter remain the same.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "twisting the cap onto the bottle's neck",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "left fingers",
+          "description": "holding the bottle body steady",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "ketchup bottle",
+          "description": "being resealed",
+          "identifier": "ketchup_bottle"
+        },
+        {
+          "name": "bottle cap",
+          "description": "being twisted onto the neck",
+          "identifier": "bottle_cap"
+        },
+        {
+          "name": "ketchup",
+          "description": "unchanged",
+          "identifier": "ketchup"
+        }
+      ],
+      "actions": [
+        {
+          "name": "close bottle",
+          "actor": "right fingers",
+          "target": "bottle cap",
+          "description": "continuing to twist the cap onto the neck"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers close bottle_cap",
+        "left fingers hold ketchup_bottle"
+      ]
+    },
+    {
+      "frame_id": "clean_ketchup_000469",
+      "frame_index": 469,
+      "timestamp_seconds": 7.816667,
+      "description": "Unchanged: the cap continues to be twisted onto the bottle's neck, and the ketchup marks on the counter remain the same.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "twisting the cap onto the bottle's neck",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "left fingers",
+          "description": "holding the bottle body steady",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "ketchup bottle",
+          "description": "being resealed",
+          "identifier": "ketchup_bottle"
+        },
+        {
+          "name": "bottle cap",
+          "description": "being twisted onto the neck",
+          "identifier": "bottle_cap"
+        },
+        {
+          "name": "ketchup",
+          "description": "unchanged",
+          "identifier": "ketchup"
+        }
+      ],
+      "actions": [
+        {
+          "name": "close bottle",
+          "actor": "right fingers",
+          "target": "bottle cap",
+          "description": "continuing to twist the cap onto the neck"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers close bottle_cap",
+        "left fingers hold ketchup_bottle"
+      ]
+    },
+    {
+      "frame_id": "clean_ketchup_000483",
+      "frame_index": 483,
+      "timestamp_seconds": 8.05,
+      "description": "Unchanged: the cap continues to be twisted onto the bottle's neck, and the ketchup marks on the counter remain the same.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "twisting the cap onto the bottle's neck",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "left fingers",
+          "description": "holding the bottle body steady",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "ketchup bottle",
+          "description": "being resealed",
+          "identifier": "ketchup_bottle"
+        },
+        {
+          "name": "bottle cap",
+          "description": "being twisted onto the neck",
+          "identifier": "bottle_cap"
+        },
+        {
+          "name": "ketchup",
+          "description": "unchanged",
+          "identifier": "ketchup"
+        }
+      ],
+      "actions": [
+        {
+          "name": "close bottle",
+          "actor": "right fingers",
+          "target": "bottle cap",
+          "description": "continuing to twist the cap onto the neck"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers close bottle_cap",
+        "left fingers hold ketchup_bottle"
+      ]
+    },
+    {
+      "frame_id": "clean_ketchup_000495",
+      "frame_index": 495,
+      "timestamp_seconds": 8.25,
+      "description": "Unchanged: the cap continues to be twisted onto the bottle's neck, and the ketchup marks on the counter remain the same.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "twisting the cap onto the bottle's neck",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "left fingers",
+          "description": "holding the bottle body steady",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "ketchup bottle",
+          "description": "being resealed",
+          "identifier": "ketchup_bottle"
+        },
+        {
+          "name": "bottle cap",
+          "description": "being twisted onto the neck",
+          "identifier": "bottle_cap"
+        },
+        {
+          "name": "ketchup",
+          "description": "unchanged",
+          "identifier": "ketchup"
+        }
+      ],
+      "actions": [
+        {
+          "name": "close bottle",
+          "actor": "right fingers",
+          "target": "bottle cap",
+          "description": "continuing to twist the cap onto the neck"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers close bottle_cap",
+        "left fingers hold ketchup_bottle"
+      ]
+    },
+    {
+      "frame_id": "clean_ketchup_000509",
+      "frame_index": 509,
+      "timestamp_seconds": 8.483333,
+      "description": "Unchanged: the cap continues to be twisted onto the bottle's neck, and the ketchup marks on the counter remain the same.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "twisting the cap onto the bottle's neck",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "left fingers",
+          "description": "holding the bottle body steady",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "ketchup bottle",
+          "description": "being resealed",
+          "identifier": "ketchup_bottle"
+        },
+        {
+          "name": "bottle cap",
+          "description": "being twisted onto the neck",
+          "identifier": "bottle_cap"
+        },
+        {
+          "name": "ketchup",
+          "description": "unchanged",
+          "identifier": "ketchup"
+        }
+      ],
+      "actions": [
+        {
+          "name": "close bottle",
+          "actor": "right fingers",
+          "target": "bottle cap",
+          "description": "continuing to twist the cap onto the neck"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers close bottle_cap",
+        "left fingers hold ketchup_bottle"
+      ]
+    },
+    {
+      "frame_id": "clean_ketchup_000525",
+      "frame_index": 525,
+      "timestamp_seconds": 8.75,
+      "description": "Unchanged: the cap continues to be twisted onto the bottle's neck, and the ketchup marks on the counter remain the same.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "twisting the cap onto the bottle's neck",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "left fingers",
+          "description": "holding the bottle body steady",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "ketchup bottle",
+          "description": "being resealed",
+          "identifier": "ketchup_bottle"
+        },
+        {
+          "name": "bottle cap",
+          "description": "being twisted onto the neck",
+          "identifier": "bottle_cap"
+        },
+        {
+          "name": "ketchup",
+          "description": "unchanged",
+          "identifier": "ketchup"
+        }
+      ],
+      "actions": [
+        {
+          "name": "close bottle",
+          "actor": "right fingers",
+          "target": "bottle cap",
+          "description": "continuing to twist the cap onto the neck"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers close bottle_cap",
+        "left fingers hold ketchup_bottle"
+      ]
+    },
+    {
+      "frame_id": "clean_ketchup_000543",
+      "frame_index": 543,
+      "timestamp_seconds": 9.05,
+      "description": "Unchanged: the cap continues to be twisted onto the bottle's neck, and the ketchup marks on the counter remain the same.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "twisting the cap onto the bottle's neck",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "left fingers",
+          "description": "holding the bottle body steady",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "ketchup bottle",
+          "description": "being resealed",
+          "identifier": "ketchup_bottle"
+        },
+        {
+          "name": "bottle cap",
+          "description": "being twisted onto the neck",
+          "identifier": "bottle_cap"
+        },
+        {
+          "name": "ketchup",
+          "description": "unchanged",
+          "identifier": "ketchup"
+        }
+      ],
+      "actions": [
+        {
+          "name": "close bottle",
+          "actor": "right fingers",
+          "target": "bottle cap",
+          "description": "continuing to twist the cap onto the neck"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers close bottle_cap",
+        "left fingers hold ketchup_bottle"
+      ]
+    },
+    {
+      "frame_id": "clean_ketchup_000565",
+      "frame_index": 565,
+      "timestamp_seconds": 9.416667,
+      "description": "Unchanged: the cap continues to be twisted onto the bottle's neck, and the ketchup marks on the counter remain the same, near the very end of this long resealing motion.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "twisting the cap onto the bottle's neck",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "left fingers",
+          "description": "holding the bottle body steady",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "ketchup bottle",
+          "description": "being resealed",
+          "identifier": "ketchup_bottle"
+        },
+        {
+          "name": "bottle cap",
+          "description": "being twisted onto the neck",
+          "identifier": "bottle_cap"
+        },
+        {
+          "name": "ketchup",
+          "description": "unchanged",
+          "identifier": "ketchup"
+        }
+      ],
+      "actions": [
+        {
+          "name": "close bottle",
+          "actor": "right fingers",
+          "target": "bottle cap",
+          "description": "continuing to twist the cap onto the neck"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers close bottle_cap",
+        "left fingers hold ketchup_bottle"
+      ]
+    },
+    {
+      "frame_id": "clean_ketchup_000581",
+      "frame_index": 581,
+      "timestamp_seconds": 9.683333,
+      "description": "Both hands work together at the bottle's neck, still twisting the cap into its final position; the sponge remains clean on the counter and the long squiggle and dots of ketchup are unchanged.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "twisting the cap into its final position on the neck",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "left fingers",
+          "description": "holding the bottle body steady",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "ketchup bottle",
+          "description": "nearly fully resealed",
+          "identifier": "ketchup_bottle"
+        },
+        {
+          "name": "bottle cap",
+          "description": "being finished into place on the neck",
+          "identifier": "bottle_cap"
+        },
+        {
+          "name": "sponge",
+          "description": "still clean, resting on the counter",
+          "identifier": "sponge"
+        },
+        {
+          "name": "ketchup",
+          "description": "unchanged, long squiggle and dots on the counter",
+          "identifier": "ketchup"
+        }
+      ],
+      "actions": [
+        {
+          "name": "close bottle",
+          "actor": "right fingers",
+          "target": "bottle cap",
+          "description": "finishing the twist of the cap into place"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers close bottle_cap",
+        "left fingers hold ketchup_bottle"
+      ]
+    },
+    {
+      "frame_id": "clean_ketchup_000591",
+      "frame_index": 591,
+      "timestamp_seconds": 9.85,
+      "description": "The cap now appears seated on the bottle; the bottle is held upright in the right hand while the left hand's fingers open beside it, relaxing. The sponge remains clean and the ketchup marks on the counter are unchanged.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "holding the now-capped bottle upright",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "ketchup bottle",
+          "description": "cap now seated, held upright",
+          "identifier": "ketchup_bottle"
+        },
+        {
+          "name": "sponge",
+          "description": "still clean, resting on the counter",
+          "identifier": "sponge"
+        },
+        {
+          "name": "ketchup",
+          "description": "unchanged marks on the counter",
+          "identifier": "ketchup"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold bottle",
+          "actor": "right fingers",
+          "target": "ketchup bottle",
+          "description": "holding the newly-capped bottle upright"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers hold ketchup_bottle"
+      ]
+    },
+    {
+      "frame_id": "clean_ketchup_000601",
+      "frame_index": 601,
+      "timestamp_seconds": 10.016667,
+      "description": "The ketchup bottle is now capped and closed again, held upright in the right hand near chest height; the left hand hangs down at the person's side, relaxed and no longer engaged with anything.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "gripping the neck of the now-capped bottle, holding it upright",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "ketchup bottle",
+          "description": "resealed with its cap on, held upright",
+          "identifier": "ketchup_bottle"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold bottle",
+          "actor": "right fingers",
+          "target": "ketchup bottle",
+          "description": "continuing to grip the closed bottle upright"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers hold ketchup_bottle"
+      ]
+    },
+    {
+      "frame_id": "clean_ketchup_000619",
+      "frame_index": 619,
+      "timestamp_seconds": 10.316667,
+      "description": "The capped bottle is held in the right hand while the left hand's fingers reach loosely toward the sponge on the counter, not yet gripping it; the ketchup marks remain unchanged and the sponge is still clean.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "holding the capped bottle",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "left fingers",
+          "description": "reaching loosely toward the sponge, not yet gripping it",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "ketchup bottle",
+          "description": "capped, held upright",
+          "identifier": "ketchup_bottle"
+        },
+        {
+          "name": "sponge",
+          "description": "still clean, on the counter",
+          "identifier": "sponge"
+        },
+        {
+          "name": "ketchup",
+          "description": "unchanged marks on the counter",
+          "identifier": "ketchup"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold bottle",
+          "actor": "right fingers",
+          "target": "ketchup bottle",
+          "description": "continuing to hold the capped bottle"
+        },
+        {
+          "name": "reach for sponge",
+          "actor": "left fingers",
+          "target": "sponge",
+          "description": "reaching loosely toward the sponge"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers hold ketchup_bottle",
+        "left fingers reach sponge"
+      ]
+    },
+    {
+      "frame_id": "clean_ketchup_000635",
+      "frame_index": 635,
+      "timestamp_seconds": 10.583333,
+      "description": "The right hand still grips the closed ketchup bottle near chest height, unchanged from a moment before, while the left hand -- previously idle at the side -- now reaches down toward the sponge on the countertop, fingers extended toward it.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "still gripping the capped bottle, unchanged from the previous moment",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "left fingers",
+          "description": "newly reaching down toward the sponge on the counter, fingers extended toward it",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "ketchup bottle",
+          "description": "closed, held in the right hand",
+          "identifier": "ketchup_bottle"
+        },
+        {
+          "name": "sponge",
+          "description": "still clean, resting on the counter",
+          "identifier": "sponge"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold bottle",
+          "actor": "right fingers",
+          "target": "ketchup bottle",
+          "description": "continuing to hold the capped bottle, unchanged"
+        },
+        {
+          "name": "reach for sponge",
+          "actor": "left fingers",
+          "target": "sponge",
+          "description": "the left hand extends down toward the sponge, beginning a new sub-task while the right hand continues its prior hold on the bottle"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers hold ketchup_bottle",
+        "left fingers reach sponge"
+      ]
+    },
+    {
+      "frame_id": "clean_ketchup_000651",
+      "frame_index": 651,
+      "timestamp_seconds": 10.85,
+      "description": "The left fingers now touch the sponge on the counter while the right hand rests as a loose fist on the counter surface; the sponge is still clean and the ketchup marks are unchanged.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "touching the sponge on the counter",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "sponge",
+          "description": "still clean, now touched",
+          "identifier": "sponge"
+        },
+        {
+          "name": "ketchup",
+          "description": "unchanged marks on the counter",
+          "identifier": "ketchup"
+        },
+        {
+          "name": "countertop",
+          "description": "marked with the long-standing squiggle and dots",
+          "identifier": "countertop"
+        }
+      ],
+      "actions": [
+        {
+          "name": "touch sponge",
+          "actor": "left fingers",
+          "target": "sponge",
+          "description": "making contact with the sponge on the counter, right hand resting idle as a fist"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers touch sponge"
+      ]
+    },
+    {
+      "frame_id": "clean_ketchup_000663",
+      "frame_index": 663,
+      "timestamp_seconds": 11.05,
+      "description": "The left fingers now grip the sponge, lifting it slightly toward the ketchup marks; the sponge still looks clean, and the marks on the counter remain the same long squiggle and dots.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping the sponge, lifting it toward the marks",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "sponge",
+          "description": "gripped, still clean",
+          "identifier": "sponge"
+        },
+        {
+          "name": "ketchup",
+          "description": "unchanged long squiggle and dots",
+          "identifier": "ketchup"
+        }
+      ],
+      "actions": [
+        {
+          "name": "grip sponge",
+          "actor": "left fingers",
+          "target": "sponge",
+          "description": "gripping the sponge in preparation to wipe"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers grip sponge"
+      ]
+    },
+    {
+      "frame_id": "clean_ketchup_000673",
+      "frame_index": 673,
+      "timestamp_seconds": 11.216667,
+      "description": "One hand now grips the blue sponge and wipes it across the ketchup marks on the countertop; the other hand is relaxed and out of contact with the table, no longer engaged now that the bottle has been set aside.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping the sponge, wiping it across the ketchup marks on the counter",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "sponge",
+          "description": "now in use, pressed against the countertop over the ketchup marks",
+          "identifier": "sponge"
+        },
+        {
+          "name": "ketchup",
+          "description": "partially smeared by the sponge's wiping motion",
+          "identifier": "ketchup"
+        },
+        {
+          "name": "countertop",
+          "description": "being wiped clean where the sponge passes",
+          "identifier": "countertop"
+        }
+      ],
+      "actions": [
+        {
+          "name": "wipe counter",
+          "actor": "left fingers",
+          "target": "countertop",
+          "description": "dragging the sponge across the ketchup marks to clean the surface while the other hand stays idle"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers wipe countertop"
+      ]
+    },
+    {
+      "frame_id": "clean_ketchup_000685",
+      "frame_index": 685,
+      "timestamp_seconds": 11.416667,
+      "description": "The left fingers drag the sponge across the countertop, actively wiping at the ketchup marks; the marks remain largely the same extent as a moment before, and the right hand rests idle as a loose fist on the counter.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "dragging the sponge across the ketchup marks",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "sponge",
+          "description": "in use, wiping the countertop",
+          "identifier": "sponge"
+        },
+        {
+          "name": "ketchup",
+          "description": "largely unchanged extent so far",
+          "identifier": "ketchup"
+        },
+        {
+          "name": "countertop",
+          "description": "being wiped where the sponge passes",
+          "identifier": "countertop"
+        }
+      ],
+      "actions": [
+        {
+          "name": "wipe counter",
+          "actor": "left fingers",
+          "target": "countertop",
+          "description": "dragging the sponge across the marks while the right hand rests idle"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers wipe countertop"
+      ]
+    },
+    {
+      "frame_id": "clean_ketchup_000693",
+      "frame_index": 693,
+      "timestamp_seconds": 11.55,
+      "description": "Unchanged from the moment before: the left fingers continue dragging the sponge across the ketchup marks, which remain roughly the same extent, while the right hand still rests as an idle fist on the counter.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "dragging the sponge across the ketchup marks",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "sponge",
+          "description": "in use, wiping the countertop",
+          "identifier": "sponge"
+        },
+        {
+          "name": "ketchup",
+          "description": "roughly unchanged extent",
+          "identifier": "ketchup"
+        }
+      ],
+      "actions": [
+        {
+          "name": "wipe counter",
+          "actor": "left fingers",
+          "target": "countertop",
+          "description": "continuing to wipe the marks"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers wipe countertop"
+      ]
+    },
+    {
+      "frame_id": "clean_ketchup_000699",
+      "frame_index": 699,
+      "timestamp_seconds": 11.65,
+      "description": "Unchanged from the moment before: wiping continues with the sponge dragged across the ketchup marks, still roughly the same extent.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "dragging the sponge across the ketchup marks",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "sponge",
+          "description": "in use, wiping the countertop",
+          "identifier": "sponge"
+        },
+        {
+          "name": "ketchup",
+          "description": "roughly unchanged extent",
+          "identifier": "ketchup"
+        }
+      ],
+      "actions": [
+        {
+          "name": "wipe counter",
+          "actor": "left fingers",
+          "target": "countertop",
+          "description": "continuing to wipe the marks"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers wipe countertop"
+      ]
+    },
+    {
+      "frame_id": "clean_ketchup_000703",
+      "frame_index": 703,
+      "timestamp_seconds": 11.716667,
+      "description": "Unchanged from the moment before: wiping continues, the ketchup marks still roughly the same extent as before.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "dragging the sponge across the ketchup marks",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "sponge",
+          "description": "in use, wiping the countertop",
+          "identifier": "sponge"
+        },
+        {
+          "name": "ketchup",
+          "description": "roughly unchanged extent",
+          "identifier": "ketchup"
+        }
+      ],
+      "actions": [
+        {
+          "name": "wipe counter",
+          "actor": "left fingers",
+          "target": "countertop",
+          "description": "continuing to wipe the marks"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers wipe countertop"
+      ]
+    },
+    {
+      "frame_id": "clean_ketchup_000707",
+      "frame_index": 707,
+      "timestamp_seconds": 11.783333,
+      "description": "Unchanged from the moment before: wiping continues, the ketchup marks still roughly the same extent as before.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "dragging the sponge across the ketchup marks",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "sponge",
+          "description": "in use, wiping the countertop",
+          "identifier": "sponge"
+        },
+        {
+          "name": "ketchup",
+          "description": "roughly unchanged extent",
+          "identifier": "ketchup"
+        }
+      ],
+      "actions": [
+        {
+          "name": "wipe counter",
+          "actor": "left fingers",
+          "target": "countertop",
+          "description": "continuing to wipe the marks"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers wipe countertop"
+      ]
+    },
+    {
+      "frame_id": "clean_ketchup_000711",
+      "frame_index": 711,
+      "timestamp_seconds": 11.85,
+      "description": "Unchanged from the moment before: wiping continues with the sponge across the marks, which remain roughly the same extent.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "dragging the sponge across the ketchup marks",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "sponge",
+          "description": "in use, wiping the countertop",
+          "identifier": "sponge"
+        },
+        {
+          "name": "ketchup",
+          "description": "roughly unchanged extent",
+          "identifier": "ketchup"
+        }
+      ],
+      "actions": [
+        {
+          "name": "wipe counter",
+          "actor": "left fingers",
+          "target": "countertop",
+          "description": "continuing to wipe the marks"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers wipe countertop"
+      ]
+    },
+    {
+      "frame_id": "clean_ketchup_000715",
+      "frame_index": 715,
+      "timestamp_seconds": 11.916667,
+      "description": "Unchanged from the moment before: wiping continues with the sponge across the marks, which remain roughly the same extent.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "dragging the sponge across the ketchup marks",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "sponge",
+          "description": "in use, wiping the countertop",
+          "identifier": "sponge"
+        },
+        {
+          "name": "ketchup",
+          "description": "roughly unchanged extent",
+          "identifier": "ketchup"
+        }
+      ],
+      "actions": [
+        {
+          "name": "wipe counter",
+          "actor": "left fingers",
+          "target": "countertop",
+          "description": "continuing to wipe the marks"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers wipe countertop"
+      ]
+    },
+    {
+      "frame_id": "clean_ketchup_000721",
+      "frame_index": 721,
+      "timestamp_seconds": 12.016667,
+      "description": "Unchanged from the moment before: wiping continues with the sponge across the marks, which remain roughly the same extent.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "dragging the sponge across the ketchup marks",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "sponge",
+          "description": "in use, wiping the countertop",
+          "identifier": "sponge"
+        },
+        {
+          "name": "ketchup",
+          "description": "roughly unchanged extent",
+          "identifier": "ketchup"
+        }
+      ],
+      "actions": [
+        {
+          "name": "wipe counter",
+          "actor": "left fingers",
+          "target": "countertop",
+          "description": "continuing to wipe the marks"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers wipe countertop"
+      ]
+    },
+    {
+      "frame_id": "clean_ketchup_000727",
+      "frame_index": 727,
+      "timestamp_seconds": 12.116667,
+      "description": "Unchanged from the moment before: wiping continues with the sponge across the marks, which remain roughly the same long extent just before a large reduction begins.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "dragging the sponge across the ketchup marks",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "sponge",
+          "description": "in use, wiping the countertop",
+          "identifier": "sponge"
+        },
+        {
+          "name": "ketchup",
+          "description": "roughly unchanged extent",
+          "identifier": "ketchup"
+        }
+      ],
+      "actions": [
+        {
+          "name": "wipe counter",
+          "actor": "left fingers",
+          "target": "countertop",
+          "description": "continuing to wipe the marks"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers wipe countertop"
+      ]
+    },
+    {
+      "frame_id": "clean_ketchup_000735",
+      "frame_index": 735,
+      "timestamp_seconds": 12.25,
+      "description": "The left fingers continue wiping with the sponge; the ketchup marks have now been significantly reduced to just a few short marks near the sponge, down from the long squiggle seen a moment before.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "wiping with the sponge",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "sponge",
+          "description": "in use, wiping the countertop",
+          "identifier": "sponge"
+        },
+        {
+          "name": "ketchup",
+          "description": "significantly reduced to a few short marks",
+          "identifier": "ketchup"
+        }
+      ],
+      "actions": [
+        {
+          "name": "wipe counter",
+          "actor": "left fingers",
+          "target": "countertop",
+          "description": "wiping away most of the long squiggle"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers wipe countertop"
+      ]
+    },
+    {
+      "frame_id": "clean_ketchup_000747",
+      "frame_index": 747,
+      "timestamp_seconds": 12.45,
+      "description": "Wiping continues with the sponge; only a few small dots of ketchup remain on the counter now, further reduced from the moment before.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "wiping with the sponge",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "sponge",
+          "description": "in use, wiping the countertop",
+          "identifier": "sponge"
+        },
+        {
+          "name": "ketchup",
+          "description": "only a few small dots remain",
+          "identifier": "ketchup"
+        }
+      ],
+      "actions": [
+        {
+          "name": "wipe counter",
+          "actor": "left fingers",
+          "target": "countertop",
+          "description": "continuing to reduce the remaining marks"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers wipe countertop"
+      ]
+    },
+    {
+      "frame_id": "clean_ketchup_000757",
+      "frame_index": 757,
+      "timestamp_seconds": 12.616667,
+      "description": "Wiping continues; the ketchup marks are reduced to about two small dots near the sponge.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "wiping with the sponge",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "sponge",
+          "description": "in use, wiping the countertop",
+          "identifier": "sponge"
+        },
+        {
+          "name": "ketchup",
+          "description": "reduced to about two small dots",
+          "identifier": "ketchup"
+        }
+      ],
+      "actions": [
+        {
+          "name": "wipe counter",
+          "actor": "left fingers",
+          "target": "countertop",
+          "description": "continuing to wipe the remaining dots"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers wipe countertop"
+      ]
+    },
+    {
+      "frame_id": "clean_ketchup_000767",
+      "frame_index": 767,
+      "timestamp_seconds": 12.783333,
+      "description": "Unchanged from the moment before: a couple of small ketchup dots remain near the sponge as wiping continues.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "wiping with the sponge",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "sponge",
+          "description": "in use, wiping the countertop",
+          "identifier": "sponge"
+        },
+        {
+          "name": "ketchup",
+          "description": "a couple of small dots remain",
+          "identifier": "ketchup"
+        }
+      ],
+      "actions": [
+        {
+          "name": "wipe counter",
+          "actor": "left fingers",
+          "target": "countertop",
+          "description": "continuing to wipe"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers wipe countertop"
+      ]
+    },
+    {
+      "frame_id": "clean_ketchup_000775",
+      "frame_index": 775,
+      "timestamp_seconds": 12.916667,
+      "description": "The ketchup marks are reduced further, to only one or two faint specks near the sponge.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "wiping with the sponge",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "sponge",
+          "description": "in use, wiping the countertop",
+          "identifier": "sponge"
+        },
+        {
+          "name": "ketchup",
+          "description": "one or two faint specks remain",
+          "identifier": "ketchup"
+        }
+      ],
+      "actions": [
+        {
+          "name": "wipe counter",
+          "actor": "left fingers",
+          "target": "countertop",
+          "description": "wiping the last visible flecks"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers wipe countertop"
+      ]
+    },
+    {
+      "frame_id": "clean_ketchup_000781",
+      "frame_index": 781,
+      "timestamp_seconds": 13.016667,
+      "description": "Unchanged from the moment before: only one or two faint ketchup specks remain near the sponge.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "wiping with the sponge",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "sponge",
+          "description": "in use, wiping the countertop",
+          "identifier": "sponge"
+        },
+        {
+          "name": "ketchup",
+          "description": "one or two faint specks remain",
+          "identifier": "ketchup"
+        }
+      ],
+      "actions": [
+        {
+          "name": "wipe counter",
+          "actor": "left fingers",
+          "target": "countertop",
+          "description": "continuing to wipe"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers wipe countertop"
+      ]
+    },
+    {
+      "frame_id": "clean_ketchup_000787",
+      "frame_index": 787,
+      "timestamp_seconds": 13.116667,
+      "description": "Wiping continues; a few small ketchup dots remain visible near the sponge, similar to the moment before.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "wiping with the sponge",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "sponge",
+          "description": "in use, wiping the countertop",
+          "identifier": "sponge"
+        },
+        {
+          "name": "ketchup",
+          "description": "a few small dots remain",
+          "identifier": "ketchup"
+        }
+      ],
+      "actions": [
+        {
+          "name": "wipe counter",
+          "actor": "left fingers",
+          "target": "countertop",
+          "description": "continuing to wipe"
+        }
+      ],
+      "ontological_phrases": [
+        "left fingers wipe countertop"
+      ]
+    },
+    {
+      "frame_id": "clean_ketchup_000793",
+      "frame_index": 793,
+      "timestamp_seconds": 13.216667,
+      "description": "Both hands now come together, folding the sponge between them; the sponge shows a visible reddish stain from the wiping, and only a few small ketchup dots remain on the counter.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "folding one side of the sponge",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "left fingers",
+          "description": "folding the other side of the sponge",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "sponge",
+          "description": "folded between both hands, now visibly stained reddish -- state change from clean to soiled",
+          "identifier": "sponge"
+        },
+        {
+          "name": "ketchup",
+          "description": "a few small dots remain on the counter",
+          "identifier": "ketchup"
+        }
+      ],
+      "actions": [
+        {
+          "name": "adjust sponge",
+          "actor": "right fingers and left fingers",
+          "target": "sponge",
+          "description": "folding and repositioning the stained sponge together"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers adjust sponge",
+        "left fingers adjust sponge"
+      ]
+    },
+    {
+      "frame_id": "clean_ketchup_000797",
+      "frame_index": 797,
+      "timestamp_seconds": 13.283333,
+      "description": "Both hands continue folding and adjusting the stained sponge; a few small ketchup dots remain unchanged on the counter.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "folding one side of the sponge",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "left fingers",
+          "description": "folding the other side of the sponge",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "sponge",
+          "description": "folded, stained reddish",
+          "identifier": "sponge"
+        },
+        {
+          "name": "ketchup",
+          "description": "a few small dots remain, unchanged",
+          "identifier": "ketchup"
+        }
+      ],
+      "actions": [
+        {
+          "name": "adjust sponge",
+          "actor": "right fingers and left fingers",
+          "target": "sponge",
+          "description": "continuing to fold and reposition the sponge"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers adjust sponge",
+        "left fingers adjust sponge"
+      ]
+    },
+    {
+      "frame_id": "clean_ketchup_000803",
+      "frame_index": 803,
+      "timestamp_seconds": 13.383333,
+      "description": "Both hands continue holding and adjusting the stained sponge; the few small ketchup dots on the counter remain unchanged.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "holding one side of the folded sponge",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "left fingers",
+          "description": "holding the other side of the folded sponge",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "sponge",
+          "description": "folded, stained reddish",
+          "identifier": "sponge"
+        },
+        {
+          "name": "ketchup",
+          "description": "a few small dots remain, unchanged",
+          "identifier": "ketchup"
+        }
+      ],
+      "actions": [
+        {
+          "name": "adjust sponge",
+          "actor": "right fingers and left fingers",
+          "target": "sponge",
+          "description": "continuing to hold and adjust the sponge"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers adjust sponge",
+        "left fingers adjust sponge"
+      ]
+    },
+    {
+      "frame_id": "clean_ketchup_000809",
+      "frame_index": 809,
+      "timestamp_seconds": 13.483333,
+      "description": "Both hands now come together in front of the body, fingers folding and adjusting the sponge between them; only a few small ketchup dots remain on the countertop, much reduced from the long squiggle seen earlier, and the sponge itself is visibly stained reddish from the wiping.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "gripping one side of the folded sponge",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "left fingers",
+          "description": "gripping the other side of the folded sponge, working together with the right hand",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "sponge",
+          "description": "folded between both hands, now stained reddish with ketchup residue -- state change from clean to soiled",
+          "identifier": "sponge"
+        },
+        {
+          "name": "ketchup",
+          "description": "reduced to only a few small dots remaining on the countertop",
+          "identifier": "ketchup"
+        }
+      ],
+      "actions": [
+        {
+          "name": "adjust sponge",
+          "actor": "right fingers and left fingers",
+          "target": "sponge",
+          "description": "both hands fold and reposition the sponge together before continuing to wipe"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers adjust sponge",
+        "left fingers adjust sponge"
+      ]
+    },
+    {
+      "frame_id": "clean_ketchup_000815",
+      "frame_index": 815,
+      "timestamp_seconds": 13.583333,
+      "description": "The right fingers now hold the stained, folded sponge alone while the left hand's fingers rest open nearby; a few small ketchup dots remain on the counter, matching the moment before.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "holding the folded, stained sponge",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "sponge",
+          "description": "folded, stained reddish",
+          "identifier": "sponge"
+        },
+        {
+          "name": "ketchup",
+          "description": "a few small dots remain",
+          "identifier": "ketchup"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold sponge",
+          "actor": "right fingers",
+          "target": "sponge",
+          "description": "holding the stained sponge while the left hand rests open nearby"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers hold sponge"
+      ]
+    },
+    {
+      "frame_id": "clean_ketchup_000821",
+      "frame_index": 821,
+      "timestamp_seconds": 13.683333,
+      "description": "The right fingers continue holding and adjusting the stained sponge; the left hand's fingers remain open and idle nearby; the few ketchup dots on the counter are unchanged.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "holding and adjusting the folded, stained sponge",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "sponge",
+          "description": "folded, stained reddish",
+          "identifier": "sponge"
+        },
+        {
+          "name": "ketchup",
+          "description": "a few small dots remain, unchanged",
+          "identifier": "ketchup"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold sponge",
+          "actor": "right fingers",
+          "target": "sponge",
+          "description": "continuing to hold and adjust the sponge"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers hold sponge"
+      ]
+    },
+    {
+      "frame_id": "clean_ketchup_000827",
+      "frame_index": 827,
+      "timestamp_seconds": 13.783333,
+      "description": "Unchanged from the moment before: the right fingers hold the stained sponge while the left hand rests idle nearby, and a few ketchup dots remain on the counter.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "holding the folded, stained sponge",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "sponge",
+          "description": "folded, stained reddish",
+          "identifier": "sponge"
+        },
+        {
+          "name": "ketchup",
+          "description": "a few small dots remain, unchanged",
+          "identifier": "ketchup"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold sponge",
+          "actor": "right fingers",
+          "target": "sponge",
+          "description": "continuing to hold the sponge"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers hold sponge"
+      ]
+    },
+    {
+      "frame_id": "clean_ketchup_000833",
+      "frame_index": 833,
+      "timestamp_seconds": 13.883333,
+      "description": "Unchanged from the moment before: the right fingers hold the stained sponge near the body while the left hand rests idle with open fingers; a few ketchup dots remain on the counter.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "holding the folded, stained sponge",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "sponge",
+          "description": "folded, stained reddish",
+          "identifier": "sponge"
+        },
+        {
+          "name": "ketchup",
+          "description": "a few small dots remain, unchanged",
+          "identifier": "ketchup"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold sponge",
+          "actor": "right fingers",
+          "target": "sponge",
+          "description": "continuing to hold the sponge"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers hold sponge"
+      ]
+    },
+    {
+      "frame_id": "clean_ketchup_000839",
+      "frame_index": 839,
+      "timestamp_seconds": 13.983333,
+      "description": "The right fingers press the stained sponge back onto the counter, resuming wiping; the few ketchup dots remain unchanged.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "pressing the sponge onto the counter, resuming wiping",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "sponge",
+          "description": "stained reddish, back in use on the counter",
+          "identifier": "sponge"
+        },
+        {
+          "name": "ketchup",
+          "description": "a few small dots remain, unchanged",
+          "identifier": "ketchup"
+        }
+      ],
+      "actions": [
+        {
+          "name": "wipe counter",
+          "actor": "right fingers",
+          "target": "countertop",
+          "description": "resuming wiping over the remaining dots"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers wipe countertop"
+      ]
+    },
+    {
+      "frame_id": "clean_ketchup_000845",
+      "frame_index": 845,
+      "timestamp_seconds": 14.083333,
+      "description": "Unchanged from the moment before: the right fingers continue wiping with the stained sponge, and the few ketchup dots remain on the counter.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "wiping with the sponge",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "sponge",
+          "description": "stained reddish, in use",
+          "identifier": "sponge"
+        },
+        {
+          "name": "ketchup",
+          "description": "a few small dots remain, unchanged",
+          "identifier": "ketchup"
+        }
+      ],
+      "actions": [
+        {
+          "name": "wipe counter",
+          "actor": "right fingers",
+          "target": "countertop",
+          "description": "continuing to wipe"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers wipe countertop"
+      ]
+    },
+    {
+      "frame_id": "clean_ketchup_000851",
+      "frame_index": 851,
+      "timestamp_seconds": 14.183333,
+      "description": "Both hands come together again, folding the stained sponge between them; the few ketchup dots on the counter remain unchanged.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "folding one side of the stained sponge",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "left fingers",
+          "description": "folding the other side of the sponge",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "sponge",
+          "description": "folded between both hands, stained reddish",
+          "identifier": "sponge"
+        },
+        {
+          "name": "ketchup",
+          "description": "a few small dots remain, unchanged",
+          "identifier": "ketchup"
+        }
+      ],
+      "actions": [
+        {
+          "name": "adjust sponge",
+          "actor": "right fingers and left fingers",
+          "target": "sponge",
+          "description": "folding the stained sponge together"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers adjust sponge",
+        "left fingers adjust sponge"
+      ]
+    },
+    {
+      "frame_id": "clean_ketchup_000859",
+      "frame_index": 859,
+      "timestamp_seconds": 14.316667,
+      "description": "Unchanged from the moment before: both hands continue folding and adjusting the stained sponge, and the few ketchup dots remain on the counter.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "folding one side of the stained sponge",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "left fingers",
+          "description": "folding the other side of the sponge",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "sponge",
+          "description": "folded, stained reddish",
+          "identifier": "sponge"
+        },
+        {
+          "name": "ketchup",
+          "description": "a few small dots remain, unchanged",
+          "identifier": "ketchup"
+        }
+      ],
+      "actions": [
+        {
+          "name": "adjust sponge",
+          "actor": "right fingers and left fingers",
+          "target": "sponge",
+          "description": "continuing to fold and adjust the sponge"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers adjust sponge",
+        "left fingers adjust sponge"
+      ]
+    },
+    {
+      "frame_id": "clean_ketchup_000869",
+      "frame_index": 869,
+      "timestamp_seconds": 14.483333,
+      "description": "The right fingers resume wiping with the stained sponge while the left hand relaxes loosely away from the counter; a few ketchup dots remain visible.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "wiping with the stained sponge",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "sponge",
+          "description": "stained reddish, in use",
+          "identifier": "sponge"
+        },
+        {
+          "name": "ketchup",
+          "description": "a few small dots remain visible",
+          "identifier": "ketchup"
+        }
+      ],
+      "actions": [
+        {
+          "name": "wipe counter",
+          "actor": "right fingers",
+          "target": "countertop",
+          "description": "resuming wiping while the left hand relaxes"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers wipe countertop"
+      ]
+    },
+    {
+      "frame_id": "clean_ketchup_000881",
+      "frame_index": 881,
+      "timestamp_seconds": 14.683333,
+      "description": "Unchanged from the moment before: the right fingers continue wiping with the stained sponge, the left hand relaxed and hanging loosely in the air, and a few ketchup dots remain.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "wiping with the stained sponge",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "sponge",
+          "description": "stained reddish, in use",
+          "identifier": "sponge"
+        },
+        {
+          "name": "ketchup",
+          "description": "a few small dots remain",
+          "identifier": "ketchup"
+        }
+      ],
+      "actions": [
+        {
+          "name": "wipe counter",
+          "actor": "right fingers",
+          "target": "countertop",
+          "description": "continuing to wipe while the left hand rests idle in the air"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers wipe countertop"
+      ]
+    },
+    {
+      "frame_id": "clean_ketchup_000891",
+      "frame_index": 891,
+      "timestamp_seconds": 14.85,
+      "description": "Unchanged from the moment before: wiping with the stained sponge continues, left hand still relaxed in the air, a few ketchup dots remaining on the counter.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "wiping with the stained sponge",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "sponge",
+          "description": "stained reddish, in use",
+          "identifier": "sponge"
+        },
+        {
+          "name": "ketchup",
+          "description": "a few small dots remain",
+          "identifier": "ketchup"
+        }
+      ],
+      "actions": [
+        {
+          "name": "wipe counter",
+          "actor": "right fingers",
+          "target": "countertop",
+          "description": "continuing to wipe"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers wipe countertop"
+      ]
+    },
+    {
+      "frame_id": "clean_ketchup_000901",
+      "frame_index": 901,
+      "timestamp_seconds": 15.016667,
+      "description": "The right hand presses the sponge down onto one of the last remaining ketchup specks on the countertop, while the left arm hangs out to the side in the air, fingers loosely spread and not touching anything.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "pressing the sponge onto a last ketchup speck on the counter",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "sponge",
+          "description": "stained, pressed against a remaining ketchup speck",
+          "identifier": "sponge"
+        },
+        {
+          "name": "ketchup",
+          "description": "only a couple of tiny specks left on the countertop",
+          "identifier": "ketchup"
+        }
+      ],
+      "actions": [
+        {
+          "name": "wipe counter",
+          "actor": "right fingers",
+          "target": "countertop",
+          "description": "pressing the sponge onto the last visible ketchup speck while the left hand rests idle in the air"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers wipe countertop"
+      ]
+    },
+    {
+      "frame_id": "clean_ketchup_000911",
+      "frame_index": 911,
+      "timestamp_seconds": 15.183333,
+      "description": "Wiping continues with the stained sponge; the remaining ketchup marks are reduced further, to a small hook-shaped mark and a tiny dot.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "wiping with the stained sponge",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "sponge",
+          "description": "stained reddish, in use",
+          "identifier": "sponge"
+        },
+        {
+          "name": "ketchup",
+          "description": "reduced to a small hook-shaped mark and a tiny dot",
+          "identifier": "ketchup"
+        }
+      ],
+      "actions": [
+        {
+          "name": "wipe counter",
+          "actor": "right fingers",
+          "target": "countertop",
+          "description": "reducing the remaining marks further"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers wipe countertop"
+      ]
+    },
+    {
+      "frame_id": "clean_ketchup_000921",
+      "frame_index": 921,
+      "timestamp_seconds": 15.35,
+      "description": "Unchanged from the moment before: wiping continues, with a small hook-shaped mark and a tiny dot of ketchup still visible.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "wiping with the stained sponge",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "sponge",
+          "description": "stained reddish, in use",
+          "identifier": "sponge"
+        },
+        {
+          "name": "ketchup",
+          "description": "a small hook-shaped mark and a tiny dot remain",
+          "identifier": "ketchup"
+        }
+      ],
+      "actions": [
+        {
+          "name": "wipe counter",
+          "actor": "right fingers",
+          "target": "countertop",
+          "description": "continuing to wipe"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers wipe countertop"
+      ]
+    },
+    {
+      "frame_id": "clean_ketchup_000931",
+      "frame_index": 931,
+      "timestamp_seconds": 15.516667,
+      "description": "Wiping continues with the sponge held close to the remaining marks, which appear further reduced though partly obscured by the hand in this framing.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "wiping with the stained sponge",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "sponge",
+          "description": "stained reddish, in use",
+          "identifier": "sponge"
+        },
+        {
+          "name": "ketchup",
+          "description": "further reduced, partly obscured by the hand in this view",
+          "identifier": "ketchup"
+        }
+      ],
+      "actions": [
+        {
+          "name": "wipe counter",
+          "actor": "right fingers",
+          "target": "countertop",
+          "description": "continuing to reduce the remaining marks"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers wipe countertop"
+      ]
+    },
+    {
+      "frame_id": "clean_ketchup_000941",
+      "frame_index": 941,
+      "timestamp_seconds": 15.683333,
+      "description": "Wiping continues; only a couple of very faint ketchup marks remain visible near the sponge.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "wiping with the stained sponge",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "sponge",
+          "description": "stained reddish, in use",
+          "identifier": "sponge"
+        },
+        {
+          "name": "ketchup",
+          "description": "only a couple of very faint marks remain",
+          "identifier": "ketchup"
+        }
+      ],
+      "actions": [
+        {
+          "name": "wipe counter",
+          "actor": "right fingers",
+          "target": "countertop",
+          "description": "continuing to wipe the last faint marks"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers wipe countertop"
+      ]
+    },
+    {
+      "frame_id": "clean_ketchup_000953",
+      "frame_index": 953,
+      "timestamp_seconds": 15.883333,
+      "description": "Wiping continues with the stained sponge; the ketchup marks are nearly gone, with at most a tiny trace remaining.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "wiping with the stained sponge",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "sponge",
+          "description": "stained reddish, in use",
+          "identifier": "sponge"
+        },
+        {
+          "name": "ketchup",
+          "description": "nearly gone, at most a tiny trace remaining",
+          "identifier": "ketchup"
+        }
+      ],
+      "actions": [
+        {
+          "name": "wipe counter",
+          "actor": "right fingers",
+          "target": "countertop",
+          "description": "wiping away the last trace"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers wipe countertop"
+      ]
+    },
+    {
+      "frame_id": "clean_ketchup_000967",
+      "frame_index": 967,
+      "timestamp_seconds": 16.116667,
+      "description": "Wiping continues with the stained sponge; a couple of small ketchup flecks are still visible near the sponge.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "wiping with the stained sponge",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "sponge",
+          "description": "stained reddish, in use",
+          "identifier": "sponge"
+        },
+        {
+          "name": "ketchup",
+          "description": "a couple of small flecks remain visible",
+          "identifier": "ketchup"
+        }
+      ],
+      "actions": [
+        {
+          "name": "wipe counter",
+          "actor": "right fingers",
+          "target": "countertop",
+          "description": "continuing to wipe"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers wipe countertop"
+      ]
+    },
+    {
+      "frame_id": "clean_ketchup_000979",
+      "frame_index": 979,
+      "timestamp_seconds": 16.316667,
+      "description": "Unchanged from the moment before: wiping continues, with a couple of small ketchup flecks still visible near the sponge.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "wiping with the stained sponge",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "sponge",
+          "description": "stained reddish, in use",
+          "identifier": "sponge"
+        },
+        {
+          "name": "ketchup",
+          "description": "a couple of small flecks remain visible",
+          "identifier": "ketchup"
+        }
+      ],
+      "actions": [
+        {
+          "name": "wipe counter",
+          "actor": "right fingers",
+          "target": "countertop",
+          "description": "continuing to wipe"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers wipe countertop"
+      ]
+    },
+    {
+      "frame_id": "clean_ketchup_000989",
+      "frame_index": 989,
+      "timestamp_seconds": 16.483333,
+      "description": "The right fingers press the sponge down onto the counter; no ketchup marks are visible any longer in this view -- the counter appears clean.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "pressing the sponge onto the counter",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "sponge",
+          "description": "stained reddish, pressed onto the counter",
+          "identifier": "sponge"
+        },
+        {
+          "name": "countertop",
+          "description": "no ketchup marks visible any longer",
+          "identifier": "countertop"
+        }
+      ],
+      "actions": [
+        {
+          "name": "wipe counter",
+          "actor": "right fingers",
+          "target": "countertop",
+          "description": "pressing the sponge onto the now-clean counter"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers wipe countertop"
+      ]
+    },
+    {
+      "frame_id": "clean_ketchup_000999",
+      "frame_index": 999,
+      "timestamp_seconds": 16.65,
+      "description": "The right fingers hold the sponge, now clearly stained reddish, up off the counter while the left hand's fingers open nearby; the countertop is clean with no ketchup visible.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "holding the stained sponge up off the counter",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "sponge",
+          "description": "clearly stained reddish, held up off the counter",
+          "identifier": "sponge"
+        },
+        {
+          "name": "countertop",
+          "description": "clean, no ketchup visible",
+          "identifier": "countertop"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold sponge",
+          "actor": "right fingers",
+          "target": "sponge",
+          "description": "lifting the stained sponge off the clean counter"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers hold sponge"
+      ]
+    },
+    {
+      "frame_id": "clean_ketchup_001013",
+      "frame_index": 1013,
+      "timestamp_seconds": 16.883333,
+      "description": "The right fingers point down toward the stained sponge, which now sits on the clean counter; the left arm hangs relaxed nearby.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "pointing down toward the sponge",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "sponge",
+          "description": "stained reddish, resting on the counter",
+          "identifier": "sponge"
+        },
+        {
+          "name": "countertop",
+          "description": "clean, no ketchup visible",
+          "identifier": "countertop"
+        }
+      ],
+      "actions": [
+        {
+          "name": "touch sponge",
+          "actor": "right fingers",
+          "target": "sponge",
+          "description": "pointing toward the sponge resting on the clean counter"
+        }
+      ],
+      "ontological_phrases": [
+        "right fingers touch sponge"
+      ]
+    },
+    {
+      "frame_id": "clean_ketchup_001027",
+      "frame_index": 1027,
+      "timestamp_seconds": 17.116667,
+      "description": "The right hand withdraws with fingers loosely curled; the stained sponge sits alone on the clean counter.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "sponge",
+          "description": "stained reddish, resting alone on the counter",
+          "identifier": "sponge"
+        },
+        {
+          "name": "countertop",
+          "description": "clean, no ketchup residue remaining",
+          "identifier": "countertop"
+        }
+      ],
+      "actions": [],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "clean_ketchup_001035",
+      "frame_index": 1035,
+      "timestamp_seconds": 17.25,
+      "description": "The countertop is now completely clean with no ketchup residue visible; the person stands upright with both arms relaxed at their sides, and the sponge -- now stained reddish from the cleanup -- sits alone on the counter.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "sponge",
+          "description": "stained reddish from wiping up the ketchup, resting alone on the now-clean countertop",
+          "identifier": "sponge"
+        },
+        {
+          "name": "countertop",
+          "description": "fully clean, no ketchup residue remaining -- final state",
+          "identifier": "countertop"
+        }
+      ],
+      "actions": [],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "clean_ketchup_001041",
+      "frame_index": 1041,
+      "timestamp_seconds": 17.35,
+      "description": "The person stands mostly upright with one arm reaching down loosely near the counter; the stained sponge rests alone on the now-clean countertop.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "sponge",
+          "description": "stained reddish, resting alone on the counter",
+          "identifier": "sponge"
+        },
+        {
+          "name": "countertop",
+          "description": "clean, no ketchup residue remaining",
+          "identifier": "countertop"
+        }
+      ],
+      "actions": [],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "clean_ketchup_001045",
+      "frame_index": 1045,
+      "timestamp_seconds": 17.416667,
+      "description": "Unchanged from the moment before: the person stands upright with the arm relaxing further, and the stained sponge rests alone on the clean countertop.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "sponge",
+          "description": "stained reddish, resting alone on the counter",
+          "identifier": "sponge"
+        },
+        {
+          "name": "countertop",
+          "description": "clean, no ketchup residue remaining",
+          "identifier": "countertop"
+        }
+      ],
+      "actions": [],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "clean_ketchup_001049",
+      "frame_index": 1049,
+      "timestamp_seconds": 17.483333,
+      "description": "The person stands upright with both arms relaxing toward their sides; the stained sponge rests alone on the clean countertop.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "sponge",
+          "description": "stained reddish, resting alone on the counter",
+          "identifier": "sponge"
+        },
+        {
+          "name": "countertop",
+          "description": "clean, no ketchup residue remaining",
+          "identifier": "countertop"
+        }
+      ],
+      "actions": [],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "clean_ketchup_001055",
+      "frame_index": 1055,
+      "timestamp_seconds": 17.583333,
+      "description": "The person now stands fully upright facing the camera with both arms relaxed at their sides; the countertop is completely clean and the stained sponge rests alone on it.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "sponge",
+          "description": "stained reddish from the cleanup, resting alone on the counter",
+          "identifier": "sponge"
+        },
+        {
+          "name": "countertop",
+          "description": "fully clean, no ketchup residue remaining",
+          "identifier": "countertop"
+        }
+      ],
+      "actions": [],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "clean_ketchup_001061",
+      "frame_index": 1061,
+      "timestamp_seconds": 17.683333,
+      "description": "Unchanged from the moment before: the person stands upright with both arms relaxed at their sides, and the stained sponge rests alone on the completely clean countertop.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "sponge",
+          "description": "stained reddish, resting alone on the counter",
+          "identifier": "sponge"
+        },
+        {
+          "name": "countertop",
+          "description": "fully clean, no ketchup residue remaining",
+          "identifier": "countertop"
+        }
+      ],
+      "actions": [],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "clean_ketchup_001071",
+      "frame_index": 1071,
+      "timestamp_seconds": 17.85,
+      "description": "Unchanged from the moment before: the person stands upright with both arms relaxed at their sides, and the stained sponge rests alone on the completely clean countertop.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "sponge",
+          "description": "stained reddish, resting alone on the counter",
+          "identifier": "sponge"
+        },
+        {
+          "name": "countertop",
+          "description": "fully clean, no ketchup residue remaining",
+          "identifier": "countertop"
+        }
+      ],
+      "actions": [],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "clean_ketchup_001095",
+      "frame_index": 1095,
+      "timestamp_seconds": 18.25,
+      "description": "Unchanged from the moment before: the person stands upright facing the camera with both arms relaxed at their sides, and the stained sponge rests alone on the completely clean countertop.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "sponge",
+          "description": "stained reddish, resting alone on the counter",
+          "identifier": "sponge"
+        },
+        {
+          "name": "countertop",
+          "description": "fully clean, no ketchup residue remaining",
+          "identifier": "countertop"
+        }
+      ],
+      "actions": [],
+      "ontological_phrases": []
+    }
+  ]
+}

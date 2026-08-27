@@ -1,0 +1,1958 @@
+{
+  "video_id": "duvet_cover",
+  "video_path": "videos/duvet_cover.mov",
+  "frames": [
+    {
+      "frame_id": "duvet_cover_000000",
+      "frame_index": 0,
+      "timestamp_seconds": 0.0,
+      "description": "An empty bedroom with an unmade bed; no person is yet visible and no task action has started.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "bed",
+          "description": "unmade bed with rumpled gray bedding"
+        }
+      ],
+      "actions": [],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "duvet_cover_000285",
+      "frame_index": 285,
+      "timestamp_seconds": 4.75145,
+      "description": "A person in a silver full-body suit stands beside the bed, both arms hanging at their sides and not touching anything; a loose, bunched pile of cream-colored bedding sits in the middle of the mattress with a white pillow peeking out beside it.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "bed",
+          "description": "wood-framed bed with a dark wood headboard",
+          "identifier": "bed"
+        },
+        {
+          "name": "mattress",
+          "description": "mattress covered by a grey-striped fitted sheet",
+          "identifier": "mattress"
+        },
+        {
+          "name": "bedding",
+          "description": "cream-colored bedding bunched in a loose pile on the mattress",
+          "identifier": "bedding"
+        }
+      ],
+      "actions": [
+        {
+          "name": "stand",
+          "actor": "person",
+          "target": "bed",
+          "description": "the person stands beside the bed; no limb is currently engaged with the bedding"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "duvet_cover_000645",
+      "frame_index": 645,
+      "timestamp_seconds": 10.753282,
+      "description": "The person leans over the bed from its left side; their left fingers grip a bunched section of the bedding and lift it into a tall peaked mound near the headboard.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "curled around a bunched handful of the bedding, lifting it upward",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "bed",
+          "description": "wood-framed bed with a dark wood headboard",
+          "identifier": "bed"
+        },
+        {
+          "name": "mattress",
+          "description": "mattress covered by a grey-striped fitted sheet",
+          "identifier": "mattress"
+        },
+        {
+          "name": "bedding",
+          "description": "cream-colored bedding being pulled up into a tall peaked mound near the headboard",
+          "identifier": "bedding"
+        }
+      ],
+      "actions": [
+        {
+          "name": "grip bedding",
+          "actor": "left fingers",
+          "target": "bedding",
+          "description": "the fingers grip a bunched section of the bedding and lift it into a peak near the headboard"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "duvet_cover_001005",
+      "frame_index": 1005,
+      "timestamp_seconds": 16.755113,
+      "description": "The bedding now stands in a tall peaked mound near the headboard; the person, standing close beside it, reaches with their right fingers partway up the mound, holding it in place.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "gripping partway up the peaked mound of bedding",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "bed",
+          "description": "wood-framed bed with a dark wood headboard",
+          "identifier": "bed"
+        },
+        {
+          "name": "mattress",
+          "description": "mattress covered by a grey-striped fitted sheet",
+          "identifier": "mattress"
+        },
+        {
+          "name": "bedding",
+          "description": "cream-colored bedding standing in a tall peaked mound near the headboard",
+          "identifier": "bedding"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold bedding",
+          "actor": "right fingers",
+          "target": "bedding",
+          "description": "the fingers grip and hold the bedding partway up its peaked mound"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "duvet_cover_001365",
+      "frame_index": 1365,
+      "timestamp_seconds": 22.756945,
+      "description": "With their back to the camera, the person raises their right arm and grips the top of the bunched bedding, which drapes down covering the left portion of the bed; their left arm hangs at their side, unengaged.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "gripping the top of the bunched bedding as it drapes down",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "bed",
+          "description": "wood-framed bed with a dark wood headboard",
+          "identifier": "bed"
+        },
+        {
+          "name": "mattress",
+          "description": "mattress covered by a grey-striped fitted sheet",
+          "identifier": "mattress"
+        },
+        {
+          "name": "bedding",
+          "description": "cream-colored bedding draping down and covering the left portion of the bed",
+          "identifier": "bedding"
+        }
+      ],
+      "actions": [
+        {
+          "name": "grip bedding",
+          "actor": "right fingers",
+          "target": "bedding",
+          "description": "the fingers grip the top of the draped bedding"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "duvet_cover_001725",
+      "frame_index": 1725,
+      "timestamp_seconds": 28.758776,
+      "description": "The person, back to the camera and bent slightly forward, reaches down with their right fingers to grip the lower edge of the bedding where it drapes down to meet the mattress; their left arm hangs at their side.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "gripping the lower edge of the draped bedding near the mattress",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "bed",
+          "description": "wood-framed bed with a dark wood headboard",
+          "identifier": "bed"
+        },
+        {
+          "name": "mattress",
+          "description": "mattress covered by a grey-striped fitted sheet",
+          "identifier": "mattress"
+        },
+        {
+          "name": "bedding",
+          "description": "cream-colored bedding draping down toward the mattress surface",
+          "identifier": "bedding"
+        }
+      ],
+      "actions": [
+        {
+          "name": "grip bedding",
+          "actor": "right fingers",
+          "target": "bedding",
+          "description": "the fingers grip the lower edge of the draped bedding"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "duvet_cover_002085",
+      "frame_index": 2085,
+      "timestamp_seconds": 34.760608,
+      "description": "Facing the bed, the person holds a bunched section of the bedding up near their torso with their left fingers while their right arm reaches toward another part of the fabric on the bed.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "holding a bunched section of the bedding up near the torso",
+          "identifier": "left_fingers"
+        },
+        {
+          "name": "right fingers",
+          "description": "reaching toward another section of the bedding on the bed",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "bed",
+          "description": "wood-framed bed with a dark wood headboard",
+          "identifier": "bed"
+        },
+        {
+          "name": "mattress",
+          "description": "mattress covered by a grey-striped fitted sheet",
+          "identifier": "mattress"
+        },
+        {
+          "name": "bedding",
+          "description": "cream-colored bedding bunched partly on the bed and partly held up near the person's torso",
+          "identifier": "bedding"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold bedding",
+          "actor": "left fingers",
+          "target": "bedding",
+          "description": "the fingers hold a bunched section of the bedding up near the torso while the other hand reaches toward another part of the fabric"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "duvet_cover_002218",
+      "frame_index": 2218,
+      "timestamp_seconds": 36.966667,
+      "description": "A person in a silver suit kneels at the edge of the bed, their right fingers clutching a bunched handful of a large tan sheet and pulling it over the mattress.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "curled into a clutching grip around a bunched handful of the sheet fabric",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "bed"
+        },
+        {
+          "name": "sheet",
+          "description": "large tan sheet being pulled over the mattress"
+        }
+      ],
+      "actions": [
+        {
+          "name": "pull sheet",
+          "actor": "right fingers",
+          "target": "sheet",
+          "description": "the fingers clutch a handful of the sheet and pull it across the mattress"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "duvet_cover_002445",
+      "frame_index": 2445,
+      "timestamp_seconds": 40.76244,
+      "description": "In side profile, the person works the bedding with both hands: their right fingers grip an upper section near shoulder height while their left fingers grip a lower section, adjusting the bunched fabric near the headboard.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "gripping an upper section of the bedding near shoulder height",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "left fingers",
+          "description": "gripping a lower section of the bedding",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "bed",
+          "description": "wood-framed bed with a dark wood headboard",
+          "identifier": "bed"
+        },
+        {
+          "name": "mattress",
+          "description": "mattress covered by a grey-striped fitted sheet",
+          "identifier": "mattress"
+        },
+        {
+          "name": "bedding",
+          "description": "cream-colored bedding bunched near the headboard, gripped at two points",
+          "identifier": "bedding"
+        }
+      ],
+      "actions": [
+        {
+          "name": "adjust bedding",
+          "actor": "right fingers",
+          "target": "bedding",
+          "description": "both hands grip different sections of the bunched bedding near the headboard, adjusting it"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "duvet_cover_002805",
+      "frame_index": 2805,
+      "timestamp_seconds": 46.764271,
+      "description": "The person, back to the camera, grips the bedding near the headboard with their right fingers; their left arm hangs unengaged at their side.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "gripping the bedding near the headboard",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "bed",
+          "description": "wood-framed bed with a dark wood headboard",
+          "identifier": "bed"
+        },
+        {
+          "name": "mattress",
+          "description": "mattress covered by a grey-striped fitted sheet",
+          "identifier": "mattress"
+        },
+        {
+          "name": "bedding",
+          "description": "cream-colored bedding bunched near the headboard",
+          "identifier": "bedding"
+        }
+      ],
+      "actions": [
+        {
+          "name": "grip bedding",
+          "actor": "right fingers",
+          "target": "bedding",
+          "description": "the fingers grip the bedding near the headboard"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "duvet_cover_003165",
+      "frame_index": 3165,
+      "timestamp_seconds": 52.766103,
+      "description": "The person stands at the left side of the bed, their right fingers pinching a small dark tag attached to the bedding, which now drapes extensively across most of the mattress; a white pillow-shaped item lies near their feet on the bed, and their left arm hangs at their side.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "pinching a small dark tag attached to the bedding",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "bed",
+          "description": "wood-framed bed with a dark wood headboard",
+          "identifier": "bed"
+        },
+        {
+          "name": "mattress",
+          "description": "mattress covered by a grey-striped fitted sheet, largely covered now by the bedding",
+          "identifier": "mattress"
+        },
+        {
+          "name": "bedding",
+          "description": "cream-colored bedding draping extensively across most of the mattress, with a tag attached",
+          "identifier": "bedding"
+        },
+        {
+          "name": "pillow",
+          "description": "white pillow-shaped item lying on the bed near the person's feet",
+          "identifier": "pillow"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold bedding",
+          "actor": "right fingers",
+          "target": "bedding",
+          "description": "the fingers pinch a small tag attached to the bedding"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "duvet_cover_003525",
+      "frame_index": 3525,
+      "timestamp_seconds": 58.767935,
+      "description": "The person stands beside the right side of the bed facing it, both arms hanging at their sides with gloved hands not touching the bedding. The mattress is covered by its grey-striped fitted sheet, and the bunched cream bedding sits near the headboard and left portion of the bed.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "bed",
+          "description": "wood-framed bed with a dark wood headboard",
+          "identifier": "bed"
+        },
+        {
+          "name": "mattress",
+          "description": "mattress covered by a grey-striped fitted sheet, mostly exposed",
+          "identifier": "mattress"
+        },
+        {
+          "name": "bedding",
+          "description": "cream-colored bedding bunched near the headboard and left portion of the bed",
+          "identifier": "bedding"
+        }
+      ],
+      "actions": [
+        {
+          "name": "stand",
+          "actor": "person",
+          "target": "bed",
+          "description": "the person stands beside the bed; no limb is currently engaged with the bedding"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "duvet_cover_003885",
+      "frame_index": 3885,
+      "timestamp_seconds": 64.769766,
+      "description": "Standing near the headboard, the person's right fingers grip a corner of the bedding that has a visible tag, holding it up near shoulder height; their left arm hangs at their side.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "gripping a tagged corner of the bedding, holding it up near shoulder height",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "bed",
+          "description": "wood-framed bed with a dark wood headboard",
+          "identifier": "bed"
+        },
+        {
+          "name": "mattress",
+          "description": "mattress covered by a grey-striped fitted sheet",
+          "identifier": "mattress"
+        },
+        {
+          "name": "bedding",
+          "description": "cream-colored bedding with a tag on one corner, held up near the headboard",
+          "identifier": "bedding"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold bedding",
+          "actor": "right fingers",
+          "target": "bedding",
+          "description": "the fingers grip the tagged corner of the bedding, holding it up"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "duvet_cover_004195",
+      "frame_index": 4195,
+      "timestamp_seconds": 69.93801,
+      "description": "Little has changed from the moment before: the person, standing at the left side of the bed, continues to hold the bedding's tagged corner up near shoulder height with their right fingers; their left arm hangs at their side.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "gripping a tagged corner of the bedding, holding it up near shoulder height",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "bed",
+          "description": "wood-framed bed with a dark wood headboard",
+          "identifier": "bed"
+        },
+        {
+          "name": "mattress",
+          "description": "mattress covered by a grey-striped fitted sheet",
+          "identifier": "mattress"
+        },
+        {
+          "name": "bedding",
+          "description": "cream-colored bedding with a tag on one corner, held up near the headboard",
+          "identifier": "bedding"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold bedding",
+          "actor": "right fingers",
+          "target": "bedding",
+          "description": "the fingers continue to grip the tagged corner of the bedding"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "duvet_cover_004555",
+      "frame_index": 4555,
+      "timestamp_seconds": 75.939842,
+      "description": "In side profile, the person's right fingers hold the tagged edge of the bedding at chest height; their left arm hangs at their side.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "holding the tagged edge of the bedding at chest height",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "bed",
+          "description": "wood-framed bed with a dark wood headboard",
+          "identifier": "bed"
+        },
+        {
+          "name": "mattress",
+          "description": "mattress covered by a grey-striped fitted sheet",
+          "identifier": "mattress"
+        },
+        {
+          "name": "bedding",
+          "description": "cream-colored bedding with a tag on one corner, held near chest height",
+          "identifier": "bedding"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold bedding",
+          "actor": "right fingers",
+          "target": "bedding",
+          "description": "the fingers hold the tagged edge of the bedding"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "duvet_cover_004915",
+      "frame_index": 4915,
+      "timestamp_seconds": 81.941673,
+      "description": "Unchanged from the moment before: in a similar side-profile pose, the person's right fingers continue to hold the tagged edge of the bedding; their left arm remains at their side.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "holding the tagged edge of the bedding",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "bed",
+          "description": "wood-framed bed with a dark wood headboard",
+          "identifier": "bed"
+        },
+        {
+          "name": "mattress",
+          "description": "mattress covered by a grey-striped fitted sheet",
+          "identifier": "mattress"
+        },
+        {
+          "name": "bedding",
+          "description": "cream-colored bedding with a tag on one corner",
+          "identifier": "bedding"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold bedding",
+          "actor": "right fingers",
+          "target": "bedding",
+          "description": "the fingers continue to hold the tagged edge of the bedding"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "duvet_cover_005275",
+      "frame_index": 5275,
+      "timestamp_seconds": 87.943505,
+      "description": "Facing the bed, the person now grips the tagged edge of the bedding with their right fingers while their left fingers reach in to grip the same section of fabric, both hands now engaged.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "gripping the tagged edge of the bedding",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "left fingers",
+          "description": "reaching in to grip the same section of the bedding",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "bed",
+          "description": "wood-framed bed with a dark wood headboard",
+          "identifier": "bed"
+        },
+        {
+          "name": "mattress",
+          "description": "mattress covered by a grey-striped fitted sheet",
+          "identifier": "mattress"
+        },
+        {
+          "name": "bedding",
+          "description": "cream-colored bedding with a tag on one corner, gripped with both hands",
+          "identifier": "bedding"
+        }
+      ],
+      "actions": [
+        {
+          "name": "grip bedding",
+          "actor": "right fingers",
+          "target": "bedding",
+          "description": "both hands grip the same tagged section of the bedding"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "duvet_cover_005635",
+      "frame_index": 5635,
+      "timestamp_seconds": 93.945337,
+      "description": "In side profile, the person's left fingers grip an edge of the bedding on the mattress; their right arm is not visibly engaged with the fabric.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping an edge of the bedding on the mattress",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "bed",
+          "description": "wood-framed bed with a dark wood headboard",
+          "identifier": "bed"
+        },
+        {
+          "name": "mattress",
+          "description": "mattress covered by a grey-striped fitted sheet",
+          "identifier": "mattress"
+        },
+        {
+          "name": "bedding",
+          "description": "cream-colored bedding bunched on the mattress surface",
+          "identifier": "bedding"
+        }
+      ],
+      "actions": [
+        {
+          "name": "grip bedding",
+          "actor": "left fingers",
+          "target": "bedding",
+          "description": "the fingers grip an edge of the bedding on the mattress"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "duvet_cover_005995",
+      "frame_index": 5995,
+      "timestamp_seconds": 99.947168,
+      "description": "Facing the bed in profile, the person's left fingers grip a bunched section of the bedding on the mattress surface; their right arm hangs at their side.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping a bunched section of the bedding on the mattress",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "bed",
+          "description": "wood-framed bed with a dark wood headboard",
+          "identifier": "bed"
+        },
+        {
+          "name": "mattress",
+          "description": "mattress covered by a grey-striped fitted sheet",
+          "identifier": "mattress"
+        },
+        {
+          "name": "bedding",
+          "description": "cream-colored bedding bunched on the mattress surface",
+          "identifier": "bedding"
+        }
+      ],
+      "actions": [
+        {
+          "name": "grip bedding",
+          "actor": "left fingers",
+          "target": "bedding",
+          "description": "the fingers grip a bunched section of the bedding"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "duvet_cover_006355",
+      "frame_index": 6355,
+      "timestamp_seconds": 105.949,
+      "description": "Standing near the headboard, the person raises their right arm and grips a section of the bedding, which has a tag attached, up near shoulder height; their left arm hangs at their side.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "gripping a tagged section of the bedding up near shoulder height",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "bed",
+          "description": "wood-framed bed with a dark wood headboard",
+          "identifier": "bed"
+        },
+        {
+          "name": "mattress",
+          "description": "mattress covered by a grey-striped fitted sheet",
+          "identifier": "mattress"
+        },
+        {
+          "name": "bedding",
+          "description": "cream-colored bedding with a tag on one corner, held up near the headboard",
+          "identifier": "bedding"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold bedding",
+          "actor": "right fingers",
+          "target": "bedding",
+          "description": "the fingers grip a tagged section of the bedding up near shoulder height"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "duvet_cover_006715",
+      "frame_index": 6715,
+      "timestamp_seconds": 111.950831,
+      "description": "In left-side profile, the person's left fingers touch and hold a section of the bedding draped over the mattress surface; their right arm is not engaged.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "holding a section of the bedding draped over the mattress",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "bed",
+          "description": "wood-framed bed with a dark wood headboard",
+          "identifier": "bed"
+        },
+        {
+          "name": "mattress",
+          "description": "mattress covered by a grey-striped fitted sheet",
+          "identifier": "mattress"
+        },
+        {
+          "name": "bedding",
+          "description": "cream-colored bedding draped over the mattress surface",
+          "identifier": "bedding"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold bedding",
+          "actor": "left fingers",
+          "target": "bedding",
+          "description": "the fingers hold a section of the bedding draped over the mattress"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "duvet_cover_006977",
+      "frame_index": 6977,
+      "timestamp_seconds": 116.283333,
+      "description": "A person in a silver suit stands still beside the bed, facing away from the camera, both hands relaxed at their sides and not engaged with anything.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "bed"
+        }
+      ],
+      "actions": [
+        {
+          "name": "stand",
+          "actor": "person",
+          "target": "bed",
+          "description": "the person stands beside the bed; no limb is currently engaged with an object"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "duvet_cover_007055",
+      "frame_index": 7055,
+      "timestamp_seconds": 117.619228,
+      "description": "With their back to the camera at the headboard, the person's right fingers grip a large section of the bedding, which now drapes over much of the bed; their left arm is not engaged.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "gripping a large section of the bedding draping over much of the bed",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "bed",
+          "description": "wood-framed bed with a dark wood headboard",
+          "identifier": "bed"
+        },
+        {
+          "name": "mattress",
+          "description": "mattress covered by a grey-striped fitted sheet",
+          "identifier": "mattress"
+        },
+        {
+          "name": "bedding",
+          "description": "cream-colored bedding draping over much of the bed",
+          "identifier": "bedding"
+        }
+      ],
+      "actions": [
+        {
+          "name": "grip bedding",
+          "actor": "right fingers",
+          "target": "bedding",
+          "description": "the fingers grip a large section of the bedding as it drapes over the bed"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "duvet_cover_007415",
+      "frame_index": 7415,
+      "timestamp_seconds": 123.621059,
+      "description": "In side profile, the person's left fingers hold an edge of the bedding, with its tag visible, on the bed; their right arm hangs at their side.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "holding a tagged edge of the bedding on the bed",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "bed",
+          "description": "wood-framed bed with a dark wood headboard",
+          "identifier": "bed"
+        },
+        {
+          "name": "mattress",
+          "description": "mattress covered by a grey-striped fitted sheet",
+          "identifier": "mattress"
+        },
+        {
+          "name": "bedding",
+          "description": "cream-colored bedding with a visible tag, spread across the bed",
+          "identifier": "bedding"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold bedding",
+          "actor": "left fingers",
+          "target": "bedding",
+          "description": "the fingers hold a tagged edge of the bedding"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "duvet_cover_007775",
+      "frame_index": 7775,
+      "timestamp_seconds": 129.622891,
+      "description": "Back to the camera, the person's right fingers grip and pull the bedding up over the bed, working a large section that drapes down; their left arm hangs at their side.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "gripping and pulling a large section of the bedding up over the bed",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "bed",
+          "description": "wood-framed bed with a dark wood headboard",
+          "identifier": "bed"
+        },
+        {
+          "name": "mattress",
+          "description": "mattress covered by a grey-striped fitted sheet",
+          "identifier": "mattress"
+        },
+        {
+          "name": "bedding",
+          "description": "cream-colored bedding draping down as it is pulled over the bed",
+          "identifier": "bedding"
+        }
+      ],
+      "actions": [
+        {
+          "name": "pull bedding",
+          "actor": "right fingers",
+          "target": "bedding",
+          "description": "the fingers grip and pull a large section of the bedding up over the bed"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "duvet_cover_008028",
+      "frame_index": 8028,
+      "timestamp_seconds": 133.840845,
+      "description": "In side profile at the bed's edge, the person's left fingers grip a section of the bedding at the mattress edge; their right arm hangs at their side. More of the grey-striped fitted sheet is now visible on the mattress.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping a section of the bedding at the mattress edge",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "bed",
+          "description": "wood-framed bed with a dark wood headboard",
+          "identifier": "bed"
+        },
+        {
+          "name": "mattress",
+          "description": "mattress covered by a grey-striped fitted sheet, now more visible",
+          "identifier": "mattress"
+        },
+        {
+          "name": "bedding",
+          "description": "cream-colored bedding, reduced coverage of the mattress compared to before",
+          "identifier": "bedding"
+        }
+      ],
+      "actions": [
+        {
+          "name": "grip bedding",
+          "actor": "left fingers",
+          "target": "bedding",
+          "description": "the fingers grip a section of the bedding at the mattress edge"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "duvet_cover_008388",
+      "frame_index": 8388,
+      "timestamp_seconds": 139.842677,
+      "description": "Back to the camera, the person's left fingers grasp a smaller section of the bedding remaining on the mattress surface; their right arm hangs at their side.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "grasping a smaller section of the bedding on the mattress",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "bed",
+          "description": "wood-framed bed with a dark wood headboard",
+          "identifier": "bed"
+        },
+        {
+          "name": "mattress",
+          "description": "mattress covered by a grey-striped fitted sheet",
+          "identifier": "mattress"
+        },
+        {
+          "name": "bedding",
+          "description": "a smaller section of cream-colored bedding remaining on the mattress surface",
+          "identifier": "bedding"
+        }
+      ],
+      "actions": [
+        {
+          "name": "grasp bedding",
+          "actor": "left fingers",
+          "target": "bedding",
+          "description": "the fingers grasp a smaller section of the bedding on the mattress"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "duvet_cover_008748",
+      "frame_index": 8748,
+      "timestamp_seconds": 145.844508,
+      "description": "Little changed from the moment before: the person, back to the camera, continues to hold a section of the bedding on the mattress with their left fingers.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "holding a section of the bedding on the mattress",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "bed",
+          "description": "wood-framed bed with a dark wood headboard",
+          "identifier": "bed"
+        },
+        {
+          "name": "mattress",
+          "description": "mattress covered by a grey-striped fitted sheet",
+          "identifier": "mattress"
+        },
+        {
+          "name": "bedding",
+          "description": "cream-colored bedding on the mattress surface",
+          "identifier": "bedding"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold bedding",
+          "actor": "left fingers",
+          "target": "bedding",
+          "description": "the fingers continue to hold a section of the bedding on the mattress"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "duvet_cover_008962",
+      "frame_index": 8962,
+      "timestamp_seconds": 149.366667,
+      "description": "A person in a silver suit is largely obscured by a white sheet hanging in the foreground; their right fingers grip its edge, holding it up near the bed.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "gripping the edge of the white sheet, holding it up",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "bed"
+        },
+        {
+          "name": "sheet",
+          "description": "white sheet hanging in the foreground"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold sheet",
+          "actor": "right fingers",
+          "target": "sheet",
+          "description": "the fingers grip the sheet's edge, holding it up near the bed while the person is partially hidden behind it"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "duvet_cover_008990",
+      "frame_index": 8990,
+      "timestamp_seconds": 149.879073,
+      "description": "The mattress is now covered only by its grey-striped fitted sheet, with no bedding on top; at the left edge of the frame the person is motion-blurred, indistinctly handling a pale item held off to the side.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "bed",
+          "description": "wood-framed bed with a dark wood headboard",
+          "identifier": "bed"
+        },
+        {
+          "name": "mattress",
+          "description": "mattress covered only by its grey-striped fitted sheet, bare of bedding",
+          "identifier": "mattress"
+        },
+        {
+          "name": "bedding",
+          "description": "held off to the side by the person, out of clear view due to motion blur, not currently on the mattress",
+          "identifier": "bedding"
+        }
+      ],
+      "actions": [
+        {
+          "name": "handle bedding",
+          "actor": "person",
+          "target": "bedding",
+          "description": "the motion-blurred person appears to be handling the bedding off to the side of the bed"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "duvet_cover_009142",
+      "frame_index": 9142,
+      "timestamp_seconds": 152.413179,
+      "description": "Standing near the left corner of the headboard, the person holds a small, bunched, twisted section of pale bedding near hip height with both hands; the mattress remains mostly covered by only its grey-striped fitted sheet, with a small amount of bunched bedding visible at the left edge.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "gripping a twisted section of the bedding near hip height",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "left fingers",
+          "description": "gripping the same twisted section of the bedding",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "bed",
+          "description": "wood-framed bed with a dark wood headboard",
+          "identifier": "bed"
+        },
+        {
+          "name": "mattress",
+          "description": "mattress covered mostly by only its grey-striped fitted sheet",
+          "identifier": "mattress"
+        },
+        {
+          "name": "bedding",
+          "description": "small bunched, twisted section of cream-colored bedding at the left edge of the mattress",
+          "identifier": "bedding"
+        }
+      ],
+      "actions": [
+        {
+          "name": "grip bedding",
+          "actor": "right fingers",
+          "target": "bedding",
+          "description": "both hands grip a small bunched, twisted section of the bedding near hip height"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "duvet_cover_009438",
+      "frame_index": 9438,
+      "timestamp_seconds": 157.348019,
+      "description": "At the headboard, the person's right fingers grip a section of the bedding, which now drapes diagonally across a larger portion of the bed from foot to head; their left arm is not engaged.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "gripping a section of the bedding as it drapes diagonally across the bed",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "bed",
+          "description": "wood-framed bed with a dark wood headboard",
+          "identifier": "bed"
+        },
+        {
+          "name": "mattress",
+          "description": "mattress covered by a grey-striped fitted sheet",
+          "identifier": "mattress"
+        },
+        {
+          "name": "bedding",
+          "description": "cream-colored bedding draping diagonally across a larger portion of the bed",
+          "identifier": "bedding"
+        }
+      ],
+      "actions": [
+        {
+          "name": "grip bedding",
+          "actor": "right fingers",
+          "target": "bedding",
+          "description": "the fingers grip a section of the diagonally draped bedding"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "duvet_cover_009798",
+      "frame_index": 9798,
+      "timestamp_seconds": 163.34985,
+      "description": "Near the headboard, the person's fingers grip a bunched, pillow-shaped section of the bedding with both hands, adjusting it; a tag is visible hanging from the fabric.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "gripping a bunched, pillow-shaped section of the bedding",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "left fingers",
+          "description": "gripping the same bunched section of the bedding",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "bed",
+          "description": "wood-framed bed with a dark wood headboard",
+          "identifier": "bed"
+        },
+        {
+          "name": "mattress",
+          "description": "mattress covered by a grey-striped fitted sheet",
+          "identifier": "mattress"
+        },
+        {
+          "name": "bedding",
+          "description": "cream-colored bedding bunched into a pillow-like shape near the headboard, with a tag hanging from it",
+          "identifier": "bedding"
+        }
+      ],
+      "actions": [
+        {
+          "name": "adjust bedding",
+          "actor": "right fingers",
+          "target": "bedding",
+          "description": "both hands grip and adjust the bunched, pillow-shaped section of the bedding"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "duvet_cover_010158",
+      "frame_index": 10158,
+      "timestamp_seconds": 169.351682,
+      "description": "In a pose similar to the moment before, the person's fingers continue to grip and adjust the bunched, pillow-shaped section of the bedding near the headboard, with its tag still visible.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "gripping the bunched, pillow-shaped section of the bedding",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "left fingers",
+          "description": "gripping the same bunched section of the bedding",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "bed",
+          "description": "wood-framed bed with a dark wood headboard",
+          "identifier": "bed"
+        },
+        {
+          "name": "mattress",
+          "description": "mattress covered by a grey-striped fitted sheet",
+          "identifier": "mattress"
+        },
+        {
+          "name": "bedding",
+          "description": "cream-colored bedding bunched into a pillow-like shape near the headboard, with a tag visible",
+          "identifier": "bedding"
+        }
+      ],
+      "actions": [
+        {
+          "name": "adjust bedding",
+          "actor": "right fingers",
+          "target": "bedding",
+          "description": "both hands continue to grip and adjust the bunched, pillow-shaped bedding"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "duvet_cover_010518",
+      "frame_index": 10518,
+      "timestamp_seconds": 175.353514,
+      "description": "The person's fingers continue to hold and adjust the bunched bedding near the headboard; the pose is little changed from the preceding moments.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "gripping the bunched section of the bedding near the headboard",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "bed",
+          "description": "wood-framed bed with a dark wood headboard",
+          "identifier": "bed"
+        },
+        {
+          "name": "mattress",
+          "description": "mattress covered by a grey-striped fitted sheet",
+          "identifier": "mattress"
+        },
+        {
+          "name": "bedding",
+          "description": "cream-colored bedding bunched near the headboard",
+          "identifier": "bedding"
+        }
+      ],
+      "actions": [
+        {
+          "name": "adjust bedding",
+          "actor": "right fingers",
+          "target": "bedding",
+          "description": "the fingers continue to hold and adjust the bunched bedding"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "duvet_cover_010878",
+      "frame_index": 10878,
+      "timestamp_seconds": 181.355345,
+      "description": "With their back to the camera near the headboard, the person's right fingers grip the edge of a large section of the bedding that drapes over much of the bed.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "gripping the edge of a large section of the bedding draping over the bed",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "bed",
+          "description": "wood-framed bed with a dark wood headboard",
+          "identifier": "bed"
+        },
+        {
+          "name": "mattress",
+          "description": "mattress covered by a grey-striped fitted sheet",
+          "identifier": "mattress"
+        },
+        {
+          "name": "bedding",
+          "description": "cream-colored bedding draping over much of the bed",
+          "identifier": "bedding"
+        }
+      ],
+      "actions": [
+        {
+          "name": "grip bedding",
+          "actor": "right fingers",
+          "target": "bedding",
+          "description": "the fingers grip the edge of the large draped section of the bedding"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "duvet_cover_011238",
+      "frame_index": 11238,
+      "timestamp_seconds": 187.357177,
+      "description": "Back to the camera, the person's right arm extends forward as their fingers pull a large section of the bedding drape near the headboard; their left arm is not engaged.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "pulling a large section of the bedding drape near the headboard",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "bed",
+          "description": "wood-framed bed with a dark wood headboard",
+          "identifier": "bed"
+        },
+        {
+          "name": "mattress",
+          "description": "mattress covered by a grey-striped fitted sheet",
+          "identifier": "mattress"
+        },
+        {
+          "name": "bedding",
+          "description": "cream-colored bedding draping over the bed near the headboard",
+          "identifier": "bedding"
+        }
+      ],
+      "actions": [
+        {
+          "name": "pull bedding",
+          "actor": "right fingers",
+          "target": "bedding",
+          "description": "the fingers pull a large section of the bedding drape near the headboard"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "duvet_cover_011598",
+      "frame_index": 11598,
+      "timestamp_seconds": 193.359008,
+      "description": "Standing at the headboard with their back to the camera, the person's right fingers grip a thin strip of pale fabric that hangs down from a large bunched pile of bedding at the headboard; their left arm is bent near their torso, not clearly engaged with the fabric.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "gripping a thin strip of fabric hanging from the bunched bedding",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "bed",
+          "description": "wood-framed bed with a dark wood headboard",
+          "identifier": "bed"
+        },
+        {
+          "name": "mattress",
+          "description": "mattress covered by a grey-striped fitted sheet",
+          "identifier": "mattress"
+        },
+        {
+          "name": "bedding",
+          "description": "large bunched pile of cream-colored bedding at the headboard, with a thin strip of fabric hanging from it",
+          "identifier": "bedding"
+        }
+      ],
+      "actions": [
+        {
+          "name": "grip bedding",
+          "actor": "right fingers",
+          "target": "bedding",
+          "description": "the fingers grip a thin hanging strip of the bedding"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "duvet_cover_011958",
+      "frame_index": 11958,
+      "timestamp_seconds": 199.36084,
+      "description": "Little changed from the moment before: the person, still at the headboard with their back to the camera, continues to hold the dangling strip of fabric with their right fingers.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "holding the dangling strip of fabric from the bunched bedding",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "bed",
+          "description": "wood-framed bed with a dark wood headboard",
+          "identifier": "bed"
+        },
+        {
+          "name": "mattress",
+          "description": "mattress covered by a grey-striped fitted sheet",
+          "identifier": "mattress"
+        },
+        {
+          "name": "bedding",
+          "description": "large bunched pile of cream-colored bedding at the headboard, with a thin strip of fabric hanging from it",
+          "identifier": "bedding"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold bedding",
+          "actor": "right fingers",
+          "target": "bedding",
+          "description": "the fingers continue to hold the dangling strip of the bedding"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "duvet_cover_012318",
+      "frame_index": 12318,
+      "timestamp_seconds": 205.362672,
+      "description": "Largely unchanged from the preceding moments: the person, back to the camera at the headboard, continues to hold the thin fabric strip with their right fingers.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "holding the dangling strip of fabric from the bunched bedding",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "bed",
+          "description": "wood-framed bed with a dark wood headboard",
+          "identifier": "bed"
+        },
+        {
+          "name": "mattress",
+          "description": "mattress covered by a grey-striped fitted sheet",
+          "identifier": "mattress"
+        },
+        {
+          "name": "bedding",
+          "description": "large bunched pile of cream-colored bedding at the headboard, with a thin strip of fabric hanging from it",
+          "identifier": "bedding"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold bedding",
+          "actor": "right fingers",
+          "target": "bedding",
+          "description": "the fingers continue to hold the dangling strip of the bedding"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "duvet_cover_012678",
+      "frame_index": 12678,
+      "timestamp_seconds": 211.364503,
+      "description": "The person's right fingers continue to grip the dangling fabric strip near the bunched bedding at the headboard; the pose remains largely the same as the moment before.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "gripping the dangling strip of fabric from the bunched bedding",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "bed",
+          "description": "wood-framed bed with a dark wood headboard",
+          "identifier": "bed"
+        },
+        {
+          "name": "mattress",
+          "description": "mattress covered by a grey-striped fitted sheet",
+          "identifier": "mattress"
+        },
+        {
+          "name": "bedding",
+          "description": "large bunched pile of cream-colored bedding at the headboard, with a thin strip of fabric hanging from it",
+          "identifier": "bedding"
+        }
+      ],
+      "actions": [
+        {
+          "name": "grip bedding",
+          "actor": "right fingers",
+          "target": "bedding",
+          "description": "the fingers continue to grip the dangling strip of the bedding"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "duvet_cover_013038",
+      "frame_index": 13038,
+      "timestamp_seconds": 217.366335,
+      "description": "Standing near the headboard, the person's right fingers hold a section of the bunched bedding near their torso, with their left hand also close to the fabric.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "holding a section of the bunched bedding near the torso",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "left fingers",
+          "description": "close to the same section of bedding",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "bed",
+          "description": "wood-framed bed with a dark wood headboard",
+          "identifier": "bed"
+        },
+        {
+          "name": "mattress",
+          "description": "mattress covered by a grey-striped fitted sheet",
+          "identifier": "mattress"
+        },
+        {
+          "name": "bedding",
+          "description": "cream-colored bedding bunched near the headboard",
+          "identifier": "bedding"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold bedding",
+          "actor": "right fingers",
+          "target": "bedding",
+          "description": "the fingers hold a bunched section of the bedding near the torso"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "duvet_cover_013398",
+      "frame_index": 13398,
+      "timestamp_seconds": 223.368167,
+      "description": "Unchanged from the moment before: the person continues to hold the same section of bunched bedding near their torso with their right fingers.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "holding a section of the bunched bedding near the torso",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "bed",
+          "description": "wood-framed bed with a dark wood headboard",
+          "identifier": "bed"
+        },
+        {
+          "name": "mattress",
+          "description": "mattress covered by a grey-striped fitted sheet",
+          "identifier": "mattress"
+        },
+        {
+          "name": "bedding",
+          "description": "cream-colored bedding bunched near the headboard",
+          "identifier": "bedding"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold bedding",
+          "actor": "right fingers",
+          "target": "bedding",
+          "description": "the fingers continue to hold the bunched bedding near the torso"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "duvet_cover_013758",
+      "frame_index": 13758,
+      "timestamp_seconds": 229.369998,
+      "description": "The person's back is to the camera; their left arm extends forward and their left fingers grip a section of the bedding near the headboard.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping a section of the bedding near the headboard",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "bed",
+          "description": "wood-framed bed with a dark wood headboard",
+          "identifier": "bed"
+        },
+        {
+          "name": "mattress",
+          "description": "mattress covered by a grey-striped fitted sheet",
+          "identifier": "mattress"
+        },
+        {
+          "name": "bedding",
+          "description": "cream-colored bedding near the headboard",
+          "identifier": "bedding"
+        }
+      ],
+      "actions": [
+        {
+          "name": "grip bedding",
+          "actor": "left fingers",
+          "target": "bedding",
+          "description": "the fingers grip a section of the bedding near the headboard"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "duvet_cover_014118",
+      "frame_index": 14118,
+      "timestamp_seconds": 235.37183,
+      "description": "Back to the camera, the person's right arm extends forward and their right fingers grip the edge of a large drape of the bedding that covers much of the bed near the headboard.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "gripping the edge of a large drape of the bedding near the headboard",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "bed",
+          "description": "wood-framed bed with a dark wood headboard",
+          "identifier": "bed"
+        },
+        {
+          "name": "mattress",
+          "description": "mattress covered by a grey-striped fitted sheet",
+          "identifier": "mattress"
+        },
+        {
+          "name": "bedding",
+          "description": "cream-colored bedding draping over much of the bed near the headboard",
+          "identifier": "bedding"
+        }
+      ],
+      "actions": [
+        {
+          "name": "grip bedding",
+          "actor": "right fingers",
+          "target": "bedding",
+          "description": "the fingers grip the edge of the large draped bedding"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "duvet_cover_014478",
+      "frame_index": 14478,
+      "timestamp_seconds": 241.373661,
+      "description": "The person bends over the headboard corner of the bed, their right fingers gripping a section of the bedding at the corner and working it into place; their left hand is also close to the fabric.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "gripping a section of the bedding at the headboard corner",
+          "identifier": "right_fingers"
+        },
+        {
+          "name": "left fingers",
+          "description": "close to the same section of the bedding",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "bed",
+          "description": "wood-framed bed with a dark wood headboard",
+          "identifier": "bed"
+        },
+        {
+          "name": "mattress",
+          "description": "mattress covered by a grey-striped fitted sheet",
+          "identifier": "mattress"
+        },
+        {
+          "name": "bedding",
+          "description": "cream-colored bedding pulled up at the headboard corner of the bed",
+          "identifier": "bedding"
+        }
+      ],
+      "actions": [
+        {
+          "name": "adjust bedding",
+          "actor": "right fingers",
+          "target": "bedding",
+          "description": "the fingers grip and work a section of the bedding at the headboard corner"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "duvet_cover_014838",
+      "frame_index": 14838,
+      "timestamp_seconds": 247.375493,
+      "description": "The person's left fingers hold a section of the bedding up near the headboard, with a tag visible attached to it; their right arm hangs at their side.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "holding a tagged section of the bedding up near the headboard",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "bed",
+          "description": "wood-framed bed with a dark wood headboard",
+          "identifier": "bed"
+        },
+        {
+          "name": "mattress",
+          "description": "mattress covered by a grey-striped fitted sheet",
+          "identifier": "mattress"
+        },
+        {
+          "name": "bedding",
+          "description": "cream-colored bedding with a tag attached, held up near the headboard",
+          "identifier": "bedding"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold bedding",
+          "actor": "left fingers",
+          "target": "bedding",
+          "description": "the fingers hold a tagged section of the bedding up near the headboard"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "duvet_cover_015198",
+      "frame_index": 15198,
+      "timestamp_seconds": 253.377325,
+      "description": "The person's right fingers grip an edge of the bedding, which drapes diagonally across a large portion of the bed toward the headboard; their left arm hangs at their side.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "gripping an edge of the bedding as it drapes toward the headboard",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "bed",
+          "description": "wood-framed bed with a dark wood headboard",
+          "identifier": "bed"
+        },
+        {
+          "name": "mattress",
+          "description": "mattress covered by a grey-striped fitted sheet",
+          "identifier": "mattress"
+        },
+        {
+          "name": "bedding",
+          "description": "cream-colored bedding draping diagonally across a large portion of the bed",
+          "identifier": "bedding"
+        }
+      ],
+      "actions": [
+        {
+          "name": "grip bedding",
+          "actor": "right fingers",
+          "target": "bedding",
+          "description": "the fingers grip an edge of the diagonally draped bedding"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "duvet_cover_015558",
+      "frame_index": 15558,
+      "timestamp_seconds": 259.379156,
+      "description": "Largely unchanged from the moment before: the person's right fingers continue to hold the edge of the bedding near the headboard.",
+      "resources": [
+        {
+          "name": "right fingers",
+          "description": "holding the edge of the bedding near the headboard",
+          "identifier": "right_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "bed",
+          "description": "wood-framed bed with a dark wood headboard",
+          "identifier": "bed"
+        },
+        {
+          "name": "mattress",
+          "description": "mattress covered by a grey-striped fitted sheet",
+          "identifier": "mattress"
+        },
+        {
+          "name": "bedding",
+          "description": "cream-colored bedding draping across a large portion of the bed",
+          "identifier": "bedding"
+        }
+      ],
+      "actions": [
+        {
+          "name": "hold bedding",
+          "actor": "right fingers",
+          "target": "bedding",
+          "description": "the fingers continue to hold the edge of the bedding near the headboard"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "duvet_cover_015918",
+      "frame_index": 15918,
+      "timestamp_seconds": 265.380988,
+      "description": "With their back mostly to the camera, the person's left fingers grip the edge of a large section of the bedding, which now drapes over most of the bed extending toward the foot.",
+      "resources": [
+        {
+          "name": "left fingers",
+          "description": "gripping the edge of a large section of the bedding covering most of the bed",
+          "identifier": "left_fingers"
+        }
+      ],
+      "entities": [
+        {
+          "name": "bed",
+          "description": "wood-framed bed with a dark wood headboard",
+          "identifier": "bed"
+        },
+        {
+          "name": "mattress",
+          "description": "mattress mostly covered by the bedding, with the grey-striped fitted sheet visible only at the foot",
+          "identifier": "mattress"
+        },
+        {
+          "name": "bedding",
+          "description": "cream-colored bedding now covering most of the bed, extending toward the foot",
+          "identifier": "bedding"
+        }
+      ],
+      "actions": [
+        {
+          "name": "grip bedding",
+          "actor": "left fingers",
+          "target": "bedding",
+          "description": "the fingers grip the edge of the bedding as it covers most of the bed"
+        }
+      ],
+      "ontological_phrases": []
+    },
+    {
+      "frame_id": "duvet_cover_016278",
+      "frame_index": 16278,
+      "timestamp_seconds": 271.382819,
+      "description": "The person stands at the left side of the bed with their back to the camera, one arm bent near their torso and not clearly gripping the fabric; the bedding now covers nearly the entire bed, with the grey-striped fitted sheet visible only at the foot edge.",
+      "resources": [],
+      "entities": [
+        {
+          "name": "bed",
+          "description": "wood-framed bed with a dark wood headboard",
+          "identifier": "bed"
+        },
+        {
+          "name": "mattress",
+          "description": "mattress almost entirely covered by the bedding, with the grey-striped fitted sheet visible only at the foot edge",
+          "identifier": "mattress"
+        },
+        {
+          "name": "bedding",
+          "description": "cream-colored bedding now covering nearly the entire bed",
+          "identifier": "bedding"
+        }
+      ],
+      "actions": [
+        {
+          "name": "stand",
+          "actor": "person",
+          "target": "bed",
+          "description": "the person stands beside the bed, which is now nearly covered by the bedding"
+        }
+      ],
+      "ontological_phrases": []
+    }
+  ]
+}

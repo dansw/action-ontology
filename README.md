@@ -61,32 +61,70 @@ python -m pip install torch torchvision --index-url https://download.pytorch.org
 python -m pip install -e ".[ml,dev]"
 ```
 
-## Folder Layout
+## Reproduce V8 from the Original Videos
 
-Keep raw and generated data out of git.
+After cloning, create one folder and place all 15 unmodified `.mov` files in
+it. The filenames must match this list:
+
+```text
+data/original_videos/
+  egg_catch_001.mov
+  carry_coffee_table.mov
+  clean_ketchup.mov
+  cook_sunny_side_up_egg.mov
+  duvet_cover.mov
+  fitted_sheet_on_bed.mov
+  get_into_car.mov
+  hammer_and_nail.mov
+  make_a_bed.mov
+  opening_granola_bar.mov
+  separate_the_yolk.mov
+  sort_poker_hand.mov
+  take_out_trash.mov
+  turn_page_paperback.mov
+  yo_yo.mov
+```
+
+The original videos remain ignored by git. The V8 annotation JSON files and
+the exact 854-record training manifest are tracked, so no other dataset files
+need to be restored separately. Install the project, then reproduce the V8
+fine-tuning dataset with one command:
+
+```bash
+python -m pip install -e ".[ml,dev]"
+action-ontologies prepare-v8 --videos-dir data/original_videos
+```
+
+This validates all filenames, reads every source video directly from the one
+folder, extracts the exact frame indices referenced by the committed V8
+manifest, and recreates each project's `prepared/train.jsonl`. It does not copy
+the original videos into four different directories. A successful run reports
+854 records at `data/combined_v8/prepared/train.jsonl`.
+
+## Generated Folder Layout
+
+Raw videos, extracted frames, per-project prepared JSONL files, model weights,
+and outputs remain outside git. The annotation JSON files and exact combined
+V8 training manifest under `data/` are tracked.
 
 ```text
 data/
   egg_catch/
-    videos/
-      egg_catch_001.mov
     annotations/
       egg_catch_001.json
     frames/
     prepared/
   diverse_actions/
-    videos/
     annotations/
     frames/
     prepared/
   survey_actions/
-    videos/
     annotations/
     frames/
     prepared/
   survey_actions_trash/     # take_out_trash needs a much higher --change-threshold
-    videos/                 # than the rest (continuous walking motion), so it's
-    annotations/             # prepared as its own project with its own sampling args
+    annotations/            # prepared separately because take_out_trash needs a
+                            # much higher change threshold than the other videos
     frames/
     prepared/
   combined_v8/
@@ -121,12 +159,10 @@ outputs/
     <video_id>.webm                # review videos" below)
 ```
 
-Each activity gets its own project directory (own `videos/`, `annotations/`,
-`frames/`, `prepared/`), so `action-ontologies prepare` can be run per project
-independently. To fine-tune across all of them, concatenate their
-`prepared/train.jsonl` files (they use paths relative to the repo root, so a
-plain `cat` works) into one combined training file before running
-`train_lora.py`.
+Each activity retains its own annotations, extracted frames, and prepared
+records. `prepare-v8` handles the different sampling settings and combines the
+records automatically. The lower-level `action-ontologies prepare` command
+remains available for preparing a new or individual project.
 
 Annotation files use one JSON file per video:
 
@@ -160,6 +196,10 @@ Annotation files use one JSON file per video:
 }
 ```
 
+The annotation's `video_path` preserves the original per-project layout used
+by the lower-level `prepare` command. The V8 reproduction command instead
+maps each manifest video ID to the matching filename in `--videos-dir`.
+
 ## Prepare Training Data
 
 Extract sampled frames and build a JSONL training file:
@@ -186,7 +226,7 @@ a stronger vision-language base model that fits your hardware.
 
 ```bash
 action-ontologies infer \
-  --video data/egg_catch/videos/egg_catch_001.mov \
+  --video data/original_videos/egg_catch_001.mov \
   --output outputs/egg_catch_001.ontology.json \
   --model Qwen/Qwen3-VL-4B-Instruct \
   --sample-fps 2
@@ -200,7 +240,7 @@ Model" below):
 
 ```bash
 action-ontologies infer \
-  --video data/egg_catch/videos/egg_catch_001.mov \
+  --video data/original_videos/egg_catch_001.mov \
   --output outputs/egg_catch_001.ontology.json \
   --model Qwen/Qwen3-VL-4B-Instruct \
   --adapter models/ontology-lora-v8 \
@@ -339,33 +379,17 @@ least one such example, a history-conditioned model tends to keep repeating
 whatever symmetric description it used for several consecutive frames even
 after one limb's real, visible state has changed underneath it.
 
-Prepare each project directory separately, then combine before training.
-Pick `--change-threshold` per project to fit its motion character -- a video
-with continuous motion throughout (e.g. someone walking with a swaying
-object) needs a much higher threshold than a mostly-static one, or the
-sampler will select far more frames than are practical to hand-annotate:
+For the published V8 dataset, use the single-folder reproduction command:
 
 ```bash
-action-ontologies prepare --project-dir data/egg_catch --output-jsonl data/egg_catch/prepared/train.jsonl --sample-fps 8
-action-ontologies prepare --project-dir data/diverse_actions --output-jsonl data/diverse_actions/prepared/train.jsonl \
-  --sampling information-gain --change-threshold 45 --percentile 90 --max-gap-seconds 5
-action-ontologies prepare --project-dir data/survey_actions --output-jsonl data/survey_actions/prepared/train.jsonl \
-  --sampling information-gain --change-threshold 45 --percentile 90 --max-gap-seconds 3
-action-ontologies prepare --project-dir data/survey_actions_trash --output-jsonl data/survey_actions_trash/prepared/train.jsonl \
-  --sampling information-gain --change-threshold 1000 --percentile 90 --max-gap-seconds 4
-
-mkdir -p data/combined_v8/prepared
-cat data/egg_catch/prepared/train.jsonl data/diverse_actions/prepared/train.jsonl \
-    data/survey_actions/prepared/train.jsonl data/survey_actions_trash/prepared/train.jsonl \
-    > data/combined_v8/prepared/train.jsonl
+action-ontologies prepare-v8 --videos-dir data/original_videos
 ```
 
-`--change-threshold`/`--sampling`/etc. must exactly match whatever was used when the
-project's annotation frame indices were originally picked, or `prepare` will silently
-match only a handful of frames instead of your full annotated set (this has bitten this
-project twice: once for `egg_catch`'s fixed-fps mismatch, once for `diverse_actions`
-after `frame_sampling`'s change-detection metric was rewritten -- always check the
-printed record count against your actual annotation count before training on it).
+The committed manifest is the source of truth because V8 includes 72
+deliberately added survey frames beyond the V7 sampling pass. Re-running only
+the older per-project sampling commands produces 782 records, not V8's 854.
+`prepare-v8` extracts the manifest's precise frame indices, preserving the
+dataset actually used for fine-tuning.
 
 Run LoRA fine-tuning:
 
@@ -516,7 +540,7 @@ import build_description_videos as m
 m.OUTPUT_DIR = Path("outputs/videos")
 m.build_video(
     "hammer_and_nail",
-    Path("data/survey_actions/videos/hammer_and_nail.mov"),
+    Path("data/original_videos/hammer_and_nail.mov"),
     Path("outputs/diverse_validation_v8/hammer_and_nail.ontology.json"),
 )
 ```
@@ -541,7 +565,7 @@ Inference writes:
 
 ```json
 {
-  "video_path": "data/egg_catch/videos/egg_catch_001.mov",
+  "video_path": "data/original_videos/egg_catch_001.mov",
   "sampling": "fixed",
   "sample_fps": 2.0,
   "min_fps": null,

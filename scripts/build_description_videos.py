@@ -18,27 +18,27 @@ OUTPUT_DIR = REPO_ROOT / "outputs" / "videos"
 
 VIDEOS = {
     "egg_catch_001": (
-        REPO_ROOT / "data/egg_catch/videos/egg_catch_001.mov",
+        REPO_ROOT / "data/original_videos/egg_catch_001.mov",
         REPO_ROOT / "outputs/diverse_validation/egg_catch_001.ontology.json",
     ),
     "carry_coffee_table": (
-        REPO_ROOT / "data/diverse_actions/videos/carry_coffee_table.mov",
+        REPO_ROOT / "data/original_videos/carry_coffee_table.mov",
         REPO_ROOT / "outputs/diverse_validation/carry_coffee_table.ontology.json",
     ),
     "duvet_cover": (
-        REPO_ROOT / "data/diverse_actions/videos/duvet_cover.mov",
+        REPO_ROOT / "data/original_videos/duvet_cover.mov",
         REPO_ROOT / "outputs/diverse_validation/duvet_cover.ontology.json",
     ),
     "make_a_bed": (
-        REPO_ROOT / "data/diverse_actions/videos/make_a_bed.mov",
+        REPO_ROOT / "data/original_videos/make_a_bed.mov",
         REPO_ROOT / "outputs/diverse_validation/make_a_bed.ontology.json",
     ),
     "yo_yo": (
-        REPO_ROOT / "data/diverse_actions/videos/yo_yo.mov",
+        REPO_ROOT / "data/original_videos/yo_yo.mov",
         REPO_ROOT / "outputs/diverse_validation/yo_yo.ontology.json",
     ),
     "get_into_car": (
-        REPO_ROOT / "data/diverse_actions/videos/get_into_car.mov",
+        REPO_ROOT / "data/original_videos/get_into_car.mov",
         REPO_ROOT / "outputs/diverse_validation/get_into_car.ontology.json",
     ),
 }

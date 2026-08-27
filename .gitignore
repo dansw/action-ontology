@@ -61,9 +61,31 @@ dist/
 build/
 
 # Local datasets, generated outputs, and tuned model artifacts
-data/
+data/*
+!data/egg_catch/
+!data/diverse_actions/
+!data/survey_actions/
+!data/survey_actions_trash/
+data/egg_catch/*
+data/diverse_actions/*
+data/survey_actions/*
+data/survey_actions_trash/*
+!data/egg_catch/annotations/
+!data/diverse_actions/annotations/
+!data/survey_actions/annotations/
+!data/survey_actions_trash/annotations/
+!data/egg_catch/annotations/*.json
+!data/diverse_actions/annotations/*.json
+!data/survey_actions/annotations/*.json
+!data/survey_actions_trash/annotations/*.json
+!data/combined_v8/
+data/combined_v8/*
+!data/combined_v8/prepared/
+data/combined_v8/prepared/*
+!data/combined_v8/prepared/train.jsonl
 models/
 outputs/
 runs/
 wandb/
 *.jsonl
+!data/combined_v8/prepared/train.jsonl
