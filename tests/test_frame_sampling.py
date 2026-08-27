@@ -51,9 +51,9 @@ def test_max_gap_none_allows_arbitrarily_long_static_gaps(tmp_path: Path):
         video_path, tmp_path / "frames", change_threshold=30.0, max_gap_seconds=None
     )
 
-    # With no floor and nothing ever changing, only the mandatory first frame
-    # should be kept.
-    assert len(frames) == 1
+    # With no floor, keep only the mandatory first and terminal-state frames.
+    assert len(frames) == 2
+    assert frames[-1].frame_index == 49
     assert frames[0].frame_index == 0
 
 
@@ -74,7 +74,7 @@ def test_captures_a_single_frame_transient_between_static_frames(tmp_path: Path)
     assert 15 in selected_indices, f"transient frame missed; selected indices were {sorted(selected_indices)}"
     # And virtually nothing else should have been selected around it, since
     # the rest of the video never changes.
-    assert len(frames) <= 3
+    assert len(frames) <= 4  # includes the guaranteed terminal-state frame
 
 
 def test_samples_densely_during_sustained_motion(tmp_path: Path):

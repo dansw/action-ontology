@@ -66,12 +66,14 @@ def test_prepare_project_includes_growing_history_by_default(tmp_path: Path):
     records = _load_records(output_jsonl)
     user_prompts = [record["messages"][1]["content"] for record in records]
 
-    assert "Recent frame history" not in user_prompts[0]
-    assert "Recent frame history" in user_prompts[1]
-    assert "person picks up pan" in user_prompts[1]
-    assert "Recent frame history" in user_prompts[2]
-    assert "person picks up pan" in user_prompts[2]
-    assert "person cooks egg in pan" in user_prompts[2]
+    assert "Earlier SAMPLED observations" not in user_prompts[0]
+    assert "Earlier SAMPLED observations" in user_prompts[1]
+    assert "pick up pan" in user_prompts[1]
+    assert "person picks up pan" not in user_prompts[1]
+    assert "Earlier SAMPLED observations" in user_prompts[2]
+    assert "pick up pan" in user_prompts[2]
+    assert "cook egg" in user_prompts[2]
+    assert "person cooks egg in pan" not in user_prompts[2]
     # history must not leak the current frame's own ground truth
     assert "person plates the egg" not in user_prompts[2]
 
@@ -84,7 +86,7 @@ def test_prepare_project_context_frames_zero_disables_history(tmp_path: Path):
 
     records = _load_records(output_jsonl)
     for record in records:
-        assert "Recent frame history" not in record["messages"][1]["content"]
+        assert "Earlier SAMPLED observations" not in record["messages"][1]["content"]
 
 
 def _write_annotation_with_drifted_identifiers(path: Path) -> None:
@@ -203,5 +205,6 @@ def test_prepare_project_context_frames_caps_window(tmp_path: Path):
     records = _load_records(output_jsonl)
     last_prompt = records[2]["messages"][1]["content"]
     # only the immediately preceding frame should appear, not the one before that
-    assert "person cooks egg in pan" in last_prompt
-    assert "person picks up pan" not in last_prompt
+    assert "cook egg" in last_prompt
+    assert "person cooks egg in pan" not in last_prompt
+    assert "pick up pan" not in last_prompt

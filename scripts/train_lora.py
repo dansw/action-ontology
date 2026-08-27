@@ -45,11 +45,18 @@ def main() -> int:
         low_cpu_mem_usage=True,
         trust_remote_code=True,
     )
-    if needs_eager_attention(device):
+    if needs_eager_attention(device, training=True):
         load_kwargs["attn_implementation"] = "eager"
     if multi_gpu:
         load_kwargs["device_map"] = "auto"
+    elif device == "cuda":
+        # Avoid a slow whole-model CPU-to-GPU migration on single ROCm GPUs.
+        load_kwargs["device_map"] = {"": "cuda"}
     model = model_class.from_pretrained(args.base_model, **load_kwargs)
+    if device == "cuda":
+        # Finish asynchronous direct-load copies before PEFT moves newly
+        # created adapter tensors onto the device (required on ROCm/gfx1030).
+        torch.cuda.synchronize()
     model = get_peft_model(
         model,
         LoraConfig(
@@ -61,7 +68,7 @@ def main() -> int:
             target_modules=["q_proj", "k_proj", "v_proj", "o_proj"],
         ),
     )
-    if not multi_gpu:
+    if device != "cuda":
         model.to(device)
     model.config.use_cache = False
     model.enable_input_require_grads()
@@ -71,6 +78,7 @@ def main() -> int:
 
     def collate(batch):
         texts = []
+        prompt_texts = []
         images = []
         for record in batch:
             image = Image.open(record["image_path"]).convert("RGB")
@@ -87,8 +95,12 @@ def main() -> int:
             ]
             if hasattr(processor, "apply_chat_template"):
                 texts.append(processor.apply_chat_template(messages, tokenize=False, add_generation_prompt=False))
+                prompt_texts.append(
+                    processor.apply_chat_template(messages[:-1], tokenize=False, add_generation_prompt=True)
+                )
             else:
                 texts.append("\n\n".join(message["content"] for message in record["messages"]))
+                prompt_texts.append("\n\n".join(message["content"] for message in record["messages"][:2]))
             images.append(image)
         inputs = processor(
             text=texts,
@@ -98,7 +110,19 @@ def main() -> int:
             max_length=args.max_length,
             return_tensors="pt",
         )
-        inputs["labels"] = inputs["input_ids"].clone()
+        prompt_inputs = processor(
+            text=prompt_texts,
+            images=images,
+            padding=True,
+            truncation=True,
+            max_length=args.max_length,
+            return_tensors="pt",
+        )
+        prompt_lengths = prompt_inputs["attention_mask"].sum(dim=1).tolist()
+        labels = mask_prompt_tokens(inputs["input_ids"], inputs["attention_mask"], prompt_lengths)
+        if any(not (row != -100).any().item() for row in labels):
+            raise ValueError("max-length truncates the complete assistant ontology; increase --max-length")
+        inputs["labels"] = labels
         return inputs
 
     training_args = TrainingArguments(
@@ -121,6 +145,20 @@ def main() -> int:
     model.save_pretrained(args.output_dir)
     processor.save_pretrained(args.output_dir)
     return 0
+
+
+def mask_prompt_tokens(input_ids, attention_mask, prompt_lengths: list[int]):
+    """Create labels that train only on assistant-response tokens."""
+    labels = input_ids.clone()
+    labels[attention_mask == 0] = -100
+    for row, prompt_length in enumerate(prompt_lengths):
+        real_positions = attention_mask[row].nonzero(as_tuple=False).flatten()
+        if real_positions.numel() == 0:
+            continue
+        start = int(real_positions[0])
+        stop = min(start + int(prompt_length), labels.shape[1])
+        labels[row, start:stop] = -100
+    return labels
 
 
 def _load_records(path: Path) -> list[dict]:

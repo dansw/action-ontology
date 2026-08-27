@@ -25,11 +25,17 @@ def torch_dtype_for_device(device: str):
     return torch.float16
 
 
-def needs_eager_attention(device: str) -> bool:
+def needs_eager_attention(device: str, *, training: bool = False) -> bool:
     import torch
 
     if device != "cuda" or not torch.cuda.is_available():
         return False
+    # HIP exposes AMD accelerators through torch.cuda, but its reported
+    # "capability" is a gfx architecture tuple rather than NVIDIA compute
+    # capability. ROCm SDPA backward has produced illegal memory accesses on
+    # gfx1030; eager attention is slower but stable for LoRA training.
+    if torch.version.hip is not None:
+        return training
     # Pre-Volta GPUs (compute capability < 7, e.g. Pascal) fall back to the
     # "math" SDPA backend, which runs softmax in fp16 without upcasting and
     # overflows to NaN/garbage tokens. Eager attention upcasts softmax to

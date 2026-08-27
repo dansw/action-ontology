@@ -154,6 +154,8 @@ def sample_by_information_gain(
     accumulated = 0.0
     last_selected_time = 0.0
     video_stem = video_path.stem
+    last_bgr: np.ndarray | None = None
+    last_frame_index = -1
 
     def select(bgr_frame: np.ndarray, frame_index: int, timestamp_seconds: float) -> None:
         nonlocal accumulated, last_selected_time
@@ -183,6 +185,8 @@ def sample_by_information_gain(
 
             for offset, delta in enumerate(deltas):
                 timestamp_seconds = frame_index / source_fps
+                last_bgr = bgr_chunk[offset]
+                last_frame_index = frame_index
                 if delta is None:
                     select(bgr_chunk[offset], frame_index, timestamp_seconds)
                 else:
@@ -197,6 +201,9 @@ def sample_by_information_gain(
             prev_gray = gray_chunk[-1]
     finally:
         cap.release()
+
+    if last_bgr is not None and (not frames or frames[-1].frame_index != last_frame_index):
+        select(last_bgr, last_frame_index, last_frame_index / source_fps)
 
     if not frames:
         raise ValueError(f"no frames sampled from video: {video_path}")

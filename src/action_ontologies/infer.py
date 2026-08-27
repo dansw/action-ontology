@@ -92,7 +92,6 @@ def run_inference(
                 results.append(ontology.to_dict())
                 history_entry = {
                     "timestamp_seconds": ontology.timestamp_seconds,
-                    "description": ontology.description,
                     "actions": [action.name for action in ontology.actions],
                 }
             except Exception as exc:
@@ -119,7 +118,6 @@ def run_inference(
                 # produced a clean +1-frame lag in the four frames right after it).
                 history_entry = {
                     "timestamp_seconds": frame.timestamp_seconds,
-                    "description": "(description unavailable -- model output failed to parse for this frame)",
                     "actions": [],
                 }
             if context_frames > 0:
@@ -167,14 +165,22 @@ def _load_model(model_name: str, *, device: str, adapter: str | None):
     )
     if multi_gpu:
         load_kwargs["device_map"] = "auto"
+    elif device == "cuda":
+        # Loading directly onto a single ROCm/CUDA GPU avoids an extremely
+        # slow whole-model post-load migration (minutes on gfx1030).
+        load_kwargs["device_map"] = {"": "cuda"}
     if needs_eager_attention(device):
         load_kwargs["attn_implementation"] = "eager"
     model = model_class.from_pretrained(model_name, **load_kwargs)
+    if device == "cuda":
+        # Direct loading uses asynchronous device copies; finish them before
+        # PEFT creates and moves adapter tensors on the same ROCm/CUDA device.
+        torch.cuda.synchronize()
     if adapter:
         from peft import PeftModel
 
         model = PeftModel.from_pretrained(model, adapter)
-    if not multi_gpu:
+    if device != "cuda":
         model.to(device)
     model.eval()
     return model, processor

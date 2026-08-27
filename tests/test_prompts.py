@@ -25,13 +25,16 @@ def test_frame_prompt_with_history_includes_ordered_entries():
         {"timestamp_seconds": 1.0, "description": "person cooks egg in pan", "actions": ["cook egg"]},
     ]
     prompt = frame_prompt("egg_000002", 2.0, history=history)
-    assert "Recent frame history" in prompt
-    assert "person picks up pan" in prompt
-    assert "person cooks egg in pan" in prompt
-    assert prompt.index("person picks up pan") < prompt.index("person cooks egg in pan")
+    assert "Earlier SAMPLED observations" in prompt
+    assert "person picks up pan" not in prompt
+    assert "person cooks egg in pan" not in prompt
+    assert prompt.index("pick up pan") < prompt.index("cook egg")
     assert "cook egg" in prompt
+    assert "2.000s ago" in prompt
+    assert "1.000s ago" in prompt
+    assert "not necessarily adjacent video frames" in prompt
     # the history section must come before the current-frame instructions
-    assert prompt.index("Recent frame history") < prompt.index("Analyze this video frame")
+    assert prompt.index("Earlier SAMPLED observations") < prompt.index("Analyze this video frame")
 
 
 def test_frame_prompt_history_empty_list_omits_section():
@@ -54,7 +57,7 @@ def test_frame_prompt_with_known_identifiers_lists_them_before_history():
     assert "identifiers already used" in prompt
     assert "wood_block: wooden block" in prompt
     assert "hammer: hammer" in prompt
-    assert prompt.index("identifiers already used") < prompt.index("Recent frame history")
+    assert prompt.index("identifiers already used") < prompt.index("Earlier SAMPLED observations")
 
 
 def test_frame_prompt_with_empty_known_identifiers_omits_section():

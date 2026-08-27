@@ -98,7 +98,6 @@ def prepare_project(
                     history.append(
                         {
                             "timestamp_seconds": expected.get("timestamp_seconds", frame.timestamp_seconds),
-                            "description": expected.get("description", ""),
                             "actions": [action.get("name", "") for action in expected.get("actions", [])],
                         }
                     )

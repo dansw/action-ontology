@@ -68,35 +68,39 @@ def _format_known_identifiers(known_identifiers: dict[str, str] | None) -> str:
     return "\n".join(lines) + "\n\n"
 
 
-def _format_history(history: list[dict[str, Any]] | None) -> str:
+def _format_history(
+    history: list[dict[str, Any]] | None,
+    current_timestamp_seconds: float,
+) -> str:
     if not history:
         return ""
     lines = [
-        "Recent frame history, oldest to newest (the last entry is the moment "
-        "immediately before the current frame; weight it most heavily):"
+        "Earlier SAMPLED observations, oldest to newest. Samples may be far "
+        "apart in real time; they are not necessarily adjacent video frames:"
     ]
     for entry in history:
         timestamp_seconds = entry.get("timestamp_seconds", 0.0)
-        description = entry.get("description", "")
         actions = entry.get("actions") or []
-        actions_suffix = f" (actions: {', '.join(actions)})" if actions else ""
-        lines.append(f'- t={timestamp_seconds:.3f}s: "{description}"{actions_suffix}')
+        age_seconds = max(0.0, current_timestamp_seconds - timestamp_seconds)
+        actions_text = ", ".join(actions) if actions else "no recorded action"
+        lines.append(f"- t={timestamp_seconds:.3f}s ({age_seconds:.3f}s ago): actions: {actions_text}")
     lines.append("")
     lines.append(
-        "Use this history only to judge PROGRESS STATE -- for example, do not "
+        "Use these prior action labels only to judge possible PROGRESS STATE -- for example, do not "
         'describe an action as "about to start" or "preparing to" if the history '
         "already shows it in progress or finished, and do not describe a finished "
-        "action as still in progress. Do not simply repeat or reword the history's "
-        "wording: look at the current image and describe what is actually visible "
+        "action as still in progress when the current pixels show completion. "
+        "Elapsed time matters: across a large gap, an earlier action may have "
+        "changed or completed. Look at the current image and describe what is actually visible "
         "in it now, including any new specific detail (objects, hand or body "
         "position, tools in use) even if the overall action's progress state is "
         "unchanged from the last entry.\n\n"
-        "The history is a record of PAST appearance, not a prediction of the "
-        "current frame: an entity's own visible state can change between frames "
+        "The history is a record of PAST action labels, not a description or "
+        "prediction of the current frame. An entity's visible state can change between samples "
         "(a wrapper tearing open, a package emptying, a surface going from messy "
         "to clean) even when the history repeatedly described an earlier state. "
         "If the current image shows an entity in a different physical state than "
-        "the history's most recent entry -- more removed, opened, exposed, "
+        "an earlier sample -- more removed, opened, exposed, "
         "assembled, or disassembled than before -- you MUST describe that new "
         "state instead of carrying the old one forward. Trust the pixels in "
         "front of you over the pattern in the history text."
@@ -137,5 +141,9 @@ def frame_prompt(
         }}
         """
     ).strip()
-    return _format_known_identifiers(known_identifiers) + _format_history(history) + body
+    return (
+        _format_known_identifiers(known_identifiers)
+        + _format_history(history, timestamp_seconds)
+        + body
+    )
 
